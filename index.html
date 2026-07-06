@@ -528,14 +528,12 @@
       setText(el("gem-note"), gem.note);
     } else if(gemCard){ gemCard.hidden=true; }
     var otdArr=content.onThisDay||[];
-    /* 記念日＋著名人で合計最大15件に配分。著名人は当日exactのみ先に確定し、残りを記念日(当日→同月)で埋める。 */
-    var pplAll=(content.people||[]).filter(function(p){ return p.month===m && p.day===d; });
-    var ppl=pplAll.slice(0,10);
-    var otdBudget=Math.max(0, 15 - ppl.length);
-    var exact=otdArr.filter(function(o){ return o.month===m && o.day===d; });
-    var monthOnly=shuffle(otdArr.filter(function(o){ return o.month===m && o.day!==d; }));
-    var picks=exact.concat(monthOnly).slice(0, otdBudget);
-    if(picks.length===0 && otdArr.length && otdBudget>0){ picks=shuffle(otdArr.slice()).slice(0, otdBudget); }
+    /* 「今日は何の日」は当日(month+day一致)の項目だけを表示する。
+       ★件数を埋めるために「同じ月の別の日」の出来事を「今日は〜」と偽って出すのは絶対にしない
+       （＝正確さを最優先。ヒロ厳命）。ランダムな穴埋めフォールバックも禁止。該当0件ならカードごと隠す。
+       著名人(people)も当日exactのみ。 */
+    var ppl=(content.people||[]).filter(function(p){ return p.month===m && p.day===d; }).slice(0,10);
+    var picks=otdArr.filter(function(o){ return o.month===m && o.day===d; });
     var otdcard=el("onthisday-card"); if(otdcard) otdcard.hidden=(picks.length===0);
     var list=el("otd-list"); list.innerHTML="";
     picks.forEach(function(o){
