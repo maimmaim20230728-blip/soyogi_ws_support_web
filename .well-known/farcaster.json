@@ -1,0 +1,15 @@
+{
+  "_note": "accountAssociation はデプロイ後に Farcaster の Manifest ツールで署名して差し替える（ドメイン確定後）。他アプリと同じ手順。",
+  "miniapp": {
+    "version": "1",
+    "name": "そよぎ（高齢者版）",
+    "iconUrl": "https://soyogi-ws-support-web.vercel.app/icons/icon-512.png",
+    "homeUrl": "https://soyogi-ws-support-web.vercel.app/",
+    "imageUrl": "https://soyogi-ws-support-web.vercel.app/icons/farcaster-embed.png",
+    "buttonTitle": "🍃 ひらく / Open",
+    "splashImageUrl": "https://soyogi-ws-support-web.vercel.app/icons/icon-512.png",
+    "splashBackgroundColor": "#3f9d7a",
+    "primaryCategory": "health-fitness",
+    "tags": ["care", "welfare", "elderly", "conversation", "soyogi"]
+  }
+}

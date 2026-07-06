@@ -1,0 +1,11 @@
+# dependencies (このリポは依存を同梱しない。sharp等はwise_worldからNODE_PATHで借用)
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# admin-only messages / local data (万一の混入防止)
+admin_messages.json
+*.local

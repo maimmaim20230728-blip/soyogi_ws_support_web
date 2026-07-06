@@ -1,0 +1,19 @@
+{
+  "name": "福祉サポーターズサポートアプリ・そよぎ（高齢者版）",
+  "short_name": "そよぎ",
+  "description": "介護・医療スタッフのための会話サポートアプリ。今日のネタ・回想クイズ（スタッフ用カンペ付き）・アイスブレイク。",
+  "lang": "ja",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5faf4",
+  "theme_color": "#3f9d7a",
+  "categories": ["health", "medical", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
