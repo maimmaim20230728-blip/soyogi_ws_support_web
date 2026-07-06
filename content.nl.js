@@ -205,5 +205,47 @@ window.SOYOGI_WS_CONTENT["nl"] = {
         result:"U bent zacht en evenwichtig — een rustgevende aanwezigheid die goed doet.",
         cue:"«Is er een plek of een uitzicht waar u zich rustig voelt?»" }
     ]
-  }
+  },
+
+  /* ---- Beroemde personen (verjaardag 🎂 / sterfdag 🕯️). Data gecontroleerd in het ja-pakket. ---- */
+  people: [
+    { month:3,  day:30, type:"birth", name:"Vincent van Gogh",     note:"Nederlandse schilder. Geboren in 1853. Beroemd om «Zonnebloemen» en «De sterrennacht»." },
+    { month:7,  day:29, type:"death", name:"Vincent van Gogh",     note:"Schilder. Overleden in 1890. Een meester van het postimpressionisme, pas na zijn dood geroemd." },
+    { month:6,  day:12, type:"birth", name:"Anne Frank",           note:"Schrijfster van «Het Achterhuis». Geboren in 1929. Een meisje dat schreef, verscholen voor de nazi's." },
+    { month:3,  day:26, type:"death", name:"Ludwig van Beethoven", note:"Duitse componist. Rond 1770 geboren, in 1827 overleden. Een meester, bekend om zijn Negende symfonie." },
+    { month:1,  day:27, type:"birth", name:"Wolfgang Amadeus Mozart", note:"Oostenrijkse componist. Geboren in 1756. Een muzikaal genie met talloze meesterwerken." },
+    { month:12, day:5,  type:"death", name:"Wolfgang Amadeus Mozart", note:"Componist. Overleden in 1791. Een van de grootsten van de Weense klassiek." },
+    { month:7,  day:28, type:"death", name:"Johann Sebastian Bach", note:"Duitse componist. Geboren in 1685, overleden in 1750. De «vader van de muziek», reus van de barok." },
+    { month:10, day:17, type:"death", name:"Frédéric Chopin",      note:"Poolse componist. Geboren in 1810, overleden in 1849. Hij wordt de «dichter van de piano» genoemd." },
+    { month:11, day:14, type:"birth", name:"Claude Monet",         note:"Franse schilder. Geboren in 1840. Meester van het impressionisme, bekend om zijn «Waterlelies»." },
+    { month:12, day:5,  type:"death", name:"Claude Monet",         note:"Schilder. Overleden in 1926. «Impressie, zonsopgang» gaf het impressionisme zijn naam." },
+    { month:10, day:25, type:"birth", name:"Pablo Picasso",        note:"Spaanse schilder. Geboren in 1881. Medegrondlegger van het kubisme en reus van de moderne kunst." },
+    { month:4,  day:8,  type:"death", name:"Pablo Picasso",        note:"Schilder. Overleden in 1973. Bekend onder meer om «Guernica»." },
+    { month:3,  day:14, type:"birth", name:"Albert Einstein",      note:"In Duitsland geboren natuurkundige. Geboren in 1879. Zijn relativiteitstheorie veranderde de wereld." },
+    { month:4,  day:18, type:"death", name:"Albert Einstein",      note:"Natuurkundige. Overleden in 1955. Een van de grootste wetenschappers van de 20e eeuw." },
+    { month:5,  day:12, type:"birth", name:"Florence Nightingale", note:"Britse verpleegkundige. Geboren in 1820. Grondlegster van de moderne verpleging; 12 mei is de Dag van de Verpleging." },
+    { month:8,  day:13, type:"death", name:"Florence Nightingale", note:"Verpleegkundige. Overleden in 1910. Bekend als «de dame met de lamp»." },
+    { month:11, day:7,  type:"birth", name:"Marie Curie",          note:"Natuur- en scheikundige. Geboren in 1867. De eerste vrouw die een Nobelprijs ontving." },
+    { month:7,  day:4,  type:"death", name:"Marie Curie",          note:"Wetenschapster. Overleden in 1934. Pionier van het onderzoek naar radioactiviteit." },
+    { month:2,  day:12, type:"birth", name:"Charles Darwin",       note:"Britse natuuronderzoeker. Geboren in 1809. Grondlegger van de evolutietheorie met «Over het ontstaan van soorten»." },
+    { month:4,  day:19, type:"death", name:"Charles Darwin",       note:"Natuuronderzoeker. Overleden in 1882. Hij drukte een diepe stempel op de biologie." },
+    { month:2,  day:11, type:"birth", name:"Thomas Edison",        note:"Amerikaanse uitvinder. Geboren in 1847. Bekend om de gloeilamp en de fonograaf." },
+    { month:10, day:18, type:"death", name:"Thomas Edison",        note:"Uitvinder. Overleden in 1931. Men noemde hem de «tovenaar van Menlo Park»." },
+    { month:12, day:27, type:"birth", name:"Louis Pasteur",        note:"Franse bacterioloog. Geboren in 1822. Ontwikkelde vaccins en de pasteurisatie." },
+    { month:9,  day:28, type:"death", name:"Louis Pasteur",        note:"Bacterioloog. Overleden in 1895. Geldt als grondlegger van de moderne microbiologie." },
+    { month:8,  day:6,  type:"birth", name:"Alexander Fleming",    note:"Britse bacterioloog. Geboren in 1881. Ontdekte het eerste antibioticum, penicilline." },
+    { month:3,  day:11, type:"death", name:"Alexander Fleming",    note:"Bacterioloog. Overleden in 1955. Penicilline redde talloze levens; Nobelprijswinnaar." },
+    { month:10, day:21, type:"birth", name:"Alfred Nobel",         note:"Zweedse uitvinder. Geboren in 1833. Vond het dynamiet uit en stelde de Nobelprijs in." },
+    { month:12, day:10, type:"death", name:"Alfred Nobel",         note:"Uitvinder. Overleden in 1896. Op 10 december worden de Nobelprijzen uitgereikt — zijn sterfdag." },
+    { month:4,  day:16, type:"birth", name:"Charlie Chaplin",      note:"Engelse acteur en regisseur. Geboren in 1889. Zijn stille komedies deden de hele wereld lachen." },
+    { month:12, day:25, type:"death", name:"Charlie Chaplin",      note:"«De Zwerver». Overleden in 1977. Geliefd om films als «Moderne tijden»." },
+    { month:6,  day:1,  type:"birth", name:"Marilyn Monroe",       note:"Amerikaanse actrice. Geboren in 1926. Een filmicoon uit de jaren 50." },
+    { month:8,  day:4,  type:"death", name:"Marilyn Monroe",       note:"Actrice. Overleden in 1962. Een van Hollywoods meest blijvende sterren." },
+    { month:1,  day:8,  type:"birth", name:"Elvis Presley",        note:"Amerikaanse zanger. Geboren in 1935. Bekend als de «king of rock-'n-roll»." },
+    { month:8,  day:16, type:"death", name:"Elvis Presley",        note:"Zanger. Overleden in 1977. Hij bracht rock-'n-roll over de hele wereld." },
+    { month:4,  day:2,  type:"birth", name:"Hans Christian Andersen", note:"Deense sprookjesschrijver. Geboren in 1805. Bekend om «De kleine zeemeermin» en «Het meisje met de zwavelstokjes»." },
+    { month:8,  day:4,  type:"death", name:"Hans Christian Andersen", note:"Sprookjesschrijver. Overleden in 1875. Zijn sprookjes worden wereldwijd geliefd." },
+    { month:12, day:12, type:"birth", name:"Edvard Munch",         note:"Noorse schilder. Geboren in 1863. Wereldberoemd om «De schreeuw»." },
+    { month:1,  day:23, type:"death", name:"Edvard Munch",         note:"Schilder. Overleden in 1944. Een expressionist die angst en eenzaamheid verbeeldde." }
+  ]
 };

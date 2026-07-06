@@ -205,5 +205,49 @@ window.SOYOGI_WS_CONTENT["sv"] = {
         result:"Du är mild och trygg — en lugnande närvaro som gör gott.",
         cue:"«Finns det en plats eller en utsikt där du känner dig lugn?»" }
     ]
-  }
+  },
+
+  /* ---- Kända personer (födelsedag 🎂 / dödsdag 🕯️). Datum kontrollerade i ja-paketet. ---- */
+  people: [
+    { month:10, day:21, type:"birth", name:"Alfred Nobel",         note:"Svensk uppfinnare. Född 1833. Uppfann dynamiten och instiftade Nobelpriset." },
+    { month:12, day:10, type:"death", name:"Alfred Nobel",         note:"Uppfinnare. Död 1896. Den 10 december delas Nobelprisen ut — hans dödsdag." },
+    { month:8,  day:29, type:"birth", name:"Ingrid Bergman",       note:"Svensk skådespelerska. Född 1915. Känd för filmer som «Casablanca»." },
+    { month:8,  day:29, type:"death", name:"Ingrid Bergman",       note:"Skådespelerska. Död 1982 — på sin egen födelsedag, den 29 augusti." },
+    { month:4,  day:2,  type:"birth", name:"Hans Christian Andersen", note:"Dansk sagoberättare. Född 1805. Känd för «Den lilla sjöjungfrun» och «Flickan med svavelstickorna»." },
+    { month:8,  day:4,  type:"death", name:"Hans Christian Andersen", note:"Sagoberättare. Död 1875. Hans sagor är älskade världen över." },
+    { month:12, day:12, type:"birth", name:"Edvard Munch",         note:"Norsk målare. Född 1863. Känd över hela världen för «Skriet»." },
+    { month:1,  day:23, type:"death", name:"Edvard Munch",         note:"Målare. Död 1944. En expressionist som skildrade oro och ensamhet." },
+    { month:3,  day:26, type:"death", name:"Ludwig van Beethoven", note:"Tysk tonsättare. Född omkring 1770, död 1827. En mästare känd för sin nionde symfoni." },
+    { month:1,  day:27, type:"birth", name:"Wolfgang Amadeus Mozart", note:"Österrikisk tonsättare. Född 1756. Ett musikaliskt geni med otaliga mästerverk." },
+    { month:12, day:5,  type:"death", name:"Wolfgang Amadeus Mozart", note:"Tonsättare. Död 1791. En av de största inom Wienklassicismen." },
+    { month:7,  day:28, type:"death", name:"Johann Sebastian Bach", note:"Tysk tonsättare. Född 1685, död 1750. «Musikens fader», en jätte inom barocken." },
+    { month:10, day:17, type:"death", name:"Frédéric Chopin",      note:"Polsk tonsättare. Född 1810, död 1849. Han kallas «pianots poet»." },
+    { month:3,  day:14, type:"birth", name:"Albert Einstein",      note:"Tyskfödd fysiker. Född 1879. Hans relativitetsteori förändrade världen." },
+    { month:4,  day:18, type:"death", name:"Albert Einstein",      note:"Fysiker. Död 1955. En av 1900-talets största vetenskapsmän." },
+    { month:5,  day:12, type:"birth", name:"Florence Nightingale", note:"Brittisk sjuksköterska. Född 1820. Grundare av modern omvårdnad; den 12 maj är sjuksköterskornas dag." },
+    { month:8,  day:13, type:"death", name:"Florence Nightingale", note:"Sjuksköterska. Död 1910. Känd som «damen med lampan»." },
+    { month:11, day:7,  type:"birth", name:"Marie Curie",          note:"Fysiker och kemist. Född 1867. Den första kvinnan som fick ett Nobelpris." },
+    { month:7,  day:4,  type:"death", name:"Marie Curie",          note:"Vetenskapskvinna. Död 1934. Pionjär inom forskningen om radioaktivitet." },
+    { month:2,  day:12, type:"birth", name:"Charles Darwin",       note:"Brittisk naturforskare. Född 1809. Skapade evolutionsteorin i «Om arternas uppkomst»." },
+    { month:4,  day:19, type:"death", name:"Charles Darwin",       note:"Naturforskare. Död 1882. Han satte djupa spår i biologin." },
+    { month:2,  day:11, type:"birth", name:"Thomas Edison",        note:"Amerikansk uppfinnare. Född 1847. Känd för glödlampan och fonografen." },
+    { month:10, day:18, type:"death", name:"Thomas Edison",        note:"Uppfinnare. Död 1931. Kallades «trollkarlen från Menlo Park»." },
+    { month:12, day:27, type:"birth", name:"Louis Pasteur",        note:"Fransk bakteriolog. Född 1822. Utvecklade vacciner och pastörisering." },
+    { month:9,  day:28, type:"death", name:"Louis Pasteur",        note:"Bakteriolog. Död 1895. Räknas som den moderna mikrobiologins fader." },
+    { month:8,  day:6,  type:"birth", name:"Alexander Fleming",    note:"Brittisk bakteriolog. Född 1881. Upptäckte det första antibiotikat, penicillin." },
+    { month:3,  day:11, type:"death", name:"Alexander Fleming",    note:"Bakteriolog. Död 1955. Penicillinet räddade otaliga liv; Nobelpristagare." },
+    { month:11, day:14, type:"birth", name:"Claude Monet",         note:"Fransk målare. Född 1840. Impressionismens mästare, känd för «Näckrosor»." },
+    { month:12, day:5,  type:"death", name:"Claude Monet",         note:"Målare. Död 1926. «Impression, soluppgång» gav impressionismen dess namn." },
+    { month:3,  day:30, type:"birth", name:"Vincent van Gogh",     note:"Nederländsk målare. Född 1853. Känd för «Solrosor» och «Stjärnenatt»." },
+    { month:7,  day:29, type:"death", name:"Vincent van Gogh",     note:"Målare. Död 1890. En postimpressionismens mästare, hyllad efter sin död." },
+    { month:10, day:25, type:"birth", name:"Pablo Picasso",        note:"Spansk målare. Född 1881. Kubismens grundare och en jätte inom modern konst." },
+    { month:4,  day:8,  type:"death", name:"Pablo Picasso",        note:"Målare. Död 1973. Känd bland annat för «Guernica»." },
+    { month:4,  day:16, type:"birth", name:"Charlie Chaplin",      note:"Engelsk skådespelare och regissör. Född 1889. Hans stumfilmskomedier fick hela världen att skratta." },
+    { month:12, day:25, type:"death", name:"Charlie Chaplin",      note:"«Luffaren». Död 1977. Älskad för filmer som «Moderna tider»." },
+    { month:6,  day:1,  type:"birth", name:"Marilyn Monroe",       note:"Amerikansk skådespelerska. Född 1926. En filmikon från 1950-talet." },
+    { month:8,  day:4,  type:"death", name:"Marilyn Monroe",       note:"Skådespelerska. Död 1962. En av Hollywoods mest bestående stjärnor." },
+    { month:1,  day:8,  type:"birth", name:"Elvis Presley",        note:"Amerikansk sångare. Född 1935. Känd som «rockens kung»." },
+    { month:8,  day:16, type:"death", name:"Elvis Presley",        note:"Sångare. Död 1977. Han spred rock'n'roll över hela världen." },
+    { month:6,  day:12, type:"birth", name:"Anne Frank",           note:"Författare till «Anne Franks dagbok». Född 1929. En flicka som skrev, gömd för nazisterna." }
+  ]
 };

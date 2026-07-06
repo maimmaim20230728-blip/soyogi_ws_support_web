@@ -166,6 +166,102 @@ window.SOYOGI_WS_CONTENT["de"] = {
         expand:"Spielerinnerungen kommen zusammen mit Freunden und Orten. Bewegungsspiele bringen das Gefühl zurück, jung und voller Energie zu sein.",
         care:"Manche waren lieber allein. Halten Sie die Frage offen: „Wie haben Sie Ihre Zeit gern verbracht?“"
       }
+    },
+    {
+      id:"de-warmup-03", genre:"warmup", emoji:"🍋", photo:null,
+      question:"Was ist süßer — Zucker oder eine Zitrone?",
+      choices:["Zucker","Zitrone"], answerIndex:0,
+      trivia:"Zucker war früher kostbar; an Feiertagen war Kuchen ein besonderer Genuss.",
+      cue:{
+        open:"„Natürlich der Zucker!“ — mit einem Schmunzeln, dann zu Süßem von früher.",
+        asks:["Gab es bei Ihnen zu Hause oft Kuchen?","Wer hat gebacken?","Welchen Kuchen mochten Sie am liebsten?"],
+        expand:"Backen und Feiertage wecken warme Erinnerungen. Nach Düften wie Vanille oder Zimt zu fragen macht die Szene lebendig.",
+        care:"Auch wenn wenig Süßes da war — würdigen Sie das mit „Das war eine andere Zeit“ und Wärme."
+      }
+    },
+    {
+      id:"de-price-02", genre:"price", emoji:"🎬", photo:null,
+      question:"Was kostete in den 1960er-Jahren ungefähr eine Kinokarte?",
+      choices:["Etwa 2 Mark","Etwa 20 Mark","Etwa 200 Mark"], answerIndex:0,
+      trivia:"Ein Kinobesuch war ein beliebtes Vergnügen und für wenige Mark zu haben.",
+      cue:{
+        open:"„Für ein paar Mark ins Kino — schöne Zeiten, nicht wahr?“",
+        asks:["Sind Sie früher oft ins Kino gegangen?","Welche Filme oder Stars mochten Sie?","Mit wem sind Sie ins Kino gegangen?"],
+        expand:"Nicht der genaue Preis zählt, sondern die Erinnerung. Von der Wochenschau, dem Eis in der Pause und dem ersten Rendezvous lässt sich viel erzählen.",
+        care:"Bei Unsicherheit hilft ein Beispiel aus dem eigenen Leben, um die Zeit gemeinsam heraufzubeschwören."
+      }
+    },
+    {
+      id:"de-appliance-02", genre:"appliance", emoji:"☎️", photo:null,
+      question:"Womit wählte man früher am Telefon eine Nummer?",
+      choices:["Mit einer Wählscheibe","Mit einem Touchscreen"], answerIndex:0,
+      trivia:"Bei der Wählscheibe drehte man jede Ziffer einzeln — mit einem charakteristischen Surren.",
+      cue:{
+        open:"„Die Wählscheibe — das Drehen dauerte ganz schön, oder?“",
+        asks:["Hatten Sie früh ein eigenes Telefon zu Hause?","Wen haben Sie am liebsten angerufen?","Erinnern Sie sich an Ihre alte Telefonnummer?"],
+        expand:"Das Telefon verbindet mit Familie und Freunden. Das Surren und Klicken der Scheibe holt die Zeit zurück.",
+        care:"Manche hatten lange kein eigenes Telefon — das ist normal und ein guter Gesprächsanlass."
+      }
+    },
+    {
+      id:"de-snack-02", genre:"snack", emoji:"🍬", photo:null,
+      question:"Welche Süßigkeit ist schwarz und schmeckt herb-süß?",
+      choices:["Lakritz","Marzipan"], answerIndex:0,
+      trivia:"Lakritz gab es als Schnecke, Stange oder Taler — nicht jeder mochte den kräftigen Geschmack.",
+      cue:{
+        open:"„Lakritz — das mochte man oder gar nicht!“ Mit einem Lächeln zu Naschereien von früher.",
+        asks:["Welche Süßigkeiten gab es beim Kaufmann um die Ecke?","Bekamen Sie Taschengeld zum Naschen?","Was war Ihre liebste Nascherei?"],
+        expand:"Der Tante-Emma-Laden und ein paar Pfennige Taschengeld sind schöne Erinnerungsanker.",
+        care:"Falls Süßes selten war, würdigen Sie die sparsame Zeit freundlich und ohne Wertung."
+      }
+    },
+    {
+      id:"de-tool-02", genre:"tool", emoji:"🧺", photo:null,
+      question:"Womit wusch man die Wäsche von Hand, bevor es Waschmaschinen gab?",
+      choices:["Mit einem Waschbrett","Mit einem Staubsauger"], answerIndex:0,
+      trivia:"Am Waschbrett rubbelte man die Wäsche sauber — harte Arbeit, oft am festen Waschtag.",
+      cue:{
+        open:"„Das Waschbrett — das war ganz schön anstrengend, nicht wahr?“",
+        asks:["War der Waschtag bei Ihnen ein fester Tag?","Wer hat die Wäsche gemacht?","Wo wurde die Wäsche zum Trocknen aufgehängt?"],
+        expand:"Hausarbeit von früher zeigt viel Lebensklugheit. Ein „Das war harte Arbeit!“ würdigt die Mühe.",
+        care:"Anerkennung tut gut: „Das haben Sie alles gestemmt.“ macht stolz und öffnet das Gespräch."
+      }
+    },
+    {
+      id:"de-fashion-02", genre:"fashion", emoji:"👗", photo:null,
+      question:"Welcher weite, schwingende Rock war in den 1950ern der letzte Schrei?",
+      choices:["Der Petticoat","Die Schlaghose"], answerIndex:0,
+      trivia:"Zum Petticoat gehörten Tanzabende und Rock’n’Roll — ein Lebensgefühl der Wirtschaftswunderjahre.",
+      cue:{
+        open:"„Der Petticoat — da schwang alles beim Tanzen!“",
+        asks:["Sind Sie gern tanzen gegangen?","Welche Mode mochten Sie als junger Mensch?","Gab es ein Lieblingskleid oder einen guten Anzug?"],
+        expand:"Mode und Tanz wecken Jugenderinnerungen. Nach dem ersten Tanzabend oder der ersten Liebe zu fragen bringt Leben ins Gespräch.",
+        care:"Jede Erinnerung ist wertvoll — auch ein Lächeln ohne viele Worte ist ein schönes Ergebnis."
+      }
+    },
+    {
+      id:"de-hobby-02", genre:"hobby", emoji:"🔵", photo:null,
+      question:"Wie hießen die kleinen bunten Glaskugeln, mit denen Kinder auf dem Boden spielten?",
+      choices:["Murmeln","Knöpfe"], answerIndex:0,
+      trivia:"Mit Murmeln (auch „Klicker“) spielte man auf dem Boden; die schönsten wurden getauscht und gesammelt.",
+      cue:{
+        open:"„Murmeln — die schönsten hat man gehütet wie einen Schatz, oder?“",
+        asks:["Haben Sie Murmeln gesammelt oder getauscht?","Welche Spiele haben Sie draußen gespielt?","Mit wem haben Sie am liebsten gespielt?"],
+        expand:"Sammeln und Tauschen wecken Erinnerungen an Freundschaften und die Nachbarschaft.",
+        care:"Falls die Kindheit schwer war, bleiben Sie behutsam bei den schönen Momenten."
+      }
+    },
+    {
+      id:"de-appliance-03", genre:"appliance", emoji:"🎵", photo:null,
+      question:"Wie hörte man früher zu Hause seine Lieblingsmusik?",
+      choices:["Auf einer Schallplatte","Auf dem Smartphone"], answerIndex:0,
+      trivia:"Die Schallplatte drehte sich auf dem Plattenspieler; die Nadel legte man vorsichtig auf.",
+      cue:{
+        open:"„Die Platte auflegen und die Nadel ansetzen — ein kleines Ritual, oder?“",
+        asks:["Welche Musik oder welche Sänger mochten Sie?","Hatten Sie einen Plattenspieler zu Hause?","Zu welcher Musik haben Sie getanzt?"],
+        expand:"Musik ist ein starker Erinnerungsanker. Ein Liedtitel genügt oft, und schon kommen die Geschichten.",
+        care:"Wenn ein Lied Rührung auslöst, ist das schön — geben Sie dem Gefühl ruhig Raum."
+      }
     }
   ],
 
@@ -180,7 +276,27 @@ window.SOYOGI_WS_CONTENT["de"] = {
     { id:"de-eo-04", left:{label:"Süß", emoji:"🍰"}, right:{label:"Herzhaft", emoji:"🥨"},
       staffCue:"„Naschkatze oder herzhaft? Was konnten Sie nie ablehnen?“" },
     { id:"de-eo-05", left:{label:"Fußball", emoji:"⚽"}, right:{label:"Wandern", emoji:"🥾"},
-      staffCue:"„Waren Sie eher für Sport zu begeistern oder für die Natur?“" }
+      staffCue:"„Waren Sie eher für Sport zu begeistern oder für die Natur?“" },
+    { id:"de-eo-06", left:{label:"Radio", emoji:"📻"}, right:{label:"Fernsehen", emoji:"📺"},
+      staffCue:"„Radio oder Fernsehen — was lief bei Ihnen zu Hause am häufigsten?“" },
+    { id:"de-eo-07", left:{label:"Stadt", emoji:"🏙️"}, right:{label:"Land", emoji:"🌾"},
+      staffCue:"„Sind Sie eher in der Stadt oder auf dem Land aufgewachsen?“" },
+    { id:"de-eo-08", left:{label:"Frühling", emoji:"🌸"}, right:{label:"Herbst", emoji:"🍂"},
+      staffCue:"„Frühling oder Herbst — welche Jahreszeit mögen Sie lieber?“" },
+    { id:"de-eo-09", left:{label:"Brot", emoji:"🍞"}, right:{label:"Kartoffeln", emoji:"🥔"},
+      staffCue:"„Was kam bei Ihnen öfter auf den Tisch — Brot oder Kartoffeln?“" },
+    { id:"de-eo-10", left:{label:"Fahrrad", emoji:"🚲"}, right:{label:"Zu Fuß", emoji:"🚶"},
+      staffCue:"„Waren Sie viel mit dem Rad unterwegs oder lieber zu Fuß?“" },
+    { id:"de-eo-11", left:{label:"Tanzen", emoji:"💃"}, right:{label:"Singen", emoji:"🎤"},
+      staffCue:"„Haben Sie früher gern getanzt oder lieber gesungen?“" },
+    { id:"de-eo-12", left:{label:"Kino", emoji:"🎬"}, right:{label:"Buch", emoji:"📖"},
+      staffCue:"„Ein Kinobesuch oder ein gutes Buch — was war Ihnen lieber?“" },
+    { id:"de-eo-13", left:{label:"Weihnachten", emoji:"🎄"}, right:{label:"Ostern", emoji:"🐰"},
+      staffCue:"„Weihnachten oder Ostern — welches Fest mochten Sie als Kind mehr?“" },
+    { id:"de-eo-14", left:{label:"Suppe", emoji:"🍲"}, right:{label:"Braten", emoji:"🍖"},
+      staffCue:"„Eine deftige Suppe oder ein schöner Sonntagsbraten?“" },
+    { id:"de-eo-15", left:{label:"Frühaufsteher", emoji:"🌅"}, right:{label:"Nachteule", emoji:"🌙"},
+      staffCue:"„Waren Sie ein Frühaufsteher oder eher eine Nachteule?“" }
   ],
 
   /* ---- Tab 3: Farb-Stimmung (immer positiv) ---- */
@@ -198,7 +314,67 @@ window.SOYOGI_WS_CONTENT["de"] = {
         cue:"„Gibt es eine schöne Erinnerung, über die Sie heute noch lachen?“" },
       { key:"green",  label:"Grün",  emoji:"🟢", color:"#4a9d6f",
         result:"Sie sind sanft und ausgeglichen — eine beruhigende Gegenwart, die anderen guttut.",
-        cue:"„Gibt es einen Ort oder einen Anblick, bei dem Sie zur Ruhe kommen?“" }
+        cue:"„Gibt es einen Ort oder einen Anblick, bei dem Sie zur Ruhe kommen?“" },
+      { key:"orange", label:"Orange", emoji:"🟠", color:"#e8934a",
+        result:"Sie sind herzlich und umgänglich — jemand, der Menschen zusammenbringt.",
+        cue:"„Haben Ihnen Freunde und Nachbarn immer viel bedeutet?“" },
+      { key:"purple", label:"Lila",  emoji:"🟣", color:"#8a6bd0",
+        result:"Sie sind anmutig und feinsinnig — still stark, mit einer reichen Innenwelt.",
+        cue:"„Gibt es Musik oder Kunst, die Sie schon immer berührt hat?“" }
     ]
-  }
+  },
+
+  /* ---- Berühmte Persönlichkeiten (Geburtstag 🎂 / Todestag 🕯️). Daten im ja-Pack geprüft. ---- */
+  people: [
+    { month:3,  day:26, type:"death", name:"Ludwig van Beethoven", note:"Deutscher Komponist. Um 1770 geboren, 1827 gestorben. Ein Meister, bekannt für die 9. Sinfonie und „Für Elise“." },
+    { month:7,  day:28, type:"death", name:"Johann Sebastian Bach", note:"Deutscher Komponist. 1685 geboren, 1750 gestorben. Als „Vater der Musik“ gilt er als Gigant des Barock." },
+    { month:1,  day:27, type:"birth", name:"Wolfgang Amadeus Mozart", note:"Österreichischer Komponist. Geboren 1756. Ein musikalisches Genie mit Werken wie „Die Zauberflöte“." },
+    { month:12, day:5,  type:"death", name:"Wolfgang Amadeus Mozart", note:"Komponist. Gestorben 1791. Einer der größten Komponisten der Wiener Klassik." },
+    { month:1,  day:31, type:"birth", name:"Franz Schubert",        note:"Österreichischer Komponist. Geboren 1797. Als „König des Liedes“ bekannt, u. a. „Der Erlkönig“." },
+    { month:11, day:19, type:"death", name:"Franz Schubert",        note:"Komponist. 1828 mit nur 31 Jahren gestorben. Hinterließ die „Unvollendete“ Sinfonie." },
+    { month:5,  day:7,  type:"birth", name:"Johannes Brahms",       note:"Deutscher Komponist. Geboren 1833. Neben Bach und Beethoven einer der „drei großen B“." },
+    { month:4,  day:3,  type:"death", name:"Johannes Brahms",       note:"Komponist. Gestorben 1897. Bekannt u. a. für sein „Wiegenlied“." },
+    { month:5,  day:22, type:"birth", name:"Richard Wagner",        note:"Deutscher Komponist. Geboren 1813. Berühmt für Musikdramen wie „Der Ring des Nibelungen“." },
+    { month:2,  day:13, type:"death", name:"Richard Wagner",        note:"Komponist. 1883 in Venedig gestorben. Schuf gewaltige Opernwerke." },
+    { month:2,  day:3,  type:"birth", name:"Felix Mendelssohn",     note:"Deutscher Komponist. Geboren 1809. Bekannt für den „Hochzeitsmarsch“ und „Ein Sommernachtstraum“." },
+    { month:11, day:4,  type:"death", name:"Felix Mendelssohn",     note:"Komponist. Gestorben 1847. Ein bedeutender Vertreter der Romantik." },
+    { month:6,  day:8,  type:"birth", name:"Robert Schumann",       note:"Deutscher Komponist. Geboren 1810. Bekannt für Klavierstücke wie „Träumerei“." },
+    { month:7,  day:29, type:"death", name:"Robert Schumann",       note:"Komponist. Gestorben 1856. Ein Dichter der romantischen Musik." },
+    { month:8,  day:28, type:"birth", name:"Johann Wolfgang von Goethe", note:"Deutscher Dichter. Geboren 1749. Bekannt für „Faust“ und „Die Leiden des jungen Werther“." },
+    { month:3,  day:22, type:"death", name:"Johann Wolfgang von Goethe", note:"Dichter. Gestorben 1832. Der wohl größte deutsche Dichterfürst." },
+    { month:3,  day:14, type:"birth", name:"Albert Einstein",       note:"In Deutschland geborener Physiker. Geboren 1879. Seine Relativitätstheorie veränderte die Welt." },
+    { month:4,  day:18, type:"death", name:"Albert Einstein",       note:"Physiker. Gestorben 1955. Einer der größten Wissenschaftler des 20. Jahrhunderts." },
+    { month:7,  day:14, type:"birth", name:"Gustav Klimt",          note:"Österreichischer Maler. Geboren 1862. Bekannt für „Der Kuss“ mit Blattgold." },
+    { month:2,  day:6,  type:"death", name:"Gustav Klimt",          note:"Maler. Gestorben 1918. Führte die Wiener Secession an." },
+    { month:6,  day:12, type:"birth", name:"Anne Frank",            note:"Verfasserin des „Tagebuch der Anne Frank“. Geboren 1929. Ein Mädchen, das im Versteck vor den Nazis schrieb." },
+    { month:5,  day:12, type:"birth", name:"Florence Nightingale",  note:"Britische Krankenschwester. Geboren 1820. Begründerin der modernen Pflege; der 12. Mai ist Tag der Pflege." },
+    { month:8,  day:13, type:"death", name:"Florence Nightingale",  note:"Krankenschwester. Gestorben 1910. Bekannt als „die Dame mit der Lampe“." },
+    { month:11, day:7,  type:"birth", name:"Marie Curie",           note:"Physikerin und Chemikerin. Geboren 1867. Die erste Frau, die einen Nobelpreis erhielt." },
+    { month:7,  day:4,  type:"death", name:"Marie Curie",           note:"Wissenschaftlerin. Gestorben 1934. Pionierin der Radioaktivitätsforschung." },
+    { month:2,  day:12, type:"birth", name:"Charles Darwin",        note:"Britischer Naturforscher. Geboren 1809. Begründete mit „Über die Entstehung der Arten“ die Evolutionstheorie." },
+    { month:4,  day:19, type:"death", name:"Charles Darwin",        note:"Naturforscher. Gestorben 1882. Prägte die Biologie nachhaltig." },
+    { month:2,  day:11, type:"birth", name:"Thomas Edison",         note:"Amerikanischer Erfinder. Geboren 1847. Bekannt für Glühbirne und Phonograph." },
+    { month:10, day:18, type:"death", name:"Thomas Edison",         note:"Erfinder. Gestorben 1931. Man nannte ihn den „Zauberer von Menlo Park“." },
+    { month:12, day:27, type:"birth", name:"Louis Pasteur",         note:"Französischer Bakteriologe. Geboren 1822. Entwickelte Impfungen und die Pasteurisierung." },
+    { month:9,  day:28, type:"death", name:"Louis Pasteur",         note:"Bakteriologe. Gestorben 1895. Gilt als Begründer der modernen Mikrobiologie." },
+    { month:8,  day:6,  type:"birth", name:"Alexander Fleming",     note:"Britischer Bakteriologe. Geboren 1881. Entdeckte das erste Antibiotikum, Penicillin." },
+    { month:3,  day:11, type:"death", name:"Alexander Fleming",     note:"Bakteriologe. Gestorben 1955. Rettete mit Penicillin unzählige Leben; Nobelpreisträger." },
+    { month:3,  day:30, type:"birth", name:"Vincent van Gogh",      note:"Niederländischer Maler. Geboren 1853. Bekannt für „Sonnenblumen“ und „Sternennacht“." },
+    { month:7,  day:29, type:"death", name:"Vincent van Gogh",      note:"Maler. Gestorben 1890. Ein erst nach seinem Tod berühmter Meister des Postimpressionismus." },
+    { month:10, day:25, type:"birth", name:"Pablo Picasso",         note:"Spanischer Maler. Geboren 1881. Mitbegründer des Kubismus und Gigant der modernen Kunst." },
+    { month:4,  day:8,  type:"death", name:"Pablo Picasso",         note:"Maler. Gestorben 1973. Bekannt u. a. für „Guernica“." },
+    { month:11, day:14, type:"birth", name:"Claude Monet",          note:"Französischer Maler. Geboren 1840. Meister des Impressionismus, bekannt für „Seerosen“." },
+    { month:12, day:5,  type:"death", name:"Claude Monet",          note:"Maler. Gestorben 1926. „Impression, Sonnenaufgang“ gab dem Impressionismus den Namen." },
+    { month:4,  day:16, type:"birth", name:"Charlie Chaplin",       note:"Englischer Schauspieler und Regisseur. Geboren 1889. Seine Stummfilm-Komödien brachten die Welt zum Lachen." },
+    { month:12, day:25, type:"death", name:"Charlie Chaplin",       note:"Der „Tramp“. Gestorben 1977. Beliebt für Filme wie „Moderne Zeiten“." },
+    { month:6,  day:1,  type:"birth", name:"Marilyn Monroe",        note:"Amerikanische Schauspielerin. Geboren 1926. Eine Leinwand-Ikone der 1950er Jahre." },
+    { month:8,  day:4,  type:"death", name:"Marilyn Monroe",        note:"Schauspielerin. Gestorben 1962. Einer der beständigsten Stars Hollywoods." },
+    { month:1,  day:8,  type:"birth", name:"Elvis Presley",         note:"Amerikanischer Sänger. Geboren 1935. Bekannt als „King of Rock ’n’ Roll“." },
+    { month:8,  day:16, type:"death", name:"Elvis Presley",         note:"Sänger. Gestorben 1977. Er brachte den Rock ’n’ Roll in die Welt." },
+    { month:4,  day:2,  type:"birth", name:"Hans Christian Andersen", note:"Dänischer Märchendichter. Geboren 1805. Bekannt für „Die kleine Meerjungfrau“." },
+    { month:8,  day:4,  type:"death", name:"Hans Christian Andersen", note:"Märchendichter. Gestorben 1875. Seine Märchen werden weltweit geliebt." },
+    { month:10, day:17, type:"death", name:"Frédéric Chopin",       note:"Polnischer Komponist. 1810 geboren, 1849 gestorben. Er wird „Dichter am Klavier“ genannt." },
+    { month:5,  day:7,  type:"birth", name:"Pjotr Tschaikowski",    note:"Russischer Komponist. Geboren 1840. Bekannt für „Schwanensee“ und „Der Nussknacker“." },
+    { month:11, day:6,  type:"death", name:"Pjotr Tschaikowski",    note:"Komponist. Gestorben 1893. Schuf wunderschöne Ballettmusik." }
+  ]
 };
