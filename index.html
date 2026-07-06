@@ -105,8 +105,7 @@
   .app-credit a:active{opacity:.6;}
 
   /* ---- Genre chips (Tab2) ---- */
-  .genre-bar{display:flex; gap:8px; overflow-x:auto; padding:2px 2px 4px; -webkit-overflow-scrolling:touch; scrollbar-width:none;}
-  .genre-bar::-webkit-scrollbar{display:none;}
+  .genre-bar{display:flex; flex-wrap:wrap; gap:8px; padding:2px 2px 4px;}
   .chip{flex:0 0 auto; border:1.5px solid var(--line); background:var(--card); color:var(--ink-soft);
     font-family:inherit; font-weight:700; font-size:14px; padding:8px 14px; border-radius:999px; cursor:pointer; white-space:nowrap;}
   .chip.active{background:var(--brand); border-color:var(--brand); color:#fff;}
