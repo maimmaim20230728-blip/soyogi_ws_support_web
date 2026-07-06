@@ -171,6 +171,102 @@ window.SOYOGI_WS_CONTENT["sv"] = {
         expand:"Lekminnen hör ihop med kompisar och platser. Rörelselekar väcker känslan av att vara ung och full av energi.",
         care:"En del var hellre för sig själva. Håll frågan öppen: «hur tyckte du om att fördriva tiden?»"
       }
+    },
+    {
+      id:"sv-warmup-03", genre:"warmup", emoji:"🍋", photo:null,
+      question:"Vad är sötare — socker eller en citron?",
+      choices:["Socker","Citron"], answerIndex:0,
+      trivia:"Förr var sockret dyrbart; en kaka var en riktig fröjd på helg- och festdagar.",
+      cue:{
+        open:"«Sockret förstås!» — med ett leende, sedan vidare till det söta förr.",
+        asks:["Bakade ni ofta hemma?","Vem stod för bakningen?","Vilken kaka tyckte du bäst om?"],
+        expand:"Bakning och högtider väcker varma minnen. Att fråga om dofter — vanilj, kanel — gör scenen levande.",
+        care:"Även om det söta var sällsynt, möt det med värme: «det var en annan tid»."
+      }
+    },
+    {
+      id:"sv-price-02", genre:"price", emoji:"🎬", photo:null,
+      question:"Vad kostade ungefär en biobiljett på 1960-talet?",
+      choices:["Ungefär 3 kronor","Ungefär 30 kronor","Ungefär 300 kronor"], answerIndex:0,
+      trivia:"En kväll på bio var ett nöje för de flesta, för några få kronor.",
+      cue:{
+        open:"«På bio för några kronor — härliga tider, va?»",
+        asks:["Gick du ofta på bio?","Vilka filmer eller stjärnor tyckte du om?","Vem gick du på bio med?"],
+        expand:"Det är inte det exakta priset som räknas, utan minnet. Journalfilmen, glassen i pausen, första dejten — mycket att berätta.",
+        care:"Vid tvekan hjälper ett exempel ur ditt eget liv att mana fram tiden tillsammans."
+      }
+    },
+    {
+      id:"sv-appliance-02", genre:"appliance", emoji:"☎️", photo:null,
+      question:"Hur slog man ett nummer på de gamla telefonerna?",
+      choices:["Med en fingerskiva","Med en pekskärm"], answerIndex:0,
+      trivia:"Man vred en siffra i taget på skivan, med ett surrande ljud som var lätt att känna igen.",
+      cue:{
+        open:"«Fingerskivan — det tog sin tid att vrida runt, va?»",
+        asks:["Hade ni telefon hemma tidigt?","Vem ringde du helst till?","Minns du ert gamla telefonnummer?"],
+        expand:"Telefonen knyter an till familj och vänner. Surret från skivan tar en tillbaka i tiden.",
+        care:"Många fick telefon först sent — det är helt normalt och ett fint samtalsämne."
+      }
+    },
+    {
+      id:"sv-snack-02", genre:"snack", emoji:"🍬", photo:null,
+      question:"Vilken rödvit randig karamell är en klassisk svensk godsak från Gränna?",
+      choices:["Polkagris","Marsipan"], answerIndex:0,
+      trivia:"Polkagrisen, rödvit och randig, har tillverkats i Gränna sedan mitten av 1800-talet.",
+      cue:{
+        open:"«Polkagris — den där rödvita randiga!» Med ett leende, vidare till godiset förr.",
+        asks:["Vilket godis fanns i affären i närheten?","Fick du veckopeng till godis?","Vilket var ditt favoritgodis?"],
+        expand:"Affären i kvarteret och några ören i veckopeng är fina minnesankare.",
+        care:"Om godis var sällsynt, hedra den sparsamma tiden med vänlighet, utan att döma."
+      }
+    },
+    {
+      id:"sv-tool-02", genre:"tool", emoji:"🧺", photo:null,
+      question:"Vad tvättade man kläderna med för hand, innan tvättmaskinen fanns?",
+      choices:["Med en tvättbräda","Med en dammsugare"], answerIndex:0,
+      trivia:"Man gnuggade tvätten ren på brädan, ofta i tvättstugan — ett tungt arbete på tvättdagen.",
+      cue:{
+        open:"«Tvättbrädan — det var riktigt tungt, va?»",
+        asks:["Var tvättdagen en bestämd dag hos er?","Vem skötte tvätten?","Var hängde ni tvätten på tork?"],
+        expand:"Hushållsarbetet förr rymmer mycket klokskap. Ett «det var hårt arbete!» hedrar mödan.",
+        care:"Erkännande gör gott: «du klarade allt det där» ger stolthet och öppnar samtalet."
+      }
+    },
+    {
+      id:"sv-fashion-02", genre:"fashion", emoji:"👗", photo:null,
+      question:"Vilken vid, svängande kjol var på modet på 1950-talet, perfekt att dansa i?",
+      choices:["Den vida kjolen","Utsvängda byxor"], answerIndex:0,
+      trivia:"Den vida kjolen med underkjol svängde runt i danserna på 1950-talet.",
+      cue:{
+        open:"«Den vida kjolen — den svängde ju runt när man dansade!»",
+        asks:["Tyckte du om att gå ut och dansa?","Vilket mode gillade du som ung?","Hade du en favoritklänning eller en fin kostym?"],
+        expand:"Mode och dans väcker ungdomen. Första dansen, första kärleken — fina dörrar att öppna.",
+        care:"Varje minne är värdefullt — även ett leende utan ord är ett fint resultat."
+      }
+    },
+    {
+      id:"sv-hobby-02", genre:"hobby", emoji:"🔵", photo:null,
+      question:"Vad kallas de små färgade glaskulorna som barn lekte med på marken?",
+      choices:["Kulor","Knappar"], answerIndex:0,
+      trivia:"Man spelade kula på marken; de finaste kulorna sparades och byttes som skatter.",
+      cue:{
+        open:"«Kulor — de finaste sparade man som en skatt, va?»",
+        asks:["Samlade eller bytte du kulor?","Vilka lekar lekte du ute?","Vem lekte du helst med?"],
+        expand:"Att samla och byta väcker minnen av vänskap och grannskap.",
+        care:"Om barndomen var svår, stanna varsamt vid de fina stunderna."
+      }
+    },
+    {
+      id:"sv-appliance-03", genre:"appliance", emoji:"🎵", photo:null,
+      question:"Hur lyssnade man på sin favoritmusik hemma förr?",
+      choices:["På en vinylskiva","På en smartphone"], answerIndex:0,
+      trivia:"Skivan snurrade på skivspelaren; man lade försiktigt ner nålen i spåret.",
+      cue:{
+        open:"«Lägga på skivan och sänka nålen — en liten ritual, va?»",
+        asks:["Vilken musik eller vilka sångare tyckte du om?","Hade ni en skivspelare hemma?","Till vilken musik dansade du?"],
+        expand:"Musik är ett starkt minnesankare. En låttitel räcker ofta för att berättelserna ska komma.",
+        care:"Om en sång rör till tårar är det fint — ge känslan gott om plats."
+      }
     }
   ],
 
@@ -185,7 +281,27 @@ window.SOYOGI_WS_CONTENT["sv"] = {
     { id:"sv-eo-04", left:{label:"Sött", emoji:"🍰"}, right:{label:"Salt", emoji:"🥨"},
       staffCue:"«Är du mer för sött eller salt? Vad kunde du inte motstå?»" },
     { id:"sv-eo-05", left:{label:"Sommar", emoji:"☀️"}, right:{label:"Vinter", emoji:"❄️"},
-      staffCue:"«Trivs du bäst på sommaren eller vintern?»" }
+      staffCue:"«Trivs du bäst på sommaren eller vintern?»" },
+    { id:"sv-eo-06", left:{label:"Radio", emoji:"📻"}, right:{label:"TV", emoji:"📺"},
+      staffCue:"«Radio eller TV — vad lyssnade ni mest på hemma?»" },
+    { id:"sv-eo-07", left:{label:"Stad", emoji:"🏙️"}, right:{label:"Landet", emoji:"🌾"},
+      staffCue:"«Växte du upp mer i stan eller på landet?»" },
+    { id:"sv-eo-08", left:{label:"Vår", emoji:"🌸"}, right:{label:"Höst", emoji:"🍂"},
+      staffCue:"«Vår eller höst — vilken årstid tycker du bäst om?»" },
+    { id:"sv-eo-09", left:{label:"Dansa", emoji:"💃"}, right:{label:"Sjunga", emoji:"🎤"},
+      staffCue:"«Tyckte du mer om att dansa eller sjunga?»" },
+    { id:"sv-eo-10", left:{label:"Bio", emoji:"🎬"}, right:{label:"Bok", emoji:"📖"},
+      staffCue:"«En kväll på bio eller en god bok — vad föredrog du?»" },
+    { id:"sv-eo-11", left:{label:"Cykel", emoji:"🚲"}, right:{label:"Till fots", emoji:"🚶"},
+      staffCue:"«Var du mycket ute på cykeln eller helst till fots?»" },
+    { id:"sv-eo-12", left:{label:"Jul", emoji:"🎄"}, right:{label:"Midsommar", emoji:"🌼"},
+      staffCue:"«Jul eller midsommar — vilken högtid tyckte du mest om?»" },
+    { id:"sv-eo-13", left:{label:"Soppa", emoji:"🍲"}, right:{label:"Stek", emoji:"🍖"},
+      staffCue:"«En god soppa eller en söndagsstek?»" },
+    { id:"sv-eo-14", left:{label:"Glass", emoji:"🍨"}, right:{label:"Varm choklad", emoji:"☕"},
+      staffCue:"«Glass på sommaren eller varm choklad på vintern?»" },
+    { id:"sv-eo-15", left:{label:"Morgonpigg", emoji:"🌅"}, right:{label:"Nattuggla", emoji:"🌙"},
+      staffCue:"«Var du mer morgonpigg eller en nattuggla?»" }
   ],
 
   /* ---- Flik 3: färghumör (alltid positivt) ---- */
@@ -203,7 +319,13 @@ window.SOYOGI_WS_CONTENT["sv"] = {
         cue:"«Finns det ett glatt minne som får dig att le än idag?»" },
       { key:"green",  label:"Grön", emoji:"🟢", color:"#4a9d6f",
         result:"Du är mild och trygg — en lugnande närvaro som gör gott.",
-        cue:"«Finns det en plats eller en utsikt där du känner dig lugn?»" }
+        cue:"«Finns det en plats eller en utsikt där du känner dig lugn?»" },
+      { key:"orange", label:"Orange", emoji:"🟠", color:"#e8934a",
+        result:"Du är hjärtlig och sällskaplig — någon som för människor samman.",
+        cue:"«Har vänner och grannar alltid betytt mycket för dig?»" },
+      { key:"purple", label:"Lila", emoji:"🟣", color:"#8a6bd0",
+        result:"Du är förfinad och känslig — stillsamt stark, med ett rikt inre liv.",
+        cue:"«Finns det musik eller konst som alltid har rört dig?»" }
     ]
   },
 

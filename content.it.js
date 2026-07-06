@@ -167,6 +167,102 @@ window.SOYOGI_WS_CONTENT["it"] = {
         expand:"I ricordi dei giochi vanno a braccetto con gli amici e i luoghi. I giochi di movimento riportano la sensazione di essere giovani e pieni di energia.",
         care:"Alcuni preferivano stare da soli. Tenete la domanda aperta: «come vi piaceva passare il tempo?»"
       }
+    },
+    {
+      id:"it-warmup-03", genre:"warmup", emoji:"🍋", photo:null,
+      question:"Cosa è più dolce — lo zucchero o un limone?",
+      choices:["Lo zucchero","Il limone"], answerIndex:0,
+      trivia:"Un tempo lo zucchero era prezioso; una torta era un vero piacere dei giorni di festa.",
+      cue:{
+        open:"«Lo zucchero, di certo!» — con un sorriso, poi verso i dolci di una volta.",
+        asks:["Si facevano spesso dolci in casa vostra?","Chi cucinava i dolci?","Qual era il dolce che preferivate?"],
+        expand:"I dolci e le feste risvegliano ricordi teneri. Chiedere dei profumi — vaniglia, cannella — fa rivivere la scena.",
+        care:"Anche se i dolci erano rari, riconoscetelo con calore: «erano altri tempi»."
+      }
+    },
+    {
+      id:"it-price-02", genre:"price", emoji:"🎬", photo:null,
+      question:"Quanto costava circa un biglietto del cinema negli anni '60?",
+      choices:["Circa 300 lire","Circa 3.000 lire","Circa 30.000 lire"], answerIndex:0,
+      trivia:"Una serata al cinema era uno svago alla portata di tutti, per poche lire.",
+      cue:{
+        open:"«Al cinema per poche lire — bei tempi, vero?»",
+        asks:["Andavate spesso al cinema?","Quali film o attori vi piacevano?","Con chi ci andavate?"],
+        expand:"Non conta il prezzo esatto, ma il ricordo. Il cinegiornale, il gelato nell'intervallo, il primo appuntamento — c'è tanto da raccontare.",
+        care:"In caso di incertezza, un esempio della vostra vita aiuta a far rivivere insieme quei tempi."
+      }
+    },
+    {
+      id:"it-appliance-02", genre:"appliance", emoji:"☎️", photo:null,
+      question:"Come si componeva un numero sui vecchi telefoni?",
+      choices:["Con il disco combinatore","Con lo schermo tattile"], answerIndex:0,
+      trivia:"Si girava una cifra alla volta sul disco, con un ronzio caratteristico.",
+      cue:{
+        open:"«Il disco — girarlo ci metteva un po', vero?»",
+        asks:["Avevate il telefono in casa già presto?","Chi chiamavate più volentieri?","Ricordate il vostro vecchio numero?"],
+        expand:"Il telefono lega alla famiglia e agli amici. Il ronzio del disco riporta indietro nel tempo.",
+        care:"Molti ebbero il telefono solo tardi — è normale ed è un bel motivo di conversazione."
+      }
+    },
+    {
+      id:"it-snack-02", genre:"snack", emoji:"🍬", photo:null,
+      question:"Quali caramelle dall'incarto rosso e oro, col cuore morbido, sono un classico da generazioni?",
+      choices:["Le Rossana","Il croccante"], answerIndex:0,
+      trivia:"Le Rossana, caramelle dure con il ripieno morbido, sono amate da tantissimi da quasi un secolo.",
+      cue:{
+        open:"«Le Rossana — quell'incarto rosso e oro!» Con un sorriso, verso le golosità di un tempo.",
+        asks:["Quali caramelle si trovavano nella bottega del paese?","Avevate la paghetta per i dolci?","Qual era la vostra golosità preferita?"],
+        expand:"La bottega del quartiere e pochi spiccioli di paghetta sono bei punti d'aggancio.",
+        care:"Se i dolci erano rari, onorate quei tempi frugali con gentilezza, senza giudizio."
+      }
+    },
+    {
+      id:"it-tool-02", genre:"tool", emoji:"🧺", photo:null,
+      question:"Con cosa si lavavano i panni a mano, prima delle lavatrici?",
+      choices:["Con l'asse per lavare","Con l'aspirapolvere"], answerIndex:0,
+      trivia:"Si strofinavano i panni sull'asse, spesso al lavatoio — un vero lavoro, nel giorno del bucato.",
+      cue:{
+        open:"«L'asse per lavare — era proprio faticoso, vero?»",
+        asks:["Il giorno del bucato era un giorno fisso da voi?","Chi si occupava del bucato?","Dove stendevate i panni ad asciugare?"],
+        expand:"I lavori di casa di una volta mostrano tanta sapienza. Un «era un lavoro duro!» onora la fatica.",
+        care:"Il riconoscimento fa bene: «avete portato avanti tutto voi» rende fieri e apre il dialogo."
+      }
+    },
+    {
+      id:"it-fashion-02", genre:"fashion", emoji:"👗", photo:null,
+      question:"Quale gonna ampia e svasata, perfetta per ballare, era di moda negli anni '50?",
+      choices:["La gonna a ruota","I pantaloni a zampa d'elefante"], answerIndex:0,
+      trivia:"La gonna a ruota, larga e vaporosa, girava vorticosa nei balli degli anni '50.",
+      cue:{
+        open:"«La gonna a ruota — girava tutta quando si ballava!»",
+        asks:["Vi piaceva andare a ballare?","Quale moda vi piaceva da giovani?","Avevate un vestito preferito o un bel completo?"],
+        expand:"La moda e il ballo risvegliano la gioventù. Il primo ballo, il primo amore — belle porte da aprire.",
+        care:"Ogni ricordo è prezioso — anche un sorriso senza parole è un bel risultato."
+      }
+    },
+    {
+      id:"it-hobby-02", genre:"hobby", emoji:"🔵", photo:null,
+      question:"Come si chiamano le palline di vetro colorate con cui i bambini giocavano per terra?",
+      choices:["Le biglie","I bottoni"], answerIndex:0,
+      trivia:"Si giocava a biglie per terra; le più belle si custodivano e si scambiavano come tesori.",
+      cue:{
+        open:"«Le biglie — le più belle si tenevano come un tesoro, vero?»",
+        asks:["Collezionavate o scambiavate le biglie?","A quali giochi giocavate all'aperto?","Con chi vi piaceva giocare?"],
+        expand:"Collezionare e scambiare risvegliano i ricordi di amicizia e di vicinato.",
+        care:"Se l'infanzia è stata difficile, restate con delicatezza sui bei momenti."
+      }
+    },
+    {
+      id:"it-appliance-03", genre:"appliance", emoji:"🎵", photo:null,
+      question:"Come si ascoltava la musica preferita a casa una volta?",
+      choices:["Su un disco in vinile","Sullo smartphone"], answerIndex:0,
+      trivia:"Il disco girava sul giradischi; si appoggiava con delicatezza la puntina sul solco.",
+      cue:{
+        open:"«Mettere il disco e la puntina — un piccolo rito, vero?»",
+        asks:["Quale musica o quali cantanti vi piacevano?","Avevate un giradischi in casa?","Su quale musica ballavate?"],
+        expand:"La musica è un ancoraggio potente. Basta il titolo di una canzone e arrivano i ricordi.",
+        care:"Se una canzone commuove, è prezioso — lasciate tutto lo spazio all'emozione."
+      }
     }
   ],
 
@@ -181,7 +277,27 @@ window.SOYOGI_WS_CONTENT["it"] = {
     { id:"it-eo-04", left:{label:"Dolce", emoji:"🍰"}, right:{label:"Salato", emoji:"🥨"},
       staffCue:"«Più goloso di dolce o di salato? A cosa non sapevate resistere?»" },
     { id:"it-eo-05", left:{label:"Pasta", emoji:"🍝"}, right:{label:"Pizza", emoji:"🍕"},
-      staffCue:"«Meglio la pasta o la pizza? Qual era il piatto della domenica?»" }
+      staffCue:"«Meglio la pasta o la pizza? Qual era il piatto della domenica?»" },
+    { id:"it-eo-06", left:{label:"Radio", emoji:"📻"}, right:{label:"Televisione", emoji:"📺"},
+      staffCue:"«Radio o televisione — cosa si ascoltava di più a casa vostra?»" },
+    { id:"it-eo-07", left:{label:"Città", emoji:"🏙️"}, right:{label:"Campagna", emoji:"🌾"},
+      staffCue:"«Siete cresciuti più in città o in campagna?»" },
+    { id:"it-eo-08", left:{label:"Primavera", emoji:"🌸"}, right:{label:"Autunno", emoji:"🍂"},
+      staffCue:"«Primavera o autunno — quale stagione preferite?»" },
+    { id:"it-eo-09", left:{label:"Ballare", emoji:"💃"}, right:{label:"Cantare", emoji:"🎤"},
+      staffCue:"«Vi piaceva più ballare o cantare?»" },
+    { id:"it-eo-10", left:{label:"Cinema", emoji:"🎬"}, right:{label:"Libro", emoji:"📖"},
+      staffCue:"«Una serata al cinema o un bel libro — cosa preferivate?»" },
+    { id:"it-eo-11", left:{label:"Bicicletta", emoji:"🚲"}, right:{label:"A piedi", emoji:"🚶"},
+      staffCue:"«Vi spostavate molto in bicicletta o piuttosto a piedi?»" },
+    { id:"it-eo-12", left:{label:"Natale", emoji:"🎄"}, right:{label:"Pasqua", emoji:"🐰"},
+      staffCue:"«Natale o Pasqua — quale festa amavate di più da bambini?»" },
+    { id:"it-eo-13", left:{label:"Minestra", emoji:"🍲"}, right:{label:"Arrosto", emoji:"🍖"},
+      staffCue:"«Una buona minestra o un arrosto della domenica?»" },
+    { id:"it-eo-14", left:{label:"Gelato", emoji:"🍨"}, right:{label:"Cioccolata", emoji:"☕"},
+      staffCue:"«Un gelato d'estate o una cioccolata calda d'inverno?»" },
+    { id:"it-eo-15", left:{label:"Mattiniero", emoji:"🌅"}, right:{label:"Nottambulo", emoji:"🌙"},
+      staffCue:"«Eravate più mattinieri o nottambuli?»" }
   ],
 
   /* ---- Scheda 3: colore dell'umore (sempre positivo) ---- */
@@ -199,7 +315,13 @@ window.SOYOGI_WS_CONTENT["it"] = {
         cue:"«C'è un ricordo felice che vi fa ancora sorridere?»" },
       { key:"green",  label:"Verde", emoji:"🟢", color:"#4a9d6f",
         result:"Siete gentili e sereni — una presenza che mette gli altri a proprio agio.",
-        cue:"«C'è un luogo o un panorama dove vi sentite in pace?»" }
+        cue:"«C'è un luogo o un panorama dove vi sentite in pace?»" },
+      { key:"orange", label:"Arancione", emoji:"🟠", color:"#e8934a",
+        result:"Siete cordiali e socievoli — una persona che sa unire gli altri.",
+        cue:"«Gli amici e i vicini hanno sempre contato molto per voi?»" },
+      { key:"purple", label:"Viola", emoji:"🟣", color:"#8a6bd0",
+        result:"Siete raffinati e sensibili — di una forza tranquilla, con una ricca vita interiore.",
+        cue:"«C'è una musica o un'arte che vi ha sempre commosso?»" }
     ]
   },
 

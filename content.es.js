@@ -172,6 +172,102 @@ window.SOYOGI_WS_CONTENT["es"] = {
         expand:"Los recuerdos de juegos van de la mano con los amigos y los lugares. Los juegos de movimiento devuelven la sensación de ser joven y estar lleno de energía.",
         care:"Algunos preferían estar solos. Deje la pregunta abierta: «¿cómo le gustaba pasar el tiempo?»"
       }
+    },
+    {
+      id:"es-warmup-03", genre:"warmup", emoji:"🍋", photo:null,
+      question:"¿Qué es más dulce — el azúcar o un limón?",
+      choices:["El azúcar","El limón"], answerIndex:0,
+      trivia:"Antes el azúcar era preciado; un dulce era un verdadero placer de los días de fiesta.",
+      cue:{
+        open:"«¡El azúcar, claro!» — con una sonrisa, y luego hacia los dulces de antes.",
+        asks:["¿Se hacían dulces a menudo en su casa?","¿Quién hacía los postres?","¿Cuál era su dulce preferido?"],
+        expand:"La repostería y las fiestas despiertan recuerdos tiernos. Preguntar por los olores — canela, anís — hace revivir la escena.",
+        care:"Aunque los dulces fueran escasos, reconózcalo con cariño: «eran otros tiempos»."
+      }
+    },
+    {
+      id:"es-price-02", genre:"price", emoji:"🎬", photo:null,
+      question:"¿Cuánto costaba más o menos una entrada de cine en los años 60?",
+      choices:["Unas 10 pesetas","Unas 100 pesetas","Unas 1.000 pesetas"], answerIndex:0,
+      trivia:"Una tarde de cine era una diversión al alcance de todos, por unas pocas pesetas.",
+      cue:{
+        open:"«Al cine por unas pocas pesetas — ¡qué tiempos!, ¿verdad?»",
+        asks:["¿Iba mucho al cine?","¿Qué películas o artistas le gustaban?","¿Con quién iba al cine?"],
+        expand:"No importa el precio exacto, sino el recuerdo. El NO-DO, el descanso, la primera cita — hay mucho que contar.",
+        care:"Si duda, un ejemplo de su propia vida ayuda a hacer revivir juntos aquella época."
+      }
+    },
+    {
+      id:"es-appliance-02", genre:"appliance", emoji:"☎️", photo:null,
+      question:"¿Cómo se marcaba un número en los teléfonos antiguos?",
+      choices:["Con un disco giratorio","Con una pantalla táctil"], answerIndex:0,
+      trivia:"Se giraba cada cifra en el disco, con un zumbido característico.",
+      cue:{
+        open:"«El disco — tardaba lo suyo en girar, ¿verdad?»",
+        asks:["¿Tenían teléfono en casa desde pronto?","¿A quién llamaba con más gusto?","¿Recuerda su antiguo número?"],
+        expand:"El teléfono une con la familia y los amigos. El zumbido del disco devuelve aquellos tiempos.",
+        care:"Muchos tuvieron teléfono solo tarde — es normal y es un buen motivo de conversación."
+      }
+    },
+    {
+      id:"es-snack-02", genre:"snack", emoji:"🍭", photo:null,
+      question:"¿Qué caramelo con palo, inventado en España, se hizo famoso en todo el mundo?",
+      choices:["El Chupa Chups","El turrón"], answerIndex:0,
+      trivia:"El Chupa Chups, el caramelo con palo, nació en España a finales de los años 50 y conquistó el mundo.",
+      cue:{
+        open:"«¡El Chupa Chups!» Con una sonrisa, hacia las golosinas de antes.",
+        asks:["¿Qué golosinas había en la tienda del barrio?","¿Tenía paga para las chucherías?","¿Cuál era su golosina preferida?"],
+        expand:"La tienda del barrio y unas monedas de paga son bonitos puntos de anclaje.",
+        care:"Si los dulces eran escasos, honre aquellos tiempos de austeridad con amabilidad, sin juzgar."
+      }
+    },
+    {
+      id:"es-tool-02", genre:"tool", emoji:"🧺", photo:null,
+      question:"¿Con qué se lavaba la ropa a mano, antes de las lavadoras?",
+      choices:["Con una tabla de lavar","Con una aspiradora"], answerIndex:0,
+      trivia:"Se frotaba la ropa en la tabla, muchas veces en el lavadero — un trabajo duro, el día de la colada.",
+      cue:{
+        open:"«La tabla de lavar — era bien duro, ¿verdad?»",
+        asks:["¿El día de la colada era un día fijo en su casa?","¿Quién se ocupaba de la ropa?","¿Dónde tendía la ropa a secar?"],
+        expand:"Las tareas de antes muestran mucho saber hacer. Un «¡era un trabajo duro!» honra el esfuerzo.",
+        care:"El reconocimiento sienta bien: «lo sacó usted todo adelante» da orgullo y abre la conversación."
+      }
+    },
+    {
+      id:"es-fashion-02", genre:"fashion", emoji:"👗", photo:null,
+      question:"¿Qué falda amplia y con vuelo, ideal para bailar, se llevaba en los años 50?",
+      choices:["La falda de vuelo","Los pantalones de campana"], answerIndex:0,
+      trivia:"La falda de vuelo, ancha y ligera, giraba al ritmo de los bailes de los años 50.",
+      cue:{
+        open:"«La falda de vuelo — ¡cómo giraba al bailar!»",
+        asks:["¿Le gustaba ir a bailar?","¿Qué moda le gustaba de joven?","¿Tenía un vestido preferido o un buen traje?"],
+        expand:"La moda y el baile despiertan la juventud. El primer baile, el primer amor — bonitas puertas que abrir.",
+        care:"Cada recuerdo es valioso — incluso una sonrisa sin palabras es un buen resultado."
+      }
+    },
+    {
+      id:"es-hobby-02", genre:"hobby", emoji:"🔵", photo:null,
+      question:"¿Cómo se llaman las bolitas de cristal de colores con las que jugaban los niños en el suelo?",
+      choices:["Las canicas","Los botones"], answerIndex:0,
+      trivia:"Se jugaba a las canicas en el suelo; las más bonitas se guardaban y se cambiaban como tesoros.",
+      cue:{
+        open:"«Las canicas — las más bonitas se guardaban como un tesoro, ¿verdad?»",
+        asks:["¿Coleccionaba o cambiaba canicas?","¿A qué jugaba en la calle?","¿Con quién le gustaba jugar?"],
+        expand:"Coleccionar e intercambiar despiertan los recuerdos de amistad y de vecindario.",
+        care:"Si la infancia fue difícil, quédese con delicadeza en los buenos momentos."
+      }
+    },
+    {
+      id:"es-appliance-03", genre:"appliance", emoji:"🎵", photo:null,
+      question:"¿Cómo se escuchaba la música preferida en casa antiguamente?",
+      choices:["En un disco de vinilo","En un teléfono móvil"], answerIndex:0,
+      trivia:"El disco giraba en el tocadiscos; se posaba con cuidado la aguja sobre el surco.",
+      cue:{
+        open:"«Poner el disco y la aguja — todo un pequeño ritual, ¿verdad?»",
+        asks:["¿Qué música o qué cantantes le gustaban?","¿Tenían tocadiscos en casa?","¿Con qué música bailaba?"],
+        expand:"La música es un ancla poderosa. Basta el título de una canción para que lleguen las historias.",
+        care:"Si una canción emociona, es valioso — deje todo el espacio a la emoción."
+      }
     }
   ],
 
@@ -186,7 +282,27 @@ window.SOYOGI_WS_CONTENT["es"] = {
     { id:"es-eo-04", left:{label:"Dulce", emoji:"🍰"}, right:{label:"Salado", emoji:"🥨"},
       staffCue:"«¿Más de dulce o de salado? ¿A qué no podía resistirse?»" },
     { id:"es-eo-05", left:{label:"Paella", emoji:"🥘"}, right:{label:"Tortilla", emoji:"🍳"},
-      staffCue:"«¿Paella o tortilla de patatas? ¿Cuál era el plato de los domingos?»" }
+      staffCue:"«¿Paella o tortilla de patatas? ¿Cuál era el plato de los domingos?»" },
+    { id:"es-eo-06", left:{label:"Radio", emoji:"📻"}, right:{label:"Televisión", emoji:"📺"},
+      staffCue:"«¿Radio o televisión — qué se escuchaba más en su casa?»" },
+    { id:"es-eo-07", left:{label:"Ciudad", emoji:"🏙️"}, right:{label:"Campo", emoji:"🌾"},
+      staffCue:"«¿Se crió más en la ciudad o en el campo?»" },
+    { id:"es-eo-08", left:{label:"Primavera", emoji:"🌸"}, right:{label:"Otoño", emoji:"🍂"},
+      staffCue:"«¿Primavera u otoño — qué estación prefiere?»" },
+    { id:"es-eo-09", left:{label:"Bailar", emoji:"💃"}, right:{label:"Cantar", emoji:"🎤"},
+      staffCue:"«¿Le gustaba más bailar o cantar?»" },
+    { id:"es-eo-10", left:{label:"Cine", emoji:"🎬"}, right:{label:"Libro", emoji:"📖"},
+      staffCue:"«¿Una tarde de cine o un buen libro — qué prefería?»" },
+    { id:"es-eo-11", left:{label:"Bicicleta", emoji:"🚲"}, right:{label:"A pie", emoji:"🚶"},
+      staffCue:"«¿Se movía mucho en bicicleta o más bien a pie?»" },
+    { id:"es-eo-12", left:{label:"Navidad", emoji:"🎄"}, right:{label:"Semana Santa", emoji:"🕯️"},
+      staffCue:"«¿Navidad o Semana Santa — qué le gustaba más de niño?»" },
+    { id:"es-eo-13", left:{label:"Sopa", emoji:"🍲"}, right:{label:"Asado", emoji:"🍖"},
+      staffCue:"«¿Un buen cocido o un asado del domingo?»" },
+    { id:"es-eo-14", left:{label:"Helado", emoji:"🍨"}, right:{label:"Chocolate", emoji:"☕"},
+      staffCue:"«¿Un helado en verano o un chocolate caliente en invierno?»" },
+    { id:"es-eo-15", left:{label:"Madrugador", emoji:"🌅"}, right:{label:"Noctámbulo", emoji:"🌙"},
+      staffCue:"«¿Era más madrugador o noctámbulo?»" }
   ],
 
   /* ---- Pestaña 3: color del ánimo (siempre positivo) ---- */
@@ -204,7 +320,13 @@ window.SOYOGI_WS_CONTENT["es"] = {
         cue:"«¿Hay un recuerdo feliz que todavía le hace sonreír?»" },
       { key:"green",  label:"Verde",    emoji:"🟢", color:"#4a9d6f",
         result:"Es usted amable y sereno/a — una presencia que tranquiliza a los demás.",
-        cue:"«¿Hay un lugar o un paisaje donde se sienta en paz?»" }
+        cue:"«¿Hay un lugar o un paisaje donde se sienta en paz?»" },
+      { key:"orange", label:"Naranja",  emoji:"🟠", color:"#e8934a",
+        result:"Es usted cordial y sociable — alguien que sabe unir a la gente.",
+        cue:"«¿Han contado siempre mucho para usted los amigos y los vecinos?»" },
+      { key:"purple", label:"Morado",   emoji:"🟣", color:"#8a6bd0",
+        result:"Es usted refinado/a y sensible — de una fuerza serena, con una rica vida interior.",
+        cue:"«¿Hay una música o un arte que siempre le haya conmovido?»" }
     ]
   },
 

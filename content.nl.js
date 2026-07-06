@@ -171,6 +171,102 @@ window.SOYOGI_WS_CONTENT["nl"] = {
         expand:"Spelherinneringen horen bij vriendjes en plekken. Bewegingsspelletjes brengen het gevoel terug van jong en vol energie zijn.",
         care:"Sommigen waren liever alleen. Houd de vraag open: «hoe bracht u uw tijd graag door?»"
       }
+    },
+    {
+      id:"nl-warmup-03", genre:"warmup", emoji:"🍋", photo:null,
+      question:"Wat is zoeter — suiker of een citroen?",
+      choices:["Suiker","Citroen"], answerIndex:0,
+      trivia:"Vroeger was suiker kostbaar; een gebakje was een echte traktatie op feestdagen.",
+      cue:{
+        open:"«De suiker natuurlijk!» — met een glimlach, en dan naar het zoets van vroeger.",
+        asks:["Werd er bij u thuis vaak gebakken?","Wie bakte er?","Welk gebak vond u het lekkerst?"],
+        expand:"Bakken en feestdagen roepen warme herinneringen op. Vraag naar geuren — vanille, kaneel — en het beeld leeft op.",
+        care:"Ook als zoetigheid schaars was, erken dat met warmte: «het was een andere tijd»."
+      }
+    },
+    {
+      id:"nl-price-02", genre:"price", emoji:"🎬", photo:null,
+      question:"Wat kostte rond de jaren 60 ongeveer een bioscoopkaartje?",
+      choices:["Ongeveer 2 gulden","Ongeveer 20 gulden","Ongeveer 200 gulden"], answerIndex:0,
+      trivia:"Een avondje bioscoop was voor de meesten betaalbaar, voor een paar gulden.",
+      cue:{
+        open:"«Naar de film voor een paar gulden — mooie tijden, hè?»",
+        asks:["Ging u vaak naar de bioscoop?","Welke films of sterren vond u leuk?","Met wie ging u naar de film?"],
+        expand:"Het gaat niet om de exacte prijs, maar om de herinnering. Het journaal, het ijsje in de pauze, het eerste afspraakje — genoeg om over te vertellen.",
+        care:"Bij twijfel helpt een voorbeeld uit uw eigen leven om die tijd samen op te roepen."
+      }
+    },
+    {
+      id:"nl-appliance-02", genre:"appliance", emoji:"☎️", photo:null,
+      question:"Hoe draaide je een nummer op de oude telefoons?",
+      choices:["Met een draaischijf","Met een aanraakscherm"], answerIndex:0,
+      trivia:"Je draaide elk cijfer apart op de schijf, met een kenmerkend snorrend geluid.",
+      cue:{
+        open:"«De draaischijf — dat draaien duurde nogal, hè?»",
+        asks:["Had u vroeg een eigen telefoon in huis?","Wie belde u het liefst?","Weet u uw oude telefoonnummer nog?"],
+        expand:"De telefoon verbindt met familie en vrienden. Het gesnor van de schijf haalt die tijd terug.",
+        care:"Velen kregen pas laat een telefoon — dat is heel gewoon en een fijn gespreksonderwerp."
+      }
+    },
+    {
+      id:"nl-snack-02", genre:"snack", emoji:"🍬", photo:null,
+      question:"Welk snoepje veranderde van kleur terwijl je erop zoog?",
+      choices:["De toverbal","De stroopwafel"], answerIndex:0,
+      trivia:"De toverbal wisselde laag na laag van kleur — kinderen haalden hem uit hun mond om te kijken welke kleur er nu was.",
+      cue:{
+        open:"«De toverbal — je haalde hem er steeds uit om de kleur te zien, hè?»",
+        asks:["Welk snoep was er in het winkeltje in de buurt?","Kreeg u zakgeld voor snoep?","Wat was uw lievelingssnoep?"],
+        expand:"Het buurtwinkeltje en een paar centen zakgeld zijn mooie ankerpunten.",
+        care:"Als snoep schaars was, eer die zuinige tijd met vriendelijkheid, zonder oordeel."
+      }
+    },
+    {
+      id:"nl-tool-02", genre:"tool", emoji:"🧺", photo:null,
+      question:"Waarmee waste men vroeger de was met de hand, vóór de wasmachine?",
+      choices:["Met een wasbord","Met een stofzuiger"], answerIndex:0,
+      trivia:"Je boende de was schoon op het wasbord in een teil — zwaar werk, op de vaste wasdag.",
+      cue:{
+        open:"«Het wasbord — dat was flink zwaar werk, hè?»",
+        asks:["Was de wasdag bij u een vaste dag?","Wie deed de was?","Waar hing u de was te drogen?"],
+        expand:"Het huishoudwerk van vroeger getuigt van veel kunde. Een «dat was zwaar werk!» eert de moeite.",
+        care:"Erkenning doet goed: «u heeft dat allemaal gedaan» geeft trots en opent het gesprek."
+      }
+    },
+    {
+      id:"nl-fashion-02", genre:"fashion", emoji:"👗", photo:null,
+      question:"Welke wijde, zwierige rok was in de jaren 50 in de mode, ideaal om in te dansen?",
+      choices:["De wijde rok","De broek met olifantspijpen"], answerIndex:0,
+      trivia:"De wijde rok met petticoat zwierde rond bij het dansen in de jaren 50.",
+      cue:{
+        open:"«De wijde rok — die zwierde helemaal rond bij het dansen!»",
+        asks:["Ging u graag dansen?","Welke mode vond u mooi als jongere?","Had u een lievelingsjurk of een mooi pak?"],
+        expand:"Mode en dans roepen de jeugd op. De eerste dans, de eerste liefde — mooie deuren om te openen.",
+        care:"Elke herinnering is waardevol — ook een glimlach zonder woorden is een mooi resultaat."
+      }
+    },
+    {
+      id:"nl-hobby-02", genre:"hobby", emoji:"🔵", photo:null,
+      question:"Hoe heten de kleine gekleurde glazen balletjes waarmee kinderen op de grond speelden?",
+      choices:["Knikkers","Knopen"], answerIndex:0,
+      trivia:"Je knikkerde op de grond; de mooiste knikkers bewaarde en ruilde je als schatten.",
+      cue:{
+        open:"«Knikkers — de mooiste bewaarde je als een schat, hè?»",
+        asks:["Verzamelde of ruilde u knikkers?","Welke spelletjes speelde u buiten?","Met wie speelde u het liefst?"],
+        expand:"Verzamelen en ruilen roepen herinneringen op aan vriendschap en de buurt.",
+        care:"Als de kindertijd zwaar was, blijf dan zacht bij de mooie momenten."
+      }
+    },
+    {
+      id:"nl-appliance-03", genre:"appliance", emoji:"🎵", photo:null,
+      question:"Hoe luisterde men vroeger thuis naar de favoriete muziek?",
+      choices:["Op een grammofoonplaat","Op een smartphone"], answerIndex:0,
+      trivia:"De plaat draaide op de platenspeler; je legde voorzichtig de naald in de groef.",
+      cue:{
+        open:"«De plaat opleggen en de naald erop — een klein ritueel, hè?»",
+        asks:["Welke muziek of welke zangers vond u mooi?","Had u een platenspeler thuis?","Op welke muziek danste u?"],
+        expand:"Muziek is een sterk ankerpunt. Eén liedtitel is vaak genoeg en de verhalen komen los.",
+        care:"Als een lied ontroert, is dat mooi — geef het gevoel alle ruimte."
+      }
     }
   ],
 
@@ -185,7 +281,27 @@ window.SOYOGI_WS_CONTENT["nl"] = {
     { id:"nl-eo-04", left:{label:"Zoet", emoji:"🍰"}, right:{label:"Hartig", emoji:"🥨"},
       staffCue:"«Bent u meer van zoet of hartig? Waar kon u geen nee tegen zeggen?»" },
     { id:"nl-eo-05", left:{label:"Fiets", emoji:"🚲"}, right:{label:"Wandelen", emoji:"🚶"},
-      staffCue:"«Ging u er liever op uit met de fiets of te voet?»" }
+      staffCue:"«Ging u er liever op uit met de fiets of te voet?»" },
+    { id:"nl-eo-06", left:{label:"Radio", emoji:"📻"}, right:{label:"Televisie", emoji:"📺"},
+      staffCue:"«Radio of televisie — waar luisterde u thuis het meest naar?»" },
+    { id:"nl-eo-07", left:{label:"Stad", emoji:"🏙️"}, right:{label:"Platteland", emoji:"🌾"},
+      staffCue:"«Bent u meer in de stad of op het platteland opgegroeid?»" },
+    { id:"nl-eo-08", left:{label:"Lente", emoji:"🌸"}, right:{label:"Herfst", emoji:"🍂"},
+      staffCue:"«Lente of herfst — welk seizoen vindt u het mooist?»" },
+    { id:"nl-eo-09", left:{label:"Dansen", emoji:"💃"}, right:{label:"Zingen", emoji:"🎤"},
+      staffCue:"«Hield u meer van dansen of van zingen?»" },
+    { id:"nl-eo-10", left:{label:"Bioscoop", emoji:"🎬"}, right:{label:"Boek", emoji:"📖"},
+      staffCue:"«Een avondje bioscoop of een goed boek — wat had u liever?»" },
+    { id:"nl-eo-11", left:{label:"Kerst", emoji:"🎄"}, right:{label:"Sinterklaas", emoji:"🎁"},
+      staffCue:"«Kerst of Sinterklaas — welk feest vond u als kind het leukst?»" },
+    { id:"nl-eo-12", left:{label:"Soep", emoji:"🍲"}, right:{label:"Braadstuk", emoji:"🍖"},
+      staffCue:"«Een lekkere soep of een zondags braadstuk?»" },
+    { id:"nl-eo-13", left:{label:"IJsje", emoji:"🍨"}, right:{label:"Warme chocola", emoji:"☕"},
+      staffCue:"«Een ijsje in de zomer of warme chocolademelk in de winter?»" },
+    { id:"nl-eo-14", left:{label:"Schaatsen", emoji:"⛸️"}, right:{label:"Zwemmen", emoji:"🏊"},
+      staffCue:"«Ging u liever schaatsen in de winter of zwemmen in de zomer?»" },
+    { id:"nl-eo-15", left:{label:"Vroege vogel", emoji:"🌅"}, right:{label:"Nachtbraker", emoji:"🌙"},
+      staffCue:"«Was u meer een vroege vogel of een nachtbraker?»" }
   ],
 
   /* ---- Tabblad 3: kleurstemming (altijd positief) ---- */
@@ -203,7 +319,13 @@ window.SOYOGI_WS_CONTENT["nl"] = {
         cue:"«Is er een fijne herinnering waar u nog om moet glimlachen?»" },
       { key:"green",  label:"Groen",  emoji:"🟢", color:"#4a9d6f",
         result:"U bent zacht en evenwichtig — een rustgevende aanwezigheid die goed doet.",
-        cue:"«Is er een plek of een uitzicht waar u zich rustig voelt?»" }
+        cue:"«Is er een plek of een uitzicht waar u zich rustig voelt?»" },
+      { key:"orange", label:"Oranje", emoji:"🟠", color:"#e8934a",
+        result:"U bent hartelijk en gezellig — iemand die mensen samenbrengt.",
+        cue:"«Zijn vrienden en buren altijd belangrijk voor u geweest?»" },
+      { key:"purple", label:"Paars",  emoji:"🟣", color:"#8a6bd0",
+        result:"U bent verfijnd en gevoelig — stil sterk, met een rijk innerlijk leven.",
+        cue:"«Is er muziek of kunst die u altijd heeft geraakt?»" }
     ]
   },
 

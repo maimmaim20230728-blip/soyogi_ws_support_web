@@ -9,3 +9,6 @@ Thumbs.db
 # admin-only messages / local data (万一の混入防止)
 admin_messages.json
 *.local
+
+# local preview helper (ポート競合回避用のローカル静的サーバ。デプロイには不要)
+serve.js

@@ -168,6 +168,102 @@ window.SOYOGI_WS_CONTENT["fr"] = {
         expand:"Les souvenirs de jeux vont de pair avec les amis et les lieux. Les jeux actifs raniment la sensation d'être jeune et plein d'énergie.",
         care:"Certains étaient plutôt solitaires. Gardez la question ouverte : « comment aimiez-vous passer votre temps ? »"
       }
+    },
+    {
+      id:"fr-warmup-03", genre:"warmup", emoji:"🍋", photo:null,
+      question:"Qu'est-ce qui est plus sucré — le sucre ou un citron ?",
+      choices:["Le sucre","Le citron"], answerIndex:0,
+      trivia:"Le sucre était précieux autrefois ; un gâteau, c'était un vrai plaisir des jours de fête.",
+      cue:{
+        open:"« Le sucre, bien sûr ! » — avec un sourire, puis vers les douceurs d'autrefois.",
+        asks:["Faisait-on souvent des gâteaux chez vous ?","Qui pâtissait à la maison ?","Quel gâteau préfériez-vous ?"],
+        expand:"La pâtisserie et les fêtes réveillent des souvenirs tendres. Demander les parfums — vanille, fleur d'oranger — fait revivre la scène.",
+        care:"Même si les douceurs étaient rares, saluez cela avec chaleur : « c'était une autre époque »."
+      }
+    },
+    {
+      id:"fr-price-02", genre:"price", emoji:"🎬", photo:null,
+      question:"Combien coûtait environ une place de cinéma dans les années 1960 ?",
+      choices:["Environ 3 francs","Environ 30 francs","Environ 300 francs"], answerIndex:0,
+      trivia:"Une sortie au cinéma était un plaisir accessible, pour quelques francs.",
+      cue:{
+        open:"« Une place pour quelques francs — quelle belle époque, n'est-ce pas ? »",
+        asks:["Alliez-vous souvent au cinéma ?","Quels films ou quelles vedettes aimiez-vous ?","Avec qui y alliez-vous ?"],
+        expand:"Ce n'est pas le prix exact qui compte, mais le souvenir. Les actualités, l'entracte, le premier rendez-vous — tout cela fait parler.",
+        care:"En cas d'hésitation, un exemple de votre propre vie aide à faire renaître l'époque ensemble."
+      }
+    },
+    {
+      id:"fr-appliance-02", genre:"appliance", emoji:"☎️", photo:null,
+      question:"Comment composait-on un numéro sur les anciens téléphones ?",
+      choices:["Avec un cadran rotatif","Avec un écran tactile"], answerIndex:0,
+      trivia:"On tournait chaque chiffre sur le cadran, avec un petit ronronnement caractéristique.",
+      cue:{
+        open:"« Le cadran — c'était long à faire tourner, n'est-ce pas ? »",
+        asks:["Aviez-vous le téléphone à la maison de bonne heure ?","Qui appeliez-vous le plus volontiers ?","Vous souvenez-vous de votre ancien numéro ?"],
+        expand:"Le téléphone relie à la famille et aux amis. Le ronronnement du cadran ramène l'époque.",
+        care:"Beaucoup n'ont eu le téléphone que tard — c'est normal et cela fait un bon sujet."
+      }
+    },
+    {
+      id:"fr-snack-02", genre:"snack", emoji:"🍬", photo:null,
+      question:"Quelle friandise se léchait au fond d'un petit coquillage en plastique ?",
+      choices:["Le roudoudou","Le nougat"], answerIndex:0,
+      trivia:"Le roudoudou, ce bonbon dur au fond d'une coquille, faisait le bonheur des enfants pour quelques centimes.",
+      cue:{
+        open:"« Le roudoudou — on le léchait jusqu'au bout ! » Avec un sourire, vers les bonbons d'antan.",
+        asks:["Quels bonbons trouvait-on à l'épicerie du coin ?","Aviez-vous de l'argent de poche pour les friandises ?","Quelle était votre gourmandise préférée ?"],
+        expand:"L'épicerie du quartier et quelques sous de poche sont de jolis points d'ancrage.",
+        care:"Si les douceurs étaient rares, honorez cette époque frugale avec bienveillance, sans jugement."
+      }
+    },
+    {
+      id:"fr-tool-02", genre:"tool", emoji:"🧺", photo:null,
+      question:"Avec quoi lavait-on le linge à la main, avant les machines à laver ?",
+      choices:["Avec une planche à laver","Avec un aspirateur"], answerIndex:0,
+      trivia:"On frottait le linge sur la planche, souvent au lavoir — un vrai travail, le jour de lessive.",
+      cue:{
+        open:"« La planche à laver — c'était bien fatigant, n'est-ce pas ? »",
+        asks:["Le jour de lessive était-il un jour fixe chez vous ?","Qui s'occupait du linge ?","Où faisiez-vous sécher le linge ?"],
+        expand:"Les tâches d'autrefois montrent beaucoup de savoir-faire. Un « c'était un travail difficile ! » honore la peine.",
+        care:"La reconnaissance fait du bien : « vous avez tout tenu à bout de bras » rend fier et ouvre la parole."
+      }
+    },
+    {
+      id:"fr-fashion-02", genre:"fashion", emoji:"👗", photo:null,
+      question:"Quelle silhouette à taille fine et jupe ample, lancée par Dior, a marqué l'après-guerre ?",
+      choices:["Le New Look","Le pantalon pattes d'éléphant"], answerIndex:0,
+      trivia:"Le « New Look » de Christian Dior, présenté en 1947, a redonné de l'élégance et de l'ampleur aux robes.",
+      cue:{
+        open:"« Le New Look — ces jupes qui tournoyaient à la danse ! »",
+        asks:["Aimiez-vous aller danser ?","Quelle mode aimiez-vous, jeune ?","Aviez-vous une robe préférée ou un beau costume ?"],
+        expand:"La mode et la danse réveillent la jeunesse. Le premier bal, le premier amour — de belles portes à ouvrir.",
+        care:"Chaque souvenir compte — même un sourire sans mots est un joli résultat."
+      }
+    },
+    {
+      id:"fr-hobby-02", genre:"hobby", emoji:"🔵", photo:null,
+      question:"Comment appelle-t-on les petites boules de verre colorées avec lesquelles jouaient les enfants par terre ?",
+      choices:["Les billes","Les boutons"], answerIndex:0,
+      trivia:"On jouait aux billes par terre ; les plus belles se gardaient et s'échangeaient comme des trésors.",
+      cue:{
+        open:"« Les billes — on gardait les plus belles comme un trésor, n'est-ce pas ? »",
+        asks:["Collectionniez-vous ou échangiez-vous des billes ?","À quels jeux jouiez-vous dehors ?","Avec qui aimiez-vous jouer ?"],
+        expand:"Collectionner et échanger réveillent les souvenirs d'amitié et de voisinage.",
+        care:"Si l'enfance a été difficile, restez tout en douceur sur les beaux moments."
+      }
+    },
+    {
+      id:"fr-appliance-03", genre:"appliance", emoji:"🎵", photo:null,
+      question:"Comment écoutait-on sa musique préférée à la maison autrefois ?",
+      choices:["Sur un disque vinyle","Sur un smartphone"], answerIndex:0,
+      trivia:"Le disque tournait sur l'électrophone ; on posait délicatement le saphir sur le sillon.",
+      cue:{
+        open:"« Poser le disque et l'aiguille — un vrai petit rituel, n'est-ce pas ? »",
+        asks:["Quelle musique ou quels chanteurs aimiez-vous ?","Aviez-vous un tourne-disque à la maison ?","Sur quelle musique dansiez-vous ?"],
+        expand:"La musique est un ancrage puissant. Un titre de chanson suffit souvent à faire venir les histoires.",
+        care:"Si une chanson émeut, c'est précieux — laissez toute sa place à l'émotion."
+      }
     }
   ],
 
@@ -182,7 +278,27 @@ window.SOYOGI_WS_CONTENT["fr"] = {
     { id:"fr-eo-04", left:{label:"Sucré", emoji:"🍰"}, right:{label:"Salé", emoji:"🥨"},
       staffCue:"« Plutôt bec sucré ou salé ? Quelle gourmandise ne pouviez-vous pas refuser ? »" },
     { id:"fr-eo-05", left:{label:"Baguette", emoji:"🥖"}, right:{label:"Croissant", emoji:"🥐"},
-      staffCue:"« Baguette ou croissant au petit-déjeuner ? Où achetiez-vous votre pain ? »" }
+      staffCue:"« Baguette ou croissant au petit-déjeuner ? Où achetiez-vous votre pain ? »" },
+    { id:"fr-eo-06", left:{label:"Radio", emoji:"📻"}, right:{label:"Télévision", emoji:"📺"},
+      staffCue:"« Radio ou télévision — qu'écoutait-on le plus chez vous ? »" },
+    { id:"fr-eo-07", left:{label:"Ville", emoji:"🏙️"}, right:{label:"Campagne", emoji:"🌾"},
+      staffCue:"« Avez-vous plutôt grandi en ville ou à la campagne ? »" },
+    { id:"fr-eo-08", left:{label:"Printemps", emoji:"🌸"}, right:{label:"Automne", emoji:"🍂"},
+      staffCue:"« Printemps ou automne — quelle saison préférez-vous ? »" },
+    { id:"fr-eo-09", left:{label:"Danser", emoji:"💃"}, right:{label:"Chanter", emoji:"🎤"},
+      staffCue:"« Aimiez-vous plutôt danser ou chanter ? »" },
+    { id:"fr-eo-10", left:{label:"Cinéma", emoji:"🎬"}, right:{label:"Lecture", emoji:"📖"},
+      staffCue:"« Une séance de cinéma ou un bon livre — que préfériez-vous ? »" },
+    { id:"fr-eo-11", left:{label:"Vélo", emoji:"🚲"}, right:{label:"À pied", emoji:"🚶"},
+      staffCue:"« Vous déplaciez-vous beaucoup à vélo ou plutôt à pied ? »" },
+    { id:"fr-eo-12", left:{label:"Noël", emoji:"🎄"}, right:{label:"Pâques", emoji:"🐰"},
+      staffCue:"« Noël ou Pâques — quelle fête aimiez-vous le plus, enfant ? »" },
+    { id:"fr-eo-13", left:{label:"Soupe", emoji:"🍲"}, right:{label:"Rôti", emoji:"🍖"},
+      staffCue:"« Une bonne soupe ou un rôti du dimanche ? »" },
+    { id:"fr-eo-14", left:{label:"Fromage", emoji:"🧀"}, right:{label:"Dessert", emoji:"🍮"},
+      staffCue:"« En fin de repas, plutôt fromage ou dessert ? »" },
+    { id:"fr-eo-15", left:{label:"Lève-tôt", emoji:"🌅"}, right:{label:"Couche-tard", emoji:"🌙"},
+      staffCue:"« Étiez-vous plutôt lève-tôt ou couche-tard ? »" }
   ],
 
   /* ---- Onglet 3 : couleur du moment (toujours positif) ---- */
@@ -200,7 +316,13 @@ window.SOYOGI_WS_CONTENT["fr"] = {
         cue:"« Avez-vous un souvenir joyeux qui vous fait encore sourire ? »" },
       { key:"green",  label:"Vert",  emoji:"🟢", color:"#4a9d6f",
         result:"Vous êtes doux(ce) et posé(e) — une présence apaisante qui fait du bien.",
-        cue:"« Y a-t-il un lieu ou un paysage où vous vous sentez en paix ? »" }
+        cue:"« Y a-t-il un lieu ou un paysage où vous vous sentez en paix ? »" },
+      { key:"orange", label:"Orange", emoji:"🟠", color:"#e8934a",
+        result:"Vous êtes chaleureux(se) et sociable — quelqu'un qui rassemble les gens autour de lui.",
+        cue:"« Vos amis et vos voisins ont-ils toujours beaucoup compté pour vous ? »" },
+      { key:"purple", label:"Violet", emoji:"🟣", color:"#8a6bd0",
+        result:"Vous êtes raffiné(e) et sensible — d'une force tranquille, avec une riche vie intérieure.",
+        cue:"« Y a-t-il une musique ou un art qui vous a toujours touché(e) ? »" }
     ]
   },
 
