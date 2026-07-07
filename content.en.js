@@ -1205,6 +1205,7 @@ window.SOYOGI_WS_CONTENT["en"] = {
     { month:4,  day:11, type:"birth", name:"Percy Lavon Julian",    note:"American research chemist. Born in 1899. A pioneer in making medicines from plants." },
     { month:4,  day:19, type:"death", name:"Percy Lavon Julian",    note:"Chemist. Died in 1975. He overcame prejudice to become a leading scientist." },
     { month:10, day:8,  type:"birth", name:"Eddie Rickenbacker",    note:"American aviator. Born in 1890. The top American flying ace of World War I." },
-    { month:7,  day:23, type:"death", name:"Eddie Rickenbacker",    note:"Aviator. Died in 1973. He later led Eastern Air Lines." }
+    { month:7,  day:23, type:"death", name:"Eddie Rickenbacker",    note:"Aviator. Died in 1973. He later led Eastern Air Lines." },
+    { month:12, day:1,  type:"birth", name:"Rex Stout",             note:"American mystery writer. Born in 1886. Creator of the detective Nero Wolfe and his assistant Archie Goodwin." }
   ]
 };
