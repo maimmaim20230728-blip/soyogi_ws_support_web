@@ -60,6 +60,18 @@ window.SOYOGI_WS_CONTENT["nl"] = {
 
   /* ---- Tabblad 1: op deze dag (geverifieerde data + feestdagen year:null) ---- */
   onThisDay: [
+    { month:3, day:7, year:1876, emoji:"☎️", text:"Alexander Graham Bell krijgt het patent op de telefoon." },
+    { month:7, day:13, year:1930, emoji:"⚽", text:"Het eerste WK voetbal begint in Uruguay." },
+    { month:5, day:6, year:1994, emoji:"🚇", text:"De Kanaaltunnel wordt geopend en verbindt Groot-Brittannië en Frankrijk per spoor." },
+    { month:10, day:28, year:1886, emoji:"🗽", text:"Het Vrijheidsbeeld wordt onthuld in de haven van New York." },
+    { month:4, day:6, year:1896, emoji:"🏅", text:"De eerste moderne Olympische Spelen worden geopend in Athene." },
+    { month:9, day:28, year:1928, emoji:"💊", text:"Alexander Fleming ontdekt penicilline, het eerste antibioticum." },
+    { month:3, day:18, year:1965, emoji:"🚀", text:"Aleksej Leonov maakt de allereerste ruimtewandeling." },
+    { month:4, day:25, year:1953, emoji:"🧬", text:"Watson en Crick onthullen de dubbele-helixstructuur van het DNA." },
+    { month:11, day:8, year:1895, emoji:"🩻", text:"Wilhelm Röntgen ontdekt de röntgenstralen." },
+    { month:12, day:14, year:1911, emoji:"🧭", text:"Roald Amundsen bereikt als eerste de Zuidpool." },
+    { month:11, day:17, year:1869, emoji:"🚢", text:"Het Suezkanaal wordt geopend en verbindt de Middellandse Zee met de Rode Zee." },
+    { month:4, day:24, year:1990, emoji:"🔭", text:"De ruimtetelescoop Hubble wordt in een baan om de aarde gebracht." },
     { month:5, day:4, year:null, emoji:"🕯️", text:"Vandaag is het Dodenherdenking." },
     { month:5, day:5, year:null, emoji:"🕊️", text:"Vandaag is het Bevrijdingsdag." },
     { month:12, day:26, year:null, emoji:"✨", text:"Vandaag is het Tweede Kerstdag." },
