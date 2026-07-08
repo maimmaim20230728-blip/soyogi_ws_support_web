@@ -59,6 +59,14 @@ window.SOYOGI_WS_CONTENT["en"] = {
 
   /* ---- Tab 1: on this day (verified history + year:null annual customs) ---- */
   onThisDay: [
+    { month:8, day:1, year:1981, emoji:"📺", text:"MTV began broadcasting, launching the age of music videos." },
+    { month:2, day:18, year:1930, emoji:"🪐", text:"Clyde Tombaugh discovered Pluto." },
+    { month:6, day:20, year:1975, emoji:"🦈", text:"Jaws opened in theaters — often called the first summer blockbuster." },
+    { month:3, day:19, year:1932, emoji:"🌉", text:"The Sydney Harbour Bridge opened in Australia." },
+    { month:10, day:15, year:1951, emoji:"📺", text:"The TV comedy I Love Lucy premiered." },
+    { month:2, day:15, year:1946, emoji:"💻", text:"ENIAC, one of the first electronic computers, was unveiled." },
+    { month:8, day:6, year:1991, emoji:"🌐", text:"Tim Berners-Lee made the World Wide Web public." },
+    { month:6, day:6, year:1944, emoji:"🕊️", text:"D-Day: Allied forces landed in Normandy, beginning the liberation of Western Europe." },
     { month:8, day:25, year:1939, emoji:"🎬", text:"The Wizard of Oz opened in cinemas across the United States." },
     { month:7, day:13, year:1985, emoji:"🎤", text:"Live Aid, a global charity rock concert, was held in London and Philadelphia." },
     { month:8, day:15, year:1914, emoji:"🚢", text:"The Panama Canal opened, joining the Atlantic and Pacific Oceans." },
