@@ -60,6 +60,12 @@ window.SOYOGI_WS_CONTENT["nl"] = {
 
   /* ---- Tabblad 1: op deze dag (geverifieerde data + feestdagen year:null) ---- */
   onThisDay: [
+    { month:5, day:4, year:null, emoji:"🕯️", text:"Vandaag is het Dodenherdenking." },
+    { month:5, day:5, year:null, emoji:"🕊️", text:"Vandaag is het Bevrijdingsdag." },
+    { month:12, day:26, year:null, emoji:"✨", text:"Vandaag is het Tweede Kerstdag." },
+    { month:12, day:17, year:1903, emoji:"✈️", text:"De gebroeders Wright maken de eerste gemotoriseerde vlucht ter wereld." },
+    { month:12, day:3, year:1967, emoji:"🏥", text:"De eerste harttransplantatie ter wereld wordt uitgevoerd." },
+    { month:4, day:12, year:1961, emoji:"🚀", text:"Joeri Gagarin wordt de eerste mens in de ruimte." },
     { month:6,  day:25, year:1988, text:"Nederland wint het EK voetbal.", emoji:"🏆" },
     { month:7,  day:20, year:1980, text:"Joop Zoetemelk wint de Tour de France.", emoji:"🚴" },
     { month:1,  day:4,  year:1997, text:"De laatste Elfstedentocht wordt gereden.", emoji:"⛸️" },

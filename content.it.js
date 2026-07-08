@@ -58,6 +58,16 @@ window.SOYOGI_WS_CONTENT["it"] = {
 
   /* ---- Scheda 1: accadde oggi (eventi lieti e verificati) ---- */
   onThisDay: [
+    { month:1, day:1, year:null, emoji:"🎉", text:"Oggi è Capodanno — il primo giorno del nuovo anno." },
+    { month:1, day:6, year:null, emoji:"🧙", text:"Oggi è l'Epifania — arriva la Befana." },
+    { month:4, day:25, year:null, emoji:"🇮🇹", text:"Oggi è la Festa della Liberazione." },
+    { month:5, day:1, year:null, emoji:"🛠️", text:"Oggi è la Festa dei Lavoratori." },
+    { month:12, day:8, year:null, emoji:"⛪", text:"Oggi è l'Immacolata Concezione." },
+    { month:12, day:25, year:null, emoji:"🎄", text:"Oggi è Natale — un giorno di famiglia e di doni." },
+    { month:12, day:26, year:null, emoji:"✨", text:"Oggi è Santo Stefano." },
+    { month:12, day:31, year:null, emoji:"🎆", text:"Oggi è San Silvestro — si aspetta il nuovo anno." },
+    { month:7, day:20, year:1969, emoji:"🌕", text:"L'Apollo 11 arriva sulla Luna — l'uomo cammina per la prima volta sulla Luna." },
+    { month:12, day:17, year:1903, emoji:"✈️", text:"I fratelli Wright compiono il primo volo a motore della storia." },
     { month:1,  day:3,  year:1954, text:"La RAI inizia le trasmissioni televisive ufficiali in Italia.", emoji:"📺" },
     { month:6,  day:2,  year:1946, text:"L'Italia diventa una Repubblica con il referendum: nasce la Festa della Repubblica.", emoji:"🇮🇹" },
     { month:7,  day:4,  year:1957, text:"La Fiat presenta al pubblico la \"Nuova 500\", con una sfilata per le vie di Torino.", emoji:"🚗" },

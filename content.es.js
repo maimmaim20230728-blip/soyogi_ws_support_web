@@ -60,6 +60,13 @@ window.SOYOGI_WS_CONTENT["es"] = {
 
   /* ---- Pestaña 1: tal día como hoy (fechas verificadas + fiestas year:null) ---- */
   onThisDay: [
+    { month:5, day:1, year:null, emoji:"🛠️", text:"Hoy es el Día del Trabajo." },
+    { month:11, day:1, year:null, emoji:"🕯️", text:"Hoy es el Día de Todos los Santos." },
+    { month:12, day:6, year:null, emoji:"📜", text:"Hoy es el Día de la Constitución española." },
+    { month:4, day:23, year:null, emoji:"📚", text:"Hoy es el Día del Libro — en Cataluña, Sant Jordi, con libros y rosas." },
+    { month:7, day:20, year:1969, emoji:"🌕", text:"El Apolo 11 llega a la Luna — el ser humano pisa la Luna por primera vez." },
+    { month:12, day:17, year:1903, emoji:"✈️", text:"Los hermanos Wright logran el primer vuelo a motor de la historia." },
+    { month:12, day:3, year:1967, emoji:"🏥", text:"Se realiza el primer trasplante de corazón del mundo." },
     { month:10, day:28, year:1956, text:"Televisión Española (TVE) emite por primera vez.", emoji:"📺" },
     { month:4,  day:20, year:1992, text:"Se inaugura la Exposición Universal (Expo '92) en Sevilla.", emoji:"🌍" },
     { month:7,  day:25, year:1992, text:"Se inauguran los Juegos Olímpicos de Barcelona.", emoji:"🏅" },

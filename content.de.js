@@ -58,6 +58,16 @@ window.SOYOGI_WS_CONTENT["de"] = {
 
   /* ---- Tab 1: An diesem Tag (belegte, freudige Ereignisse) ---- */
   onThisDay: [
+    { month:1, day:1, year:null, emoji:"🎉", text:"Heute ist Neujahr — der erste Tag des neuen Jahres." },
+    { month:5, day:1, year:null, emoji:"🛠️", text:"Heute ist der Tag der Arbeit." },
+    { month:11, day:11, year:null, emoji:"🎭", text:"Am 11.11. um 11:11 Uhr beginnt die Karnevalssaison." },
+    { month:12, day:6, year:null, emoji:"🎁", text:"Heute ist Nikolaustag — Stiefel und kleine Geschenke." },
+    { month:12, day:24, year:null, emoji:"🎄", text:"Heute ist Heiligabend — der Höhepunkt des Weihnachtsfestes." },
+    { month:12, day:31, year:null, emoji:"🎆", text:"Heute ist Silvester — mit Feuerwerk ins neue Jahr." },
+    { month:7, day:20, year:1969, emoji:"🌕", text:"Apollo 11 landet auf dem Mond — Menschen betreten zum ersten Mal den Mond." },
+    { month:12, day:17, year:1903, emoji:"✈️", text:"Die Gebrüder Wright gelingt der erste Motorflug der Geschichte." },
+    { month:5, day:8, year:1945, emoji:"🕊️", text:"Das Kriegsende in Europa — der Zweite Weltkrieg endet auf dem Kontinent." },
+    { month:12, day:3, year:1967, emoji:"🏥", text:"Die weltweit erste Herztransplantation wird durchgeführt." },
     { month:7,  day:4,  year:1954, text:"„Wunder von Bern“: Deutschland wird zum ersten Mal Fußball-Weltmeister.", emoji:"⚽" },
     { month:7,  day:8,  year:1990, text:"Deutschland wird in Rom zum dritten Mal Fußball-Weltmeister.", emoji:"⚽" },
     { month:8,  day:26, year:1978, text:"Sigmund Jähn fliegt als erster Deutscher ins All.", emoji:"🚀" },

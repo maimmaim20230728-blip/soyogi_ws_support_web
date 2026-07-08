@@ -60,6 +60,13 @@ window.SOYOGI_WS_CONTENT["ko"] = {
 
   /* ---- 탭1: 오늘은 무슨 날 (검증된 사실 + 기념일 year:null) ---- */
   onThisDay: [
+    { month:3, day:1, year:null, emoji:"🇰🇷", text:"오늘은 삼일절 — 1919년 3·1 운동을 기리는 날입니다." },
+    { month:6, day:6, year:null, emoji:"🕯️", text:"오늘은 현충일 — 나라를 위해 헌신한 분들을 기리는 날입니다." },
+    { month:8, day:15, year:null, emoji:"🇰🇷", text:"오늘은 광복절 — 광복(해방)을 기념하는 날입니다." },
+    { month:10, day:3, year:null, emoji:"📜", text:"오늘은 개천절 — 단군의 개국을 기리는 날입니다." },
+    { month:7, day:20, year:1969, emoji:"🌕", text:"아폴로 11호가 달에 착륙 — 인류가 처음으로 달을 밟았습니다." },
+    { month:12, day:17, year:1903, emoji:"✈️", text:"라이트 형제가 세계 최초의 동력 비행에 성공했습니다." },
+    { month:12, day:3, year:1967, emoji:"🏥", text:"세계 최초의 심장 이식 수술이 이루어졌습니다." },
     { month:7,  day:7,  year:1970, text:"서울과 부산을 잇는 경부고속도로가 개통되었습니다.", emoji:"🛣️" },
     { month:9,  day:17, year:1988, text:"서울 올림픽이 개막했습니다.", emoji:"🏅" },
     { month:6,  day:22, year:2002, text:"한일 월드컵에서 한국이 4강 신화를 이뤘습니다.", emoji:"⚽" },

@@ -60,6 +60,13 @@ window.SOYOGI_WS_CONTENT["sv"] = {
 
   /* ---- Flik 1: denna dag (verifierade datum + högtider year:null) ---- */
   onThisDay: [
+    { month:5, day:1, year:null, emoji:"🛠️", text:"Idag är det Första maj." },
+    { month:6, day:6, year:null, emoji:"🇸🇪", text:"Idag är det Sveriges nationaldag." },
+    { month:12, day:25, year:null, emoji:"🎄", text:"Idag är det juldagen." },
+    { month:12, day:31, year:null, emoji:"🎆", text:"Idag är det nyårsafton — snart tar ett nytt år vid." },
+    { month:7, day:20, year:1969, emoji:"🌕", text:"Apollo 11 landar på månen — människan sätter för första gången sin fot på månen." },
+    { month:12, day:17, year:1903, emoji:"✈️", text:"Bröderna Wright gör världens första motordrivna flygning." },
+    { month:12, day:3, year:1967, emoji:"🏥", text:"Världens första hjärttransplantation genomförs." },
     { month:4,  day:6,  year:1974, text:"ABBA vinner Eurovision Song Contest med \"Waterloo\".", emoji:"🎵" },
     { month:6,  day:29, year:1958, text:"Sverige spelar fotbolls-VM-final på hemmaplan.", emoji:"⚽" },
     { month:7,  day:5,  year:1980, text:"Björn Borg vinner Wimbledon för femte året i rad.", emoji:"🎾" },

@@ -59,6 +59,16 @@ window.SOYOGI_WS_CONTENT["fr"] = {
 
   /* ---- Onglet 1 : ce jour-là (événements joyeux et vérifiés) ---- */
   onThisDay: [
+    { month:1, day:1, year:null, emoji:"🎉", text:"Aujourd'hui, c'est le Jour de l'An." },
+    { month:1, day:6, year:null, emoji:"👑", text:"Aujourd'hui, c'est l'Épiphanie — on partage la galette des rois." },
+    { month:2, day:2, year:null, emoji:"🥞", text:"Aujourd'hui, c'est la Chandeleur — jour des crêpes." },
+    { month:5, day:1, year:null, emoji:"🌷", text:"Aujourd'hui, c'est la Fête du Travail — on offre du muguet." },
+    { month:7, day:14, year:null, emoji:"🎆", text:"Aujourd'hui, c'est la Fête nationale — défilé et feux d'artifice." },
+    { month:11, day:1, year:null, emoji:"🕯️", text:"Aujourd'hui, c'est la Toussaint." },
+    { month:11, day:11, year:null, emoji:"🕊️", text:"Aujourd'hui, on commémore l'Armistice de 1918." },
+    { month:3, day:31, year:1889, emoji:"🗼", text:"La tour Eiffel est inaugurée à Paris." },
+    { month:7, day:20, year:1969, emoji:"🌕", text:"Apollo 11 se pose sur la Lune — les premiers pas de l'homme sur la Lune." },
+    { month:12, day:3, year:1967, emoji:"🏥", text:"La toute première greffe du cœur est réalisée." },
     { month:3,  day:2,  year:1969, text:"Le Concorde effectue son tout premier vol, à Toulouse.", emoji:"✈️" },
     { month:6,  day:24, year:1982, text:"Jean-Loup Chrétien devient le premier Français dans l'espace.", emoji:"🚀" },
     { month:7,  day:12, year:1998, text:"La France devient championne du monde de football (3-0 contre le Brésil).", emoji:"⚽" },
