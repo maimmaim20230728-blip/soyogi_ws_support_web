@@ -58,6 +58,13 @@ window.SOYOGI_WS_CONTENT["de"] = {
 
   /* ---- Tab 1: An diesem Tag (belegte, freudige Ereignisse) ---- */
   onThisDay: [
+    { month:3, day:7, year:1916, emoji:"🚗", text:"Der Autohersteller BMW wird in München gegründet." },
+    { month:6, day:28, year:1926, emoji:"🚗", text:"Daimler und Benz fusionieren zur Daimler-Benz AG — die Marke Mercedes-Benz entsteht." },
+    { month:10, day:24, year:1648, emoji:"🕊️", text:"Der Westfälische Friede beendet den Dreißigjährigen Krieg." },
+    { month:3, day:11, year:1829, emoji:"🎼", text:"Der junge Felix Mendelssohn führt Bachs «Matthäus-Passion» wieder auf und begründet die Bach-Renaissance." },
+    { month:9, day:12, year:1990, emoji:"📜", text:"Der Zwei-plus-Vier-Vertrag ebnet den Weg zur deutschen Einheit." },
+    { month:11, day:28, year:1983, emoji:"🚀", text:"Ulf Merbold fliegt als erster Westdeutscher ins All." },
+    { month:8, day:11, year:1919, emoji:"🗳️", text:"Friedrich Ebert unterzeichnet die Weimarer Verfassung — Deutschlands erste demokratische Verfassung." },
     { month:12, day:14, year:1900, emoji:"🔬", text:"Max Planck stellt in Berlin die Quantentheorie vor." },
     { month:8, day:27, year:1939, emoji:"🛩️", text:"Die Heinkel He 178, das weltweit erste Düsenflugzeug, hebt ab." },
     { month:10, day:15, year:1880, emoji:"⛪", text:"Nach 632 Jahren Bauzeit wird der Kölner Dom vollendet." },
