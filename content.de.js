@@ -58,6 +58,13 @@ window.SOYOGI_WS_CONTENT["de"] = {
 
   /* ---- Tab 1: An diesem Tag (belegte, freudige Ereignisse) ---- */
   onThisDay: [
+    { month:5, day:18, year:1848, emoji:"🏛️", text:"In der Frankfurter Paulskirche tritt die erste frei gewählte deutsche Nationalversammlung zusammen." },
+    { month:5, day:7, year:1925, emoji:"🔬", text:"In München wird das Deutsche Museum eröffnet — eines der größten Technikmuseen der Welt." },
+    { month:8, day:1, year:1886, emoji:"🏰", text:"Schloss Neuschwanstein wird für Besucher geöffnet." },
+    { month:2, day:27, year:1988, emoji:"⛸️", text:"Katarina Witt verteidigt in Calgary ihren Olympiasieg im Eiskunstlauf." },
+    { month:6, day:12, year:2011, emoji:"🏀", text:"Dirk Nowitzki führt die Dallas Mavericks zum NBA-Titel und wird Finals-MVP." },
+    { month:7, day:27, year:1997, emoji:"🚴", text:"Jan Ullrich gewinnt als bisher einziger Deutscher die Tour de France." },
+    { month:4, day:19, year:2005, emoji:"⛪", text:"Joseph Ratzinger wird als Benedikt XVI. zum Papst gewählt — der erste deutsche Papst seit fast 1000 Jahren." },
     { month:6, day:6, year:1951, emoji:"🎬", text:"In West-Berlin werden die ersten Internationalen Filmfestspiele (Berlinale) eröffnet." },
     { month:10, day:12, year:2003, emoji:"⚽", text:"Die deutsche Frauen-Nationalmannschaft wird zum ersten Mal Fußball-Weltmeister." },
     { month:12, day:25, year:800, emoji:"👑", text:"Karl der Große wird in Rom zum Kaiser gekrönt." },
