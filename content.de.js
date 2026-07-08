@@ -58,6 +58,13 @@ window.SOYOGI_WS_CONTENT["de"] = {
 
   /* ---- Tab 1: An diesem Tag (belegte, freudige Ereignisse) ---- */
   onThisDay: [
+    { month:12, day:14, year:1900, emoji:"🔬", text:"Max Planck stellt in Berlin die Quantentheorie vor." },
+    { month:8, day:27, year:1939, emoji:"🛩️", text:"Die Heinkel He 178, das weltweit erste Düsenflugzeug, hebt ab." },
+    { month:10, day:15, year:1880, emoji:"⛪", text:"Nach 632 Jahren Bauzeit wird der Kölner Dom vollendet." },
+    { month:6, day:30, year:1996, emoji:"⚽", text:"Deutschland wird in London zum dritten Mal Fußball-Europameister." },
+    { month:2, day:23, year:1893, emoji:"⚙️", text:"Rudolf Diesel erhält das Patent auf den Dieselmotor." },
+    { month:6, day:26, year:1948, emoji:"✈️", text:"Die Berliner Luftbrücke beginnt und versorgt West-Berlin aus der Luft." },
+    { month:8, day:29, year:1885, emoji:"🏍️", text:"Gottlieb Daimler lässt das erste Motorrad («Reitwagen») patentieren." },
     { month:8, day:13, year:1876, emoji:"🎭", text:"In Bayreuth werden die ersten Festspiele mit Wagners «Ring des Nibelungen» eröffnet." },
     { month:11, day:25, year:1915, emoji:"🔬", text:"Albert Einstein stellt in Berlin seine Allgemeine Relativitätstheorie vor." },
     { month:12, day:20, year:1812, emoji:"📖", text:"Die «Kinder- und Hausmärchen» der Brüder Grimm erscheinen erstmals." },
