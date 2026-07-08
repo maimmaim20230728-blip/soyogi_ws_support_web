@@ -58,6 +58,22 @@ window.SOYOGI_WS_CONTENT["de"] = {
 
   /* ---- Tab 1: An diesem Tag (belegte, freudige Ereignisse) ---- */
   onThisDay: [
+    { month:8, day:13, year:1876, emoji:"🎭", text:"In Bayreuth werden die ersten Festspiele mit Wagners «Ring des Nibelungen» eröffnet." },
+    { month:11, day:25, year:1915, emoji:"🔬", text:"Albert Einstein stellt in Berlin seine Allgemeine Relativitätstheorie vor." },
+    { month:12, day:20, year:1812, emoji:"📖", text:"Die «Kinder- und Hausmärchen» der Brüder Grimm erscheinen erstmals." },
+    { month:5, day:28, year:1937, emoji:"🚗", text:"Die Volkswagen-Gesellschaft wird gegründet — später weltbekannt durch den «Käfer»." },
+    { month:7, day:13, year:2014, emoji:"⚽", text:"Deutschland wird in Brasilien zum vierten Mal Fußball-Weltmeister (1:0 gegen Argentinien)." },
+    { month:8, day:6, year:1932, emoji:"🛣️", text:"Deutschlands erste Autobahn (Köln–Bonn) wird von Konrad Adenauer eröffnet." },
+    { month:9, day:4, year:1949, emoji:"🌭", text:"An diesem Tag soll Herta Heuwer in Berlin die Currywurst erfunden haben." },
+    { month:3, day:22, year:1935, emoji:"📺", text:"In Berlin beginnt der weltweit erste regelmäßige Fernsehbetrieb." },
+    { month:5, day:7, year:1824, emoji:"🎼", text:"Beethovens 9. Sinfonie mit der «Ode an die Freude» wird in Wien uraufgeführt." },
+    { month:1, day:29, year:1886, emoji:"🚗", text:"Carl Benz meldet das erste Automobil zum Patent an — die Geburtsstunde des Autos." },
+    { month:8, day:24, year:1963, emoji:"⚽", text:"Der erste Bundesliga-Spieltag wird ausgetragen." },
+    { month:7, day:7, year:1974, emoji:"⚽", text:"Deutschland wird im eigenen Land Fußball-Weltmeister (2:1 gegen die Niederlande)." },
+    { month:10, day:31, year:1517, emoji:"📜", text:"Martin Luther veröffentlicht seine 95 Thesen — der Beginn der Reformation." },
+    { month:7, day:2, year:1900, emoji:"🎈", text:"Der erste Zeppelin (LZ 1) hebt über dem Bodensee ab." },
+    { month:1, day:18, year:1871, emoji:"👑", text:"Das Deutsche Kaiserreich wird ausgerufen; Wilhelm I. wird Kaiser." },
+    { month:3, day:6, year:1899, emoji:"💊", text:"Bayer lässt den Namen «Aspirin» als Marke eintragen." },
     { month:3, day:7, year:1876, emoji:"☎️", text:"Alexander Graham Bell erhält das Patent für das Telefon." },
     { month:7, day:13, year:1930, emoji:"⚽", text:"Die erste Fußball-Weltmeisterschaft beginnt in Uruguay." },
     { month:5, day:6, year:1994, emoji:"🚇", text:"Der Eurotunnel wird eröffnet und verbindet Großbritannien und Frankreich per Bahn." },
