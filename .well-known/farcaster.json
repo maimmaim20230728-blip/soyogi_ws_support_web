@@ -1,5 +1,9 @@
 {
-  "_note": "accountAssociation はデプロイ後に Farcaster の Manifest ツールで署名して差し替える（ドメイン確定後）。他アプリと同じ手順。",
+  "accountAssociation": {
+    "header": "eyJmaWQiOjMzMzkzMTUsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg2RGYyOTIyRjc4OUVmMTFmNjk3NDREMEZkYWZCNDhmN2VhNjRmYTExIn0",
+    "payload": "eyJkb21haW4iOiJzb3lvZ2ktd3Mtc3VwcG9ydC13ZWIudmVyY2VsLmFwcCJ9",
+    "signature": "ukQX7a0iDQ2nboZ+5EKpGrwW0sWad96SjmNW6wkO2pEyvLzZJt3EfRE/oH0pFKykVBij/aQRS/56o1SZMaN5mRs="
+  },
   "miniapp": {
     "version": "1",
     "name": "そよぎ（高齢者版）",
