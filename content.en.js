@@ -59,6 +59,16 @@ window.SOYOGI_WS_CONTENT["en"] = {
 
   /* ---- Tab 1: on this day (verified history + year:null annual customs) ---- */
   onThisDay: [
+    { month:3, day:7, year:1876, emoji:"☎️", text:"Alexander Graham Bell was granted the patent for the telephone." },
+    { month:7, day:13, year:1930, emoji:"⚽", text:"The first FIFA World Cup kicked off in Uruguay." },
+    { month:5, day:6, year:1994, emoji:"🚇", text:"The Channel Tunnel opened, linking Britain and France by rail." },
+    { month:4, day:6, year:1896, emoji:"🏅", text:"The first modern Olympic Games opened in Athens." },
+    { month:3, day:18, year:1965, emoji:"🚀", text:"Alexei Leonov made the first-ever spacewalk." },
+    { month:4, day:25, year:1953, emoji:"🧬", text:"Watson and Crick revealed the double-helix structure of DNA." },
+    { month:11, day:8, year:1895, emoji:"🩻", text:"Wilhelm Röntgen discovered X-rays." },
+    { month:12, day:14, year:1911, emoji:"🧭", text:"Roald Amundsen became the first to reach the South Pole." },
+    { month:11, day:17, year:1869, emoji:"🚢", text:"The Suez Canal opened, linking the Mediterranean and the Red Sea." },
+    { month:4, day:24, year:1990, emoji:"🔭", text:"The Hubble Space Telescope was launched into orbit." },
     { month:1,  day:1,  year:null, text:"Today is New Year's Day — a fresh start to the year.", emoji:"🎉" },
     { month:2,  day:9,  year:1964, text:"The Beatles made their U.S. debut on The Ed Sullivan Show.", emoji:"🎸" },
     { month:2,  day:14, year:null, text:"Today is Valentine's Day — a day for sweethearts and kind words.", emoji:"💝" },

@@ -60,6 +60,18 @@ window.SOYOGI_WS_CONTENT["sv"] = {
 
   /* ---- Flik 1: denna dag (verifierade datum + högtider year:null) ---- */
   onThisDay: [
+    { month:3, day:7, year:1876, emoji:"☎️", text:"Alexander Graham Bell får patent på telefonen." },
+    { month:7, day:13, year:1930, emoji:"⚽", text:"Det första fotbolls-VM inleds i Uruguay." },
+    { month:5, day:6, year:1994, emoji:"🚇", text:"Kanaltunneln öppnas och förbinder Storbritannien och Frankrike med järnväg." },
+    { month:10, day:28, year:1886, emoji:"🗽", text:"Frihetsgudinnan invigs i New Yorks hamn." },
+    { month:4, day:6, year:1896, emoji:"🏅", text:"De första moderna olympiska spelen invigs i Aten." },
+    { month:9, day:28, year:1928, emoji:"💊", text:"Alexander Fleming upptäcker penicillinet, det första antibiotikumet." },
+    { month:3, day:18, year:1965, emoji:"🚀", text:"Aleksej Leonov gör den första rymdpromenaden." },
+    { month:4, day:25, year:1953, emoji:"🧬", text:"Watson och Crick presenterar DNA:s dubbelspiralstruktur." },
+    { month:11, day:8, year:1895, emoji:"🩻", text:"Wilhelm Röntgen upptäcker röntgenstrålarna." },
+    { month:12, day:14, year:1911, emoji:"🧭", text:"Roald Amundsen når som förste människa Sydpolen." },
+    { month:11, day:17, year:1869, emoji:"🚢", text:"Suezkanalen öppnas och förbinder Medelhavet med Röda havet." },
+    { month:4, day:24, year:1990, emoji:"🔭", text:"Rymdteleskopet Hubble skjuts upp i omloppsbana." },
     { month:12, day:10, year:1901, emoji:"🏅", text:"De första Nobelprisen delas ut i Stockholm." },
     { month:5, day:1, year:null, emoji:"🛠️", text:"Idag är det Första maj." },
     { month:6, day:6, year:null, emoji:"🇸🇪", text:"Idag är det Sveriges nationaldag." },

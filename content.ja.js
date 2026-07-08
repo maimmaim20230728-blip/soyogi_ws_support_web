@@ -65,6 +65,20 @@ window.SOYOGI_WS_CONTENT["ja"] = {
 
   /* ---- タブ1：今日は何の日（確証のある史実＋年中行事＝year:null） ---- */
   onThisDay: [
+    { month:3, day:31, year:1889, emoji:"🗼", text:"パリでエッフェル塔が完成し、公開されました。" },
+    { month:4, day:6, year:1896, emoji:"🏅", text:"ギリシャのアテネで、第1回近代オリンピックが開幕しました。" },
+    { month:9, day:28, year:1928, emoji:"💊", text:"フレミングが世界初の抗生物質ペニシリンを発見しました。" },
+    { month:3, day:18, year:1965, emoji:"🚀", text:"レオノフが人類初の宇宙遊泳に成功しました。" },
+    { month:4, day:25, year:1953, emoji:"🧬", text:"ワトソンとクリックがDNAの二重らせん構造を発表しました。" },
+    { month:11, day:8, year:1895, emoji:"🩻", text:"レントゲンがエックス線を発見しました。" },
+    { month:12, day:14, year:1911, emoji:"🧭", text:"アムンセンが人類で初めて南極点に到達しました。" },
+    { month:11, day:17, year:1869, emoji:"🚢", text:"地中海と紅海を結ぶスエズ運河が開通しました。" },
+    { month:4, day:24, year:1990, emoji:"🔭", text:"ハッブル宇宙望遠鏡が打ち上げられました。" },
+    { month:3, day:7, year:1876, emoji:"☎️", text:"ベルが電話の特許を取得しました。" },
+    { month:7, day:13, year:1930, emoji:"⚽", text:"サッカーの第1回ワールドカップがウルグアイで開幕しました。" },
+    { month:5, day:6, year:1994, emoji:"🚇", text:"英仏海峡トンネルが開通し、イギリスと大陸が鉄道で結ばれました。" },
+    { month:10, day:28, year:1886, emoji:"🗽", text:"ニューヨークで自由の女神像の除幕式が行われました。" },
+    { month:12, day:3, year:1967, emoji:"🏥", text:"南アフリカで世界初の心臓移植手術が行われました。" },
     { month:1,  day:1,  year:null, text:"今日は元日。年神様を迎え、一年の始まりと無事を祝うお正月の一日です。", emoji:"🎍" },
     { month:1,  day:1,  year:1963, text:"テレビアニメ「鉄腕アトム」の放送が始まりました。国産初の連続テレビアニメです。", emoji:"📺" },
     { month:1,  day:7,  year:null, text:"今日は七草。七草がゆを食べて正月疲れの胃を休め、一年の無病息災を願う古くからの風習です。", emoji:"🌿" },

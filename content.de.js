@@ -58,6 +58,18 @@ window.SOYOGI_WS_CONTENT["de"] = {
 
   /* ---- Tab 1: An diesem Tag (belegte, freudige Ereignisse) ---- */
   onThisDay: [
+    { month:3, day:7, year:1876, emoji:"☎️", text:"Alexander Graham Bell erhält das Patent für das Telefon." },
+    { month:7, day:13, year:1930, emoji:"⚽", text:"Die erste Fußball-Weltmeisterschaft beginnt in Uruguay." },
+    { month:5, day:6, year:1994, emoji:"🚇", text:"Der Eurotunnel wird eröffnet und verbindet Großbritannien und Frankreich per Bahn." },
+    { month:10, day:28, year:1886, emoji:"🗽", text:"Die Freiheitsstatue wird im Hafen von New York eingeweiht." },
+    { month:4, day:6, year:1896, emoji:"🏅", text:"Die ersten Olympischen Spiele der Neuzeit werden in Athen eröffnet." },
+    { month:9, day:28, year:1928, emoji:"💊", text:"Alexander Fleming entdeckt das Penicillin, das erste Antibiotikum." },
+    { month:3, day:18, year:1965, emoji:"🚀", text:"Alexei Leonow unternimmt den ersten Weltraumspaziergang." },
+    { month:4, day:25, year:1953, emoji:"🧬", text:"Watson und Crick stellen die Doppelhelix-Struktur der DNA vor." },
+    { month:11, day:8, year:1895, emoji:"🩻", text:"Wilhelm Conrad Röntgen entdeckt die Röntgenstrahlen." },
+    { month:12, day:14, year:1911, emoji:"🧭", text:"Roald Amundsen erreicht als Erster den Südpol." },
+    { month:11, day:17, year:1869, emoji:"🚢", text:"Der Sueskanal wird eröffnet und verbindet Mittelmeer und Rotes Meer." },
+    { month:4, day:24, year:1990, emoji:"🔭", text:"Das Hubble-Weltraumteleskop wird in die Umlaufbahn gebracht." },
     { month:10, day:12, year:1810, emoji:"🍺", text:"Das erste Oktoberfest wird in München gefeiert." },
     { month:12, day:25, year:null, emoji:"🎄", text:"Heute ist der 1. Weihnachtstag." },
     { month:12, day:26, year:null, emoji:"✨", text:"Heute ist der 2. Weihnachtstag." },

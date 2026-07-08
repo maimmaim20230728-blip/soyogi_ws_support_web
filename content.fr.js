@@ -59,6 +59,18 @@ window.SOYOGI_WS_CONTENT["fr"] = {
 
   /* ---- Onglet 1 : ce jour-là (événements joyeux et vérifiés) ---- */
   onThisDay: [
+    { month:3, day:7, year:1876, emoji:"☎️", text:"Alexander Graham Bell obtient le brevet du téléphone." },
+    { month:7, day:13, year:1930, emoji:"⚽", text:"La première Coupe du monde de football débute en Uruguay." },
+    { month:5, day:6, year:1994, emoji:"🚇", text:"Le tunnel sous la Manche est inauguré, reliant la France et le Royaume-Uni par le rail." },
+    { month:10, day:28, year:1886, emoji:"🗽", text:"La statue de la Liberté est inaugurée dans le port de New York." },
+    { month:4, day:6, year:1896, emoji:"🏅", text:"Les premiers Jeux olympiques modernes s'ouvrent à Athènes." },
+    { month:9, day:28, year:1928, emoji:"💊", text:"Alexander Fleming découvre la pénicilline, le premier antibiotique." },
+    { month:3, day:18, year:1965, emoji:"🚀", text:"Alexeï Leonov réalise la première sortie dans l'espace." },
+    { month:4, day:25, year:1953, emoji:"🧬", text:"Watson et Crick dévoilent la structure en double hélice de l'ADN." },
+    { month:11, day:8, year:1895, emoji:"🩻", text:"Wilhelm Röntgen découvre les rayons X." },
+    { month:12, day:14, year:1911, emoji:"🧭", text:"Roald Amundsen atteint le premier le pôle Sud." },
+    { month:11, day:17, year:1869, emoji:"🚢", text:"Le canal de Suez est inauguré, reliant la Méditerranée à la mer Rouge." },
+    { month:4, day:24, year:1990, emoji:"🔭", text:"Le télescope spatial Hubble est mis en orbite." },
     { month:7, day:1, year:1903, emoji:"🚴", text:"Le tout premier Tour de France s'élance." },
     { month:8, day:25, year:1944, emoji:"🕊️", text:"Paris est libérée après quatre ans d'occupation." },
     { month:1, day:1, year:null, emoji:"🎉", text:"Aujourd'hui, c'est le Jour de l'An." },

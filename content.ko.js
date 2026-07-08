@@ -60,6 +60,18 @@ window.SOYOGI_WS_CONTENT["ko"] = {
 
   /* ---- 탭1: 오늘은 무슨 날 (검증된 사실 + 기념일 year:null) ---- */
   onThisDay: [
+    { month:3, day:7, year:1876, emoji:"☎️", text:"알렉산더 그레이엄 벨이 전화기 특허를 받았습니다." },
+    { month:7, day:13, year:1930, emoji:"⚽", text:"제1회 FIFA 월드컵이 우루과이에서 개막했습니다." },
+    { month:5, day:6, year:1994, emoji:"🚇", text:"영국과 프랑스를 잇는 유로터널(도버 해협 터널)이 개통했습니다." },
+    { month:10, day:28, year:1886, emoji:"🗽", text:"뉴욕 항구에서 자유의 여신상 제막식이 열렸습니다." },
+    { month:4, day:6, year:1896, emoji:"🏅", text:"아테네에서 제1회 근대 올림픽이 열렸습니다." },
+    { month:9, day:28, year:1928, emoji:"💊", text:"알렉산더 플레밍이 최초의 항생제 페니실린을 발견했습니다." },
+    { month:3, day:18, year:1965, emoji:"🚀", text:"알렉세이 레오노프가 인류 최초의 우주 유영에 성공했습니다." },
+    { month:4, day:25, year:1953, emoji:"🧬", text:"왓슨과 크릭이 DNA의 이중나선 구조를 밝혔습니다." },
+    { month:11, day:8, year:1895, emoji:"🩻", text:"빌헬름 뢴트겐이 엑스선(X선)을 발견했습니다." },
+    { month:12, day:14, year:1911, emoji:"🧭", text:"로알 아문센이 인류 최초로 남극점에 도달했습니다." },
+    { month:11, day:17, year:1869, emoji:"🚢", text:"지중해와 홍해를 잇는 수에즈 운하가 개통했습니다." },
+    { month:4, day:24, year:1990, emoji:"🔭", text:"허블 우주망원경이 궤도에 올랐습니다." },
     { month:4, day:1, year:2004, emoji:"🚄", text:"고속철도 KTX가 개통했습니다." },
     { month:3, day:1, year:null, emoji:"🇰🇷", text:"오늘은 삼일절 — 1919년 3·1 운동을 기리는 날입니다." },
     { month:6, day:6, year:null, emoji:"🕯️", text:"오늘은 현충일 — 나라를 위해 헌신한 분들을 기리는 날입니다." },

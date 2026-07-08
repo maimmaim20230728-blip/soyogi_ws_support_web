@@ -58,6 +58,18 @@ window.SOYOGI_WS_CONTENT["it"] = {
 
   /* ---- Scheda 1: accadde oggi (eventi lieti e verificati) ---- */
   onThisDay: [
+    { month:3, day:7, year:1876, emoji:"☎️", text:"Alexander Graham Bell ottiene il brevetto del telefono." },
+    { month:7, day:13, year:1930, emoji:"⚽", text:"Prende il via in Uruguay la prima Coppa del Mondo di calcio." },
+    { month:5, day:6, year:1994, emoji:"🚇", text:"Viene inaugurato il tunnel della Manica, che collega Gran Bretagna e Francia in treno." },
+    { month:10, day:28, year:1886, emoji:"🗽", text:"Viene inaugurata la Statua della Libertà nel porto di New York." },
+    { month:4, day:6, year:1896, emoji:"🏅", text:"Si aprono ad Atene i primi Giochi olimpici dell'era moderna." },
+    { month:9, day:28, year:1928, emoji:"💊", text:"Alexander Fleming scopre la penicillina, il primo antibiotico." },
+    { month:3, day:18, year:1965, emoji:"🚀", text:"Aleksej Leonov compie la prima passeggiata nello spazio." },
+    { month:4, day:25, year:1953, emoji:"🧬", text:"Watson e Crick svelano la struttura a doppia elica del DNA." },
+    { month:11, day:8, year:1895, emoji:"🩻", text:"Wilhelm Röntgen scopre i raggi X." },
+    { month:12, day:14, year:1911, emoji:"🧭", text:"Roald Amundsen raggiunge per primo il Polo Sud." },
+    { month:11, day:17, year:1869, emoji:"🚢", text:"Viene inaugurato il Canale di Suez, che unisce il Mediterraneo al Mar Rosso." },
+    { month:4, day:24, year:1990, emoji:"🔭", text:"Il telescopio spaziale Hubble viene messo in orbita." },
     { month:1, day:29, year:1951, emoji:"🎵", text:"Si tiene il primo Festival di Sanremo." },
     { month:1, day:1, year:null, emoji:"🎉", text:"Oggi è Capodanno — il primo giorno del nuovo anno." },
     { month:1, day:6, year:null, emoji:"🧙", text:"Oggi è l'Epifania — arriva la Befana." },

@@ -60,6 +60,18 @@ window.SOYOGI_WS_CONTENT["es"] = {
 
   /* ---- Pestaña 1: tal día como hoy (fechas verificadas + fiestas year:null) ---- */
   onThisDay: [
+    { month:3, day:7, year:1876, emoji:"☎️", text:"Alexander Graham Bell obtiene la patente del teléfono." },
+    { month:7, day:13, year:1930, emoji:"⚽", text:"Comienza en Uruguay la primera Copa Mundial de fútbol." },
+    { month:5, day:6, year:1994, emoji:"🚇", text:"Se inaugura el túnel del Canal de la Mancha, que une por tren Gran Bretaña y Francia." },
+    { month:10, day:28, year:1886, emoji:"🗽", text:"Se inaugura la Estatua de la Libertad en el puerto de Nueva York." },
+    { month:4, day:6, year:1896, emoji:"🏅", text:"Se inauguran en Atenas los primeros Juegos Olímpicos de la era moderna." },
+    { month:9, day:28, year:1928, emoji:"💊", text:"Alexander Fleming descubre la penicilina, el primer antibiótico." },
+    { month:3, day:18, year:1965, emoji:"🚀", text:"Alekséi Leónov realiza el primer paseo espacial." },
+    { month:4, day:25, year:1953, emoji:"🧬", text:"Watson y Crick revelan la estructura de doble hélice del ADN." },
+    { month:11, day:8, year:1895, emoji:"🩻", text:"Wilhelm Röntgen descubre los rayos X." },
+    { month:12, day:14, year:1911, emoji:"🧭", text:"Roald Amundsen llega el primero al Polo Sur." },
+    { month:11, day:17, year:1869, emoji:"🚢", text:"Se inaugura el Canal de Suez, que une el Mediterráneo y el mar Rojo." },
+    { month:4, day:24, year:1990, emoji:"🔭", text:"El telescopio espacial Hubble es puesto en órbita." },
     { month:5, day:1, year:null, emoji:"🛠️", text:"Hoy es el Día del Trabajo." },
     { month:11, day:1, year:null, emoji:"🕯️", text:"Hoy es el Día de Todos los Santos." },
     { month:12, day:6, year:null, emoji:"📜", text:"Hoy es el Día de la Constitución española." },
