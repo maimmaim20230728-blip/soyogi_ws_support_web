@@ -59,6 +59,14 @@ window.SOYOGI_WS_CONTENT["en"] = {
 
   /* ---- Tab 1: on this day (verified history + year:null annual customs) ---- */
   onThisDay: [
+    { month:11, day:26, year:1942, emoji:"🎬", text:"The film Casablanca premiered in New York." },
+    { month:7, day:1, year:null, emoji:"🍁", text:"Today is Canada Day, marking the confederation of Canada in 1867." },
+    { month:4, day:15, year:1955, emoji:"🍔", text:"Ray Kroc opened his first McDonald's franchise in Illinois." },
+    { month:8, day:26, year:1920, emoji:"🗳️", text:"American women won the right to vote as the 19th Amendment was certified." },
+    { month:5, day:8, year:1886, emoji:"🥤", text:"Coca-Cola was first served at a pharmacy in Atlanta." },
+    { month:4, day:13, year:1970, emoji:"🚀", text:"Apollo 13 was crippled by an explosion in space; its crew returned safely days later." },
+    { month:9, day:4, year:1998, emoji:"🔍", text:"Google was founded in a California garage." },
+    { month:1, day:15, year:2001, emoji:"📖", text:"Wikipedia, the free online encyclopedia, was launched." },
     { month:10, day:20, year:1973, emoji:"🎭", text:"The Sydney Opera House was officially opened by Queen Elizabeth II." },
     { month:10, day:1, year:1971, emoji:"🏰", text:"Walt Disney World opened in Florida." },
     { month:1, day:24, year:1984, emoji:"💻", text:"Apple launched the Macintosh, a landmark personal computer." },
