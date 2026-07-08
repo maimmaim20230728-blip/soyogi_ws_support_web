@@ -58,6 +58,7 @@ window.SOYOGI_WS_CONTENT["it"] = {
 
   /* ---- Scheda 1: accadde oggi (eventi lieti e verificati) ---- */
   onThisDay: [
+    { month:1, day:29, year:1951, emoji:"🎵", text:"Si tiene il primo Festival di Sanremo." },
     { month:1, day:1, year:null, emoji:"🎉", text:"Oggi è Capodanno — il primo giorno del nuovo anno." },
     { month:1, day:6, year:null, emoji:"🧙", text:"Oggi è l'Epifania — arriva la Befana." },
     { month:4, day:25, year:null, emoji:"🇮🇹", text:"Oggi è la Festa della Liberazione." },

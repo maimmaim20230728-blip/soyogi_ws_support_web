@@ -60,6 +60,7 @@ window.SOYOGI_WS_CONTENT["sv"] = {
 
   /* ---- Flik 1: denna dag (verifierade datum + högtider year:null) ---- */
   onThisDay: [
+    { month:12, day:10, year:1901, emoji:"🏅", text:"De första Nobelprisen delas ut i Stockholm." },
     { month:5, day:1, year:null, emoji:"🛠️", text:"Idag är det Första maj." },
     { month:6, day:6, year:null, emoji:"🇸🇪", text:"Idag är det Sveriges nationaldag." },
     { month:12, day:25, year:null, emoji:"🎄", text:"Idag är det juldagen." },

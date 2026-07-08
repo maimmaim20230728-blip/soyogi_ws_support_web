@@ -59,6 +59,8 @@ window.SOYOGI_WS_CONTENT["fr"] = {
 
   /* ---- Onglet 1 : ce jour-là (événements joyeux et vérifiés) ---- */
   onThisDay: [
+    { month:7, day:1, year:1903, emoji:"🚴", text:"Le tout premier Tour de France s'élance." },
+    { month:8, day:25, year:1944, emoji:"🕊️", text:"Paris est libérée après quatre ans d'occupation." },
     { month:1, day:1, year:null, emoji:"🎉", text:"Aujourd'hui, c'est le Jour de l'An." },
     { month:1, day:6, year:null, emoji:"👑", text:"Aujourd'hui, c'est l'Épiphanie — on partage la galette des rois." },
     { month:2, day:2, year:null, emoji:"🥞", text:"Aujourd'hui, c'est la Chandeleur — jour des crêpes." },

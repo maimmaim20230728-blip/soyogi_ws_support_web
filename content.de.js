@@ -58,6 +58,9 @@ window.SOYOGI_WS_CONTENT["de"] = {
 
   /* ---- Tab 1: An diesem Tag (belegte, freudige Ereignisse) ---- */
   onThisDay: [
+    { month:10, day:12, year:1810, emoji:"🍺", text:"Das erste Oktoberfest wird in München gefeiert." },
+    { month:12, day:25, year:null, emoji:"🎄", text:"Heute ist der 1. Weihnachtstag." },
+    { month:12, day:26, year:null, emoji:"✨", text:"Heute ist der 2. Weihnachtstag." },
     { month:1, day:1, year:null, emoji:"🎉", text:"Heute ist Neujahr — der erste Tag des neuen Jahres." },
     { month:5, day:1, year:null, emoji:"🛠️", text:"Heute ist der Tag der Arbeit." },
     { month:11, day:11, year:null, emoji:"🎭", text:"Am 11.11. um 11:11 Uhr beginnt die Karnevalssaison." },

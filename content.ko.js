@@ -60,6 +60,7 @@ window.SOYOGI_WS_CONTENT["ko"] = {
 
   /* ---- 탭1: 오늘은 무슨 날 (검증된 사실 + 기념일 year:null) ---- */
   onThisDay: [
+    { month:4, day:1, year:2004, emoji:"🚄", text:"고속철도 KTX가 개통했습니다." },
     { month:3, day:1, year:null, emoji:"🇰🇷", text:"오늘은 삼일절 — 1919년 3·1 운동을 기리는 날입니다." },
     { month:6, day:6, year:null, emoji:"🕯️", text:"오늘은 현충일 — 나라를 위해 헌신한 분들을 기리는 날입니다." },
     { month:8, day:15, year:null, emoji:"🇰🇷", text:"오늘은 광복절 — 광복(해방)을 기념하는 날입니다." },
