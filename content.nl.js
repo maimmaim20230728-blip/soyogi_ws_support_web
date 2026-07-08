@@ -779,7 +779,7 @@ window.SOYOGI_WS_CONTENT["nl"] = {
     { month:8, day:13, type:"death", name:"Eugène Delacroix", note:"Schilder. Overleden in 1863. Met krachtige kleuren beïnvloedde hij latere schilders." },
     { month:6, day:10, type:"birth", name:"Gustave Courbet", note:"Franse schilder. Geboren in 1819. Hij leidde het realisme, dat de dingen toont zoals ze zijn." },
     { month:12, day:31, type:"death", name:"Gustave Courbet", note:"Schilder. Overleden in 1877. Bekend om «De steenkloppers»." },
-    { month:4, day:23, type:"death", name:"Miguel de Cervantes", note:"Spaanse schrijver. Overleden in 1616. Bekend om «Don Quichot» – een vader van de moderne roman." },
+    { month:4, day:22, type:"death", name:"Miguel de Cervantes", note:"Spaanse schrijver. Overleden in 1616. Bekend om «Don Quichot» – een vader van de moderne roman." },
     { month:7, day:4, type:"birth", name:"Nathaniel Hawthorne", note:"Amerikaanse schrijver. Geboren in 1804. Bekend om «De scharlaken letter»." },
     { month:5, day:19, type:"death", name:"Nathaniel Hawthorne", note:"Schrijver. Overleden in 1864. Een wegbereider van de Amerikaanse literatuur." },
     { month:5, day:31, type:"birth", name:"Walt Whitman", note:"Amerikaanse dichter. Geboren in 1819. Bekend om «Grasbladen» – vader van het vrije vers." },

@@ -781,7 +781,7 @@ window.SOYOGI_WS_CONTENT["de"] = {
     { month:8,  day:13, type:"death", name:"Eugène Delacroix",      note:"Maler. Gestorben 1863. Mit kräftigen Farben beeinflusste er spätere Maler." },
     { month:6,  day:10, type:"birth", name:"Gustave Courbet",       note:"Französischer Maler. Geboren 1819. Er führte den Realismus an, der die Dinge zeigt, wie sie sind." },
     { month:12, day:31, type:"death", name:"Gustave Courbet",       note:"Maler. Gestorben 1877. Bekannt für „Die Steinklopfer“." },
-    { month:4,  day:23, type:"death", name:"Miguel de Cervantes",   note:"Spanischer Schriftsteller. Gestorben 1616. Bekannt für „Don Quijote“ – ein Vater des modernen Romans." },
+    { month:4,  day:22, type:"death", name:"Miguel de Cervantes",   note:"Spanischer Schriftsteller. Gestorben 1616. Bekannt für „Don Quijote“ – ein Vater des modernen Romans." },
     { month:7,  day:4,  type:"birth", name:"Nathaniel Hawthorne",   note:"US-amerikanischer Schriftsteller. Geboren 1804. Bekannt für „Der scharlachrote Buchstabe“." },
     { month:5,  day:19, type:"death", name:"Nathaniel Hawthorne",   note:"Schriftsteller. Gestorben 1864. Ein Wegbereiter der amerikanischen Literatur." },
     { month:5,  day:31, type:"birth", name:"Walt Whitman",          note:"US-amerikanischer Dichter. Geboren 1819. Bekannt für „Grashalme“ – Vater der freien Verse." },

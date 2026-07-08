@@ -780,7 +780,7 @@ window.SOYOGI_WS_CONTENT["sv"] = {
     { month:8, day:13, type:"death", name:"Eugène Delacroix", note:"Målare. Död 1863. Med starka färger påverkade han senare målare." },
     { month:6, day:10, type:"birth", name:"Gustave Courbet", note:"Fransk målare. Född 1819. Han ledde realismen, som visar tingen som de är." },
     { month:12, day:31, type:"death", name:"Gustave Courbet", note:"Målare. Död 1877. Känd för «Stenknackarna»." },
-    { month:4, day:23, type:"death", name:"Miguel de Cervantes", note:"Spansk författare. Död 1616. Känd för «Don Quijote» – en den moderna romanens fader." },
+    { month:4, day:22, type:"death", name:"Miguel de Cervantes", note:"Spansk författare. Död 1616. Känd för «Don Quijote» – en den moderna romanens fader." },
     { month:7, day:4, type:"birth", name:"Nathaniel Hawthorne", note:"Amerikansk författare. Född 1804. Känd för «Den röda bokstaven»." },
     { month:5, day:19, type:"death", name:"Nathaniel Hawthorne", note:"Författare. Död 1864. En föregångare inom den amerikanska litteraturen." },
     { month:5, day:31, type:"birth", name:"Walt Whitman", note:"Amerikansk diktare. Född 1819. Känd för «Strån av gräs» – den fria versens fader." },
