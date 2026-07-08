@@ -58,6 +58,11 @@ window.SOYOGI_WS_CONTENT["de"] = {
 
   /* ---- Tab 1: An diesem Tag (belegte, freudige Ereignisse) ---- */
   onThisDay: [
+    { month:4, day:23, year:1516, emoji:"🍺", text:"In Bayern wird das Reinheitsgebot für Bier erlassen." },
+    { month:6, day:20, year:1991, emoji:"🏛️", text:"Der Bundestag beschließt, den Regierungssitz von Bonn nach Berlin zu verlegen." },
+    { month:6, day:22, year:1980, emoji:"⚽", text:"Deutschland wird in Rom Fußball-Europameister (2:1 gegen Belgien)." },
+    { month:8, day:5, year:1888, emoji:"🚗", text:"Bertha Benz unternimmt mit dem Automobil die erste Fernfahrt der Geschichte (Mannheim–Pforzheim)." },
+    { month:6, day:18, year:1972, emoji:"⚽", text:"Deutschland wird zum ersten Mal Fußball-Europameister (3:0 gegen die Sowjetunion)." },
     { month:5, day:18, year:1848, emoji:"🏛️", text:"In der Frankfurter Paulskirche tritt die erste frei gewählte deutsche Nationalversammlung zusammen." },
     { month:5, day:7, year:1925, emoji:"🔬", text:"In München wird das Deutsche Museum eröffnet — eines der größten Technikmuseen der Welt." },
     { month:8, day:1, year:1886, emoji:"🏰", text:"Schloss Neuschwanstein wird für Besucher geöffnet." },
