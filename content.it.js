@@ -83,7 +83,7 @@ window.SOYOGI_WS_CONTENT["it"] = {
     { month:12, day:17, year:1903, emoji:"✈️", text:"I fratelli Wright compiono il primo volo a motore della storia." },
     { month:1,  day:3,  year:1954, text:"La RAI inizia le trasmissioni televisive ufficiali in Italia.", emoji:"📺" },
     { month:6,  day:2,  year:1946, text:"L'Italia diventa una Repubblica con il referendum: nasce la Festa della Repubblica.", emoji:"🇮🇹" },
-    { month:7,  day:4,  year:1957, text:"La Fiat presenta al pubblico la \"Nuova 500\", con una sfilata per le vie di Torino.", emoji:"🚗" },
+    { month:7,  day:4,  year:1957, text:"La Fiat presenta al pubblico la «Nuova 500», con una sfilata per le vie di Torino.", emoji:"🚗" },
     { month:7,  day:9,  year:2006, text:"L'Italia è campione del mondo di calcio, battendo la Francia ai rigori.", emoji:"⚽" },
     { month:7,  day:11, year:1982, text:"L'Italia è campione del mondo di calcio, battendo la Germania Ovest 3-1.", emoji:"⚽" },
     { month:8,  day:25, year:1960, text:"Si aprono a Roma i Giochi Olimpici estivi.", emoji:"🏅" },
