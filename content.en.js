@@ -59,6 +59,18 @@ window.SOYOGI_WS_CONTENT["en"] = {
 
   /* ---- Tab 1: on this day (verified history + year:null annual customs) ---- */
   onThisDay: [
+    { month:7, day:5, year:1948, emoji:"🏥", text:"The National Health Service (NHS) was founded in Britain, offering free healthcare for all." },
+    { month:5, day:6, year:1954, emoji:"🏃", text:"Roger Bannister became the first person to run a mile in under four minutes." },
+    { month:11, day:24, year:1859, emoji:"📖", text:"Charles Darwin published On the Origin of Species." },
+    { month:5, day:16, year:1929, emoji:"🏆", text:"The first Academy Awards (Oscars) ceremony was held in Hollywood." },
+    { month:10, day:6, year:1927, emoji:"🎬", text:"The Jazz Singer opened — the first feature film with sound, the first «talkie»." },
+    { month:5, day:25, year:1977, emoji:"🎬", text:"The first Star Wars film opened in theaters." },
+    { month:5, day:10, year:1869, emoji:"🚂", text:"The first transcontinental railroad was completed with the Golden Spike in Utah." },
+    { month:7, day:25, year:1978, emoji:"👶", text:"Louise Brown, the world's first test-tube (IVF) baby, was born in England." },
+    { month:11, day:10, year:1969, emoji:"📺", text:"Sesame Street premiered on public television." },
+    { month:12, day:15, year:1939, emoji:"🎬", text:"Gone with the Wind premiered in Atlanta." },
+    { month:11, day:14, year:1922, emoji:"📻", text:"The BBC began its first daily radio broadcasts in London." },
+    { month:1, day:21, year:1976, emoji:"✈️", text:"Concorde made its first commercial supersonic flight." },
     { month:3, day:7, year:1876, emoji:"☎️", text:"Alexander Graham Bell was granted the patent for the telephone." },
     { month:7, day:13, year:1930, emoji:"⚽", text:"The first FIFA World Cup kicked off in Uruguay." },
     { month:5, day:6, year:1994, emoji:"🚇", text:"The Channel Tunnel opened, linking Britain and France by rail." },
