@@ -79,7 +79,12 @@
     filter:drop-shadow(0 6px 10px rgba(38,51,46,.14));}
   .visual .visual-img{max-width:100%; max-height:200px; border-radius:14px; object-fit:cover;}
   .visual.sm{font-size:52px; margin:2px 0 8px;}
-  /* 今日の花／今日の宝石の2カラム */
+  /* 今月の花（2種を横並び）＋ 今月の宝石（右に1つ） */
+  .topic-row{display:flex; gap:12px; align-items:stretch;}
+  .flowers-card{flex:2; min-width:0; padding:16px 12px;}
+  .gem-card{flex:1; min-width:0; padding:16px 12px;}
+  .two-flowers{display:flex; gap:10px;}
+  .two-flowers .mini{flex:1; min-width:0;}
   .duo{display:flex; gap:12px;}
   .card.half{flex:1; min-width:0; padding:16px 14px;}
   .duo-name{font-size:16px; font-weight:800; text-align:center; margin-bottom:4px; line-height:1.3;}
@@ -233,15 +238,25 @@
       <p class="panel-hint" id="topic-hint"></p>
       <div class="koyomi" id="koyomi" hidden></div>
 
-      <div class="duo">
-        <div class="card half">
+      <div class="topic-row">
+        <div class="card flowers-card">
           <div class="card-eyebrow" id="flower-heading"></div>
-          <div class="visual sm" id="flower-visual">🌻</div>
-          <div class="duo-name" id="flower-name"></div>
-          <div class="duo-meaning" id="flower-meaning"></div>
-          <p class="duo-note" id="flower-note"></p>
+          <div class="two-flowers">
+            <div class="mini" id="flower-mini-1">
+              <div class="visual sm" id="flower-visual-1">🌻</div>
+              <div class="duo-name" id="flower-name-1"></div>
+              <div class="duo-meaning" id="flower-meaning-1"></div>
+              <p class="duo-note" id="flower-note-1"></p>
+            </div>
+            <div class="mini" id="flower-mini-2">
+              <div class="visual sm" id="flower-visual-2">🌸</div>
+              <div class="duo-name" id="flower-name-2"></div>
+              <div class="duo-meaning" id="flower-meaning-2"></div>
+              <p class="duo-note" id="flower-note-2"></p>
+            </div>
+          </div>
         </div>
-        <div class="card half" id="gem-card">
+        <div class="card gem-card" id="gem-card">
           <div class="card-eyebrow" id="gem-heading"></div>
           <div class="visual sm" id="gem-visual">💎</div>
           <div class="duo-name" id="gem-name"></div>
@@ -508,15 +523,21 @@
       if(rk){ koyomi.hidden=false; koyomi.textContent="📅 今日の六曜　"+rk.name+"（"+rk.yomi+"）― "+rk.meaning; }
       else { koyomi.hidden=true; }
     }
+    /* 今月の花：その月の花を2種とも並べて表示する（ランダム表示はしない・わかりやすさ優先）。 */
     var fls=(content.flowers||[]).filter(function(f){ return f.month===m; });
-    var fl = fls.length ? fls[Math.floor(Math.random()*fls.length)] : (content.flowers||[])[0];
-    if(fl){
-      setVisual(el("flower-visual"), fl.emoji, fl.photo);
-      setText(el("flower-name"), fl.name);
-      setText(el("flower-meaning"), fl.meaning);
-      setText(el("flower-note"), fl.note);
+    function fillFlower(idx, fl){
+      var mini=el("flower-mini-"+idx);
+      if(fl){
+        if(mini) mini.hidden=false;
+        setVisual(el("flower-visual-"+idx), fl.emoji, fl.photo);
+        setText(el("flower-name-"+idx), fl.name);
+        setText(el("flower-meaning-"+idx), fl.meaning);
+        setText(el("flower-note-"+idx), fl.note);
+      } else if(mini){ mini.hidden=true; }
     }
-    /* 今日の宝石（誕生石・月別）。データが無い言語では宝石カードを隠して花を全幅に */
+    fillFlower(1, fls[0]);
+    fillFlower(2, fls[1]);
+    /* 今月の宝石（誕生石・月別）。データが無い言語では宝石カードを隠して花を全幅に */
     var gems=(content.gems||[]).filter(function(g){ return g.month===m; });
     var gem = gems.length ? gems[Math.floor(Math.random()*gems.length)] : null;
     var gemCard=el("gem-card");

@@ -41,6 +41,22 @@ window.SOYOGI_WS_CONTENT["en"] = {
     { month:12, name:"Poinsettia",         emoji:"🌺", photo:null, meaning:"Good cheer", note:"The red and green of the holiday season." }
   ],
 
+  /* ---- 今月の宝石（誕生石・月別・全国宝石卸商協同組合準拠） ---- */
+  gems: [
+    { month:1, name:"Garnet", emoji:"❤️", meaning:"true friendship & constant love", note:"Deep red. The birthstone of January." },
+    { month:2, name:"Amethyst", emoji:"💜", meaning:"sincerity & peace of mind", note:"An elegant purple stone. The birthstone of February." },
+    { month:3, name:"Aquamarine", emoji:"💎", meaning:"composure & courage", note:"A clear sea-blue stone. The birthstone of March." },
+    { month:4, name:"Diamond", emoji:"💎", meaning:"eternal bond & purity", note:"The hardest, most brilliant gem. The birthstone of April." },
+    { month:5, name:"Emerald", emoji:"💚", meaning:"good fortune & happiness", note:"A deep green stone. The birthstone of May." },
+    { month:6, name:"Pearl", emoji:"🤍", meaning:"health, long life & purity", note:"A white gem born of the sea. The birthstone of June." },
+    { month:7, name:"Ruby", emoji:"❤️", meaning:"passion, love & courage", note:"A fiery red stone. The birthstone of July." },
+    { month:8, name:"Peridot", emoji:"💚", meaning:"married happiness & harmony", note:"A bright yellow-green stone. The birthstone of August." },
+    { month:9, name:"Sapphire", emoji:"💙", meaning:"sincerity & devotion", note:"A deep blue stone. The birthstone of September." },
+    { month:10, name:"Opal", emoji:"🌈", meaning:"hope, happiness & patience", note:"Shimmers in rainbow colors. The birthstone of October." },
+    { month:11, name:"Topaz", emoji:"💛", meaning:"friendship, hope & sincerity", note:"A warm yellow stone. The birthstone of November." },
+    { month:12, name:"Turquoise", emoji:"💠", meaning:"success, prosperity & safe travels", note:"A sky-blue stone. The birthstone of December." },
+  ],
+
   /* ---- Tab 1: on this day (verified history + year:null annual customs) ---- */
   onThisDay: [
     { month:1,  day:1,  year:null, text:"Today is New Year's Day — a fresh start to the year.", emoji:"🎉" },
