@@ -59,6 +59,14 @@ window.SOYOGI_WS_CONTENT["en"] = {
 
   /* ---- Tab 1: on this day (verified history + year:null annual customs) ---- */
   onThisDay: [
+    { month:10, day:20, year:1973, emoji:"🎭", text:"The Sydney Opera House was officially opened by Queen Elizabeth II." },
+    { month:10, day:1, year:1971, emoji:"🏰", text:"Walt Disney World opened in Florida." },
+    { month:1, day:24, year:1984, emoji:"💻", text:"Apple launched the Macintosh, a landmark personal computer." },
+    { month:6, day:29, year:2007, emoji:"📱", text:"Apple's first iPhone went on sale." },
+    { month:1, day:10, year:1863, emoji:"🚇", text:"The London Underground, the world's first underground railway, opened." },
+    { month:7, day:29, year:1981, emoji:"💒", text:"Prince Charles and Lady Diana married at St Paul's Cathedral, watched worldwide." },
+    { month:7, day:9, year:1877, emoji:"🎾", text:"The first Wimbledon tennis championship began in London." },
+    { month:2, day:22, year:1997, emoji:"🐑", text:"Scientists announced Dolly the sheep, the first cloned mammal." },
     { month:7, day:5, year:1948, emoji:"🏥", text:"The National Health Service (NHS) was founded in Britain, offering free healthcare for all." },
     { month:5, day:6, year:1954, emoji:"🏃", text:"Roger Bannister became the first person to run a mile in under four minutes." },
     { month:11, day:24, year:1859, emoji:"📖", text:"Charles Darwin published On the Origin of Species." },
