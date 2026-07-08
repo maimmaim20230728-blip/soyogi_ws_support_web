@@ -58,6 +58,21 @@ window.SOYOGI_WS_CONTENT["de"] = {
 
   /* ---- Tab 1: An diesem Tag (belegte, freudige Ereignisse) ---- */
   onThisDay: [
+    { month:5, day:23, year:1949, emoji:"📜", text:"In Bonn wird das Grundgesetz verkündet — die Bundesrepublik Deutschland entsteht." },
+    { month:8, day:26, year:1841, emoji:"🎵", text:"Hoffmann von Fallersleben dichtet auf Helgoland das «Lied der Deutschen» (heutige Nationalhymne)." },
+    { month:10, day:13, year:1974, emoji:"🏃", text:"Der erste Berlin-Marathon wird gelaufen." },
+    { month:11, day:17, year:1846, emoji:"🔬", text:"Carl Zeiss eröffnet in Jena seine feinmechanisch-optische Werkstatt." },
+    { month:9, day:15, year:1949, emoji:"🏛️", text:"Konrad Adenauer wird zum ersten Bundeskanzler gewählt." },
+    { month:1, day:19, year:1919, emoji:"🗳️", text:"Bei der Wahl zur Nationalversammlung dürfen Frauen in Deutschland zum ersten Mal wählen." },
+    { month:12, day:7, year:1835, emoji:"🚂", text:"Zwischen Nürnberg und Fürth fährt mit dem «Adler» die erste deutsche Eisenbahn." },
+    { month:9, day:25, year:1555, emoji:"🕊️", text:"Der Augsburger Religionsfrieden erlaubt das Nebeneinander von Katholiken und Lutheranern." },
+    { month:12, day:24, year:1818, emoji:"🎶", text:"«Stille Nacht, heilige Nacht» wird in Oberndorf zum ersten Mal gesungen." },
+    { month:11, day:20, year:1805, emoji:"🎼", text:"Beethovens einzige Oper «Fidelio» wird in Wien uraufgeführt." },
+    { month:8, day:28, year:1850, emoji:"🎼", text:"Wagners «Lohengrin» wird in Weimar unter Franz Liszt uraufgeführt." },
+    { month:4, day:1, year:1919, emoji:"🎨", text:"Walter Gropius gründet in Weimar das Bauhaus." },
+    { month:10, day:30, year:2005, emoji:"⛪", text:"Die wieder aufgebaute Dresdner Frauenkirche wird neu geweiht." },
+    { month:1, day:11, year:2017, emoji:"🎵", text:"Die Elbphilharmonie in Hamburg wird mit einem Festkonzert eröffnet." },
+    { month:6, day:19, year:1927, emoji:"🏎️", text:"Auf dem neuen Nürburgring wird das erste Autorennen ausgetragen." },
     { month:4, day:23, year:1516, emoji:"🍺", text:"In Bayern wird das Reinheitsgebot für Bier erlassen." },
     { month:6, day:20, year:1991, emoji:"🏛️", text:"Der Bundestag beschließt, den Regierungssitz von Bonn nach Berlin zu verlegen." },
     { month:6, day:22, year:1980, emoji:"⚽", text:"Deutschland wird in Rom Fußball-Europameister (2:1 gegen Belgien)." },
