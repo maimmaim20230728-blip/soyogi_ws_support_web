@@ -58,6 +58,12 @@ window.SOYOGI_WS_CONTENT["de"] = {
 
   /* ---- Tab 1: An diesem Tag (belegte, freudige Ereignisse) ---- */
   onThisDay: [
+    { month:6, day:6, year:1951, emoji:"🎬", text:"In West-Berlin werden die ersten Internationalen Filmfestspiele (Berlinale) eröffnet." },
+    { month:10, day:12, year:2003, emoji:"⚽", text:"Die deutsche Frauen-Nationalmannschaft wird zum ersten Mal Fußball-Weltmeister." },
+    { month:12, day:25, year:800, emoji:"👑", text:"Karl der Große wird in Rom zum Kaiser gekrönt." },
+    { month:2, day:2, year:962, emoji:"👑", text:"Otto I. wird zum Kaiser gekrönt — die Geburtsstunde des Heiligen Römischen Reiches." },
+    { month:2, day:7, year:1992, emoji:"🇪🇺", text:"Mit dem Vertrag von Maastricht wird die Europäische Union gegründet." },
+    { month:9, day:7, year:1949, emoji:"🏛️", text:"Der erste Deutsche Bundestag tritt in Bonn zusammen." },
     { month:5, day:12, year:1941, emoji:"💻", text:"Konrad Zuse stellt die Z3 vor — den weltweit ersten programmierbaren Computer." },
     { month:6, day:20, year:1948, emoji:"💶", text:"In Westdeutschland wird die Deutsche Mark eingeführt." },
     { month:4, day:25, year:1931, emoji:"🏎️", text:"Ferdinand Porsche gründet in Stuttgart sein Konstruktionsbüro — die Marke Porsche entsteht." },
