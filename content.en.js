@@ -59,6 +59,14 @@ window.SOYOGI_WS_CONTENT["en"] = {
 
   /* ---- Tab 1: on this day (verified history + year:null annual customs) ---- */
   onThisDay: [
+    { month:8, day:25, year:1939, emoji:"🎬", text:"The Wizard of Oz opened in cinemas across the United States." },
+    { month:7, day:13, year:1985, emoji:"🎤", text:"Live Aid, a global charity rock concert, was held in London and Philadelphia." },
+    { month:8, day:15, year:1914, emoji:"🚢", text:"The Panama Canal opened, joining the Atlantic and Pacific Oceans." },
+    { month:10, day:1, year:1908, emoji:"🚗", text:"The Ford Model T went on sale — the first affordable mass-produced car." },
+    { month:3, day:2, year:1965, emoji:"🎬", text:"The film The Sound of Music premiered." },
+    { month:10, day:5, year:1962, emoji:"🎸", text:"The Beatles released their first single, «Love Me Do»." },
+    { month:2, day:25, year:1964, emoji:"🥊", text:"Cassius Clay (Muhammad Ali) beat Sonny Liston to win his first world heavyweight title." },
+    { month:8, day:16, year:1858, emoji:"📡", text:"The first transatlantic telegraph message was exchanged between Queen Victoria and the U.S. president." },
     { month:11, day:26, year:1942, emoji:"🎬", text:"The film Casablanca premiered in New York." },
     { month:7, day:1, year:null, emoji:"🍁", text:"Today is Canada Day, marking the confederation of Canada in 1867." },
     { month:4, day:15, year:1955, emoji:"🍔", text:"Ray Kroc opened his first McDonald's franchise in Illinois." },
