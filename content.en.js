@@ -59,6 +59,22 @@ window.SOYOGI_WS_CONTENT["en"] = {
 
   /* ---- Tab 1: on this day (verified history + year:null annual customs) ---- */
   onThisDay: [
+    { month:6, day:15, year:1919, emoji:"🛫", text:"Alcock and Brown completed the first non-stop transatlantic flight, landing in Ireland." },
+    { month:12, day:12, year:1901, emoji:"📡", text:"Marconi received the first transatlantic radio signal." },
+    { month:3, day:1, year:1872, emoji:"🏞️", text:"Yellowstone was established as the world's first national park." },
+    { month:10, day:31, year:1975, emoji:"🎵", text:"Queen released «Bohemian Rhapsody»." },
+    { month:7, day:12, year:1962, emoji:"🎸", text:"The Rolling Stones played their first gig, in London." },
+    { month:12, day:17, year:1989, emoji:"🟡", text:"The Simpsons premiered as a full television series." },
+    { month:12, day:1, year:1913, emoji:"🏭", text:"Henry Ford started the first moving assembly line for cars." },
+    { month:11, day:11, year:1926, emoji:"🛣️", text:"The famous US Route 66 highway was established." },
+    { month:9, day:26, year:1969, emoji:"🎸", text:"The Beatles released their album Abbey Road." },
+    { month:3, day:24, year:1972, emoji:"🎬", text:"Francis Ford Coppola's The Godfather opened in US cinemas." },
+    { month:12, day:16, year:1773, emoji:"🫖", text:"The Boston Tea Party protest took place, a spark of the American Revolution." },
+    { month:5, day:1, year:1851, emoji:"🏛️", text:"The Great Exhibition opened at the Crystal Palace in London." },
+    { month:8, day:27, year:1964, emoji:"☂️", text:"Disney's Mary Poppins premiered." },
+    { month:6, day:11, year:1993, emoji:"🦕", text:"Steven Spielberg's Jurassic Park opened in theaters." },
+    { month:1, day:28, year:1985, emoji:"🎤", text:"Dozens of stars recorded «We Are the World» for famine relief." },
+    { month:1, day:26, year:1926, emoji:"📺", text:"John Logie Baird gave the first public demonstration of television." },
     { month:1, day:27, year:1956, emoji:"🎸", text:"Elvis Presley released «Heartbreak Hotel», his first number-one hit." },
     { month:11, day:30, year:1982, emoji:"🎵", text:"Michael Jackson released «Thriller», the best-selling album of all time." },
     { month:12, day:19, year:1997, emoji:"🚢", text:"James Cameron's film Titanic opened in US cinemas." },
