@@ -58,6 +58,14 @@ window.SOYOGI_WS_CONTENT["de"] = {
 
   /* ---- Tab 1: An diesem Tag (belegte, freudige Ereignisse) ---- */
   onThisDay: [
+    { month:5, day:12, year:1941, emoji:"💻", text:"Konrad Zuse stellt die Z3 vor — den weltweit ersten programmierbaren Computer." },
+    { month:6, day:20, year:1948, emoji:"💶", text:"In Westdeutschland wird die Deutsche Mark eingeführt." },
+    { month:4, day:25, year:1931, emoji:"🏎️", text:"Ferdinand Porsche gründet in Stuttgart sein Konstruktionsbüro — die Marke Porsche entsteht." },
+    { month:7, day:7, year:1985, emoji:"🎾", text:"Der 17-jährige Boris Becker gewinnt als jüngster Sieger Wimbledon." },
+    { month:6, day:2, year:1991, emoji:"🚄", text:"Der ICE nimmt den Betrieb auf — Deutschlands schneller Fernzug." },
+    { month:10, day:1, year:1988, emoji:"🎾", text:"Steffi Graf vollendet mit Olympia-Gold den «Golden Slam»." },
+    { month:11, day:13, year:1994, emoji:"🏎️", text:"Michael Schumacher wird zum ersten Mal Formel-1-Weltmeister." },
+    { month:6, day:28, year:1840, emoji:"🧸", text:"Friedrich Fröbel gibt seiner Einrichtung den Namen «Kindergarten» — der erste der Welt." },
     { month:3, day:7, year:1916, emoji:"🚗", text:"Der Autohersteller BMW wird in München gegründet." },
     { month:6, day:28, year:1926, emoji:"🚗", text:"Daimler und Benz fusionieren zur Daimler-Benz AG — die Marke Mercedes-Benz entsteht." },
     { month:10, day:24, year:1648, emoji:"🕊️", text:"Der Westfälische Friede beendet den Dreißigjährigen Krieg." },
