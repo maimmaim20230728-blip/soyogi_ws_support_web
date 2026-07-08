@@ -59,6 +59,14 @@ window.SOYOGI_WS_CONTENT["en"] = {
 
   /* ---- Tab 1: on this day (verified history + year:null annual customs) ---- */
   onThisDay: [
+    { month:1, day:27, year:1956, emoji:"🎸", text:"Elvis Presley released «Heartbreak Hotel», his first number-one hit." },
+    { month:11, day:30, year:1982, emoji:"🎵", text:"Michael Jackson released «Thriller», the best-selling album of all time." },
+    { month:12, day:19, year:1997, emoji:"🚢", text:"James Cameron's film Titanic opened in US cinemas." },
+    { month:6, day:11, year:1982, emoji:"🎬", text:"Steven Spielberg's E.T. the Extra-Terrestrial opened in theaters." },
+    { month:11, day:22, year:1995, emoji:"🧸", text:"Toy Story opened — the first feature film made entirely with computer animation." },
+    { month:9, day:5, year:1977, emoji:"🚀", text:"NASA launched Voyager 1, now the farthest human-made object from Earth." },
+    { month:7, day:30, year:1966, emoji:"⚽", text:"England won the football World Cup, beating West Germany at Wembley." },
+    { month:11, day:19, year:1863, emoji:"📜", text:"Abraham Lincoln delivered the Gettysburg Address." },
     { month:8, day:1, year:1981, emoji:"📺", text:"MTV began broadcasting, launching the age of music videos." },
     { month:2, day:18, year:1930, emoji:"🪐", text:"Clyde Tombaugh discovered Pluto." },
     { month:6, day:20, year:1975, emoji:"🦈", text:"Jaws opened in theaters — often called the first summer blockbuster." },
