@@ -4,7 +4,7 @@
  * 中身を更新したら CACHE の数字を上げてください（例 v1 -> v2）。
  * ★言語（content.<code>.js）を増やしたら ASSETS にも追加してください。
  */
-var CACHE = "soyogiws-v127";
+var CACHE = "soyogiws-v128";
 var ASSETS = [
   "./",
   "./index.html",
