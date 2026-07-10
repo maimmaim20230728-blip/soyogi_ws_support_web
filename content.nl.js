@@ -160,7 +160,13 @@ window.SOYOGI_WS_CONTENT["nl"] = {
     { month:12, day:10, year:1924, text:"Willem Einthoven krijgt de Nobelprijs voor zijn uitvinding van het ecg.", emoji:"🫀" },
     { month:12, day:12, year:2021, text:"Max Verstappen wordt als eerste Nederlander wereldkampioen Formule 1.", emoji:"🏎️" },
     { month:12, day:13, year:1642, text:"Abel Tasman ontdekt Nieuw-Zeeland, vernoemd naar Zeeland.", emoji:"⛵" },
-    { month:12, day:27, year:1949, text:"Nederland draagt de soevereiniteit over aan Indonesië.", emoji:"🇮🇩" }
+    { month:12, day:27, year:1949, text:"Nederland draagt de soevereiniteit over aan Indonesië.", emoji:"🇮🇩" },
+    /* ---- Mix Nederlands taalgebied: Vlaanderen & Suriname（全てWebSearch裏取り済） ---- */
+    { month:7,  day:11, year:null, text:"Vandaag is het de Feestdag van Vlaanderen (Guldensporenslag, 1302).", emoji:"🦁" },
+    { month:7,  day:21, year:null, text:"Vandaag is het de Belgische nationale feestdag.", emoji:"🇧🇪" },
+    { month:12, day:6,  year:null, text:"Vandaag komt de Sint in België — pakjesochtend voor de kinderen.", emoji:"🎁" },
+    { month:11, day:25, year:1975, text:"Suriname wordt onafhankelijk — Srefidensi Dey.", emoji:"🇸🇷" },
+    { month:1,  day:10, year:1929, text:"Kuifje verschijnt voor het eerst, in het Brusselse «Le Petit Vingtième».", emoji:"📗" }
   ],
 
   /* ---- Tabblad 2: herinneringsquiz (wist u dat + gesprekstip) ---- */
@@ -1180,5 +1186,11 @@ window.SOYOGI_WS_CONTENT["nl"] = {
     { month:6, day:3, type:"death", name:"Anthony Quinn", note:"Acteur. Overleden in 2001. Over de hele wereld speelde hij uiteenlopende rollen." },
     { month:3, day:1, type:"birth", name:"David Niven", note:"Britse acteur. Geboren in 1910. Geliefd als een verfijnde Engelse gentleman." },
     { month:7, day:29, type:"death", name:"David Niven", note:"Acteur. Overleden in 1983. Ook bekend om zijn humor." },
+    /* ---- Mix Nederlands taalgebied: Vlaanderen（全てWebSearch裏取り済） ---- */
+    { month:1,  day:3,  type:"birth", name:"Pater Damiaan", note:"Belgische pater. Geboren in 1840 in Tremelo. Wijdde zijn leven aan de melaatsen op Molokai." },
+    { month:4,  day:15, type:"death", name:"Pater Damiaan", note:"Pater. Overleden in 1889 op Molokai. In 2005 verkozen tot «Grootste Belg»." },
+    { month:4,  day:29, type:"birth", name:"Toots Thielemans", note:"Belgische jazzmuzikant. Geboren in 1922 in Brussel. Wereldberoemd met zijn mondharmonica." },
+    { month:8,  day:22, type:"death", name:"Toots Thielemans", note:"Jazzmuzikant. Overleden in 2016. Zijn «Bluesette» blijft klinken." },
+    { month:6,  day:17, type:"birth", name:"Eddy Merckx", note:"Belgische wielrenner. Geboren in 1945. «De Kannibaal», de grootste renner aller tijden." },
   ]
 };

@@ -160,7 +160,14 @@ window.SOYOGI_WS_CONTENT["fr"] = {
     { month:12, day:10, year:1903, text:"Marie Curie devient la première femme à recevoir un prix Nobel.", emoji:"🏅" },
     { month:12, day:14, year:2004, text:"Le spectaculaire viaduc de Millau est inauguré dans l'Aveyron.", emoji:"🌉" },
     { month:12, day:15, year:1840, text:"Les cendres de Napoléon Ier reviennent à Paris et sont déposées aux Invalides.", emoji:"🎖️" },
-    { month:12, day:25, year:null, text:"Aujourd'hui, c'est Noël.", emoji:"🎄" }
+    { month:12, day:25, year:null, text:"Aujourd'hui, c'est Noël.", emoji:"🎄" },
+    /* ---- Mix francophone : Belgique, Québec, Suisse, Afrique（全てWebSearch裏取り済） ---- */
+    { month:7,  day:21, year:null, text:"Aujourd'hui, c'est la fête nationale de la Belgique.", emoji:"🇧🇪" },
+    { month:6,  day:24, year:null, text:"Aujourd'hui, c'est la Saint-Jean-Baptiste — la fête nationale du Québec.", emoji:"⚜️" },
+    { month:8,  day:1,  year:null, text:"Aujourd'hui, c'est la fête nationale de la Suisse.", emoji:"🇨🇭" },
+    { month:11, day:15, year:null, text:"Aujourd'hui, c'est la fête du Roi en Belgique.", emoji:"👑" },
+    { month:1,  day:10, year:1929, text:"Tintin et Milou font leur première apparition dans « Le Petit Vingtième », à Bruxelles.", emoji:"📗" },
+    { month:2,  day:7,  year:1971, text:"Les Suissesses obtiennent le droit de vote au niveau fédéral.", emoji:"🗳️" }
   ],
 
   /* ---- Onglet 2 : quiz souvenirs (le saviez-vous + astuce conversation) ---- */
@@ -1188,6 +1195,14 @@ window.SOYOGI_WS_CONTENT["fr"] = {
     { month:4,  day:21, type:"birth", name:"Anthony Quinn",         note:"Acteur américain. Né en 1915. Connu pour un jeu puissant, notamment dans « Zorba le Grec »." },
     { month:6,  day:3,  type:"death", name:"Anthony Quinn",         note:"Acteur. Mort en 2001. Il a joué des rôles variés à travers le monde." },
     { month:3,  day:1,  type:"birth", name:"David Niven",           note:"Acteur britannique. Né en 1910. Aimé en gentleman anglais raffiné." },
-    { month:7,  day:29, type:"death", name:"David Niven",           note:"Acteur. Mort en 1983. Connu aussi pour son humour." }
+    { month:7,  day:29, type:"death", name:"David Niven",           note:"Acteur. Mort en 1983. Connu aussi pour son humour." },
+    /* ---- Mix francophone（全てWebSearch裏取り済） ---- */
+    { month:4,  day:8,  type:"birth", name:"Jacques Brel",          note:"Chanteur belge. Né en 1929 à Bruxelles. « Ne me quitte pas » a ému le monde entier." },
+    { month:10, day:9,  type:"death", name:"Jacques Brel",          note:"Chanteur. Mort en 1978. Ses chansons théâtrales restent inoubliables." },
+    { month:5,  day:22, type:"birth", name:"Hergé",                 note:"Dessinateur belge. Né en 1907. Le père de Tintin et Milou." },
+    { month:3,  day:3,  type:"death", name:"Hergé",                 note:"Dessinateur. Mort en 1983. Ses albums de Tintin sont lus dans le monde entier." },
+    { month:3,  day:30, type:"birth", name:"Céline Dion",           note:"Chanteuse québécoise. Née en 1968 à Charlemagne. Sa voix a conquis le monde entier." },
+    { month:10, day:9,  type:"birth", name:"Léopold Sédar Senghor", note:"Poète et homme d'État sénégalais. Né en 1906. Premier président du Sénégal, grande voix de la francophonie." },
+    { month:12, day:20, type:"death", name:"Léopold Sédar Senghor", note:"Poète. Mort en 2001. Premier Africain élu à l'Académie française." }
   ]
 };

@@ -161,7 +161,11 @@ window.SOYOGI_WS_CONTENT["sv"] = {
     { month:11, day:13, year:null, text:"Idag är det världsvänlighetens dag.", emoji:"💛" },
     { month:11, day:20, year:null, text:"Idag är det barnkonventionens dag.", emoji:"🧒" },
     { month:12, day:9,  year:null, text:"Idag är det pepparkakans dag.", emoji:"🍪" },
-    { month:12, day:23, year:null, text:"Idag är det drottning Silvias födelsedag (flaggdag).", emoji:"🎂" }
+    { month:12, day:23, year:null, text:"Idag är det drottning Silvias födelsedag (flaggdag).", emoji:"🎂" },
+    /* ---- Mix: Svenskfinland（全てWebSearch裏取り済） ---- */
+    { month:12, day:6,  year:null, text:"Idag är det Finlands självständighetsdag (1917) — även Svenskfinland firar.", emoji:"🇫🇮" },
+    { month:2,  day:5,  year:null, text:"Idag är det Runebergsdagen i Finland — dagen för runebergstårtor.", emoji:"🧁" },
+    { month:11, day:6,  year:null, text:"I Finland är det idag Svenska dagen.", emoji:"🇫🇮" }
   ],
 
   /* ---- Flik 2: minnesquiz (visste du + samtalstips) ---- */
@@ -1181,5 +1185,8 @@ window.SOYOGI_WS_CONTENT["sv"] = {
     { month:6, day:3, type:"death", name:"Anthony Quinn", note:"Skådespelare. Död 2001. Över hela världen spelade han skiftande roller." },
     { month:3, day:1, type:"birth", name:"David Niven", note:"Brittisk skådespelare. Född 1910. Älskad som en förnäm engelsk gentleman." },
     { month:7, day:29, type:"death", name:"David Niven", note:"Skådespelare. Död 1983. Känd även för sin humor." },
+    /* ---- Mix: Svenskfinland（全てWebSearch裏取り済） ---- */
+    { month:8,  day:9,  type:"birth", name:"Tove Jansson", note:"Finlandssvensk författare och konstnär. Född 1914 i Helsingfors. Mumintrollens mamma." },
+    { month:6,  day:27, type:"death", name:"Tove Jansson", note:"Författare. Död 2001. Mumindalen fortsätter att glädja stora och små." },
   ]
 };

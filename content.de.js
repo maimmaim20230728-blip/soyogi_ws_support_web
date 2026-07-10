@@ -158,7 +158,15 @@ window.SOYOGI_WS_CONTENT["de"] = {
     { month:7,  day:8,  year:1990, text:"Deutschland wird in Rom zum dritten Mal Fußball-Weltmeister.", emoji:"⚽" },
     { month:8,  day:26, year:1978, text:"Sigmund Jähn fliegt als erster Deutscher ins All.", emoji:"🚀" },
     { month:10, day:3,  year:1990, text:"Deutschland wird wiedervereinigt — der erste Tag der Deutschen Einheit.", emoji:"🇩🇪" },
-    { month:11, day:9,  year:1989, text:"Die Berliner Mauer fällt.", emoji:"🧱" }
+    { month:11, day:9,  year:1989, text:"Die Berliner Mauer fällt.", emoji:"🧱" },
+    /* ---- DACH-Mix: Österreich & Schweiz（全てWebSearch裏取り済） ---- */
+    { month:8,  day:1,  year:null, text:"Heute ist der Schweizer Nationalfeiertag — Höhenfeuer erinnern an den Bund von 1291.", emoji:"🇨🇭" },
+    { month:10, day:26, year:null, text:"Heute ist der österreichische Nationalfeiertag — 1955 beschloss Österreich seine immerwährende Neutralität.", emoji:"🇦🇹" },
+    { month:1,  day:1,  year:null, text:"Heute erklingt das Neujahrskonzert der Wiener Philharmoniker — Walzerklänge zum Jahresbeginn.", emoji:"🎻" },
+    { month:7,  day:14, year:1865, text:"Edward Whymper und seine Seilschaft besteigen als Erste das Matterhorn.", emoji:"⛰️" },
+    { month:2,  day:7,  year:1971, text:"Die Schweiz führt das Frauenstimmrecht ein — per Volksabstimmung.", emoji:"🗳️" },
+    { month:5,  day:15, year:1955, text:"Im Wiener Belvedere wird der Staatsvertrag unterzeichnet — Österreich ist wieder frei und unabhängig.", emoji:"🕊️" },
+    { month:8,  day:22, year:1920, text:"Mit dem «Jedermann» auf dem Salzburger Domplatz werden die Salzburger Festspiele geboren.", emoji:"🎭" }
   ],
 
   /* ---- Tab 2: Erinnerungs-Quiz (Wissenswertes + strukturierter Gesprächstipp) ---- */
@@ -1184,6 +1192,15 @@ window.SOYOGI_WS_CONTENT["de"] = {
     { month:4,  day:21, type:"birth", name:"Anthony Quinn",         note:"US-amerikanischer Schauspieler. Geboren 1915. Bekannt für kraftvolles Spiel, u. a. in „Alexis Sorbas“." },
     { month:6,  day:3,  type:"death", name:"Anthony Quinn",         note:"Schauspieler. Gestorben 2001. Auf der ganzen Welt spielte er vielfältige Rollen." },
     { month:3,  day:1,  type:"birth", name:"David Niven",           note:"Britischer Schauspieler. Geboren 1910. Als vornehmer englischer Gentleman geliebt." },
-    { month:7,  day:29, type:"death", name:"David Niven",           note:"Schauspieler. Gestorben 1983. Auch für seinen Humor bekannt." }
+    { month:7,  day:29, type:"death", name:"David Niven",           note:"Schauspieler. Gestorben 1983. Auch für seinen Humor bekannt." },
+    /* ---- DACH-Mix: Österreich & Schweiz（全てWebSearch裏取り済） ---- */
+    { month:12, day:24, type:"birth", name:"Kaiserin Elisabeth («Sisi»)", note:"Kaiserin von Österreich. Geboren 1837 in München. Als «Sisi» bis heute unvergessen." },
+    { month:9,  day:10, type:"death", name:"Kaiserin Elisabeth («Sisi»)", note:"Kaiserin. Gestorben 1898 in Genf. Ihr Leben wurde zur Legende." },
+    { month:9,  day:23, type:"birth", name:"Romy Schneider",        note:"Schauspielerin. Geboren 1938 in Wien. Als «Sissi» eroberte sie die Herzen des Publikums." },
+    { month:5,  day:29, type:"death", name:"Romy Schneider",        note:"Schauspielerin. Gestorben 1982. Auch im französischen Film gefeiert." },
+    { month:9,  day:30, type:"birth", name:"Udo Jürgens",           note:"Österreichischer Sänger und Komponist. Geboren 1934 in Klagenfurt. «Griechischer Wein», «Aber bitte mit Sahne» — fast 1000 Lieder." },
+    { month:12, day:21, type:"death", name:"Udo Jürgens",           note:"Sänger. Gestorben 2014. Gewann 1966 als erster Österreicher den Eurovision Song Contest." },
+    { month:6,  day:12, type:"birth", name:"Johanna Spyri",         note:"Schweizer Schriftstellerin. Geboren 1827. Ihre «Heidi»-Bücher gingen um die Welt." },
+    { month:7,  day:7,  type:"death", name:"Johanna Spyri",         note:"Schriftstellerin. Gestorben 1901. «Heidi» wird bis heute von Kindern geliebt." }
   ]
 };
