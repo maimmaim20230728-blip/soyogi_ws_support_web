@@ -56,6 +56,23 @@ window.SOYOGI_WS_CONTENT["es"] = {
     { month:10, name:"Ópalo", emoji:"🌈", meaning:"esperanza, felicidad & paciencia", note:"Brilla con los colores del arcoíris. La piedra del mes de octubre." },
     { month:11, name:"Topacio", emoji:"💛", meaning:"amistad, esperanza & sinceridad", note:"Una cálida piedra amarilla. La piedra del mes de noviembre." },
     { month:12, name:"Turquesa", emoji:"💠", meaning:"éxito, prosperidad & viajes seguros", note:"Una piedra azul cielo. La piedra del mes de diciembre." },
+    { month:2, name:"Ojo de gato (crisoberilo)", emoji:"💛", meaning:"protección & ternura", note:"Una piedra cruzada por una franja de luz, como el ojo de un gato. Piedra de nacimiento desde 2021." },
+    { month:3, name:"Coral", emoji:"🧡", meaning:"felicidad & larga vida", note:"Un tesoro nacido del mar, amuleto de longevidad desde antiguo." },
+    { month:3, name:"Heliotropo", emoji:"💚", meaning:"valor & pasión", note:"Verde profundo salpicado de rojo. Añadida en 2021." },
+    { month:3, name:"Iolita", emoji:"💙", meaning:"sinceridad & buen rumbo", note:"Una piedra azul violácea que, se dice, guiaba a los marinos. Añadida en 2021." },
+    { month:4, name:"Morganita", emoji:"💗", meaning:"amor & dulzura", note:"Una piedra rosa suave. Añadida en 2021." },
+    { month:5, name:"Jade", emoji:"🍀", meaning:"prosperidad, salud & larga vida", note:"Una piedra verde profundo, apreciada desde hace siglos." },
+    { month:6, name:"Piedra luna", emoji:"🌙", meaning:"amor & sosiego", note:"Una piedra de suave brillo de luna." },
+    { month:6, name:"Alejandrita", emoji:"🔮", meaning:"nobleza & sentimientos ocultos", note:"Una piedra misteriosa que cambia de color entre el día y la noche. Añadida en 2021." },
+    { month:7, name:"Esfena", emoji:"✨", meaning:"pureza & permanencia", note:"Una piedra verde amarillenta con fuego de diamante. Añadida en 2021." },
+    { month:8, name:"Sardónice", emoji:"🧡", meaning:"felicidad conyugal", note:"Una piedra de franjas rojas y blancas." },
+    { month:8, name:"Espinela", emoji:"💖", meaning:"éxito & crecimiento", note:"Famosa por su rojo intenso. Añadida en 2021." },
+    { month:9, name:"Kunzita", emoji:"🌸", meaning:"amor incondicional & pureza", note:"Una delicada piedra rosa lila. Añadida en 2021." },
+    { month:10, name:"Turmalina", emoji:"⚡", meaning:"esperanza & amistad", note:"La «piedra eléctrica»: al frotarla se carga de electricidad estática." },
+    { month:11, name:"Citrino", emoji:"🍋", meaning:"prosperidad & éxito", note:"Un cuarzo color limón." },
+    { month:12, name:"Lapislázuli", emoji:"🌌", meaning:"verdad & buena fortuna", note:"Azul profundo, como un cielo nocturno sembrado de estrellas doradas." },
+    { month:12, name:"Tanzanita", emoji:"💜", meaning:"nobleza & misterio", note:"Una piedra azul violeta como el cielo del atardecer. Añadida en 2021." },
+    { month:12, name:"Circón", emoji:"🔹", meaning:"serenidad & eternidad", note:"Una piedra con brillo de diamante. Añadido en 2021." }
   ],
 
   /* ---- Pestaña 1: tal día como hoy (fechas verificadas + fiestas year:null) ---- */

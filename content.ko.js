@@ -56,6 +56,23 @@ window.SOYOGI_WS_CONTENT["ko"] = {
     { month:10, name:"오팔", emoji:"🌈", meaning:"희망·행복·인내", note:"보는 각도에 따라 무지갯빛으로 빛나는 돌. 10월의 탄생석입니다." },
     { month:11, name:"토파즈", emoji:"💛", meaning:"우정·희망·결백", note:"따뜻한 노란색 돌. 11월의 탄생석입니다." },
     { month:12, name:"터키석", emoji:"💠", meaning:"성공·번영·여행의 안전", note:"하늘색 돌. 12월의 탄생석입니다." },
+    { month:2, name:"크리소베릴 캐츠아이", emoji:"💛", meaning:"수호・자애", note:"고양이 눈처럼 빛의 줄이 떠오르는 보석. 2021년에 탄생석에 더해졌습니다." },
+    { month:3, name:"산호", emoji:"🧡", meaning:"행복・장수", note:"바다가 길러낸 보석. 장수의 부적으로 사랑받아 왔습니다." },
+    { month:3, name:"블러드스톤", emoji:"💚", meaning:"용기・열정", note:"짙은 초록에 붉은 반점이 섞인 보석. 2021년에 더해졌습니다." },
+    { month:3, name:"아이올라이트", emoji:"💙", meaning:"성실・길잡이", note:"제비꽃빛 보석. 옛 뱃사람들의 길잡이로 전해집니다. 2021년에 더해졌습니다." },
+    { month:4, name:"모거나이트", emoji:"💗", meaning:"애정・다정함", note:"은은한 분홍빛 보석. 2021년에 더해졌습니다." },
+    { month:5, name:"비취", emoji:"🍀", meaning:"번영・건강・장수", note:"동양에서 오랫동안 사랑받아 온 짙은 초록의 보석." },
+    { month:6, name:"문스톤", emoji:"🌙", meaning:"애정・치유", note:"달빛처럼 은은하게 빛나는 보석." },
+    { month:6, name:"알렉산드라이트", emoji:"🔮", meaning:"고귀함・숨긴 마음", note:"낮과 밤에 색이 달라지는 신비한 보석. 2021년에 더해졌습니다." },
+    { month:7, name:"스펜(티타나이트)", emoji:"✨", meaning:"순수・영원불변", note:"다이아몬드처럼 반짝이는 황록색 보석. 2021년에 더해졌습니다." },
+    { month:8, name:"사도닉스", emoji:"🧡", meaning:"부부 화목・행복한 결혼", note:"붉은색과 흰색 줄무늬의 보석." },
+    { month:8, name:"스피넬", emoji:"💖", meaning:"성공・발전", note:"선명한 붉은빛으로 유명한 보석. 2021년에 더해졌습니다." },
+    { month:9, name:"쿤자이트", emoji:"🌸", meaning:"무조건적인 사랑・순수", note:"은은한 연보라빛 보석. 2021년에 더해졌습니다." },
+    { month:10, name:"투르말린", emoji:"⚡", meaning:"희망・우정", note:"전기석이라고도 불리며, 문지르면 정전기를 띱니다." },
+    { month:11, name:"시트린", emoji:"🍋", meaning:"번영・성공", note:"레몬빛 수정. 황수정이라고도 합니다." },
+    { month:12, name:"라피스라줄리", emoji:"🌌", meaning:"진실・행운", note:"금빛 별을 뿌린 밤하늘 같은 짙은 파란 보석." },
+    { month:12, name:"탄자나이트", emoji:"💜", meaning:"고귀함・신비", note:"저녁 하늘 같은 청보라빛 보석. 2021년에 더해졌습니다." },
+    { month:12, name:"지르콘", emoji:"🔹", meaning:"평온・영원", note:"다이아몬드 같은 광채의 보석. 2021년에 더해졌습니다." }
   ],
 
   /* ---- 탭1: 오늘은 무슨 날 (검증된 사실 + 기념일 year:null) ---- */

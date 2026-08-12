@@ -52,6 +52,19 @@ ALL_CODES.forEach(code => {
     ['name','emoji','meaning','note'].forEach(k => { if (!f[k]) err(code, 'flowers[' + i + '] ' + k + ' 欠け'); });
   });
 
+  // gems: 現行公式(2021年12月改訂)の29石。1..12各月に最低1件+月別石数の公式配分と一致
+  //   公式配分(全国宝石卸商協同組合): 1月1/2月2/3月4/4月2/5月2/6月3/7月2/8月3/9月2/10月2/11月2/12月4 = 29
+  const GEM_COUNTS = { 1:1, 2:2, 3:4, 4:2, 5:2, 6:3, 7:2, 8:3, 9:2, 10:2, 11:2, 12:4 };
+  const gmonths = (c.gems || []).map(g => g.month);
+  for (let m = 1; m <= 12; m++) {
+    const n = gmonths.filter(x => x === m).length;
+    if (n !== GEM_COUNTS[m]) err(code, 'gems: ' + m + '月が' + n + '石（公式は' + GEM_COUNTS[m] + '石）');
+  }
+  if ((c.gems || []).length !== 29) err(code, 'gems: 合計' + (c.gems || []).length + '石（公式は29石）');
+  (c.gems || []).forEach((g, i) => {
+    ['name','emoji','meaning','note'].forEach(k => { if (!g[k]) err(code, 'gems[' + i + '] ' + k + ' 欠け'); });
+  });
+
   // onThisDay
   if (!(c.onThisDay || []).length) warn(code, 'onThisDay が空');
   (c.onThisDay || []).forEach((o, i) => {

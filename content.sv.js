@@ -56,6 +56,23 @@ window.SOYOGI_WS_CONTENT["sv"] = {
     { month:10, name:"Opal", emoji:"🌈", meaning:"hopp, lycka & tålamod", note:"Skimrar i regnbågens färger. Oktober månads födelsesten." },
     { month:11, name:"Topas", emoji:"💛", meaning:"vänskap, hopp & uppriktighet", note:"En varmt gul sten. November månads födelsesten." },
     { month:12, name:"Turkos", emoji:"💠", meaning:"framgång, välstånd & trygga resor", note:"En himmelsblå sten. December månads födelsesten." },
+    { month:2, name:"Krysoberyll kattöga", emoji:"💛", meaning:"beskydd & ömhet", note:"En sten med en ljusstrimma som ett kattöga. Födelsesten sedan 2021." },
+    { month:3, name:"Korall", emoji:"🧡", meaning:"lycka & långt liv", note:"En skatt ur havet, sedan länge en lyckoamulett för långt liv." },
+    { month:3, name:"Heliotrop", emoji:"💚", meaning:"mod & passion", note:"Djupgrön med röda stänk. Tillagd 2021." },
+    { month:3, name:"Iolit", emoji:"💙", meaning:"uppriktighet & vägledning", note:"En violblå sten som sägs ha väglett sjöfarare. Tillagd 2021." },
+    { month:4, name:"Morganit", emoji:"💗", meaning:"kärlek & mildhet", note:"En mjukt rosa sten. Tillagd 2021." },
+    { month:5, name:"Jade", emoji:"🍀", meaning:"välgång, hälsa & långt liv", note:"En djupgrön sten, älskad i århundraden." },
+    { month:6, name:"Månsten", emoji:"🌙", meaning:"kärlek & läkning", note:"En sten som skimrar mjukt som månljus." },
+    { month:6, name:"Alexandrit", emoji:"🔮", meaning:"ädelhet & dolda känslor", note:"En gåtfull sten som skiftar färg mellan dag och natt. Tillagd 2021." },
+    { month:7, name:"Sfen (titanit)", emoji:"✨", meaning:"renhet & beständighet", note:"En gulgrön sten med diamantlik eld. Tillagd 2021." },
+    { month:8, name:"Sardonyx", emoji:"🧡", meaning:"äktenskaplig lycka", note:"En sten med röda och vita ränder." },
+    { month:8, name:"Spinell", emoji:"💖", meaning:"framgång & utveckling", note:"Berömd för sin klarröda färg. Tillagd 2021." },
+    { month:9, name:"Kunzit", emoji:"🌸", meaning:"villkorslös kärlek & renhet", note:"En mild syrenrosa sten. Tillagd 2021." },
+    { month:10, name:"Turmalin", emoji:"⚡", meaning:"hopp & vänskap", note:"Kallas den elektriska stenen: gnuggad laddas den med statisk elektricitet." },
+    { month:11, name:"Citrin", emoji:"🍋", meaning:"välgång & framgång", note:"En citrongul kvarts." },
+    { month:12, name:"Lapis lazuli", emoji:"🌌", meaning:"sanning & lycka", note:"Djupblå som en natthimmel beströdd med gyllene stjärnor." },
+    { month:12, name:"Tanzanit", emoji:"💜", meaning:"ädelhet & mystik", note:"En blåviolett sten som kvällshimlen. Tillagd 2021." },
+    { month:12, name:"Zirkon", emoji:"🔹", meaning:"ro & evighet", note:"En sten med diamantlik lyster. Tillagd 2021." }
   ],
 
   /* ---- Flik 1: denna dag (verifierade datum + högtider year:null) ---- */

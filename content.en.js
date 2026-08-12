@@ -55,6 +55,23 @@ window.SOYOGI_WS_CONTENT["en"] = {
     { month:10, name:"Opal", emoji:"🌈", meaning:"hope, happiness & patience", note:"Shimmers in rainbow colors. The birthstone of October." },
     { month:11, name:"Topaz", emoji:"💛", meaning:"friendship, hope & sincerity", note:"A warm yellow stone. The birthstone of November." },
     { month:12, name:"Turquoise", emoji:"💠", meaning:"success, prosperity & safe travels", note:"A sky-blue stone. The birthstone of December." },
+    { month:2, name:"Chrysoberyl Cat's Eye", emoji:"💛", meaning:"protection & tender love", note:"A stone with a band of light like a cat's eye. Added to the birthstones in 2021." },
+    { month:3, name:"Coral", emoji:"🧡", meaning:"happiness & long life", note:"A gem nurtured by the sea, long cherished as a charm for longevity." },
+    { month:3, name:"Bloodstone", emoji:"💚", meaning:"courage & passion", note:"Deep green flecked with red. Added in 2021." },
+    { month:3, name:"Iolite", emoji:"💙", meaning:"sincerity & guidance", note:"A violet-blue stone, said to have guided sailors of old. Added in 2021." },
+    { month:4, name:"Morganite", emoji:"💗", meaning:"love & gentleness", note:"A soft pink stone. Added in 2021." },
+    { month:5, name:"Jade", emoji:"🍀", meaning:"prosperity, health & long life", note:"A deep green stone treasured for centuries." },
+    { month:6, name:"Moonstone", emoji:"🌙", meaning:"love & healing", note:"A stone that glows softly like moonlight." },
+    { month:6, name:"Alexandrite", emoji:"🔮", meaning:"nobility & hidden feelings", note:"A mysterious stone that changes color between day and night. Added in 2021." },
+    { month:7, name:"Sphene", emoji:"✨", meaning:"purity & permanence", note:"A yellow-green stone that sparkles like diamond. Added in 2021." },
+    { month:8, name:"Sardonyx", emoji:"🧡", meaning:"marital happiness", note:"A stone with red and white stripes." },
+    { month:8, name:"Spinel", emoji:"💖", meaning:"success & growth", note:"Famed for its vivid red. Added in 2021." },
+    { month:9, name:"Kunzite", emoji:"🌸", meaning:"unconditional love & purity", note:"A gentle lilac-pink stone. Added in 2021." },
+    { month:10, name:"Tourmaline", emoji:"⚡", meaning:"hope & friendship", note:"Known as the electric stone: it holds a static charge when rubbed." },
+    { month:11, name:"Citrine", emoji:"🍋", meaning:"prosperity & success", note:"A lemon-colored quartz." },
+    { month:12, name:"Lapis Lazuli", emoji:"🌌", meaning:"truth & good fortune", note:"Deep blue like a night sky sprinkled with golden stars." },
+    { month:12, name:"Tanzanite", emoji:"💜", meaning:"nobility & mystery", note:"A blue-violet stone like the evening sky. Added in 2021." },
+    { month:12, name:"Zircon", emoji:"🔹", meaning:"peace & eternity", note:"A stone with diamond-like brilliance. Added in 2021." }
   ],
 
   /* ---- Tab 1: on this day (verified history + year:null annual customs) ---- */

@@ -79,12 +79,13 @@
     filter:drop-shadow(0 6px 10px rgba(38,51,46,.14));}
   .visual .visual-img{max-width:100%; max-height:200px; border-radius:14px; object-fit:cover;}
   .visual.sm{font-size:52px; margin:2px 0 8px;}
-  /* 今月の花（2種を横並び）＋ 今月の宝石（右に1つ） */
-  .topic-row{display:flex; gap:12px; align-items:stretch;}
-  .flowers-card{flex:2; min-width:0; padding:16px 12px;}
-  .gem-card{flex:1; min-width:0; padding:16px 12px;}
-  .two-flowers{display:flex; gap:10px;}
-  .two-flowers .mini{flex:1; min-width:0;}
+  /* 今月の花＋今月の宝石（縦積み・その月の花/石を何個でもすべて表示。
+     2021年の誕生石改訂で月2〜4石になったため、右カラム1枠方式から全幅カード方式に変更） */
+  .topic-row{display:flex; flex-direction:column; gap:12px;}
+  .flowers-card{min-width:0; padding:16px 12px;}
+  .gem-card{min-width:0; padding:16px 12px;}
+  .duo-list{display:flex; flex-wrap:wrap; gap:10px; justify-content:center;}
+  .duo-list .mini{flex:1 1 0; min-width:150px; max-width:280px;}
   .duo{display:flex; gap:12px;}
   .card.half{flex:1; min-width:0; padding:16px 14px;}
   .duo-name{font-size:16px; font-weight:800; text-align:center; margin-bottom:4px; line-height:1.3;}
@@ -241,27 +242,11 @@
       <div class="topic-row">
         <div class="card flowers-card">
           <div class="card-eyebrow" id="flower-heading"></div>
-          <div class="two-flowers">
-            <div class="mini" id="flower-mini-1">
-              <div class="visual sm" id="flower-visual-1">🌻</div>
-              <div class="duo-name" id="flower-name-1"></div>
-              <div class="duo-meaning" id="flower-meaning-1"></div>
-              <p class="duo-note" id="flower-note-1"></p>
-            </div>
-            <div class="mini" id="flower-mini-2">
-              <div class="visual sm" id="flower-visual-2">🌸</div>
-              <div class="duo-name" id="flower-name-2"></div>
-              <div class="duo-meaning" id="flower-meaning-2"></div>
-              <p class="duo-note" id="flower-note-2"></p>
-            </div>
-          </div>
+          <div class="duo-list" id="flower-list"></div>
         </div>
         <div class="card gem-card" id="gem-card">
           <div class="card-eyebrow" id="gem-heading"></div>
-          <div class="visual sm" id="gem-visual">💎</div>
-          <div class="duo-name" id="gem-name"></div>
-          <div class="duo-meaning" id="gem-meaning"></div>
-          <p class="duo-note" id="gem-note"></p>
+          <div class="duo-list" id="gem-list"></div>
         </div>
       </div>
 
@@ -523,31 +508,32 @@
       if(rk){ koyomi.hidden=false; koyomi.textContent="📅 今日の六曜　"+rk.name+"（"+rk.yomi+"）― "+rk.meaning; }
       else { koyomi.hidden=true; }
     }
-    /* 今月の花：その月の花を2種とも並べて表示する（ランダム表示はしない・わかりやすさ優先）。 */
-    var fls=(content.flowers||[]).filter(function(f){ return f.month===m; });
-    function fillFlower(idx, fl){
-      var mini=el("flower-mini-"+idx);
-      if(fl){
-        if(mini) mini.hidden=false;
-        setVisual(el("flower-visual-"+idx), fl.emoji, fl.photo);
-        setText(el("flower-name-"+idx), fl.name);
-        setText(el("flower-meaning-"+idx), fl.meaning);
-        setText(el("flower-note-"+idx), fl.note);
-      } else if(mini){ mini.hidden=true; }
+    /* 今月の花と今月の宝石：その月のものを「すべて」並べて表示する
+       （ランダムに1つだけ選ぶ方式は廃止＝2021年の誕生石改訂で月2〜4石になったため。
+        わかりやすさ優先・毎日同じ表示で高齢の方にも安心）。 */
+    function fillDuoList(listId, items){
+      var list=el(listId);
+      if(!list) return 0;
+      list.innerHTML="";
+      items.forEach(function(it){
+        var mini=document.createElement("div"); mini.className="mini";
+        var vis=document.createElement("div"); vis.className="visual sm";
+        setVisual(vis, it.emoji, it.photo);
+        var nm=document.createElement("div"); nm.className="duo-name"; nm.textContent=it.name||"";
+        var mg=document.createElement("div"); mg.className="duo-meaning"; mg.textContent=it.meaning||"";
+        var nt=document.createElement("p"); nt.className="duo-note"; nt.textContent=it.note||"";
+        mini.appendChild(vis); mini.appendChild(nm); mini.appendChild(mg); mini.appendChild(nt);
+        list.appendChild(mini);
+      });
+      return items.length;
     }
-    fillFlower(1, fls[0]);
-    fillFlower(2, fls[1]);
-    /* 今月の宝石（誕生石・月別）。データが無い言語では宝石カードを隠して花を全幅に */
+    var fls=(content.flowers||[]).filter(function(f){ return f.month===m; });
+    var flCard=document.querySelector(".flowers-card");
+    if(flCard) flCard.hidden=(fillDuoList("flower-list", fls)===0);
+    /* 今月の宝石（誕生石・月別・全石表示）。データが無い言語では宝石カードを隠す */
     var gems=(content.gems||[]).filter(function(g){ return g.month===m; });
-    var gem = gems.length ? gems[Math.floor(Math.random()*gems.length)] : null;
     var gemCard=el("gem-card");
-    if(gem){
-      if(gemCard) gemCard.hidden=false;
-      setVisual(el("gem-visual"), gem.emoji, gem.photo);
-      setText(el("gem-name"), gem.name);
-      setText(el("gem-meaning"), gem.meaning);
-      setText(el("gem-note"), gem.note);
-    } else if(gemCard){ gemCard.hidden=true; }
+    if(gemCard) gemCard.hidden=(fillDuoList("gem-list", gems)===0);
     var otdArr=content.onThisDay||[];
     /* 「今日は何の日」は当日(month+day一致)の項目だけを表示する。
        ★件数を埋めるために「同じ月の別の日」の出来事を「今日は〜」と偽って出すのは絶対にしない

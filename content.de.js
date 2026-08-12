@@ -54,6 +54,23 @@ window.SOYOGI_WS_CONTENT["de"] = {
     { month:10, name:"Opal", emoji:"🌈", meaning:"Hoffnung, Glück & Geduld", note:"Schimmert in Regenbogenfarben. Der Geburtsstein für Oktober." },
     { month:11, name:"Topas", emoji:"💛", meaning:"Freundschaft, Hoffnung & Aufrichtigkeit", note:"Ein warmer gelber Stein. Der Geburtsstein für November." },
     { month:12, name:"Türkis", emoji:"💠", meaning:"Erfolg, Wohlstand & sichere Reisen", note:"Ein himmelblauer Stein. Der Geburtsstein für Dezember." },
+    { month:2, name:"Chrysoberyll-Katzenauge", emoji:"💛", meaning:"Schutz & liebevolle Fürsorge", note:"Ein Stein mit einem Lichtstreifen wie ein Katzenauge. Seit 2021 ein Geburtsstein." },
+    { month:3, name:"Koralle", emoji:"🧡", meaning:"Glück & langes Leben", note:"Ein Schatz aus dem Meer, seit jeher ein Glücksbringer für ein langes Leben." },
+    { month:3, name:"Heliotrop", emoji:"💚", meaning:"Mut & Leidenschaft", note:"Tiefgrün mit roten Sprenkeln. Seit 2021 dabei." },
+    { month:3, name:"Iolith", emoji:"💙", meaning:"Aufrichtigkeit & Wegweisung", note:"Ein veilchenblauer Stein, einst Wegweiser der Seefahrer. Seit 2021 dabei." },
+    { month:4, name:"Morganit", emoji:"💗", meaning:"Liebe & Sanftheit", note:"Ein zartrosa Stein. Seit 2021 dabei." },
+    { month:5, name:"Jade", emoji:"🍀", meaning:"Wohlstand, Gesundheit & langes Leben", note:"Ein tiefgrüner Stein, seit Jahrhunderten geschätzt." },
+    { month:6, name:"Mondstein", emoji:"🌙", meaning:"Liebe & Heilung", note:"Ein Stein, der sanft wie Mondlicht schimmert." },
+    { month:6, name:"Alexandrit", emoji:"🔮", meaning:"Würde & verborgene Gefühle", note:"Ein geheimnisvoller Stein, der zwischen Tag und Nacht die Farbe wechselt. Seit 2021 dabei." },
+    { month:7, name:"Sphen (Titanit)", emoji:"✨", meaning:"Reinheit & Beständigkeit", note:"Ein gelbgrüner Stein mit diamantartigem Feuer. Seit 2021 dabei." },
+    { month:8, name:"Sardonyx", emoji:"🧡", meaning:"eheliches Glück", note:"Ein Stein mit rot-weißen Streifen." },
+    { month:8, name:"Spinell", emoji:"💖", meaning:"Erfolg & Entfaltung", note:"Berühmt für sein leuchtendes Rot. Seit 2021 dabei." },
+    { month:9, name:"Kunzit", emoji:"🌸", meaning:"bedingungslose Liebe & Reinheit", note:"Ein zarter fliederrosa Stein. Seit 2021 dabei." },
+    { month:10, name:"Turmalin", emoji:"⚡", meaning:"Hoffnung & Freundschaft", note:"Bekannt als elektrischer Stein: Beim Reiben lädt er sich statisch auf." },
+    { month:11, name:"Citrin", emoji:"🍋", meaning:"Wohlstand & Erfolg", note:"Ein zitronengelber Quarz." },
+    { month:12, name:"Lapislazuli", emoji:"🌌", meaning:"Wahrheit & Glück", note:"Tiefblau wie ein Nachthimmel voller goldener Sterne." },
+    { month:12, name:"Tansanit", emoji:"💜", meaning:"Würde & Geheimnis", note:"Ein blauvioletter Stein wie der Abendhimmel. Seit 2021 dabei." },
+    { month:12, name:"Zirkon", emoji:"🔹", meaning:"Ruhe & Ewigkeit", note:"Ein Stein mit diamantgleichem Glanz. Seit 2021 dabei." }
   ],
 
   /* ---- Tab 1: An diesem Tag (belegte, freudige Ereignisse) ---- */

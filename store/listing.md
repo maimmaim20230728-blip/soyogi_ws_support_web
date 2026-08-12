@@ -4,7 +4,7 @@
 appId：`com.soyogi.wssupport` / 提供：介護と支援の相談どころ そよぎ
 
 - カテゴリ案：**メディカル**（または「健康＆フィットネス」）
-- コンテンツレーティング：全年齢（個人情報の収集・入力なし）
+- 対象ユーザー：13歳以上のみ（個人情報の収集・入力なし）
 - プライバシーポリシーURL：`https://soyogi-ws-support-web.vercel.app/privacy.html`
 - フィーチャーグラフィック：`store/feature-graphic.png`（1024×500）
 - アプリアイコン：`store/play-icon-512.png`（512×512）
@@ -25,7 +25,7 @@ appId：`com.soyogi.wssupport` / 提供：介護と支援の相談どころ そ�
 高齢の利用者・患者さんとの会話や回想（昔を思い出すこと）は、心のケアにとても大切です。でも、話の引き出しをすぐに用意するのは簡単ではありません。このアプリは、スタッフの手元で会話のきっかけと「次の一言」を用意します。
 
 ■ 3つのタブ
-・今日のネタ … 今日の花と花言葉、今日は何の日（明るい出来事）。挨拶や雑談の糸口に。
+・今日のネタ … 今月の花と花言葉、今日は何の日。挨拶や雑談の糸口に。
 ・回想クイズ … 昔の家電・物価・駄菓子・遊びなどのやさしいクイズ。答え合わせのあと、会話を広げるための「★スタッフ用カンペ」（口火の一言・たずねてみる質問・広げるコツ・配慮）を表示します。
 ・アイスブレイク … 「どっち派？」と「色で気分診断（結果は必ず前向き）」で、その場を明るく。
 
@@ -56,7 +56,7 @@ Chat cues & reminiscence quizzes for care staff to bond with older people.
 Chatting and reminiscing with older residents and patients matters deeply for their well-being — but it isn't always easy to have the right topic ready. Soyogi puts conversation starters, and the all-important "next line," right in the staff member's hand.
 
 ■ Three tabs
-• Today — the flower of the day with its meaning, plus an uplifting "on this day" fact. Perfect for a greeting or small talk.
+• Today — the flowers of the month with their meanings, plus an "on this day" fact. Perfect for a greeting or small talk.
 • Reminisce — gentle quizzes about old gadgets, prices, sweets, and childhood games. After the answer, a prominent Staff Cue shows an opening line, open questions to ask, tips to expand the chat, and a note on being considerate.
 • Ice-breaker — "This or that?" and a "color mood" reading (always positive) to lighten the moment.
 

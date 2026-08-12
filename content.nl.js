@@ -56,6 +56,23 @@ window.SOYOGI_WS_CONTENT["nl"] = {
     { month:10, name:"Opaal", emoji:"🌈", meaning:"hoop, geluk & geduld", note:"Schittert in regenboogkleuren. De geboortesteen van oktober." },
     { month:11, name:"Topaas", emoji:"💛", meaning:"vriendschap, hoop & oprechtheid", note:"Een warm gele steen. De geboortesteen van november." },
     { month:12, name:"Turkoois", emoji:"💠", meaning:"succes, voorspoed & veilige reizen", note:"Een hemelsblauwe steen. De geboortesteen van december." },
+    { month:2, name:"Chrysoberyl kattenoog", emoji:"💛", meaning:"bescherming & tederheid", note:"Een steen met een lichtstreep als het oog van een kat. Geboortesteen sinds 2021." },
+    { month:3, name:"Koraal", emoji:"🧡", meaning:"geluk & lang leven", note:"Een schat uit de zee, van oudsher een amulet voor een lang leven." },
+    { month:3, name:"Heliotroop", emoji:"💚", meaning:"moed & passie", note:"Diepgroen met rode spikkels. Toegevoegd in 2021." },
+    { month:3, name:"Ioliet", emoji:"💙", meaning:"oprechtheid & richting", note:"Een violetblauwe steen die zeelieden de weg zou hebben gewezen. Toegevoegd in 2021." },
+    { month:4, name:"Morganiet", emoji:"💗", meaning:"liefde & zachtheid", note:"Een zachtroze steen. Toegevoegd in 2021." },
+    { month:5, name:"Jade", emoji:"🍀", meaning:"voorspoed, gezondheid & lang leven", note:"Een diepgroene steen, al eeuwen geliefd." },
+    { month:6, name:"Maansteen", emoji:"🌙", meaning:"liefde & rust", note:"Een steen die zacht glanst als maanlicht." },
+    { month:6, name:"Alexandriet", emoji:"🔮", meaning:"adel & verborgen gevoelens", note:"Een geheimzinnige steen die van kleur verandert tussen dag en nacht. Toegevoegd in 2021." },
+    { month:7, name:"Sfeen (titaniet)", emoji:"✨", meaning:"zuiverheid & bestendigheid", note:"Een geelgroene steen met diamantachtig vuur. Toegevoegd in 2021." },
+    { month:8, name:"Sardonyx", emoji:"🧡", meaning:"huwelijksgeluk", note:"Een steen met rode en witte strepen." },
+    { month:8, name:"Spinel", emoji:"💖", meaning:"succes & groei", note:"Beroemd om zijn felle rood. Toegevoegd in 2021." },
+    { month:9, name:"Kunziet", emoji:"🌸", meaning:"onvoorwaardelijke liefde & zuiverheid", note:"Een zachte lilaroze steen. Toegevoegd in 2021." },
+    { month:10, name:"Toermalijn", emoji:"⚡", meaning:"hoop & vriendschap", note:"De elektrische steen: door wrijven raakt hij statisch geladen." },
+    { month:11, name:"Citrien", emoji:"🍋", meaning:"voorspoed & succes", note:"Een citroengele kwarts." },
+    { month:12, name:"Lapis lazuli", emoji:"🌌", meaning:"waarheid & geluk", note:"Diepblauw als een nachthemel bezaaid met gouden sterren." },
+    { month:12, name:"Tanzaniet", emoji:"💜", meaning:"adel & mysterie", note:"Een blauwviolette steen als de avondhemel. Toegevoegd in 2021." },
+    { month:12, name:"Zirkoon", emoji:"🔹", meaning:"rust & eeuwigheid", note:"Een steen met diamantachtige schittering. Toegevoegd in 2021." }
   ],
 
   /* ---- Tabblad 1: op deze dag (geverifieerde data + feestdagen year:null) ---- */
