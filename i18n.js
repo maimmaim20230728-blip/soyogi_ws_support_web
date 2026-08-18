@@ -83,11 +83,11 @@ window.SOYOGI_WS_I18N = {
 
       // タブ3：アイスブレイク
       iceEitherOr:"どっち派？",
-      iceColor:"色で気分診断",
+      iceColor:"色で気分チェック",
       eoQuestion:"どっちが好き？",
       eoVs:"VS",
       colorPrompt:"今の気分に いちばん近い色は？",
-      colorResultHeading:"診断結果",
+      colorResultHeading:"結果",
       again:"もう一回",
       settings:"設定",
       bgm:"BGM（音楽）",
