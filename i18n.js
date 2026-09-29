@@ -95,7 +95,30 @@ window.SOYOGI_WS_I18N = {
 
       chooseLang:"ことば / Language",
       credit:"アプリ開発：介護と支援の相談どころ・そよぎ",
-      reviewNote:null
+      reviewNote:null,
+
+      // はじめての 使い方（初回の案内・2026-09-30）。本文の {キー} は、この言語の画面の文字に置きかわる（ボタン名を画面と同じにするため）
+      guide:{
+        title:"使い方", step:"{n} / {m}", prev:"← まえ", next:"つぎ →", start:"はじめる", again:"使い方を もう一度 見る",
+        heads:[
+          "{appSubtitle}へ ようこそ",
+          "まず、ここから",
+          "{tabTopic}",
+          "{tabQuiz}",
+          "{tabIce}",
+          "この端末の中だけ",
+          "音・ことば・この案内"
+        ],
+        bodies:[
+          "介護・医療のスタッフが、高齢の方との会話のきっかけを、手元ですぐに見つけるための道具です。\n点数や勝ち負けはありません。答えが合っているかより、そのあとの会話を大切にしています。\n利用者の方に画面を見せても大丈夫な作りです。\nことばは、上で選べます。あとから右上の 🌐 でも変えられます。",
+          "画面の下に「{tabTopic}」「{tabQuiz}」「{tabIce}」の3つがあります。\nあいさつや声かけの前に、「{tabTopic}」で今日の話題をひとつ見つけておきます。\n話が弾みそうなときは「{tabQuiz}」、初対面のときや場をなごませたいときは「{tabIce}」が向いています。",
+          "今日の日付に合わせた話題が出ます。\n「{flowerHeading}」と「{gemHeading}」は、花言葉・石言葉つきです。\n「{onThisDayHeading}」と「{peopleHeading}」は、今日に当てはまるものだけが出ます。無い日は、そのカードは出ません。\nいちばん上には、今日の六曜も出ます。",
+          "上のジャンル（「{genreAll}」「{genres.price}」など）を選んで、問いかけます。\n選択肢をタップすると答え合わせです。「{triviaHeading}」と「{staffCueHeading}」が出ます。\nカンペの「{cueAskLabel}」「{cueExpandLabel}」「{cueCareLabel}」を見ながら、思い出話を広げましょう。\n「{nextQuiz}」で次の問題へ。",
+          "上で「{iceEitherOr}」と「{iceColor}」を切り替えます。\n「{iceEitherOr}」は、2つのうち好きなほうをタップすると「{staffCueHeading}」が出ます。\n「{iceColor}」は、今の気分に近い色を選ぶと、前向きな「{colorResultHeading}」とカンペが出ます。\nどちらも「{again}」で、別の問いや選び直しができます。",
+          "このアプリには、名前などを書く欄はありません。登録もいりません。\nこの端末に残るのは、選んだことば・音の大きさ・最後に開いた画面・この案内を読んだことだけです。どこにも送られません。",
+          "右上の ⚙️ で「{settings}」が開きます。「{bgm}」と「{sound}」の大きさを変えられます。いちばん左にすると鳴りません。\nBGM は、この案内を閉じたあと、画面にふれると流れ始めます。\nことばは、右上の 🌐 で変えられます。\nこの案内は、「{settings}」の「{guide.again}」で、いつでも もう一度 見られます。"
+        ]
+      }
     },
 
     en: {
@@ -151,7 +174,29 @@ window.SOYOGI_WS_I18N = {
 
       chooseLang:"Language / ことば",
       credit:"Developed by Soyogi — Care & Support Consultation",
-      reviewNote:"AI-assisted UI translation. Content is culturally re-authored, not translated."
+      reviewNote:"AI-assisted UI translation. Content is culturally re-authored, not translated.",
+
+      guide:{
+        title:"How to use", step:"{n} / {m}", prev:"← Back", next:"Next →", start:"Start", again:"Show how to use again",
+        heads:[
+          "Welcome to {appSubtitle}",
+          "Start here",
+          "{tabTopic}",
+          "{tabQuiz}",
+          "{tabIce}",
+          "Only on this device",
+          "Sound, language and this guide"
+        ],
+        bodies:[
+          "A tool for care and medical staff to find conversation starters with older people, right at hand.\nThere are no scores and no winners. What matters is not whether an answer is right, but the conversation that follows.\nThe screens are fine to show to the people you support.\nChoose a language above. You can change it later with 🌐 at the top right.",
+          "At the bottom of the screen there are three tabs: “{tabTopic}”, “{tabQuiz}” and “{tabIce}”.\nBefore you greet someone, open “{tabTopic}” and pick one topic for the day.\nWhen the conversation is flowing, try “{tabQuiz}”. When you meet someone for the first time or want to ease the mood, “{tabIce}” works well.",
+          "Topics that match today's date.\n“{flowerHeading}” and “{gemHeading}” come with their meanings.\n“{onThisDayHeading}” and “{peopleHeading}” only show what fits today. On days with nothing to show, those cards do not appear.",
+          "Choose a genre at the top (“{genreAll}”, “{genres.price}” and more) and ask the question.\nTap a choice to reveal the answer. “{triviaHeading}” and the “{staffCueHeading}” appear.\nUse “{cueAskLabel}”, “{cueExpandLabel}” and “{cueCareLabel}” in the cue to bring memories into the conversation.\nTap “{nextQuiz}” for the next question.",
+          "Switch between “{iceEitherOr}” and “{iceColor}” at the top.\nIn “{iceEitherOr}”, tap the one you like and the “{staffCueHeading}” appears.\nIn “{iceColor}”, choose the color closest to how you feel now to see a positive “{colorResultHeading}” and a cue.\nIn both, “{again}” gives you a new question or a new choice.",
+          "This app has no place to write names or other personal details. No sign-up is needed.\nThe only things kept on this device are the language you chose, the sound levels, the last screen you opened and whether you have read this guide. Nothing is sent anywhere.",
+          "Tap ⚙️ at the top right to open “{settings}”. You can change the level of “{bgm}” and “{sound}”. All the way to the left turns it off.\nThe music starts when you touch the screen after closing this guide.\nChange the language with 🌐 at the top right.\nYou can see this guide again at any time with “{guide.again}” in “{settings}”."
+        ]
+      }
     },
 
     de: {
@@ -207,7 +252,29 @@ window.SOYOGI_WS_I18N = {
 
       chooseLang:"Sprache / Language",
       credit:"Entwickelt von Soyogi — Beratung für Pflege & Unterstützung",
-      reviewNote:"KI-gestützte UI-Übersetzung. Inhalte sind kulturell neu verfasst, nicht übersetzt."
+      reviewNote:"KI-gestützte UI-Übersetzung. Inhalte sind kulturell neu verfasst, nicht übersetzt.",
+
+      guide:{
+        title:"Anleitung", step:"{n} / {m}", prev:"← Zurück", next:"Weiter →", start:"Los geht's", again:"Anleitung noch einmal ansehen",
+        heads:[
+          "Willkommen bei {appSubtitle}",
+          "So fangen Sie an",
+          "{tabTopic}",
+          "{tabQuiz}",
+          "{tabIce}",
+          "Nur auf diesem Gerät",
+          "Ton, Sprache und diese Anleitung"
+        ],
+        bodies:[
+          "Ein Werkzeug für Pflege- und Gesundheitspersonal, um im Gespräch mit älteren Menschen schnell einen Einstieg zu finden.\nEs gibt keine Punkte und keine Gewinner. Wichtiger als die richtige Antwort ist das Gespräch danach.\nDie Bildschirme können Sie den Menschen, die Sie begleiten, ruhig zeigen.\nWählen Sie oben eine Sprache. Später können Sie sie oben rechts mit 🌐 ändern.",
+          "Unten auf dem Bildschirm gibt es drei Bereiche: „{tabTopic}“, „{tabQuiz}“ und „{tabIce}“.\nSuchen Sie sich vor der Begrüßung unter „{tabTopic}“ ein Thema für den Tag.\nWenn das Gespräch in Gang kommt, passt „{tabQuiz}“. Beim ersten Kennenlernen oder um die Stimmung zu lockern, passt „{tabIce}“.",
+          "Themen passend zum heutigen Datum.\n„{flowerHeading}“ und „{gemHeading}“ zeigen auch ihre Bedeutung.\n„{onThisDayHeading}“ und „{peopleHeading}“ zeigen nur, was zu heute passt. An Tagen ohne Eintrag erscheinen diese Karten nicht.",
+          "Wählen Sie oben eine Kategorie („{genreAll}“, „{genres.price}“ und weitere) und stellen Sie die Frage.\nTippen Sie auf eine Antwort, um sie aufzulösen. Dann erscheinen „{triviaHeading}“ und der „{staffCueHeading}“.\nMit „{cueAskLabel}“, „{cueExpandLabel}“ und „{cueCareLabel}“ im Tipp kommen Erinnerungen ins Gespräch.\nMit „{nextQuiz}“ geht es zur nächsten Frage.",
+          "Oben wechseln Sie zwischen „{iceEitherOr}“ und „{iceColor}“.\nBei „{iceEitherOr}“ tippen Sie auf das, was Ihnen lieber ist. Dann erscheint der „{staffCueHeading}“.\nBei „{iceColor}“ wählen Sie die Farbe, die Ihrer Stimmung am nächsten ist. Dann erscheinen ein positives „{colorResultHeading}“ und ein Tipp.\nMit „{again}“ gibt es jeweils eine neue Frage oder eine neue Wahl.",
+          "In dieser App gibt es kein Feld für Namen oder andere persönliche Angaben. Eine Anmeldung ist nicht nötig.\nAuf diesem Gerät bleiben nur die gewählte Sprache, die Lautstärke, der zuletzt geöffnete Bereich und ob Sie diese Anleitung gelesen haben. Nichts davon wird irgendwohin gesendet.",
+          "Oben rechts öffnet ⚙️ die „{settings}“. Dort stellen Sie die Lautstärke von „{bgm}“ und „{sound}“ ein. Ganz nach links geschoben ist der Ton aus.\nDie Musik beginnt, wenn Sie nach dem Schließen dieser Anleitung den Bildschirm berühren.\nDie Sprache ändern Sie oben rechts mit 🌐.\nDiese Anleitung sehen Sie jederzeit wieder mit „{guide.again}“ in den „{settings}“."
+        ]
+      }
     },
 
     fr: {
@@ -263,7 +330,29 @@ window.SOYOGI_WS_I18N = {
 
       chooseLang:"Langue / Language",
       credit:"Développé par Soyogi — Conseil en soins et accompagnement",
-      reviewNote:"Traduction de l'interface assistée par IA. Le contenu est réécrit selon la culture, non traduit."
+      reviewNote:"Traduction de l'interface assistée par IA. Le contenu est réécrit selon la culture, non traduit.",
+
+      guide:{
+        title:"Mode d'emploi", step:"{n} / {m}", prev:"← Retour", next:"Suivant →", start:"Commencer", again:"Revoir le mode d'emploi",
+        heads:[
+          "Bienvenue dans {appSubtitle}",
+          "Pour commencer",
+          "{tabTopic}",
+          "{tabQuiz}",
+          "{tabIce}",
+          "Uniquement sur cet appareil",
+          "Son, langue et ce guide"
+        ],
+        bodies:[
+          "Un outil pour les soignants et le personnel médical, pour trouver vite de quoi engager la conversation avec des personnes âgées.\nIl n'y a ni points ni gagnant. Plus que la bonne réponse, c'est la conversation qui suit qui compte.\nVous pouvez sans problème montrer les écrans aux personnes que vous accompagnez.\nChoisissez une langue ci-dessus. Vous pourrez la changer plus tard avec 🌐 en haut à droite.",
+          "En bas de l'écran, il y a trois onglets : « {tabTopic} », « {tabQuiz} » et « {tabIce} ».\nAvant de saluer quelqu'un, ouvrez « {tabTopic} » et choisissez un sujet du jour.\nQuand la conversation prend, essayez « {tabQuiz} ». Pour une première rencontre ou pour détendre l'ambiance, « {tabIce} » convient bien.",
+          "Des sujets liés à la date du jour.\n« {flowerHeading} » et « {gemHeading} » sont accompagnés de leur signification.\n« {onThisDayHeading} » et « {peopleHeading} » ne montrent que ce qui correspond à aujourd'hui. Les jours sans rien, ces cartes n'apparaissent pas.",
+          "Choisissez une catégorie en haut (« {genreAll} », « {genres.price} », etc.) et posez la question.\nTouchez une réponse pour la révéler. « {triviaHeading} » et l'« {staffCueHeading} » apparaissent.\nAvec « {cueAskLabel} », « {cueExpandLabel} » et « {cueCareLabel} », faites revenir les souvenirs dans la conversation.\n« {nextQuiz} » passe à la question suivante.",
+          "En haut, passez de « {iceEitherOr} » à « {iceColor} ».\nDans « {iceEitherOr} », touchez ce que vous préférez : l'« {staffCueHeading} » apparaît.\nDans « {iceColor} », choisissez la couleur la plus proche de votre humeur : un « {colorResultHeading} » positif et une astuce apparaissent.\nDans les deux cas, « {again} » propose une autre question ou un nouveau choix.",
+          "Cette appli n'a aucun champ pour écrire un nom ou d'autres données personnelles. Aucune inscription n'est nécessaire.\nSeuls restent sur cet appareil la langue choisie, le volume du son, le dernier onglet ouvert et le fait d'avoir lu ce guide. Rien n'est envoyé nulle part.",
+          "En haut à droite, ⚙️ ouvre les « {settings} ». Vous y réglez le volume de « {bgm} » et de « {sound} ». Tout à gauche, le son est coupé.\nLa musique démarre quand vous touchez l'écran après avoir fermé ce guide.\nChangez la langue avec 🌐 en haut à droite.\nVous pouvez revoir ce guide à tout moment avec « {guide.again} » dans les « {settings} »."
+        ]
+      }
     },
 
     it: {
@@ -319,7 +408,29 @@ window.SOYOGI_WS_I18N = {
 
       chooseLang:"Lingua / Language",
       credit:"Sviluppato da Soyogi — Consulenza per cura e supporto",
-      reviewNote:"Traduzione dell'interfaccia assistita dall'IA. I contenuti sono riscritti secondo la cultura, non tradotti."
+      reviewNote:"Traduzione dell'interfaccia assistita dall'IA. I contenuti sono riscritti secondo la cultura, non tradotti.",
+
+      guide:{
+        title:"Come si usa", step:"{n} / {m}", prev:"← Indietro", next:"Avanti →", start:"Inizia", again:"Rivedi come si usa",
+        heads:[
+          "Benvenuti in {appSubtitle}",
+          "Per iniziare",
+          "{tabTopic}",
+          "{tabQuiz}",
+          "{tabIce}",
+          "Solo su questo dispositivo",
+          "Suoni, lingua e questa guida"
+        ],
+        bodies:[
+          "Uno strumento per chi lavora nell'assistenza e nella sanità, per trovare subito uno spunto di conversazione con le persone anziane.\nNon ci sono punteggi né vincitori. Più della risposta giusta conta la conversazione che segue.\nPuoi mostrare le schermate anche alle persone che assisti.\nScegli la lingua qui sopra. Potrai cambiarla dopo con 🌐 in alto a destra.",
+          "In basso ci sono tre schede: «{tabTopic}», «{tabQuiz}» e «{tabIce}».\nPrima di salutare, apri «{tabTopic}» e trova un argomento del giorno.\nQuando la conversazione si anima, prova «{tabQuiz}». Al primo incontro o per sciogliere l'atmosfera, va bene «{tabIce}».",
+          "Argomenti legati alla data di oggi.\n«{flowerHeading}» e «{gemHeading}» riportano anche il loro significato.\n«{onThisDayHeading}» e «{peopleHeading}» mostrano solo ciò che riguarda oggi. Nei giorni senza voci, queste schede non compaiono.",
+          "Scegli una categoria in alto («{genreAll}», «{genres.price}» e altre) e fai la domanda.\nTocca una risposta per svelarla. Compaiono «{triviaHeading}» e lo «{staffCueHeading}».\nCon «{cueAskLabel}», «{cueExpandLabel}» e «{cueCareLabel}» fai riaffiorare i ricordi nella conversazione.\n«{nextQuiz}» passa alla domanda successiva.",
+          "In alto passi da «{iceEitherOr}» a «{iceColor}».\nIn «{iceEitherOr}», tocca quello che preferisci e compare lo «{staffCueHeading}».\nIn «{iceColor}», scegli il colore più vicino al tuo umore: compaiono un «{colorResultHeading}» positivo e uno spunto.\nIn entrambi, «{again}» dà una nuova domanda o una nuova scelta.",
+          "In questa app non c'è nessun campo per scrivere nomi o altri dati personali. Non serve registrarsi.\nSu questo dispositivo restano solo la lingua scelta, il volume dei suoni, l'ultima scheda aperta e se hai letto questa guida. Niente viene inviato da nessuna parte.",
+          "In alto a destra, ⚙️ apre le «{settings}». Lì regoli il volume di «{bgm}» e «{sound}». Tutto a sinistra, il suono è spento.\nLa musica parte quando tocchi lo schermo dopo aver chiuso questa guida.\nCambia la lingua con 🌐 in alto a destra.\nPuoi rivedere questa guida quando vuoi con «{guide.again}» nelle «{settings}»."
+        ]
+      }
     },
 
     es: {
@@ -375,7 +486,29 @@ window.SOYOGI_WS_I18N = {
 
       chooseLang:"Idioma / Language",
       credit:"Desarrollado por Soyogi — Consultas de cuidado y apoyo",
-      reviewNote:"Traducción de la interfaz asistida por IA. El contenido está reescrito según la cultura, no traducido."
+      reviewNote:"Traducción de la interfaz asistida por IA. El contenido está reescrito según la cultura, no traducido.",
+
+      guide:{
+        title:"Cómo se usa", step:"{n} / {m}", prev:"← Atrás", next:"Siguiente →", start:"Empezar", again:"Ver de nuevo cómo se usa",
+        heads:[
+          "Te damos la bienvenida a {appSubtitle}",
+          "Para empezar",
+          "{tabTopic}",
+          "{tabQuiz}",
+          "{tabIce}",
+          "Solo en este dispositivo",
+          "Sonido, idioma y esta guía"
+        ],
+        bodies:[
+          "Una herramienta para el personal de cuidados y de salud, para encontrar enseguida un tema de conversación con personas mayores.\nNo hay puntos ni ganadores. Más que acertar, importa la conversación que viene después.\nPuedes mostrar las pantallas sin problema a las personas que atiendes.\nElige el idioma aquí arriba. Luego podrás cambiarlo con 🌐 arriba a la derecha.",
+          "Abajo hay tres pestañas: «{tabTopic}», «{tabQuiz}» y «{tabIce}».\nAntes de saludar, abre «{tabTopic}» y busca un tema del día.\nCuando la conversación fluye, prueba «{tabQuiz}». En un primer encuentro o para relajar el ambiente, va bien «{tabIce}».",
+          "Temas que coinciden con la fecha de hoy.\n«{flowerHeading}» y «{gemHeading}» incluyen su significado.\n«{onThisDayHeading}» y «{peopleHeading}» solo muestran lo que corresponde a hoy. Los días sin nada, esas tarjetas no aparecen.",
+          "Elige una categoría arriba («{genreAll}», «{genres.price}» y otras) y haz la pregunta.\nToca una respuesta para descubrirla. Aparecen «{triviaHeading}» y la «{staffCueHeading}».\nCon «{cueAskLabel}», «{cueExpandLabel}» y «{cueCareLabel}», haz que los recuerdos entren en la conversación.\n«{nextQuiz}» pasa a la siguiente pregunta.",
+          "Arriba cambias entre «{iceEitherOr}» y «{iceColor}».\nEn «{iceEitherOr}», toca lo que prefieres y aparece la «{staffCueHeading}».\nEn «{iceColor}», elige el color más cercano a tu ánimo: aparecen un «{colorResultHeading}» positivo y una pista.\nEn los dos, «{again}» trae otra pregunta u otra elección.",
+          "Esta app no tiene ningún campo para escribir nombres u otros datos personales. No hace falta registrarse.\nEn este dispositivo solo quedan el idioma elegido, el volumen, la última pestaña abierta y si has leído esta guía. No se envía nada a ningún sitio.",
+          "Arriba a la derecha, ⚙️ abre los «{settings}». Ahí ajustas el volumen de «{bgm}» y «{sound}». Del todo a la izquierda, se apaga.\nLa música empieza cuando tocas la pantalla después de cerrar esta guía.\nCambia el idioma con 🌐 arriba a la derecha.\nPuedes volver a ver esta guía cuando quieras con «{guide.again}» en los «{settings}»."
+        ]
+      }
     },
 
     ko: {
@@ -431,7 +564,29 @@ window.SOYOGI_WS_I18N = {
 
       chooseLang:"언어 / Language",
       credit:"개발: 돌봄과 지원 상담소 소요기",
-      reviewNote:"AI 보조 UI 번역. 콘텐츠는 번역이 아니라 문화에 맞게 새로 작성되었습니다."
+      reviewNote:"AI 보조 UI 번역. 콘텐츠는 번역이 아니라 문화에 맞게 새로 작성되었습니다.",
+
+      guide:{
+        title:"사용법", step:"{n} / {m}", prev:"← 이전", next:"다음 →", start:"시작하기", again:"사용법 다시 보기",
+        heads:[
+          "{appSubtitle}에 오신 것을 환영합니다",
+          "먼저 여기부터",
+          "{tabTopic}",
+          "{tabQuiz}",
+          "{tabIce}",
+          "이 기기 안에만",
+          "소리·언어·이 안내"
+        ],
+        bodies:[
+          "돌봄·의료 스태프가 어르신과의 대화 실마리를 손안에서 바로 찾기 위한 도구입니다.\n점수나 승패는 없습니다. 정답인지보다 그다음 이어지는 대화를 소중히 합니다.\n이용자분께 화면을 보여 드려도 괜찮게 만들었습니다.\n언어는 위에서 고를 수 있습니다. 나중에 오른쪽 위의 🌐 로도 바꿀 수 있습니다.",
+          "화면 아래에 “{tabTopic}” “{tabQuiz}” “{tabIce}” 세 가지가 있습니다.\n인사나 말을 걸기 전에 “{tabTopic}”에서 오늘의 화제를 하나 찾아 두세요.\n이야기가 무르익을 것 같으면 “{tabQuiz}”, 처음 만났을 때나 분위기를 풀고 싶을 때는 “{tabIce}”가 잘 맞습니다.",
+          "오늘 날짜에 맞춘 화제가 나옵니다.\n“{flowerHeading}”과 “{gemHeading}”은 꽃말·보석의 의미가 함께 나옵니다.\n“{onThisDayHeading}”과 “{peopleHeading}”은 오늘에 해당하는 것만 나옵니다. 없는 날에는 그 카드가 나오지 않습니다.",
+          "위의 장르(“{genreAll}” “{genres.price}” 등)를 골라 질문합니다.\n선택지를 탭하면 정답이 나옵니다. “{triviaHeading}”와 “{staffCueHeading}”가 나옵니다.\n힌트의 “{cueAskLabel}” “{cueExpandLabel}” “{cueCareLabel}”를 보면서 추억 이야기를 넓혀 보세요.\n“{nextQuiz}”로 다음 문제로 넘어갑니다.",
+          "위에서 “{iceEitherOr}”과 “{iceColor}”을 바꿉니다.\n“{iceEitherOr}”은 둘 중 좋아하는 쪽을 탭하면 “{staffCueHeading}”가 나옵니다.\n“{iceColor}”은 지금 기분에 가까운 색을 고르면 긍정적인 “{colorResultHeading}”와 힌트가 나옵니다.\n둘 다 “{again}”로 다른 질문을 보거나 다시 고를 수 있습니다.",
+          "이 앱에는 이름 등을 적는 칸이 없습니다. 가입도 필요 없습니다.\n이 기기에 남는 것은 고른 언어, 소리 크기, 마지막으로 연 화면, 이 안내를 읽었는지뿐입니다. 어디에도 보내지 않습니다.",
+          "오른쪽 위의 ⚙️ 로 “{settings}”이 열립니다. “{bgm}”과 “{sound}”의 크기를 바꿀 수 있습니다. 맨 왼쪽으로 하면 소리가 나지 않습니다.\n배경음악은 이 안내를 닫은 뒤 화면을 터치하면 흐르기 시작합니다.\n언어는 오른쪽 위의 🌐 로 바꿀 수 있습니다.\n이 안내는 “{settings}”의 “{guide.again}”로 언제든 다시 볼 수 있습니다."
+        ]
+      }
     },
 
     sv: {
@@ -487,7 +642,29 @@ window.SOYOGI_WS_I18N = {
 
       chooseLang:"Språk / Language",
       credit:"Utvecklad av Soyogi — rådgivning inom vård och stöd",
-      reviewNote:"AI-assisterad översättning av gränssnittet. Innehållet är kulturellt nyskrivet, inte översatt."
+      reviewNote:"AI-assisterad översättning av gränssnittet. Innehållet är kulturellt nyskrivet, inte översatt.",
+
+      guide:{
+        title:"Instruktioner", step:"{n} / {m}", prev:"← Tillbaka", next:"Nästa →", start:"Börja", again:"Visa instruktionerna igen",
+        heads:[
+          "Välkommen till {appSubtitle}",
+          "Börja här",
+          "{tabTopic}",
+          "{tabQuiz}",
+          "{tabIce}",
+          "Bara på den här enheten",
+          "Ljud, språk och de här instruktionerna"
+        ],
+        bodies:[
+          "Ett verktyg för vård- och omsorgspersonal att snabbt hitta något att prata om med äldre personer.\nDet finns inga poäng och inga vinnare. Viktigare än rätt svar är samtalet som följer.\nSkärmarna går bra att visa för de personer du stöttar.\nVälj språk här ovanför. Du kan ändra det senare med 🌐 uppe till höger.",
+          "Längst ner finns tre flikar: ”{tabTopic}”, ”{tabQuiz}” och ”{tabIce}”.\nInnan du hälsar, öppna ”{tabTopic}” och hitta ett ämne för dagen.\nNär samtalet flyter, prova ”{tabQuiz}”. Vid ett första möte eller för att lätta upp stämningen passar ”{tabIce}”.",
+          "Ämnen som passar dagens datum.\n”{flowerHeading}” och ”{gemHeading}” visas med sin betydelse.\n”{onThisDayHeading}” och ”{peopleHeading}” visar bara det som hör till i dag. På dagar utan något att visa syns inte de korten.",
+          "Välj en kategori högst upp (”{genreAll}”, ”{genres.price}” med flera) och ställ frågan.\nTryck på ett svar för att visa rätt svar. Då visas ”{triviaHeading}” och ”{staffCueHeading}”.\nAnvänd ”{cueAskLabel}”, ”{cueExpandLabel}” och ”{cueCareLabel}” i tipset för att föra in minnen i samtalet.\n”{nextQuiz}” går till nästa fråga.",
+          "Högst upp växlar du mellan ”{iceEitherOr}” och ”{iceColor}”.\nI ”{iceEitherOr}” trycker du på det du gillar mest, så visas ”{staffCueHeading}”.\nI ”{iceColor}” väljer du färgen som ligger närmast ditt humör. Då visas ett positivt ”{colorResultHeading}” och ett tips.\nI båda ger ”{again}” en ny fråga eller ett nytt val.",
+          "Appen har inget fält för namn eller andra personuppgifter. Ingen registrering behövs.\nDet enda som sparas på den här enheten är valt språk, ljudnivåerna, den senast öppnade fliken och om du har läst de här instruktionerna. Inget skickas någonstans.",
+          "Uppe till höger öppnar ⚙️ ”{settings}”. Där ställer du in nivån för ”{bgm}” och ”{sound}”. Längst till vänster är ljudet av.\nMusiken börjar när du rör vid skärmen efter att ha stängt de här instruktionerna.\nByt språk med 🌐 uppe till höger.\nDu kan se instruktionerna igen när som helst med ”{guide.again}” i ”{settings}”."
+        ]
+      }
     },
 
     nl: {
@@ -543,7 +720,29 @@ window.SOYOGI_WS_I18N = {
 
       chooseLang:"Taal / Language",
       credit:"Ontwikkeld door Soyogi — advies voor zorg en ondersteuning",
-      reviewNote:"AI-ondersteunde vertaling van de interface. De inhoud is cultureel opnieuw geschreven, niet vertaald."
+      reviewNote:"AI-ondersteunde vertaling van de interface. De inhoud is cultureel opnieuw geschreven, niet vertaald.",
+
+      guide:{
+        title:"Uitleg", step:"{n} / {m}", prev:"← Terug", next:"Volgende →", start:"Beginnen", again:"Uitleg opnieuw bekijken",
+        heads:[
+          "Welkom bij {appSubtitle}",
+          "Hier begint u",
+          "{tabTopic}",
+          "{tabQuiz}",
+          "{tabIce}",
+          "Alleen op dit apparaat",
+          "Geluid, taal en deze uitleg"
+        ],
+        bodies:[
+          "Een hulpmiddel voor zorg- en medisch personeel om snel een gespreksonderwerp te vinden met ouderen.\nEr zijn geen punten en geen winnaars. Belangrijker dan het goede antwoord is het gesprek dat volgt.\nU kunt de schermen gerust laten zien aan de mensen die u ondersteunt.\nKies hierboven een taal. Later kunt u die wijzigen met 🌐 rechtsboven.",
+          "Onderaan staan drie tabbladen: “{tabTopic}”, “{tabQuiz}” en “{tabIce}”.\nOpen voordat u iemand begroet “{tabTopic}” en zoek een onderwerp voor vandaag.\nAls het gesprek op gang komt, probeer dan “{tabQuiz}”. Bij een eerste ontmoeting of om de sfeer luchtiger te maken, past “{tabIce}”.",
+          "Onderwerpen die passen bij de datum van vandaag.\n“{flowerHeading}” en “{gemHeading}” tonen ook hun betekenis.\n“{onThisDayHeading}” en “{peopleHeading}” tonen alleen wat bij vandaag hoort. Op dagen zonder iets verschijnen die kaarten niet.",
+          "Kies bovenaan een categorie (“{genreAll}”, “{genres.price}” en meer) en stel de vraag.\nTik op een antwoord om het goede antwoord te zien. Dan verschijnen “{triviaHeading}” en de “{staffCueHeading}”.\nGebruik “{cueAskLabel}”, “{cueExpandLabel}” en “{cueCareLabel}” in de tip om herinneringen in het gesprek te brengen.\nMet “{nextQuiz}” gaat u naar de volgende vraag.",
+          "Bovenaan wisselt u tussen “{iceEitherOr}” en “{iceColor}”.\nBij “{iceEitherOr}” tikt u op wat u het liefst hebt. Dan verschijnt de “{staffCueHeading}”.\nBij “{iceColor}” kiest u de kleur die het dichtst bij uw stemming ligt. Dan verschijnen een positief “{colorResultHeading}” en een tip.\nIn beide geeft “{again}” een nieuwe vraag of een nieuwe keuze.",
+          "Deze app heeft geen veld voor namen of andere persoonlijke gegevens. Registreren is niet nodig.\nOp dit apparaat blijven alleen de gekozen taal, het geluidsniveau, het laatst geopende tabblad en of u deze uitleg hebt gelezen. Er wordt niets verstuurd.",
+          "Rechtsboven opent ⚙️ de “{settings}”. Daar stelt u het niveau van “{bgm}” en “{sound}” in. Helemaal naar links staat het geluid uit.\nDe muziek begint als u na het sluiten van deze uitleg het scherm aanraakt.\nWijzig de taal met 🌐 rechtsboven.\nU kunt deze uitleg altijd opnieuw bekijken met “{guide.again}” in de “{settings}”."
+        ]
+      }
     }
   }
 };
