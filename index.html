@@ -746,6 +746,41 @@
   window.addEventListener("pointerdown", firstGesture);
   window.addEventListener("keydown", firstGesture);
 
+  /* ---- Android の戻るボタン（Play版だけ・2026-09-30） ----
+     @capacitor/app が無いと、戻るでアプリごと後ろに下がっていた（Android 11 以前は閉じる）。
+     押したときの順：①開いている窓（設定・ことば）を「OK」「×」と同じに閉じる
+                    ②色で気分の結果 → 色えらびへ（「もう一度」と同じ）
+                    ③回想クイズ・アイスブレイクのタブ → 今日のネタ（ホーム）
+                    ④今日のネタ → アプリを後ろに下げる（minimizeApp。中身はそのまま）
+     文字を入れる欄が無い（音量は動かしたときに保存）ので、確かめの窓は出さない。
+     🔴 プラグインはネイティブが注入する Capacitor.Plugins.App を使う（registerPlugin は WebView に無い）。
+     Web版（ブラウザ）は何も変えない（戻るはブラウザのまま） */
+  function nativePlugin(name, fn){
+    try{
+      var c=window.Capacitor;
+      if(!c || typeof c.isNativePlatform!=="function" || !c.isNativePlatform()) return null;
+      if(typeof c.isPluginAvailable==="function" && !c.isPluginAvailable(name)) return null;
+      var p=c.Plugins && c.Plugins[name];
+      return (p && typeof p[fn]==="function") ? p : null;
+    }catch(e){ return null; }
+  }
+  function minimizeApp(){
+    var ap=nativePlugin("App","minimizeApp");
+    try{ if(ap){ var p=ap.minimizeApp(); if(p && p.catch) p.catch(function(){}); } }catch(e){}
+  }
+  function onBack(){
+    if(el("settings-overlay").classList.contains("show")){ el("settings-close").click(); return; }
+    if(el("lang-overlay").classList.contains("show")){ el("lang-close").click(); return; }
+    if(currentTab==="ice" && iceMode==="color" && !el("color-result").hidden){ el("color-again").click(); return; }
+    if(currentTab!=="topic"){ showTab("topic"); return; }
+    minimizeApp();
+  }
+  (function watchBack(){
+    var ap=nativePlugin("App","addListener");
+    if(!ap) return;
+    try{ ap.addListener("backButton", function(){ onBack(); }); }catch(e){}
+  })();
+
   /* ---- boot ---- */
   try{ var savedTab=localStorage.getItem(TAB_KEY); if(savedTab) currentTab=savedTab; }catch(e){}
   lang=pickInitialLang();
