@@ -144,7 +144,7 @@
   .cue-body{font-size:15px;}
   .cue-body .cue-open{margin:0; font-size:16.5px; font-weight:800; color:#5f3d0e; line-height:1.7;}
   .cue-body .cue-sub{font-size:11.5px; font-weight:800; color:var(--cue-ink); letter-spacing:.5px; margin:13px 0 4px; display:flex; align-items:center; gap:6px;}
-  .cue-body .cue-sub::before{content:"—"; opacity:.5;}
+  .cue-body .cue-sub::before{content:"・"; opacity:.5;}
   .cue-body .cue-sub-care{color:#8a6a3a;}
   .cue-body .cue-asks{margin:0; padding-left:20px;}
   .cue-body .cue-asks li{margin:5px 0; font-weight:700; color:#5f3d0e; line-height:1.6;}
@@ -535,7 +535,7 @@
     var koyomi=el("koyomi");
     if(koyomi){
       var rk=(lang==="ja" && window.SOYOGI_WS_ROKUYO) ? window.SOYOGI_WS_ROKUYO.get(now) : null;
-      if(rk){ koyomi.hidden=false; koyomi.textContent="📅 今日の六曜　"+rk.name+"（"+rk.yomi+"）― "+rk.meaning; }
+      if(rk){ koyomi.hidden=false; koyomi.textContent="📅 今日の六曜　"+rk.name+"（"+rk.yomi+"）："+rk.meaning; }
       else { koyomi.hidden=true; }
     }
     /* 今月の花と今月の宝石：その月のものを「すべて」並べて表示する
