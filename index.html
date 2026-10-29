@@ -146,6 +146,8 @@
   .cue-body .cue-sub{font-size:11.5px; font-weight:800; color:var(--cue-ink); letter-spacing:.5px; margin:13px 0 4px; display:flex; align-items:center; gap:6px;}
   .cue-body .cue-sub::before{content:"・"; opacity:.5;}
   .cue-body .cue-sub-care{color:#8a6a3a;}
+  /* 読み上げソフトだけに伝える知らせ(画面には出ない・2026-10-30) */
+  .sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;}
   .cue-body .cue-asks{margin:0; padding-left:20px;}
   .cue-body .cue-asks li{margin:5px 0; font-weight:700; color:#5f3d0e; line-height:1.6;}
   .cue-body .cue-text{margin:0; font-size:14px; line-height:1.7; color:#6b532b;}
@@ -300,6 +302,8 @@
         <p class="choices-cap" id="q-cap"></p>
         <div class="choices" id="q-choices"></div>
 
+        <!-- 答えを押したあとの知らせを読み上げソフトにも伝える(画面には出ない・2026-10-30) -->
+        <div class="sr-only" id="q-live" role="status" aria-live="polite"></div>
         <div class="reveal" id="q-reveal" hidden>
           <div class="reveal-nice" id="reveal-nice"></div>
           <div class="trivia"><span class="tag" id="trivia-label"></span><span id="q-trivia"></span></div>
@@ -640,6 +644,7 @@
       box.appendChild(b);
     });
     var rev=el("q-reveal"); rev.hidden=true;
+    var live=el("q-live"); if(live) live.textContent="";
   }
   function onAnswer(q, chosenOrig, btn){
     var btns=el("q-choices").querySelectorAll(".choice");
@@ -654,6 +659,8 @@
     setText(el("q-trivia"), q.trivia);
     renderCue(el("q-cue"), q);
     sfx("reveal");
+    /* 読み上げソフト向け: 「なつかしいですね」+ 答え + ひとこと(2026-10-30) */
+    var live=el("q-live"); if(live){ live.textContent=""; setTimeout(function(){ var sep=(lang==="ja")?"。":". "; live.textContent=t("revealNice")+sep+(q.choices[q.answerIndex]||"")+sep+(q.trivia||""); }, 50); }
     var rev=el("q-reveal"); rev.hidden=false;
     setTimeout(function(){ rev.scrollIntoView({behavior:"smooth", block:"nearest"}); }, 60);
   }
@@ -917,10 +924,13 @@
 </script>
 <!-- Farcaster Mini App SDK: ホスト内なら起動準備完了を通知。通常のWeb/PWAでは無害（失敗は握りつぶす）。 -->
 <script type="module">
-  try {
-    const { sdk } = await import("https://esm.sh/@farcaster/miniapp-sdk");
-    await sdk.actions.ready();
-  } catch (e) { /* Farcaster外／オフラインでは何もしない */ }
+  /* Farcaster の中(iframe / アプリの WebView)で開いたときだけ SDK を読む。ふつうのブラウザ・PWA では外へつながない */
+  if ((window.self !== window.top) || window.ReactNativeWebView) {
+    try {
+      const { sdk } = await import("https://esm.sh/@farcaster/miniapp-sdk");
+      await sdk.actions.ready();
+    } catch (e) { /* Farcaster外／オフラインでは何もしない */ }
+  }
 </script>
 </body>
 </html>
