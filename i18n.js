@@ -69,7 +69,7 @@ window.SOYOGI_WS_I18N = {
       cueAskLabel:"たずねてみる",
       cueExpandLabel:"広げるコツ",
       cueCareLabel:"配慮",
-      careSensitive:"戦争・震災・亡くなった方の話に広がったときは、無理に聞き出さず「お話しくださってありがとうございます」と受けとめ、「楽しかったときのことは、ありますか？」と明るい話へそっと移しましょう。涙や沈黙があっても急がず、そばにいます。",
+      careSensitive:"戦争・震災・亡くなった方の話に広がったときは、無理に聞き出さず「お話しくださってありがとうございます」と受けとめ、「楽しかったときのことは、ありますか？」と明るい話へそっと移しましょう。涙や沈黙があっても急がず、そばにいましょう。",
       fontSizeLabel:"文字の大きさ",
       fontSmall:"小",
       fontMedium:"中",
@@ -162,7 +162,7 @@ window.SOYOGI_WS_I18N = {
       fontSmall:"Small",
       fontMedium:"Medium",
       fontLarge:"Large",
-      topicOpenerLabel:"Way to start",
+      topicOpenerLabel:"Try saying",
       topicOpeners:["“They say today is a special day for this. Did you know?”","“Have you heard about this before?”","“Do you have any memories connected to days like this?”","“How did you usually spend a day like today?”"],
       nextQuiz:"Next quiz →",
       genres:{

@@ -212,6 +212,7 @@
   .setrow label{flex:0 0 104px; text-align:left; font-weight:800; color:var(--ink); font-size:15.5px;}
   .setrow input[type=range]{flex:1; height:28px; accent-color:var(--brand); cursor:pointer;}
   .setrow .lang-item{flex:1; padding:10px 4px; font-size:16px; min-height:48px;}
+  .setrow-fs{flex-wrap:wrap; gap:8px 10px;} .setrow-fs label{flex:1 0 100%;}   /* 文字の大きさ: ラベルは上の段、ボタンは幅が足りなければ折り返す */
 
   /* ---- はじめての 使い方（初回の案内・2026-09-30）----
      タブ・上の帯・設定/ことばの窓より上（z-index 60）の全画面。閉じるのは最後のページの「はじめる」だけ（× は置かない）。
@@ -395,7 +396,7 @@
         <label id="lab-sound" for="sfx-range">🔔 Sound</label>
         <input type="range" id="sfx-range" min="0" max="100" step="1" aria-label="Sound">
       </div>
-      <div class="setrow" role="group" aria-labelledby="lab-fs">
+      <div class="setrow setrow-fs" role="group" aria-labelledby="lab-fs">
         <label id="lab-fs">Text size</label>
         <button type="button" class="lang-item" id="fs-s" data-fs="s" aria-pressed="false">S</button>
         <button type="button" class="lang-item" id="fs-m" data-fs="m" aria-pressed="false">M</button>
@@ -605,7 +606,7 @@
       var box=document.createElement("div");
       if(o.year!=null){ var y=document.createElement("div"); y.className="otd-year"; y.textContent=(lang==="ja"?o.year+"年":(""+o.year)); box.appendChild(y); }
       var tx=document.createElement("div"); tx.className="otd-text"; tx.textContent=o.text; box.appendChild(tx);
-      if(openers && openers.length){ var op=document.createElement("div"); op.className="otd-opener"; op.textContent="💬 "+t("topicOpenerLabel")+opSep+openers[(oi+d)%openers.length]; box.appendChild(op); }
+      if(openers && openers.length){ var op=document.createElement("div"); op.className="otd-opener"; op.textContent="💬 "+t("topicOpenerLabel")+opSep+openers[(oi+d)%(o.year!=null?Math.min(2,openers.length):openers.length)]; box.appendChild(op); }
       row.appendChild(box); list.appendChild(row);
     });
 
