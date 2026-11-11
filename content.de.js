@@ -87,7 +87,7 @@ window.SOYOGI_WS_CONTENT["de"] = {
     { month:11, day:20, year:1805, emoji:"🎼", text:"Beethovens einzige Oper «Fidelio» wird in Wien uraufgeführt." },
     { month:8, day:28, year:1850, emoji:"🎼", text:"Wagners «Lohengrin» wird in Weimar unter Franz Liszt uraufgeführt." },
     { month:4, day:1, year:1919, emoji:"🎨", text:"Walter Gropius gründet in Weimar das Bauhaus." },
-    { month:10, day:30, year:2005, emoji:"⛪", text:"Die wieder aufgebaute Dresdner Frauenkirche wird neu geweiht." },
+    { month:10, day:30, year:2005, emoji:"⛪", text:"Die wieder aufgebaute Dresdner Frauenkirche wird neu geweiht.", opener:"„Die Frauenkirche war im Krieg zerstört worden, und viele haben lange auf diesen Tag gewartet. Wenn Sie mögen, erzählen Sie mir, was Ihnen dazu einfällt.“" },
     { month:1, day:11, year:2017, emoji:"🎵", text:"Die Elbphilharmonie in Hamburg wird mit einem Festkonzert eröffnet." },
     { month:6, day:19, year:1927, emoji:"🏎️", text:"Auf dem neuen Nürburgring wird das erste Autorennen ausgetragen." },
     { month:4, day:23, year:1516, emoji:"🍺", text:"In Bayern wird das Reinheitsgebot für Bier erlassen." },
@@ -118,7 +118,7 @@ window.SOYOGI_WS_CONTENT["de"] = {
     { month:6, day:28, year:1840, emoji:"🧸", text:"Friedrich Fröbel gibt seiner Einrichtung den Namen «Kindergarten» — der erste der Welt." },
     { month:3, day:7, year:1916, emoji:"🚗", text:"Der Autohersteller BMW wird in München gegründet." },
     { month:6, day:28, year:1926, emoji:"🚗", text:"Daimler und Benz fusionieren zur Daimler-Benz AG — die Marke Mercedes-Benz entsteht." },
-    { month:10, day:24, year:1648, emoji:"🕊️", text:"Der Westfälische Friede beendet den Dreißigjährigen Krieg." },
+    { month:10, day:24, year:1648, emoji:"🕊️", text:"Der Westfälische Friede beendet den Dreißigjährigen Krieg.", opener:"„Nach dreißig langen Kriegsjahren kehrte damals endlich wieder Frieden ein. Wenn Sie mögen, erzählen Sie mir, was Frieden für Sie bedeutet.“" },
     { month:3, day:11, year:1829, emoji:"🎼", text:"Der junge Felix Mendelssohn führt Bachs «Matthäus-Passion» wieder auf und begründet die Bach-Renaissance." },
     { month:9, day:12, year:1990, emoji:"📜", text:"Der Zwei-plus-Vier-Vertrag ebnet den Weg zur deutschen Einheit." },
     { month:11, day:28, year:1983, emoji:"🚀", text:"Ulf Merbold fliegt als erster Westdeutscher ins All." },
@@ -128,7 +128,7 @@ window.SOYOGI_WS_CONTENT["de"] = {
     { month:10, day:15, year:1880, emoji:"⛪", text:"Nach 632 Jahren Bauzeit wird der Kölner Dom vollendet." },
     { month:6, day:30, year:1996, emoji:"⚽", text:"Deutschland wird in London zum dritten Mal Fußball-Europameister." },
     { month:2, day:23, year:1893, emoji:"⚙️", text:"Rudolf Diesel erhält das Patent auf den Dieselmotor." },
-    { month:6, day:26, year:1948, emoji:"✈️", text:"Die Berliner Luftbrücke beginnt und versorgt West-Berlin aus der Luft." },
+    { month:6, day:26, year:1948, emoji:"✈️", text:"Die Berliner Luftbrücke beginnt und versorgt West-Berlin aus der Luft.", opener:"„West-Berlin war damals abgeschnitten, und viele Menschen lebten in Sorge. Wenn Sie mögen, erzählen Sie mir, was Sie von dieser Zeit gehört oder selbst erlebt haben.“" },
     { month:8, day:29, year:1885, emoji:"🏍️", text:"Gottlieb Daimler lässt das erste Motorrad («Reitwagen») patentieren." },
     { month:8, day:13, year:1876, emoji:"🎭", text:"In Bayreuth werden die ersten Festspiele mit Wagners «Ring des Nibelungen» eröffnet." },
     { month:11, day:25, year:1915, emoji:"🔬", text:"Albert Einstein stellt in Berlin seine Allgemeine Relativitätstheorie vor." },
@@ -169,20 +169,20 @@ window.SOYOGI_WS_CONTENT["de"] = {
     { month:12, day:31, year:null, emoji:"🎆", text:"Heute ist Silvester — mit Feuerwerk ins neue Jahr." },
     { month:7, day:20, year:1969, emoji:"🌕", text:"Apollo 11 landet auf dem Mond — Menschen betreten zum ersten Mal den Mond." },
     { month:12, day:17, year:1903, emoji:"✈️", text:"Den Gebrüdern Wright gelingt der erste Motorflug der Geschichte." },
-    { month:5, day:8, year:1945, emoji:"🕊️", text:"Das Kriegsende in Europa — der Zweite Weltkrieg endet auf dem Kontinent." },
+    { month:5, day:8, year:1945, emoji:"🕊️", text:"Das Kriegsende in Europa — der Zweite Weltkrieg endet auf dem Kontinent.", opener:"„Dieser Tag weckt bei vielen Menschen ganz unterschiedliche Gefühle. Wenn Sie etwas dazu erzählen möchten, höre ich Ihnen gern zu.“" },
     { month:12, day:3, year:1967, emoji:"🏥", text:"Die weltweit erste Herztransplantation wird durchgeführt." },
     { month:7,  day:4,  year:1954, text:"«Wunder von Bern»: Deutschland wird zum ersten Mal Fußball-Weltmeister.", emoji:"⚽" },
     { month:7,  day:8,  year:1990, text:"Deutschland wird in Rom zum dritten Mal Fußball-Weltmeister.", emoji:"⚽" },
     { month:8,  day:26, year:1978, text:"Sigmund Jähn fliegt als erster Deutscher ins All.", emoji:"🚀" },
-    { month:10, day:3,  year:1990, text:"Deutschland wird wiedervereinigt — der erste Tag der Deutschen Einheit.", emoji:"🇩🇪" },
-    { month:11, day:9,  year:1989, text:"Die Berliner Mauer fällt.", emoji:"🧱" },
+    { month:10, day:3,  year:1990, text:"Deutschland wird wiedervereinigt — der erste Tag der Deutschen Einheit.", emoji:"🇩🇪", opener:"„Für manche war die Einheit ein großes Glück, für andere auch eine Zeit vieler Umbrüche. Wenn Sie mögen, erzählen Sie mir, wie Sie diese Zeit erlebt haben.“" },
+    { month:11, day:9,  year:1989, text:"Die Berliner Mauer fällt.", emoji:"🧱", opener:"„Dieser Tag brachte vielen große Freude und erinnert zugleich an die Jahre der Teilung. Wenn Sie mögen, erzählen Sie mir, wie Sie ihn erlebt haben.“" },
     /* ---- DACH-Mix: Österreich & Schweiz（全てWebSearch裏取り済） ---- */
     { month:8,  day:1,  year:null, text:"Heute ist der Schweizer Nationalfeiertag — Höhenfeuer erinnern an den Bund von 1291.", emoji:"🇨🇭" },
     { month:10, day:26, year:null, text:"Heute ist der österreichische Nationalfeiertag — 1955 beschloss Österreich seine immerwährende Neutralität.", emoji:"🇦🇹" },
     { month:1,  day:1,  year:null, text:"Heute erklingt das Neujahrskonzert der Wiener Philharmoniker — Walzerklänge zum Jahresbeginn.", emoji:"🎻" },
-    { month:7,  day:14, year:1865, text:"Edward Whymper und seine Seilschaft besteigen als Erste das Matterhorn.", emoji:"⛰️" },
+    { month:7,  day:14, year:1865, text:"Edward Whymper und seine Seilschaft besteigen als Erste das Matterhorn.", emoji:"⛰️", opener:"„Der Erfolg hatte auch eine traurige Seite: Beim Abstieg kamen vier Männer der Seilschaft ums Leben. Wenn Sie mögen, erzählen Sie mir, was Ihnen die Berge bedeuten.“" },
     { month:2,  day:7,  year:1971, text:"Die Schweiz führt das Frauenstimmrecht ein — per Volksabstimmung.", emoji:"🗳️" },
-    { month:5,  day:15, year:1955, text:"Im Wiener Belvedere wird der Staatsvertrag unterzeichnet — Österreich ist wieder frei und unabhängig.", emoji:"🕊️" },
+    { month:5,  day:15, year:1955, text:"Im Wiener Belvedere wird der Staatsvertrag unterzeichnet — Österreich ist wieder frei und unabhängig.", emoji:"🕊️", opener:"„Nach Krieg und Besatzungszeit war das für Österreich ein bewegender Tag. Wenn Sie mögen, erzählen Sie mir, was Sie damit verbinden.“" },
     { month:8,  day:22, year:1920, text:"Mit dem «Jedermann» auf dem Salzburger Domplatz werden die Salzburger Festspiele geboren.", emoji:"🎭" }
   ],
 
@@ -410,6 +410,271 @@ window.SOYOGI_WS_CONTENT["de"] = {
         asks:["Welche Musik oder welche Sänger mochten Sie?","Hatten Sie einen Plattenspieler zu Hause?","Zu welcher Musik haben Sie getanzt?"],
         expand:"Musik ist ein starker Erinnerungsanker. Ein Liedtitel genügt oft, und schon kommen die Geschichten.",
         care:"Wenn ein Lied Rührung auslöst, ist das schön — geben Sie dem Gefühl ruhig Raum."
+      }
+    },
+    /* ---- Erweiterung auf 38 Fragen (2026-11-11, Fakten einzeln geprüft) ---- */
+    {
+      id:"de-warmup-04", genre:"warmup", emoji:"🐦", photo:null,
+      question:"Welcher Vogel bringt nach altem Volksglauben die Babys?",
+      choices:["Die Amsel","Der Storch","Die Taube"], answerIndex:1,
+      trivia:"Der „Klapperstorch“ bringt die Kinder, so erzählte man es früher. Ab Mitte August fliegen die Weißstörche in ihr Winterquartier nach Afrika.",
+      cue:{
+        open:"„Der Klapperstorch natürlich!“ Mit einem Lächeln, dann zu Tieren und Natur.",
+        asks:["Haben Sie schon einmal ein Storchennest gesehen?","Welche Vögel kannten Sie aus Ihrem Garten oder Dorf?","Welche Geschichten hat man Ihnen als Kind gern erzählt?"],
+        expand:"Tiere und Natur sind ein leichter Einstieg. Fragen Sie nach Orten wie Dorf, Kirchturm oder Wiese. So entstehen Bilder.",
+        care:"Das Thema Kinder kann schmerzen, etwa bei Kinderlosigkeit oder nach einem Verlust. Bleiben Sie dann beim Vogel und bei der Natur."
+      }
+    },
+    {
+      id:"de-warmup-05", genre:"warmup", emoji:"❄️", photo:null,
+      question:"Welche Blume blüht im Jahr früher: das Schneeglöckchen oder die Sonnenblume?",
+      choices:["Die Sonnenblume","Das Schneeglöckchen"], answerIndex:1,
+      trivia:"Schneeglöckchen blühen meist schon im Februar und März. Die Sonnenblume kommt erst im Sommer.",
+      cue:{
+        open:"„Das Schneeglöckchen, ein echter Frühlingsbote!“",
+        asks:["Welche Blumen hatten Sie früher im Garten oder auf dem Balkon?","Worauf haben Sie sich nach dem Winter am meisten gefreut?","Haben Sie gern Blumen gepflückt oder Sträuße gebunden?"],
+        expand:"Die Jahreszeiten sind ein sanfter Gesprächsfaden. Fragen Sie nach Farben und Düften, das macht die Erinnerung lebendig.",
+        care:"Wer nicht mehr hinausgehen kann, vermisst den Garten vielleicht. Ein Blick aus dem Fenster oder ein kleiner Strauß kann guttun."
+      }
+    },
+    {
+      id:"de-price-03", genre:"price", emoji:"🪙", photo:null,
+      question:"Wie nannte man das 10-Pfennig-Stück im Alltag oft?",
+      choices:["Taler","Heller","Groschen"], answerIndex:2,
+      trivia:"Vor allem im Norden und in der Mitte Deutschlands hieß die 10-Pfennig-Münze „Groschen“. Daher sagt man noch heute „Der Groschen ist gefallen“, wenn jemand etwas verstanden hat.",
+      cue:{
+        open:"„Der Groschen! Das Wort hört man heute kaum noch.“",
+        asks:["Wofür haben Sie als Kind Ihre Groschen ausgegeben?","Hatten Sie eine Sparbüchse oder ein Sparschwein?","Welche Münzen oder Scheine haben Sie noch gut in Erinnerung?"],
+        expand:"Redensarten sind ein schöner Weg ins Gespräch. Fragen Sie, welche alten Sprüche rund ums Geld die Person noch kennt.",
+        care:"Geldsorgen können schmerzliche Erinnerungen wecken. Bleiben Sie bei kleinen Freuden und vergleichen Sie nicht."
+      }
+    },
+    {
+      id:"de-appliance-04", genre:"appliance", emoji:"🧹", photo:null,
+      question:"Wie heißt der bekannte Staubsauger der Firma Vorwerk?",
+      choices:["Kobold","Zwerg","Riese"], answerIndex:0,
+      trivia:"Im Mai 1930 ließ Vorwerk einen elektrischen Handstaubsauger patentieren, den „Kobold“. Verkauft wurde er vor allem durch Vorführungen bei den Leuten zu Hause.",
+      cue:{
+        open:"„Der Kobold! Der wurde oft direkt im Wohnzimmer vorgeführt.“",
+        asks:["Wer hat bei Ihnen zu Hause sauber gemacht?","Gab es einen festen Putztag, zum Beispiel am Samstag?","Wie wurden die Teppiche früher sauber, mit dem Teppichklopfer?"],
+        expand:"Hausarbeit ist ein Stück Lebensleistung. Fragen Sie nach Abläufen und kleinen Tricks, und loben Sie das Geschick.",
+        care:"Wer heute nicht mehr selbst putzen kann, empfindet das manchmal als Verlust. Betonen Sie, was die Person früher alles geschafft hat."
+      }
+    },
+    {
+      id:"de-appliance-05", genre:"appliance", emoji:"🧈", photo:null,
+      question:"Wo hielt man Butter und Milch kühl, bevor es einen Kühlschrank gab?",
+      choices:["Auf dem Dachboden","In der Speisekammer oder im Keller","Neben dem Ofen"], answerIndex:1,
+      trivia:"Die Speisekammer lag am besten auf der kühlen Nordseite des Hauses. Sonst hielt man sie dunkel und lüftete sie nachts. So blieben die Vorräte länger frisch.",
+      cue:{
+        open:"„Ab in den kühlen Keller!“ Dann zu den Vorräten von früher.",
+        asks:["Was lagerte bei Ihnen im Keller oder in der Speisekammer?","Haben Sie Obst und Gemüse für den Winter eingelagert?","Wann kam bei Ihnen der erste Kühlschrank ins Haus?"],
+        expand:"Vorräte erzählen vom Jahreslauf: Ernte, Einmachen, Winter. Fragen Sie nach dem Geruch im Keller, das weckt Bilder.",
+        care:"Für manche waren die Vorräte knapp. Würdigen Sie das sparsame Haushalten ohne Wertung."
+      }
+    },
+    {
+      id:"de-appliance-06", genre:"appliance", emoji:"🧵", photo:null,
+      question:"Aus welcher Stadt in der Pfalz stammen die Pfaff-Nähmaschinen?",
+      choices:["Kaiserslautern","Speyer","Landau"], answerIndex:0,
+      trivia:"Georg Michael Pfaff baute 1862 in Kaiserslautern seine erste Nähmaschine. Schon seit 1849 baute er dort Blechblasinstrumente.",
+      cue:{
+        open:"„Pfaff aus Kaiserslautern! So eine Maschine stand in vielen Wohnungen.“",
+        asks:["Haben Sie selbst genäht oder gestrickt?","Was haben Sie für sich oder die Familie geschneidert?","Wer hat Ihnen das Nähen gezeigt?"],
+        expand:"Handarbeit ist oft ein Stolz. Fragen Sie nach einem Lieblingsstück, das die Person selbst gemacht hat.",
+        care:"Wenn die Hände heute nicht mehr wollen, kann das traurig machen. Bleiben Sie bei dem, was früher entstanden ist."
+      }
+    },
+    {
+      id:"de-appliance-07", genre:"appliance", emoji:"💨", photo:null,
+      question:"Woher hat der „Föhn“ zum Haaretrocknen seinen Namen?",
+      choices:["Von einem Erfinder namens Föhn","Von einem Vogel","Von einem warmen Wind in den Alpen"], answerIndex:2,
+      trivia:"Der Name kommt vom warmen Fallwind in den Alpen. Als Marke schrieb man das Gerät „Fön“, ohne h, weil man den Wind selbst nicht schützen lassen konnte.",
+      cue:{
+        open:"„Wie der warme Wind aus den Bergen!“",
+        asks:["Wie haben Sie sich früher die Haare gemacht?","Gingen Sie gern zum Friseur?","Gab es eine Frisur, die Sie besonders mochten?"],
+        expand:"Frisuren gehören zu Festen und Fotos. Fragen Sie nach besonderen Anlässen, zum Beispiel einem Tanzabend.",
+        care:"Manche sprechen heute nicht gern über ihr Aussehen. Loben Sie dann eher die Erinnerung als das Äußere."
+      }
+    },
+    {
+      id:"de-snack-03", genre:"snack", emoji:"🐻", photo:null,
+      question:"Wie hieß der Gummibär von Haribo, als Hans Riegel ihn 1922 erfand?",
+      choices:["Goldbär","Tanzbär","Teddybär"], answerIndex:1,
+      trivia:"Der Bonner Firmengründer Hans Riegel erfand den Gummibär 1922 und nannte ihn „Tanzbär“. Daraus wurden später die Goldbären.",
+      cue:{
+        open:"„Der Tanzbär! Ein schöner Name, oder?“",
+        asks:["Welche Süßigkeiten gab es bei Ihnen zu besonderen Anlässen?","Mochten Sie lieber Gummibärchen oder Schokolade?","Wer hat Ihnen als Kind etwas Süßes mitgebracht?"],
+        expand:"Farben und Lieblingssorten sind leichte Fragen. Fragen Sie zum Beispiel, welche Farbe die liebste war.",
+        care:"Bei Diabetes oder Schluckbeschwerden geht es nur ums Erinnern. Bieten Sie nichts zu essen an, ohne es vorher abzusprechen."
+      }
+    },
+    {
+      id:"de-snack-04", genre:"snack", emoji:"🍪", photo:null,
+      question:"Wie viele Zähne hat der Leibniz-Butterkeks am Rand?",
+      choices:["52","24","100"], answerIndex:0,
+      trivia:"Der Leibniz-Keks von Bahlsen aus Hannover hat 52 Zähne. Erfunden wurde er 1891.",
+      cue:{
+        open:"„52! Haben Sie die Zähne als Kind auch zuerst abgeknabbert?“",
+        asks:["Welche Kekse gab es bei Ihnen zum Kaffee?","Gab es eine feste Kaffeezeit am Nachmittag?","Haben Sie selbst gern gebacken?"],
+        expand:"Die Kaffeetafel ist ein Herzstück vieler Erinnerungen. Fragen Sie nach Geschirr, Gästen und dem Sonntag.",
+        care:"Nicht alle Erinnerungen an Familienrunden sind leicht. Wenn jemand stiller wird, kehren Sie zu den Keksen selbst zurück."
+      }
+    },
+    {
+      id:"de-snack-05", genre:"snack", emoji:"🍒", photo:null,
+      question:"Welcher Schnaps gehört in eine echte Schwarzwälder Kirschtorte?",
+      choices:["Korn","Kirschwasser","Rum"], answerIndex:1,
+      trivia:"Nach den deutschen Leitsätzen für feine Backwaren ist sie eine Kirschwasser-Sahnetorte, und das Kirschwasser muss man deutlich schmecken.",
+      cue:{
+        open:"„Ein guter Schuss Kirschwasser gehört dazu!“",
+        asks:["Welche Torte gab es bei Ihnen zum Geburtstag?","Haben Sie selbst Torten gebacken?","Gab es ein Café, in das Sie gern gegangen sind?"],
+        expand:"Torten erinnern an Feste. Fragen Sie nach dem Anlass und danach, wer mit am Tisch saß.",
+        care:"Alkohol kann für manche ein heikles Thema sein. Bleiben Sie dann beim Backen und bei den Festen."
+      }
+    },
+    {
+      id:"de-snack-06", genre:"snack", emoji:"🎄", photo:null,
+      question:"Welche Stadt ist für ihre Lebkuchen besonders berühmt?",
+      choices:["Kiel","Bremen","Nürnberg"], answerIndex:2,
+      trivia:"„Nürnberger Lebkuchen“ ist eine geschützte Herkunftsangabe: Sie müssen in Nürnberg hergestellt werden. Die feinste Sorte heißt Elisenlebkuchen.",
+      cue:{
+        open:"„Nürnberger Lebkuchen, da duftet es gleich nach Weihnachten!“",
+        asks:["Was gab es bei Ihnen in der Adventszeit?","Haben Sie Plätzchen gebacken, und welche?","Waren Sie einmal auf einem Weihnachtsmarkt?"],
+        expand:"Die Adventszeit ist reich an Düften und Bräuchen. Fragen Sie nach Gewürzen und Liedern.",
+        care:"Für manche ist Weihnachten auch eine einsame Zeit. Achten Sie auf die Stimmung und bleiben Sie warm im Ton."
+      }
+    },
+    {
+      id:"de-tool-03", genre:"tool", emoji:"☕", photo:null,
+      question:"Wer erfand 1908 den Kaffeefilter mit Filterpapier?",
+      choices:["Melitta Bentz","Bertha Benz","Clara Schumann"], answerIndex:0,
+      trivia:"Melitta Bentz erhielt 1908 vom Patentamt in Berlin den Schutz für ihren Kaffeefilter mit Filterpapier.",
+      cue:{
+        open:"„Melitta Bentz! Ihr Name steht noch heute auf vielen Filtertüten.“",
+        asks:["Wie wurde bei Ihnen der Kaffee gekocht?","Gab es Bohnenkaffee oder Muckefuck?","Mit wem haben Sie gern Kaffee getrunken?"],
+        expand:"Kaffee ist ein Ritual. Fragen Sie nach der Kaffeemühle, dem Duft und der Lieblingstasse.",
+        care:"Echter Bohnenkaffee war für manche lange etwas Besonderes. Nehmen Sie das mit Wärme auf."
+      }
+    },
+    {
+      id:"de-tool-04", genre:"tool", emoji:"🫙", photo:null,
+      question:"Wie nennt man es auch, wenn man Obst in Gläsern einkocht?",
+      choices:["Einfrieren","Einwecken","Einpacken"], answerIndex:1,
+      trivia:"Das Wort kommt von der Firma Weck, die 1900 in Öflingen gegründet wurde. Die Gläser heißen deshalb Weckgläser.",
+      cue:{
+        open:"„Einwecken! Da stand die ganze Küche voller Gläser.“",
+        asks:["Was haben Sie eingekocht, Kirschen, Bohnen oder Marmelade?","Wer hat Ihnen dabei geholfen?","Wo standen die vollen Gläser im Winter?"],
+        expand:"Einkochen ist Teamarbeit und Jahreslauf zugleich. Fragen Sie nach dem liebsten Glas im Winter.",
+        care:"Wer heute nicht mehr selbst kochen kann, hört gern Anerkennung: „Das war viel Arbeit, und Sie konnten das.“"
+      }
+    },
+    {
+      id:"de-tool-05", genre:"tool", emoji:"✏️", photo:null,
+      question:"Worauf schrieben Schulanfänger früher mit dem Griffel?",
+      choices:["Auf eine Zeitung","Auf eine Serviette","Auf eine Schiefertafel"], answerIndex:2,
+      trivia:"Bis in die 1970er-Jahre schrieben Kinder in der Grundschule auf Tafeln. Gewischt wurde mit einem feuchten Schwämmchen, und der Lappen hing außen am Schulranzen.",
+      cue:{
+        open:"„Der Lappen am Schulranzen! Wissen Sie das noch?“",
+        asks:["Wie hieß Ihre erste Lehrerin oder Ihr erster Lehrer?","Wie war Ihr Schulweg?","Hatten Sie am ersten Schultag eine Schultüte?"],
+        expand:"Der erste Schultag ist oft gut in Erinnerung. Fragen Sie nach Schultüte, Ranzen und Banknachbarn.",
+        care:"Nicht alle sind gern zur Schule gegangen, manche mussten früh arbeiten. Fragen Sie offen und werten Sie nicht."
+      }
+    },
+    {
+      id:"de-fashion-03", genre:"fashion", emoji:"👟", photo:null,
+      question:"In welcher fränkischen Stadt haben adidas und Puma ihren Sitz?",
+      choices:["Bamberg","Rothenburg ob der Tauber","Herzogenaurach"], answerIndex:2,
+      trivia:"Gegründet haben die beiden Firmen zwei Brüder aus Herzogenaurach: Adolf Dassler (adidas) und Rudolf Dassler (Puma).",
+      cue:{
+        open:"„Herzogenaurach! Zwei Brüder, zwei berühmte Marken.“",
+        asks:["Welche Schuhe haben Sie früher am liebsten getragen?","Haben Sie Sport getrieben, im Verein oder für sich?","Welche Turnschuhe hatten Sie in der Schulzeit?"],
+        expand:"Sport und Schuhe verbinden sich oft mit Vereinen und Freundschaften. Fragen Sie nach dem Lieblingssport.",
+        care:"Wer heute schlecht gehen kann, spricht vielleicht nicht gern über Sport. Fragen Sie dann nach dem Zuschauen, etwa beim Fußball im Fernsehen."
+      }
+    },
+    {
+      id:"de-fashion-04", genre:"fashion", emoji:"👗", photo:null,
+      question:"Wie heißt das Trachtenkleid mit Mieder, Bluse und Schürze aus Bayern und Österreich?",
+      choices:["Kimono","Dirndl","Sari"], answerIndex:1,
+      trivia:"Das Wort kommt von „Dirn“, in der Mundart ein junges Mädchen. Das Kleid entstand gegen Ende des 19. Jahrhunderts.",
+      cue:{
+        open:"„Das Dirndl! Ein schönes Kleid für Feste.“",
+        asks:["Hatten Sie selbst einmal Tracht an?","Zu welchen Festen hat man sich bei Ihnen schick gemacht?","Gab es ein Kleid oder einen Anzug, den Sie besonders mochten?"],
+        expand:"Kleidung führt zu Festen, Tanz und Musik. Fragen Sie, wo und mit wem gefeiert wurde.",
+        care:"Nicht jede Gegend kennt Tracht. Fragen Sie allgemein nach Festkleidung, wenn das Dirndl fremd ist."
+      }
+    },
+    {
+      id:"de-fashion-05", genre:"fashion", emoji:"🧺", photo:null,
+      question:"Wie heißt die ärmellose Schürze in Kittelform, die viele Frauen bei der Hausarbeit trugen?",
+      choices:["Der Frack","Die Lederschürze","Die Kittelschürze"], answerIndex:2,
+      trivia:"Nach dem Zweiten Weltkrieg kam die Kittelschürze richtig in Mode. In den 1950er- und 1960er-Jahren war sie oft aus Perlon, in der DDR aus Dederon, und musste nicht gebügelt werden.",
+      cue:{
+        open:"„Die gute Kittelschürze! Praktisch für jede Arbeit.“",
+        asks:["Wer trug bei Ihnen zu Hause eine Kittelschürze?","Welche Muster oder Farben hatte sie?","Was gehörte bei Ihnen zur Arbeitskleidung?"],
+        expand:"Arbeitskleidung erzählt vom Alltag in Küche, Garten und Stall. Fragen Sie nach einem ganz normalen Tag.",
+        care:"Für manche erinnert die Schürze an harte Arbeit. Würdigen Sie diese Leistung mit Respekt."
+      }
+    },
+    {
+      id:"de-hobby-03", genre:"hobby", emoji:"🃏", photo:null,
+      question:"Für wie viele Spieler ist das Kartenspiel Skat gedacht?",
+      choices:["Drei","Zwei","Sechs"], answerIndex:0,
+      trivia:"Skat spielt man zu dritt mit 32 Karten. Entstanden ist es 1813 in Altenburg in Thüringen, der „Skatstadt“.",
+      cue:{
+        open:"„Zu dritt! Da fehlte oft noch einer am Tisch.“",
+        asks:["Haben Sie Skat oder andere Kartenspiele gespielt?","Mit wem saßen Sie am Kartentisch?","Gab es einen festen Spielabend?"],
+        expand:"Spielabende sind gesellige Erinnerungen. Fragen Sie nach Sprüchen am Tisch, die kennen viele noch.",
+        care:"Wer die Regeln nicht mehr weiß, soll sich nicht geprüft fühlen. Es geht ums Erzählen, nicht ums Können."
+      }
+    },
+    {
+      id:"de-hobby-04", genre:"hobby", emoji:"🎲", photo:null,
+      question:"Welche Zahl muss man bei „Mensch ärgere Dich nicht“ würfeln, um eine Figur ins Spiel zu bringen?",
+      choices:["Eine Eins","Eine Drei","Eine Sechs"], answerIndex:2,
+      trivia:"Josef Friedrich Schmidt erfand das Spiel um 1907/08 in München. Jeder Spieler hat vier Figuren.",
+      cue:{
+        open:"„Eine Sechs! Und dann wurde man oft wieder rausgeworfen.“",
+        asks:["Mit wem haben Sie Brettspiele gespielt?","Konnten Sie gut verlieren, oder haben Sie sich geärgert?","Welche Spiele gab es bei Ihnen an Regentagen?"],
+        expand:"Der Name des Spiels lädt zum Lachen ein. Fragen Sie nach lustigen Momenten am Spieltisch.",
+        care:"Spielabende erinnern an die Familie. Wenn jemand traurig wird, hören Sie zu und drängen nicht."
+      }
+    },
+    {
+      id:"de-hobby-05", genre:"hobby", emoji:"🌻", photo:null,
+      question:"Nach wem ist der „Schrebergarten“ benannt?",
+      choices:["Nach einem Leipziger Arzt","Nach einem Berliner Bäcker","Nach einem Hamburger Kapitän"], answerIndex:0,
+      trivia:"Der Name erinnert an den Leipziger Arzt Moritz Schreber. Ein Schulleiter gründete den ersten Schreberverein und benannte ihn zu seinen Ehren.",
+      cue:{
+        open:"„Ein Leipziger Arzt! Und heute denkt man dabei an Beete und Gartenlauben.“",
+        asks:["Hatten Sie einen Garten oder eine Laube?","Was haben Sie dort angebaut?","Wer kam am Wochenende zu Besuch in den Garten?"],
+        expand:"Gärten sind voller Sinneseindrücke: Erde, Tomaten, Grillabende. Fragen Sie nach der Lieblingspflanze.",
+        care:"Wer den Garten aufgeben musste, vermisst ihn oft. Sprechen Sie von dem, was dort gewachsen ist, nicht vom Verlust."
+      }
+    },
+    {
+      id:"de-hobby-06", genre:"hobby", emoji:"🌙", photo:null,
+      question:"Welche Figur sagte den Kindern im Fernsehen jeden Abend „Gute Nacht“?",
+      choices:["Der Nikolaus","Das Sandmännchen","Der Postbote"], answerIndex:1,
+      trivia:"1959 kam das Sandmännchen ins Fernsehen: im Osten am 22. November, im Westen neun Tage später am 1. Dezember.",
+      cue:{
+        open:"„Das Sandmännchen! Danach ging es ins Bett.“",
+        asks:["Wie sah bei Ihnen früher das Zubettgehen aus?","Gibt es ein Gutenachtlied, das Sie noch kennen?","Kannten Sie das Sandmännchen aus dem Osten oder aus dem Westen?"],
+        expand:"Abendrituale wecken ruhige, warme Bilder. Summen Sie ruhig ein bekanntes Lied gemeinsam.",
+        care:"Nicht jeder hat Kinder oder Enkel. Fragen Sie nach der eigenen Kindheit statt nach Nachwuchs."
+      }
+    },
+    {
+      id:"de-hobby-07", genre:"hobby", emoji:"🎤", photo:null,
+      question:"Mit welchem Lied gewann Udo Jürgens 1966 den Grand Prix Eurovision?",
+      choices:["«Merci, Chérie»","«Griechischer Wein»","«Aber bitte mit Sahne»"], answerIndex:0,
+      trivia:"Udo Jürgens sang 1966 in Luxemburg für Österreich und gewann mit «Merci, Chérie».",
+      cue:{
+        open:"„«Merci, Chérie»! Kennen Sie die Melodie noch?“",
+        asks:["Welche Schlager haben Sie früher gern gehört?","Haben Sie den Grand Prix im Fernsehen geschaut?","Zu welchem Lied haben Sie gern getanzt?"],
+        expand:"Musik öffnet Türen. Wenn ein Lied genannt wird, summen Sie den Anfang. Oft kommen Text und Erinnerung von selbst.",
+        care:"Liebeslieder können an einen verstorbenen Partner erinnern. Geben Sie der Rührung Raum und bleiben Sie ruhig dabei."
       }
     }
   ],

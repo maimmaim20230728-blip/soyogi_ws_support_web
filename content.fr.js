@@ -89,14 +89,14 @@ window.SOYOGI_WS_CONTENT["fr"] = {
     { month:11, day:17, year:1869, emoji:"🚢", text:"Le canal de Suez est inauguré, reliant la Méditerranée à la mer Rouge." },
     { month:4, day:24, year:1990, emoji:"🔭", text:"Le télescope spatial Hubble est mis en orbite." },
     { month:7, day:1, year:1903, emoji:"🚴", text:"Le tout premier Tour de France s'élance." },
-    { month:8, day:25, year:1944, emoji:"🕊️", text:"Paris est libérée après quatre ans d'occupation." },
+    { month:8, day:25, year:1944, emoji:"🕊️", text:"Paris est libérée après quatre ans d'occupation.", opener:"« C'est l'anniversaire de la Libération de Paris. Cette date vous évoque-t-elle quelque chose ? Nous en parlons seulement si vous en avez envie. »" },
     { month:1, day:1, year:null, emoji:"🎉", text:"Aujourd'hui, c'est le Jour de l'An." },
     { month:1, day:6, year:null, emoji:"👑", text:"Aujourd'hui, c'est l'Épiphanie — on partage la galette des rois." },
     { month:2, day:2, year:null, emoji:"🥞", text:"Aujourd'hui, c'est la Chandeleur — jour des crêpes." },
     { month:5, day:1, year:null, emoji:"🌷", text:"Aujourd'hui, c'est la Fête du Travail — on offre du muguet." },
     { month:7, day:14, year:null, emoji:"🎆", text:"Aujourd'hui, c'est la Fête nationale — défilé et feux d'artifice." },
-    { month:11, day:1, year:null, emoji:"🕯️", text:"Aujourd'hui, c'est la Toussaint." },
-    { month:11, day:11, year:null, emoji:"🕊️", text:"Aujourd'hui, on commémore l'Armistice de 1918." },
+    { month:11, day:1, year:null, emoji:"🕯️", text:"Aujourd'hui, c'est la Toussaint.", opener:"« C'est la Toussaint, un jour où l'on pense à ceux qui nous ont quittés. Voulez-vous en parler, ou préférez-vous un moment de calme ? »" },
+    { month:11, day:11, year:null, emoji:"🕊️", text:"Aujourd'hui, on commémore l'Armistice de 1918.", opener:"« Aujourd'hui, on rend hommage à ceux de la Grande Guerre. Rien ne vous oblige à en parler, mais je vous écoute si vous le souhaitez. »" },
     { month:3, day:31, year:1889, emoji:"🗼", text:"La tour Eiffel est inaugurée à Paris." },
     { month:7, day:20, year:1969, emoji:"🌕", text:"Apollo 11 se pose sur la Lune — les premiers pas de l'homme sur la Lune." },
     { month:12, day:3, year:1967, emoji:"🏥", text:"La toute première greffe du cœur est réalisée." },
@@ -108,19 +108,19 @@ window.SOYOGI_WS_CONTENT["fr"] = {
     { month:10, day:6,  year:1955, text:"La Citroën DS est dévoilée au Salon de l'automobile de Paris.", emoji:"🚗" },
     /* ---- ajout (2026-07-08) : événements marquants français, tous vérifiés par recherche web ---- */
     { month:1,  day:31, year:1977, text:"Le Centre Pompidou est inauguré à Paris.", emoji:"🏛️" },
-    { month:2,  day:1,  year:1954, text:"L'abbé Pierre lance son appel de l'hiver 1954 en faveur des sans-abri, déclenchant un grand élan de générosité.", emoji:"🕊️" },
+    { month:2,  day:1,  year:1954, text:"L'abbé Pierre lance son appel de l'hiver 1954 en faveur des sans-abri, déclenchant un grand élan de générosité.", emoji:"🕊️", opener:"« En plein hiver, l'abbé Pierre a appelé à aider les sans-abri. Ce nom vous dit-il quelque chose ? Nous en parlons seulement si vous en avez envie. »" },
     { month:2,  day:12, year:1947, text:"Christian Dior présente sa première collection, le « New Look », avenue Montaigne.", emoji:"👗" },
     { month:3,  day:3,  year:1875, text:"L'opéra « Carmen » de Georges Bizet est créé à Paris.", emoji:"🎭" },
     { month:3,  day:25, year:1957, text:"Le traité de Rome est signé, fondant la Communauté économique européenne.", emoji:"🇪🇺" },
     { month:3,  day:29, year:1989, text:"La pyramide du Louvre, conçue par Ieoh Ming Pei, est inaugurée.", emoji:"🔺" },
     { month:4,  day:15, year:1874, text:"La première exposition des impressionnistes ouvre à Paris, dans l'atelier de Nadar.", emoji:"🎨" },
     { month:4,  day:21, year:1944, text:"Les Françaises obtiennent le droit de vote.", emoji:"🗳️" },
-    { month:4,  day:25, year:1792, text:"Rouget de Lisle compose « La Marseillaise » à Strasbourg.", emoji:"🎶" },
+    { month:4,  day:25, year:1792, text:"Rouget de Lisle compose « La Marseillaise » à Strasbourg.", emoji:"🎶", opener:"« La Marseillaise a été composée ce jour-là. Si vous le souhaitez, vous pouvez me dire ce que cet hymne évoque pour vous. »" },
     { month:5,  day:5,  year:1921, text:"Le parfum Chanel N°5 est lancé à Paris.", emoji:"🌸" },
     { month:5,  day:21, year:1927, text:"Charles Lindbergh se pose au Bourget après la première traversée de l'Atlantique en solitaire.", emoji:"✈️" },
     { month:5,  day:26, year:1923, text:"La toute première édition des 24 Heures du Mans s'élance sur le circuit de la Sarthe.", emoji:"🏎️" },
     { month:6,  day:4,  year:1783, text:"Les frères Montgolfier réalisent la première démonstration publique de leur ballon, à Annonay.", emoji:"🎈" },
-    { month:6,  day:18, year:1940, text:"Le général de Gaulle lance depuis Londres son appel à poursuivre le combat.", emoji:"📻" },
+    { month:6,  day:18, year:1940, text:"Le général de Gaulle lance depuis Londres son appel à poursuivre le combat.", emoji:"📻", opener:"« C'est l'anniversaire de l'appel du 18 Juin. Certains en gardent des souvenirs, d'autres non : voulez-vous en dire un mot, ou parler d'autre chose ? »" },
     { month:6,  day:21, year:1982, text:"La toute première Fête de la Musique est célébrée en France.", emoji:"🎵" },
     { month:6,  day:27, year:1984, text:"La France remporte son premier Championnat d'Europe de football (2-0 contre l'Espagne).", emoji:"⚽" },
     { month:7,  day:6,  year:1885, text:"Louis Pasteur administre avec succès le premier vaccin contre la rage au jeune Joseph Meister.", emoji:"💉" },
@@ -130,7 +130,7 @@ window.SOYOGI_WS_CONTENT["fr"] = {
     { month:8,  day:10, year:1793, text:"Le musée du Louvre ouvre ses portes au public.", emoji:"🖼️" },
     { month:8,  day:26, year:1789, text:"L'Assemblée adopte la Déclaration des droits de l'homme et du citoyen.", emoji:"📜" },
     { month:9,  day:21, year:1792, text:"La royauté est abolie, donnant naissance à la Première République.", emoji:"🏛️" },
-    { month:9,  day:26, year:1985, text:"Coluche lance les Restos du Cœur pour offrir des repas gratuits.", emoji:"🍲" },
+    { month:9,  day:26, year:1985, text:"Coluche lance les Restos du Cœur pour offrir des repas gratuits.", emoji:"🍲", opener:"« Ce jour-là, Coluche a lancé les Restos du Cœur. Vous souvenez-vous de lui ? Nous en parlons seulement si vous en avez envie. »" },
     { month:10, day:4,  year:1958, text:"La Constitution de la Ve République est promulguée.", emoji:"📖" },
     { month:10, day:29, year:1959, text:"« Astérix le Gaulois » paraît pour la première fois dans le journal « Pilote ».", emoji:"📗" },
     { month:11, day:22, year:1928, text:"Le « Boléro » de Maurice Ravel est créé à l'Opéra de Paris.", emoji:"🎼" },
@@ -142,7 +142,7 @@ window.SOYOGI_WS_CONTENT["fr"] = {
     /* ---- ajout 2 (2026-07-08) : histoire, sciences, arts, sport & fêtes de France, tous vérifiés ---- */
     { month:1,  day:4,  year:1914, text:"La Joconde, volée en 1911, retrouve sa place au musée du Louvre.", emoji:"🖼️" },
     { month:1,  day:5,  year:1875, text:"Le Palais Garnier, opéra de Paris, est inauguré.", emoji:"🎭" },
-    { month:1,  day:22, year:1963, text:"Le traité de l'Élysée scelle l'amitié franco-allemande, signé par de Gaulle et Adenauer.", emoji:"🤝" },
+    { month:1,  day:22, year:1963, text:"Le traité de l'Élysée scelle l'amitié franco-allemande, signé par de Gaulle et Adenauer.", emoji:"🤝", opener:"« Ce traité a scellé la réconciliation après des années très dures. Si vous le souhaitez, vous pouvez me dire ce qu'il évoque pour vous. »" },
     { month:2,  day:3,  year:1851, text:"Léon Foucault démontre la rotation de la Terre à l'aide de son célèbre pendule.", emoji:"🌍" },
     { month:2,  day:14, year:null, text:"Aujourd'hui, c'est la Saint-Valentin — la fête des amoureux.", emoji:"💝" },
     { month:3,  day:8,  year:1974, text:"L'aéroport Roissy–Charles-de-Gaulle est inauguré près de Paris.", emoji:"🛫" },
@@ -151,8 +151,8 @@ window.SOYOGI_WS_CONTENT["fr"] = {
     { month:4,  day:3,  year:1862, text:"Victor Hugo publie « Les Misérables ».", emoji:"📕" },
     { month:4,  day:3,  year:2007, text:"Un TGV bat le record du monde de vitesse sur rail : 574,8 km/h.", emoji:"🚄" },
     { month:4,  day:6,  year:1943, text:"« Le Petit Prince » d'Antoine de Saint-Exupéry paraît pour la première fois.", emoji:"🌹" },
-    { month:4,  day:13, year:1598, text:"Henri IV signe l'édit de Nantes, accordant la liberté de culte aux protestants.", emoji:"🕊️" },
-    { month:5,  day:8,  year:1429, text:"Jeanne d'Arc délivre Orléans, un tournant de la guerre de Cent Ans.", emoji:"🛡️" },
+    { month:4,  day:13, year:1598, text:"Henri IV signe l'édit de Nantes, accordant la liberté de culte aux protestants.", emoji:"🕊️", opener:"« L'édit de Nantes a mis fin à de longues guerres de religion. En aviez-vous entendu parler à l'école ? Nous pouvons aussi parler d'autre chose. »" },
+    { month:5,  day:8,  year:1429, text:"Jeanne d'Arc délivre Orléans, un tournant de la guerre de Cent Ans.", emoji:"🛡️", opener:"« L'histoire de Jeanne d'Arc à Orléans, beaucoup l'ont apprise à l'école. Si vous en avez envie, racontez-moi vos souvenirs de ces leçons d'histoire. »" },
     { month:5,  day:12, year:1930, text:"Jean Mermoz réalise la première liaison postale aérienne au-dessus de l'Atlantique Sud.", emoji:"✉️" },
     { month:5,  day:29, year:1913, text:"La création du « Sacre du printemps » de Stravinsky provoque un tumulte mémorable, à Paris.", emoji:"🎼" },
     { month:6,  day:5,  year:1983, text:"Yannick Noah remporte le tournoi de Roland-Garros.", emoji:"🎾" },
@@ -162,7 +162,7 @@ window.SOYOGI_WS_CONTENT["fr"] = {
     { month:8,  day:4,  year:1789, text:"Dans la nuit du 4 août, l'Assemblée abolit les privilèges féodaux.", emoji:"📜" },
     { month:8,  day:15, year:null, text:"Aujourd'hui, c'est l'Assomption.", emoji:"⛪" },
     { month:9,  day:2,  year:1930, text:"Costes et Bellonte réussissent la première liaison aérienne Paris–New York sans escale.", emoji:"✈️" },
-    { month:9,  day:20, year:1792, text:"La victoire de Valmy sauve la jeune Révolution ; la République est proclamée le lendemain.", emoji:"🇫🇷" },
+    { month:9,  day:20, year:1792, text:"La victoire de Valmy sauve la jeune Révolution ; la République est proclamée le lendemain.", emoji:"🇫🇷", opener:"« Valmy, une bataille que l'on apprenait à l'école. Si le sujet vous parle, vous souvenez-vous de vos cours d'histoire ? »" },
     { month:9,  day:23, year:1913, text:"Roland Garros réussit la première traversée aérienne de la Méditerranée.", emoji:"✈️" },
     { month:10, day:6,  year:1889, text:"Le cabaret du Moulin Rouge ouvre ses portes à Montmartre.", emoji:"💃" },
     { month:10, day:7,  year:1948, text:"La Citroën 2CV est présentée au Salon de l'automobile de Paris.", emoji:"🚙" },
@@ -176,7 +176,7 @@ window.SOYOGI_WS_CONTENT["fr"] = {
     { month:11, day:21, year:1783, text:"Pilâtre de Rozier et le marquis d'Arlandes réalisent le premier vol humain en montgolfière.", emoji:"🎈" },
     { month:12, day:10, year:1903, text:"Marie Curie devient la première femme à recevoir un prix Nobel.", emoji:"🏅" },
     { month:12, day:14, year:2004, text:"Le spectaculaire viaduc de Millau est inauguré dans l'Aveyron.", emoji:"🌉" },
-    { month:12, day:15, year:1840, text:"Les cendres de Napoléon Ier reviennent à Paris et sont déposées aux Invalides.", emoji:"🎖️" },
+    { month:12, day:15, year:1840, text:"Les cendres de Napoléon Ier reviennent à Paris et sont déposées aux Invalides.", emoji:"🎖️", opener:"« Ce jour-là, les cendres de Napoléon ont été accueillies aux Invalides. Avez-vous déjà visité ce lieu ? Nous pouvons aussi parler d'autre chose. »" },
     { month:12, day:25, year:null, text:"Aujourd'hui, c'est Noël.", emoji:"🎄" },
     /* ---- Mix francophone : Belgique, Québec, Suisse, Afrique（全てWebSearch裏取り済） ---- */
     { month:7,  day:21, year:null, text:"Aujourd'hui, c'est la fête nationale de la Belgique.", emoji:"🇧🇪" },
@@ -411,6 +411,271 @@ window.SOYOGI_WS_CONTENT["fr"] = {
         asks:["Quelle musique ou quels chanteurs aimiez-vous ?","Aviez-vous un tourne-disque à la maison ?","Sur quelle musique dansiez-vous ?"],
         expand:"La musique est un ancrage puissant. Un titre de chanson suffit souvent à faire venir les histoires.",
         care:"Si une chanson émeut, c'est précieux — laissez toute sa place à l'émotion."
+      }
+    },
+    /* ---- ajout (2026-11-11) : 22 questions écrites pour la France, faits vérifiés un par un ---- */
+    {
+      id:"fr-warmup-04", genre:"warmup", emoji:"🌳", photo:null,
+      question:"Qu'est-ce qui flotte sur l'eau : une pierre ou un bouchon de liège ?",
+      choices:["Une pierre","Un bouchon de liège"], answerIndex:1,
+      trivia:"Le liège vient de l'écorce du chêne-liège. On la récolte sans abattre l'arbre.",
+      cue:{
+        open:"« Le bouchon, bien sûr ! » Avec un sourire, puis vers les jeux au bord de l'eau.",
+        asks:["Alliez-vous pêcher, ou jouer au bord de l'eau ?","Y avait-il une rivière ou un lac près de chez vous ?","Quels repas de fête aviez-vous en famille ?"],
+        expand:"Un petit objet du quotidien suffit à ouvrir la porte : la rivière, la pêche, les grandes tablées. Laissez la personne choisir la piste.",
+        care:"Si la personne hésite, souriez avec elle. Le plaisir d'échanger compte plus que la réponse."
+      }
+    },
+    {
+      id:"fr-warmup-05", genre:"warmup", emoji:"⚫", photo:null,
+      question:"Qu'est-ce qui est le plus lourd : une balle de ping-pong ou une boule de pétanque ?",
+      choices:["Une balle de ping-pong","Une boule de pétanque"], answerIndex:1,
+      trivia:"Une boule de pétanque de compétition pèse entre 650 et 800 grammes. Une balle de ping-pong ne pèse presque rien.",
+      cue:{
+        open:"« La boule de pétanque, et de loin ! » Puis vers les parties sur la place.",
+        asks:["Avez-vous joué à la pétanque ?","Vous pointiez ou vous tiriez ?","Où se retrouvait-on pour jouer, chez vous ?"],
+        expand:"La pétanque, c'est la place, l'ombre des arbres, les copains et un peu de chamaillerie. Demandez qui était le meilleur joueur.",
+        care:"Si la personne ne jouait pas, demandez plutôt si elle regardait les parties, ou comment se passaient les soirs d'été."
+      }
+    },
+    {
+      id:"fr-price-03", genre:"price", emoji:"🪙", photo:null,
+      question:"Le 1er janvier 1960, le « nouveau franc » est arrivé. Combien d'anciens francs valait un nouveau franc ?",
+      choices:["10 anciens francs","1 000 anciens francs","100 anciens francs"], answerIndex:2,
+      trivia:"On a retiré deux zéros : 100 anciens francs devenaient 1 nouveau franc. Beaucoup ont longtemps continué à compter en anciens francs.",
+      cue:{
+        open:"« On comptait encore en anciens francs, n'est-ce pas ? » Avec le sourire.",
+        asks:["Vous souvenez-vous du passage au nouveau franc ?","Comptiez-vous en anciens ou en nouveaux francs ?","Que pouvait-on s'offrir avec un billet à l'époque ?"],
+        expand:"Les changements de monnaie laissent des souvenirs précis : les nouveaux billets, les calculs de tête, les prix affichés deux fois. Laissez la personne raconter à sa façon.",
+        care:"L'argent peut rappeler des années difficiles. Restez sur la curiosité et le souvenir, sans parler de ce que chacun possédait."
+      }
+    },
+    {
+      id:"fr-appliance-04", genre:"appliance", emoji:"🖥️", photo:null,
+      question:"Quel petit terminal relié au téléphone permettait de chercher un numéro dans l'annuaire, depuis la maison ?",
+      choices:["Le Minitel","Le télécopieur","Le tourne-disque"], answerIndex:0,
+      trivia:"Le Minitel a été lancé en 1982. Il s'est éteint pour de bon le 30 juin 2012.",
+      cue:{
+        open:"« Le Minitel et son petit clavier ! » Avec un sourire.",
+        asks:["Aviez-vous un Minitel à la maison ?","À quoi vous servait-il ?","Qui, dans la famille, savait le mieux s'en servir ?"],
+        expand:"Le Minitel rappelle l'arrivée des nouveautés à la maison. Demandez la première fois qu'on l'a branché, ou les codes que l'on tapait.",
+        care:"Tout le monde n'en a pas eu. « En avez-vous entendu parler ? » laisse la porte ouverte sans mettre mal à l'aise."
+      }
+    },
+    {
+      id:"fr-appliance-05", genre:"appliance", emoji:"🥕", photo:null,
+      question:"Avec quel ustensile à manivelle faisait-on la purée et la soupe de légumes ?",
+      choices:["Le fer à repasser","Le moulin à légumes","La râpe à fromage"], answerIndex:1,
+      trivia:"En 1932, Jean Mantelet a lancé son « Moulin-Légumes ». Son entreprise deviendra plus tard Moulinex.",
+      cue:{
+        open:"« On tournait la manivelle, et la purée arrivait ! »",
+        asks:["Qui faisait la soupe chez vous ?","Quelle soupe ou quelle purée aimiez-vous ?","Aidiez-vous à la cuisine, enfant ?"],
+        expand:"Les gestes de cuisine reviennent vite : l'odeur de la soupe, la manivelle, la grande marmite. Demandez la recette de la maison.",
+        care:"Si la cuisine était une lourde charge pour la personne, saluez le travail accompli : « vous nourrissiez toute la famille »."
+      }
+    },
+    {
+      id:"fr-appliance-06", genre:"appliance", emoji:"🍲", photo:null,
+      question:"Quelle marmite sous pression, qui siffle sur le feu, cuisait vite le pot-au-feu ?",
+      choices:["La Cocotte-Minute","La poêle à frire","La bouilloire"], answerIndex:0,
+      trivia:"SEB a lancé sa « Super Cocotte » en 1953. Beaucoup l'appellent encore la cocotte-minute.",
+      cue:{
+        open:"« Ce petit sifflement dans la cuisine ! »",
+        asks:["Aviez-vous une cocotte-minute ?","Quel plat y cuisait-on le plus souvent ?","Ce sifflement vous faisait-il un peu peur ?"],
+        expand:"Le pot-au-feu, la soupe, le bruit de la soupape : les sons de cuisine ramènent toute une maison. Demandez qui cuisinait, et pour combien de personnes.",
+        care:"Si la personne cuisinait pour beaucoup de monde, reconnaissez ce travail. Si elle n'aimait pas cuisiner, parlez des plats qu'elle aimait manger."
+      }
+    },
+    {
+      id:"fr-appliance-07", genre:"appliance", emoji:"📻", photo:null,
+      question:"Quel petit poste de radio à piles pouvait-on emporter partout dans les années 1960 ?",
+      choices:["Le gramophone","Le téléviseur","Le transistor"], answerIndex:2,
+      trivia:"Sur le transistor, beaucoup de jeunes écoutaient « Salut les copains », lancé sur Europe 1 le 19 octobre 1959.",
+      cue:{
+        open:"« Le transistor, à la plage ou dans la chambre ! »",
+        asks:["Quelle station écoutiez-vous ?","Aviez-vous un transistor à vous ?","Quelles chansons passaient à la radio quand vous étiez jeune ?"],
+        expand:"La radio rappelle la jeunesse et les chanteurs du moment. Un nom d'émission ou de chanteur suffit souvent à lancer les souvenirs.",
+        care:"Si une chanson émeut la personne, laissez ce moment exister, sans changer de sujet trop vite."
+      }
+    },
+    {
+      id:"fr-snack-03", genre:"snack", emoji:"🍬", photo:null,
+      question:"Quel bonbon au caramel, long comme un doigt, cachait une blague dans son emballage ?",
+      choices:["Le Carambar","Le nougat","La guimauve"], answerIndex:0,
+      trivia:"Le Carambar est né en 1954 à Marcq-en-Barœul, près de Lille. Les blagues sur l'emballage sont arrivées en 1969.",
+      cue:{
+        open:"« Et la blague, vous la lisiez à voix haute ? »",
+        asks:["Vous souvenez-vous d'une blague Carambar ?","Où achetiez-vous vos bonbons ?","Partagiez-vous vos bonbons avec d'autres enfants ?"],
+        expand:"Les blagues de Carambar font sourire tout de suite. Proposez d'en raconter une à votre tour.",
+        care:"Si la personne ne se souvient d'aucune blague, ce n'est pas grave. Une blague de votre part suffit à garder la bonne humeur."
+      }
+    },
+    {
+      id:"fr-snack-04", genre:"snack", emoji:"🍪", photo:null,
+      question:"Quel biscuit de Nantes a quatre coins, appelés « oreilles », et de petites dents tout autour ?",
+      choices:["La madeleine","Le Petit Beurre LU","Le macaron"], answerIndex:1,
+      trivia:"Le Petit Beurre a été créé en 1886 par Louis Lefèvre-Utile, à Nantes. On dit que ses 4 coins, ses 52 dents et ses 24 trous rappellent les saisons, les semaines et les heures.",
+      cue:{
+        open:"« Vous commenciez par les oreilles, vous aussi ? »",
+        asks:["Que mangiez-vous au goûter ?","Trempiez-vous vos biscuits dans le lait ou le café ?","Qui vous préparait le goûter ?"],
+        expand:"Le goûter est un doux souvenir d'enfance : la sortie de l'école, la cuisine, la boîte à biscuits. Demandez où on la rangeait.",
+        care:"Pour certains, le goûter était rare. Restez sur le plaisir des petites choses, sans comparer."
+      }
+    },
+    {
+      id:"fr-snack-05", genre:"snack", emoji:"🍊", photo:null,
+      question:"Quelle boisson pétillante à l'orange se reconnaissait à sa petite bouteille ronde ?",
+      choices:["Le diabolo menthe","Le sirop de grenadine","L'Orangina"], answerIndex:2,
+      trivia:"La bouteille ronde de l'Orangina, qui rappelle une orange, date de 1951.",
+      cue:{
+        open:"« Cette petite bouteille ronde, comme une orange ! »",
+        asks:["Que buviez-vous les jours de fête ?","Alliez-vous au café avec des amis ?","Quelle boisson aimiez-vous l'été ?"],
+        expand:"Les boissons d'été ramènent la terrasse, la plage, les vacances. Demandez où l'on partait, et avec qui.",
+        care:"Si la personne doit faire attention à ce qu'elle boit aujourd'hui, restez sur le souvenir sans parler du présent."
+      }
+    },
+    {
+      id:"fr-snack-06", genre:"snack", emoji:"🧀", photo:null,
+      question:"Quel fromage en portions, dans sa boîte ronde, montre une vache rouge qui rit ?",
+      choices:["La Vache qui rit","Le camembert","Le gruyère"], answerIndex:0,
+      trivia:"La marque La Vache qui rit a été déposée en 1921 par Léon Bel, fromager du Jura.",
+      cue:{
+        open:"« Cette vache rouge toute souriante ! »",
+        asks:["En emportiez-vous pour le pique-nique ou le goûter ?","Quel fromage aimiez-vous le plus ?","Où alliez-vous pique-niquer ?"],
+        expand:"Les pique-niques et les casse-croûte ramènent les sorties en famille et les promenades. Demandez le coin préféré.",
+        care:"Si les sorties étaient rares, parlez des petits plaisirs du quotidien à la place."
+      }
+    },
+    {
+      id:"fr-tool-03", genre:"tool", emoji:"✒️", photo:null,
+      question:"À l'école, avant le stylo à bille, avec quoi écrivait-on à l'encre ?",
+      choices:["Le porte-plume et l'encrier","Le feutre","Le crayon de couleur"], answerIndex:0,
+      trivia:"On trempait la plume dans l'encrier, en faisant attention aux taches. Le stylo à bille Bic Cristal, lui, est arrivé en 1950.",
+      cue:{
+        open:"« Les doigts tachés d'encre, ça vous dit quelque chose ? »",
+        asks:["Aviez-vous une belle écriture ?","Comment était votre salle de classe ?","Vous souvenez-vous de votre maître ou de votre maîtresse ?"],
+        expand:"L'école ramène des images précises : les pupitres, l'encrier, la dictée. Demandez la matière préférée.",
+        care:"Tout le monde n'a pas pu aller longtemps à l'école. Parlez alors avec respect de ce que la personne a appris ailleurs."
+      }
+    },
+    {
+      id:"fr-tool-04", genre:"tool", emoji:"🎫", photo:null,
+      question:"Dans le métro parisien, quel employé faisait de petits trous dans les tickets ?",
+      choices:["Le facteur","Le poinçonneur","Le garde champêtre"], answerIndex:1,
+      trivia:"Serge Gainsbourg l'a chanté en 1958 dans « Le Poinçonneur des Lilas », son premier succès.",
+      cue:{
+        open:"« Le poinçonneur et sa pince, dans le métro ! »",
+        asks:["Preniez-vous souvent le métro ou le train ?","Quel métier avez-vous exercé ?","Quels gestes répétiez-vous chaque jour au travail ?"],
+        expand:"Les métiers d'autrefois rendent fier. Demandez les gestes, les collègues, les horaires : chaque détail raconte une vie de travail.",
+        care:"Si la personne n'a pas travaillé à l'extérieur, demandez plutôt les trajets, les sorties en ville ou les métiers de son entourage."
+      }
+    },
+    {
+      id:"fr-tool-05", genre:"tool", emoji:"🚲", photo:null,
+      question:"Quel vélo noir, avec un petit moteur posé sur la roue avant, roulait partout en France ?",
+      choices:["Le tandem","La trottinette","Le Solex"], answerIndex:2,
+      trivia:"Le VéloSolex est sorti en 1946. Son moteur entraînait la roue avant grâce à un petit galet, sans chaîne.",
+      cue:{
+        open:"« Le Solex, vous en avez conduit un ? »",
+        asks:["Comment alliez-vous au travail ou à l'école ?","Aviez-vous un vélo ou un Solex ?","Où alliez-vous le dimanche ?"],
+        expand:"Les moyens de transport rappellent la liberté de la jeunesse : les premières sorties, les routes de campagne. Demandez la plus belle balade.",
+        care:"Si la personne se déplace moins facilement aujourd'hui, restez sur les souvenirs de route, sans comparer avec maintenant."
+      }
+    },
+    {
+      id:"fr-fashion-03", genre:"fashion", emoji:"🧢", photo:null,
+      question:"Quel couvre-chef rond et plat, en laine, se portait souvent à la campagne ?",
+      choices:["Le haut-de-forme","Le béret","Le casque"], answerIndex:1,
+      trivia:"Malgré son nom de « béret basque », il vient surtout du Béarn. On le fabrique encore à Oloron-Sainte-Marie.",
+      cue:{
+        open:"« Le béret, bien posé sur la tête ! »",
+        asks:["Qui portait un béret dans votre famille ?","Portiez-vous un chapeau ou un foulard ?","Que mettiez-vous pour sortir le dimanche ?"],
+        expand:"Les vêtements ramènent des visages : un grand-père, un voisin, un ami. Laissez la personne décrire celui ou celle qu'elle revoit.",
+        care:"Si le souvenir mène à quelqu'un qui n'est plus là, accueillez-le doucement, sans changer de sujet trop vite."
+      }
+    },
+    {
+      id:"fr-fashion-04", genre:"fashion", emoji:"👕", photo:null,
+      question:"Quel tricot rayé bleu et blanc était d'abord porté par les marins ?",
+      choices:["La marinière","Le cardigan","Le kilt"], answerIndex:0,
+      trivia:"La marinière est entrée dans l'uniforme des marins français en 1858. Elle est ensuite devenue un classique de la mode.",
+      cue:{
+        open:"« La marinière, toujours à la mode ! »",
+        asks:["Alliez-vous au bord de la mer ?","Portiez-vous des rayures ?","Quel vêtement aimiez-vous porter en vacances ?"],
+        expand:"La mer, les vacances, la Bretagne ou la Méditerranée : laissez la personne choisir son bord de mer.",
+        care:"Pour qui n'a pas connu les vacances à la mer, parlez des sorties près de chez elle, sans rien supposer."
+      }
+    },
+    {
+      id:"fr-fashion-05", genre:"fashion", emoji:"👒", photo:null,
+      question:"Quel chapeau de paille à bord plat était la marque du chanteur Maurice Chevalier ?",
+      choices:["Le béret","La casquette","Le canotier"], answerIndex:2,
+      trivia:"Avec son canotier et son nœud papillon, Maurice Chevalier incarnait le Paris du music-hall, jusqu'en Amérique.",
+      cue:{
+        open:"« Le canotier de Maurice Chevalier, un vrai symbole ! »",
+        asks:["Aimiez-vous les chanteurs de music-hall ?","Portait-on des chapeaux chez vous ?","Quelle chanson de cette époque vous revient ?"],
+        expand:"Un chapeau, un chanteur, une chanson : les souvenirs s'enchaînent. Fredonner un air ensemble peut aider.",
+        care:"Si la personne ne connaît pas le chanteur, demandez simplement quels chapeaux on portait dans sa jeunesse."
+      }
+    },
+    {
+      id:"fr-hobby-03", genre:"hobby", emoji:"🚗", photo:null,
+      question:"Dans quel jeu de cartes faut-il parcourir 1 000 kilomètres, en évitant crevaisons et pannes d'essence ?",
+      choices:["La belote","Le Mille Bornes","Le jeu des sept familles"], answerIndex:1,
+      trivia:"Le Mille Bornes a été inventé en 1954 par Edmond Dujardin. On y joue toujours en famille.",
+      cue:{
+        open:"« Pas de crevaison cette fois ! » Avec un sourire.",
+        asks:["À quels jeux de société jouiez-vous en famille ?","Qui gagnait le plus souvent ?","Jouiez-vous plutôt le soir ou pendant les vacances ?"],
+        expand:"Les jeux de société rappellent les soirées en famille et les petites rivalités. Demandez qui était le plus mauvais perdant.",
+        care:"Si les soirées en famille sont un souvenir douloureux, parlez des jeux avec des amis ou des voisins."
+      }
+    },
+    {
+      id:"fr-hobby-04", genre:"hobby", emoji:"🐮", photo:null,
+      question:"Quelle émission de télévision opposait deux villes dans des jeux, avec les fameuses vachettes ?",
+      choices:["Intervilles","Le journal télévisé","La météo"], answerIndex:0,
+      trivia:"Intervilles a été lancée en 1962, avec Guy Lux. Les villes s'affrontaient dans des jeux pleins de fous rires.",
+      cue:{
+        open:"« Les vachettes d'Intervilles, quels fous rires ! »",
+        asks:["Regardiez-vous Intervilles ?","Votre ville ou votre région y a-t-elle participé ?","Quelles émissions regardiez-vous en famille ?"],
+        expand:"Les jeux télévisés rappellent les soirées devant le poste et la fierté de sa région. Demandez pour quelle ville on était.",
+        care:"Toutes les familles n'avaient pas la télévision. Demandez « en avez-vous entendu parler ? » plutôt que de le supposer."
+      }
+    },
+    {
+      id:"fr-hobby-05", genre:"hobby", emoji:"🃏", photo:null,
+      question:"Dans quel jeu de cartes annonce-t-on « belote » puis « rebelote » ?",
+      choices:["La réussite","Le poker","La belote"], answerIndex:2,
+      trivia:"La belote se joue avec un jeu de 32 cartes, le plus souvent à quatre, en deux équipes.",
+      cue:{
+        open:"« Belote, rebelote ! » Avec un sourire.",
+        asks:["Jouiez-vous à la belote ?","Avec qui faisiez-vous les parties ?","Où jouait-on : au café, à la maison ?"],
+        expand:"Les parties de cartes rappellent les amis, le café du coin et les annonces. Demandez qui était le partenaire préféré.",
+        care:"Si la personne ne jouait pas aux cartes, demandez à quoi l'on jouait chez elle le soir."
+      }
+    },
+    {
+      id:"fr-hobby-06", genre:"hobby", emoji:"📚", photo:null,
+      question:"Quelle bande de quatre enfants et un chien vivait des aventures dans les livres de la Bibliothèque rose ?",
+      choices:["Le Club des Cinq","Les Trois Mousquetaires","Le Petit Prince"], answerIndex:0,
+      trivia:"Les aventures du Club des Cinq, d'Enid Blyton, sont parues en France chez Hachette à partir de 1955.",
+      cue:{
+        open:"« Le Club des Cinq, on dévorait ces livres ! »",
+        asks:["Aimiez-vous lire, enfant ?","Quel livre vous a marqué(e) ?","Qui vous offrait des livres ?"],
+        expand:"Les livres d'enfance ramènent des lieux : la bibliothèque, le lit le soir, les vacances. Demandez où l'on aimait lire.",
+        care:"Certains n'avaient pas de livres. Parlez alors des histoires racontées par les parents ou entendues à la radio."
+      }
+    },
+    {
+      id:"fr-hobby-07", genre:"hobby", emoji:"🎤", photo:null,
+      question:"Quelle chanteuse, surnommée « la Môme », a chanté « La Vie en rose » ?",
+      choices:["Dalida","Édith Piaf","Juliette Gréco"], answerIndex:1,
+      trivia:"Édith Piaf a écrit elle-même les paroles de « La Vie en rose », sortie en disque en 1947.",
+      cue:{
+        open:"« La Vie en rose, quelle chanson ! » On peut en fredonner l'air ensemble.",
+        asks:["Aimiez-vous Édith Piaf ?","Quelle chanson vous accompagne depuis longtemps ?","Alliez-vous danser sur ces airs ?"],
+        expand:"Une chanson aimée réveille des souvenirs forts. Si la personne en a envie, chantez ou fredonnez ensemble.",
+        care:"Certaines chansons rappellent des personnes disparues. Si l'émotion vient, restez présent(e) et laissez-lui sa place."
       }
     }
   ],

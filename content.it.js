@@ -90,7 +90,7 @@ window.SOYOGI_WS_CONTENT["it"] = {
     { month:1, day:29, year:1951, emoji:"🎵", text:"Si tiene il primo Festival di Sanremo." },
     { month:1, day:1, year:null, emoji:"🎉", text:"Oggi è Capodanno — il primo giorno del nuovo anno." },
     { month:1, day:6, year:null, emoji:"🧙", text:"Oggi è l'Epifania — arriva la Befana." },
-    { month:4, day:25, year:null, emoji:"🇮🇹", text:"Oggi è la Festa della Liberazione." },
+    { month:4, day:25, year:null, emoji:"🇮🇹", text:"Oggi è la Festa della Liberazione.", opener:"«Oggi è il 25 aprile, la Festa della Liberazione. Se le fa piacere parlarne, l'ascolto volentieri; se preferisce di no, va benissimo così.»" },
     { month:5, day:1, year:null, emoji:"🛠️", text:"Oggi è la Festa dei Lavoratori." },
     { month:12, day:8, year:null, emoji:"⛪", text:"Oggi è l'Immacolata Concezione." },
     { month:12, day:25, year:null, emoji:"🎄", text:"Oggi è Natale — un giorno di famiglia e di doni." },
@@ -117,17 +117,17 @@ window.SOYOGI_WS_CONTENT["it"] = {
     { month:3,  day:20, year:1800, text:"Alessandro Volta annuncia l'invenzione della pila elettrica.", emoji:"🔋" },
     { month:4,  day:23, year:1946, text:"La Piaggio deposita il brevetto della Vespa.", emoji:"🛵" },
     { month:4,  day:28, year:1937, text:"Vengono inaugurati gli studi cinematografici di Cinecittà, a Roma.", emoji:"🎬" },
-    { month:5,  day:5,  year:1860, text:"Garibaldi salpa da Quarto con i Mille alla volta della Sicilia.", emoji:"⛵" },
+    { month:5,  day:5,  year:1860, text:"Garibaldi salpa da Quarto con i Mille alla volta della Sicilia.", emoji:"⛵", opener:"«Oggi si ricorda la partenza dei Mille di Garibaldi, una storia fatta anche di battaglie. Ne ha sentito parlare a scuola? Se le va, me lo racconti.»" },
     { month:5,  day:12, year:1926, text:"Il dirigibile « Norge » di Umberto Nobile compie il primo sorvolo comprovato del Polo Nord.", emoji:"🎈" },
     { month:5,  day:13, year:1909, text:"Da Milano parte il primo Giro d'Italia.", emoji:"🚴" },
     { month:6,  day:10, year:1934, text:"L'Italia vince per la prima volta la Coppa del Mondo di calcio.", emoji:"⚽" },
     { month:8,  day:3,  year:1778, text:"Viene inaugurato il Teatro alla Scala di Milano.", emoji:"🎭" },
     { month:8,  day:6,  year:1932, text:"Si apre a Venezia la prima Mostra del cinema, il più antico festival cinematografico del mondo.", emoji:"🎬" },
     { month:9,  day:8,  year:1504, text:"Il « David » di Michelangelo viene collocato in Piazza della Signoria, a Firenze.", emoji:"🗿" },
-    { month:9,  day:20, year:1870, text:"I bersaglieri entrano a Roma dalla breccia di Porta Pia; Roma diventa capitale d'Italia.", emoji:"🇮🇹" },
+    { month:9,  day:20, year:1870, text:"I bersaglieri entrano a Roma dalla breccia di Porta Pia; Roma diventa capitale d'Italia.", emoji:"🇮🇹", opener:"«Oggi si ricorda la breccia di Porta Pia, dove si combatté prima che Roma diventasse capitale. Se ha voglia di raccontare, cosa le dicevano a scuola di questa storia?»" },
     { month:10, day:12, year:1492, text:"Il genovese Cristoforo Colombo sbarca in America.", emoji:"⛵" },
     { month:11, day:1,  year:1512, text:"Viene svelata al pubblico la volta della Cappella Sistina, affrescata da Michelangelo.", emoji:"🎨" },
-    { month:12, day:2,  year:1942, text:"Enrico Fermi avvia la prima reazione nucleare a catena controllata.", emoji:"⚛️" },
+    { month:12, day:2,  year:1942, text:"Enrico Fermi avvia la prima reazione nucleare a catena controllata.", emoji:"⚛️", opener:"«Oggi si ricorda un esperimento di Enrico Fermi, fatto in tempo di guerra. Le piacciono le storie di scienza? Se preferisce, parliamo d'altro.»" },
     { month:12, day:12, year:1901, text:"Guglielmo Marconi capta il primo segnale radio transatlantico.", emoji:"📡" },
     /* ---- aggiunta 2 (2026-07-08): arte, musica, sport, scienza e feste d'Italia, tutti verificati ---- */
     { month:1,  day:28, year:2024, text:"Jannik Sinner conquista gli Australian Open, primo Slam del tennis maschile italiano dopo 48 anni.", emoji:"🎾" },
@@ -169,7 +169,7 @@ window.SOYOGI_WS_CONTENT["it"] = {
     { month:10, day:4,  year:1964, text:"Viene inaugurata l'Autostrada del Sole, che collega Milano a Napoli.", emoji:"🛣️" },
     { month:10, day:9,  year:1997, text:"Dario Fo riceve il premio Nobel per la letteratura.", emoji:"📖" },
     { month:10, day:14, year:2001, text:"Valentino Rossi conquista il suo primo titolo mondiale nella classe regina del motociclismo.", emoji:"🏍️" },
-    { month:10, day:26, year:1954, text:"Trieste torna all'Italia, accolta da una folla festante.", emoji:"🇮🇹" },
+    { month:10, day:26, year:1954, text:"Trieste torna all'Italia, accolta da una folla festante.", emoji:"🇮🇹", opener:"«Oggi si ricorda il ritorno di Trieste all'Italia. Per tante famiglie furono anni difficili: se le fa piacere parlarne, l'ascolto; altrimenti va bene così.»" },
     { month:10, day:31, year:1541, text:"Viene svelato il « Giudizio Universale » di Michelangelo, nella Cappella Sistina.", emoji:"🎨" },
     { month:11, day:18, year:1626, text:"Viene consacrata la Basilica di San Pietro in Vaticano.", emoji:"⛪" },
     { month:11, day:26, year:2023, text:"L'Italia vince la Coppa Davis di tennis, 47 anni dopo il primo titolo.", emoji:"🎾" },
@@ -403,6 +403,271 @@ window.SOYOGI_WS_CONTENT["it"] = {
         asks:["Quale musica o quali cantanti vi piacevano?","Avevate un giradischi in casa?","Su quale musica ballavate?"],
         expand:"La musica è un ancoraggio potente. Basta il titolo di una canzone e arrivano i ricordi.",
         care:"Se una canzone commuove, è prezioso — lasciate tutto lo spazio all'emozione."
+      }
+    },
+    /* ---- aggiunta (2026-11-11): 22 quiz italiani, fatti verificati con fonti ---- */
+    {
+      id:"it-warmup-04", genre:"warmup", emoji:"🍕", photo:null,
+      question:"Cosa c'è sopra una pizza Margherita?",
+      choices:["Prosciutto e funghi","Pomodoro, mozzarella e basilico","Solo formaggio"], answerIndex:1,
+      trivia:"Rosso, bianco e verde: pomodoro, mozzarella e basilico hanno gli stessi colori della bandiera.",
+      cue:{
+        open:"«Rossa, bianca e verde, come la bandiera!» Con un sorriso, poi verso la tavola.",
+        asks:["Si faceva la pizza in casa vostra?","Quale pizza vi piaceva di più?","Dove andavate a mangiarla?"],
+        expand:"Il profumo del forno e la pizza del sabato sera riportano scene di famiglia e di amici. Chiedete chi c'era a tavola.",
+        care:"Per qualcuno la pizzeria era un lusso raro. Restate sul piacere del ricordo, senza confronti."
+      }
+    },
+    {
+      id:"it-warmup-05", genre:"warmup", emoji:"🛶", photo:null,
+      question:"In quale città si va in gondola sui canali?",
+      choices:["Milano","Torino","Venezia"], answerIndex:2,
+      trivia:"La gondola è nera e il gondoliere rema in piedi, con un solo remo.",
+      cue:{
+        open:"«Venezia, la città sull'acqua!» Poi verso i viaggi e le gite.",
+        asks:["Siete mai stati a Venezia?","Qual è il viaggio che ricordate più volentieri?","Con chi andavate in gita?"],
+        expand:"Le gite e i viaggi di nozze sono ricordi luminosi. Anche chi non ha viaggiato può raccontare un posto sognato.",
+        care:"Non tutti hanno potuto viaggiare. Chiedete anche «quale posto le piacerebbe vedere?» per tenere la porta aperta."
+      }
+    },
+    {
+      id:"it-price-03", genre:"price", emoji:"💶", photo:null,
+      question:"Quando è arrivato l'euro, quante lire valeva un euro?",
+      choices:["Circa 200 lire","Circa 2.000 lire","Circa 20.000 lire"], answerIndex:1,
+      trivia:"Il cambio era fisso: 1 euro = 1.936,27 lire. Per anni tanti hanno fatto i conti «in lire» a mente.",
+      cue:{
+        open:"«Quasi duemila lire per un euro! Quanti conti a mente, vero?»",
+        asks:["Vi siete abituati presto all'euro?","Facevate ancora i conti in lire?","Cosa vi sembrava più caro dopo il cambio?"],
+        expand:"Il passaggio all'euro è un ricordo condiviso da tutti. Lasciate raccontare i piccoli trucchi per fare i conti.",
+        care:"Il denaro può essere un tema delicato. Restate sui ricordi, senza parlare di quanto si aveva."
+      }
+    },
+    {
+      id:"it-appliance-04", genre:"appliance", emoji:"☕", photo:null,
+      question:"Come si chiama la caffettiera di alluminio che borbotta sul fornello?",
+      choices:["La moka","Il bollitore","La teiera"], answerIndex:0,
+      trivia:"La Moka Express nasce nel 1933 con Alfonso Bialetti. L'omino coi baffi della pubblicità era su Carosello.",
+      cue:{
+        open:"«Quel borbottio della moka: il caffè è pronto!»",
+        asks:["Chi preparava il caffè in casa?","Come vi piaceva il caffè?","Il caffè era un momento per stare insieme?"],
+        expand:"Il profumo del caffè al mattino è un ricordo forte. Chiedete dei gesti: svitare, riempire, aspettare il borbottio.",
+        care:"Se oggi il caffè non si può bere, parlate del ricordo e del profumo, non della bevanda."
+      }
+    },
+    {
+      id:"it-appliance-05", genre:"appliance", emoji:"📻", photo:null,
+      question:"Quale piccola radio a pile si portava dappertutto, anche in spiaggia?",
+      choices:["Il grammofono","La radiolina a transistor","Il televisore"], answerIndex:1,
+      trivia:"Con i transistor le radio diventarono piccole e leggere. Negli anni '60 erano dappertutto.",
+      cue:{
+        open:"«La radiolina in tasca: la musica sempre con sé!»",
+        asks:["Cosa ascoltavate alla radio?","Dove la portavate?","C'era una trasmissione che non perdevate mai?"],
+        expand:"La radio accompagnava le partite, le canzoni e le estati. Il nome di una trasmissione apre tanti ricordi.",
+        care:"Se l'udito oggi è un problema, parlate del ricordo e non chiedete di ascoltare."
+      }
+    },
+    {
+      id:"it-appliance-06", genre:"appliance", emoji:"🫧", photo:null,
+      question:"Quale elettrodomestico prese il posto del bucato fatto a mano?",
+      choices:["Il frigorifero","Il ferro da stiro","La lavatrice"], answerIndex:2,
+      trivia:"La Candy presentò la sua prima lavatrice per la casa, la «Candy 50», alla Fiera di Milano del 1946.",
+      cue:{
+        open:"«Che sollievo la lavatrice, dopo tanto bucato a mano!»",
+        asks:["Ricordate quando arrivò la lavatrice in casa?","Chi faceva il bucato prima?","Cosa cambiò con la lavatrice?"],
+        expand:"L'arrivo degli elettrodomestici è un ricordo di progresso e di fatica risparmiata. Lasciate raccontare il «prima e dopo».",
+        care:"In molte case arrivò tardi. Chiedete «quando arrivò?» senza darlo per scontato."
+      }
+    },
+    {
+      id:"it-appliance-07", genre:"appliance", emoji:"📺", photo:null,
+      question:"Quando pochi avevano la TV, dove andava tanta gente a vedere «Lascia o raddoppia?»",
+      choices:["Al bar","In chiesa","In stazione"], answerIndex:0,
+      trivia:"Il quiz di Mike Bongiorno iniziò nel 1955. Molti bar comprarono il televisore per non perdere i clienti.",
+      cue:{
+        open:"«Tutti al bar a guardare Mike Bongiorno!»",
+        asks:["Dove guardavate la televisione i primi tempi?","Quali programmi vi piacevano?","Chi c'era con voi davanti allo schermo?"],
+        expand:"La TV vista insieme al bar o dai vicini è un ricordo di comunità. Chiedete delle sedie, delle voci, delle risate.",
+        care:"Se la persona non ricorda il programma, va bene: basta il ricordo di quelle serate insieme."
+      }
+    },
+    {
+      id:"it-snack-03", genre:"snack", emoji:"🎄", photo:null,
+      question:"Di quale città è il panettone, il dolce di Natale con uvetta e canditi?",
+      choices:["Napoli","Milano","Palermo"], answerIndex:1,
+      trivia:"Il panettone è un dolce milanese. A Milano se ne tiene una fetta per San Biagio, il 3 febbraio.",
+      cue:{
+        open:"«Il panettone: a Natale non può mancare!»",
+        asks:["Preferivate il panettone o il pandoro?","Come si festeggiava il Natale da voi?","C'era un dolce fatto in casa per le feste?"],
+        expand:"I dolci delle feste portano con sé la tavola, i parenti e le tradizioni. Chiedete delle usanze del paese.",
+        care:"Il Natale può far pensare a chi non c'è più. Se arriva la malinconia, accoglietela con calma."
+      }
+    },
+    {
+      id:"it-snack-04", genre:"snack", emoji:"💌", photo:null,
+      question:"Quale cioccolatino ha dentro un bigliettino con una frase d'amore?",
+      choices:["Il Bacio Perugina","Il gianduiotto","Il torrone"], answerIndex:0,
+      trivia:"I Baci nascono alla Perugina nel 1922, da un'idea di Luisa Spagnoli. Il bigliettino si chiama cartiglio.",
+      cue:{
+        open:"«Leggevate sempre il bigliettino del Bacio?»",
+        asks:["Vi è mai capitata una frase che ricordate?","A chi regalavate i cioccolatini?","Qual era il vostro cioccolato preferito?"],
+        expand:"Il bigliettino fa sorridere e apre ai ricordi di gioventù. Potete leggerne uno insieme, se ne avete uno.",
+        care:"Le frasi d'amore possono ricordare un coniuge scomparso. Osservate il volto e non insistete."
+      }
+    },
+    {
+      id:"it-snack-05", genre:"snack", emoji:"🍰", photo:null,
+      question:"Da quale regione viene il cannolo ripieno di ricotta?",
+      choices:["Dalla Liguria","Dal Veneto","Dalla Sicilia"], answerIndex:2,
+      trivia:"Il cannolo siciliano si riempie di ricotta dolce. Un tempo si preparava per Carnevale, oggi si trova tutto l'anno.",
+      cue:{
+        open:"«Il cannolo siciliano, con la ricotta: che bontà!»",
+        asks:["Qual è il dolce tipico del vostro paese?","Quando si mangiavano i dolci buoni?","Chi li preparava?"],
+        expand:"Ogni paese ha il suo dolce. Lasciate che la persona racconti con orgoglio le specialità della sua terra.",
+        care:"Se ci sono limiti nel mangiare, parlate del ricordo e del profumo, non del cibo di oggi."
+      }
+    },
+    {
+      id:"it-snack-06", genre:"snack", emoji:"🌰", photo:null,
+      question:"Quali castagne si comprano in autunno per strada, calde, in un cartoccio di carta?",
+      choices:["Le caldarroste","I marroni glassati","Le castagne bollite"], answerIndex:0,
+      trivia:"Le caldarroste si cuociono sul fuoco in una padella coi buchi. Prima si fa un taglietto perché non scoppino.",
+      cue:{
+        open:"«Le caldarroste nel cartoccio: scaldavano anche le mani!»",
+        asks:["Le cuocevate anche in casa?","Andavate a raccogliere le castagne?","Cosa vi piaceva dell'autunno?"],
+        expand:"Le castagne parlano di boschi, camini e serate d'autunno. Chiedete chi c'era intorno al fuoco.",
+        care:"Per alcuni le castagne erano il cibo dei tempi magri. Accogliete il ricordo con rispetto."
+      }
+    },
+    {
+      id:"it-tool-03", genre:"tool", emoji:"🔥", photo:null,
+      question:"Prima del ferro elettrico, cosa si metteva dentro certi ferri da stiro per scaldarli?",
+      choices:["Acqua fredda","La brace","Il sale"], answerIndex:1,
+      trivia:"Ai primi del Novecento molti ferri erano un contenitore per la brace, da ravvivare col soffietto.",
+      cue:{
+        open:"«Stirare con la brace: un lavoro da esperti!»",
+        asks:["Chi stirava in casa vostra?","Cosa era più difficile da stirare?","Avete mai bruciato un vestito?"],
+        expand:"I lavori di casa di una volta chiedevano abilità. Un «che bravura!» fa piacere e invita a raccontare.",
+        care:"Chi ha faticato tanto merita riconoscimento: «avete fatto un gran lavoro» apre il dialogo."
+      }
+    },
+    {
+      id:"it-tool-04", genre:"tool", emoji:"🧵", photo:null,
+      question:"Cosa si mette sul dito per spingere l'ago quando si cuce?",
+      choices:["L'anello","Il bottone","Il ditale"], answerIndex:2,
+      trivia:"Il ditale si porta sul medio o sull'indice e protegge il dito dall'ago.",
+      cue:{
+        open:"«Il ditale: senza, ci si pungeva!»",
+        asks:["Cucivate o rammendavate in casa?","Chi vi ha insegnato a cucire?","Cosa avete cucito di cui andate fieri?"],
+        expand:"Rammendare, attaccare bottoni, fare l'orlo: sono capacità preziose. Chiedete un consiglio alla persona, come a chi se ne intende.",
+        care:"Se le mani oggi non aiutano, restate sul ricordo della bravura, non sulla difficoltà di adesso."
+      }
+    },
+    {
+      id:"it-tool-05", genre:"tool", emoji:"🪡", photo:null,
+      question:"In quale città la Necchi costruiva le sue macchine da cucire?",
+      choices:["Pavia","Bari","Firenze"], answerIndex:0,
+      trivia:"La Necchi di Pavia iniziò a costruire macchine da cucire nel 1919. In tante case erano un vero tesoro.",
+      cue:{
+        open:"«La macchina da cucire, con il pedale: che rumore!»",
+        asks:["C'era una macchina da cucire in casa?","Chi la usava?","Cosa si cuciva: vestiti, tende, corredi?"],
+        expand:"La macchina da cucire lega al lavoro, alla famiglia e al risparmio. Chiedete dei vestiti fatti in casa.",
+        care:"Per chi ha lavorato da sarta o da sarto, è un ricordo di mestiere: valorizzate la competenza."
+      }
+    },
+    {
+      id:"it-fashion-03", genre:"fashion", emoji:"🎩", photo:null,
+      question:"Come si chiama il famoso cappello di feltro da uomo fatto ad Alessandria?",
+      choices:["Il basco","Il Borsalino","La paglietta"], answerIndex:1,
+      trivia:"Il Borsalino è un cappello morbido di feltro, prodotto dalla fabbrica Borsalino di Alessandria, in Piemonte.",
+      cue:{
+        open:"«Il Borsalino: quanta eleganza!»",
+        asks:["In famiglia qualcuno portava il cappello?","Quando ci si vestiva eleganti?","Avevate un capo a cui tenevate molto?"],
+        expand:"Il cappello racconta la domenica, le feste e il modo di presentarsi. Chiedete delle occasioni speciali.",
+        care:"Se il ricordo va a un padre o a un marito scomparso, accoglietelo con calma e senza fretta."
+      }
+    },
+    {
+      id:"it-fashion-04", genre:"fashion", emoji:"🧢", photo:null,
+      question:"Come si chiama il berretto con la piccola visiera, tipico del Sud e della Sicilia?",
+      choices:["La coppola","La bombetta","Il cilindro"], answerIndex:0,
+      trivia:"La coppola si porta in tutto il Sud. Si fa con tanti tessuti, anche col velluto a coste.",
+      cue:{
+        open:"«La coppola: la portavano nonni e papà!»",
+        asks:["Chi portava la coppola in famiglia?","Come si vestivano gli uomini in paese?","Cosa si metteva per andare in piazza?"],
+        expand:"I vestiti del paese raccontano la piazza, il lavoro nei campi, le chiacchiere al bar. Lasciate descrivere le persone.",
+        care:"Parlando dei nonni e dei genitori, possono arrivare ricordi di lutto. Rallentate e ascoltate."
+      }
+    },
+    {
+      id:"it-fashion-05", genre:"fashion", emoji:"🎀", photo:null,
+      question:"A scuola, cosa si annodava al collo sopra il grembiule?",
+      choices:["La sciarpa","Il fiocco","La collana"], answerIndex:1,
+      trivia:"Il grembiule, bianco o nero, aveva un fiocco al collo come una cravatta. Si è usato a lungo nelle elementari.",
+      cue:{
+        open:"«Il grembiule e il fiocco: tutti in ordine il primo giorno di scuola!»",
+        asks:["Di che colore era il vostro grembiule?","Ricordate la vostra maestra o il vostro maestro?","Come andavate a scuola?"],
+        expand:"La scuola elementare è piena di ricordi: la cartella, il quaderno, i compagni di banco. Chiedete dei nomi.",
+        care:"Alcuni hanno dovuto lasciare presto la scuola per lavorare. Non date per scontati gli studi e onorate la loro strada."
+      }
+    },
+    {
+      id:"it-hobby-03", genre:"hobby", emoji:"📺", photo:null,
+      question:"Dopo quale programma della sera i bambini andavano a letto?",
+      choices:["Il telegiornale","Il Festival","Carosello"], answerIndex:2,
+      trivia:"Carosello andò in onda dal 1957 al 1977. «A letto dopo Carosello» lo dicevano tanti genitori.",
+      cue:{
+        open:"«E dopo Carosello, tutti a nanna!»",
+        asks:["Quale pubblicità di Carosello ricordate?","Chi vi mandava a letto?","Cosa facevate la sera in famiglia?"],
+        expand:"I personaggi di Carosello e i loro motivetti tornano subito in mente. Provate a canticchiarne uno insieme.",
+        care:"Se la persona ricorda i propri figli piccoli, è un bel momento: lasciate spazio ai racconti di famiglia."
+      }
+    },
+    {
+      id:"it-hobby-04", genre:"hobby", emoji:"⚽", photo:null,
+      question:"Al Totocalcio, cosa voleva dire «fare 13»?",
+      choices:["Vincere una partita a carte","Indovinare tutti i risultati della schedina","Segnare tredici gol"], answerIndex:1,
+      trivia:"La prima schedina si giocò il 5 maggio 1946. Si scriveva 1, X o 2: vince la squadra di casa, pareggio, vince quella in trasferta.",
+      cue:{
+        open:"«Fare 13: il sogno di tutti la domenica!»",
+        asks:["Giocavate la schedina?","Per quale squadra tifavate?","Cosa avreste fatto con la vincita?"],
+        expand:"La schedina parla delle domeniche, del calcio alla radio e dei sogni. «Cosa avreste fatto?» fa sorridere.",
+        care:"Se in famiglia il gioco ha creato problemi, cambiate argomento con leggerezza verso la squadra del cuore."
+      }
+    },
+    {
+      id:"it-hobby-05", genre:"hobby", emoji:"🃏", photo:null,
+      question:"In quale gioco di carte si dice «scopa» quando si prendono tutte le carte dal tavolo?",
+      choices:["La scopa","Il poker","Il solitario"], answerIndex:0,
+      trivia:"Si gioca con 40 carte: denari, coppe, bastoni e spade. Il sette di denari si chiama settebello.",
+      cue:{
+        open:"«Scopa! E il settebello, chi l'ha preso?»",
+        asks:["Con chi giocavate a carte?","Preferivate la scopa o la briscola?","Dove si giocava: a casa o al bar?"],
+        expand:"Le partite a carte sono ricordi di amicizia e di battute. Se c'è un mazzo, una mano insieme può essere bella.",
+        care:"Se la persona non ricorda le regole, non correggete: conta il piacere di stare insieme."
+      }
+    },
+    {
+      id:"it-hobby-06", genre:"hobby", emoji:"🎤", photo:null,
+      question:"Con quale canzone Domenico Modugno vinse il Festival di Sanremo del 1958?",
+      choices:["«Arrivederci Roma»","«O sole mio»","«Nel blu, dipinto di blu»"], answerIndex:2,
+      trivia:"Tutti la chiamano «Volare». Al Festival la cantò insieme a Johnny Dorelli.",
+      cue:{
+        open:"«Volare, oh oh!» Basta un accenno e il ritornello torna.",
+        asks:["Quali cantanti vi piacevano da giovani?","Seguivate il Festival di Sanremo?","C'è una canzone che vi ricorda un momento speciale?"],
+        expand:"Le canzoni risvegliano ricordi in fretta. Cantare insieme un ritornello è spesso più forte di tante domande.",
+        care:"Una canzone può commuovere. Se arrivano le lacrime, restate accanto con calma."
+      }
+    },
+    {
+      id:"it-hobby-07", genre:"hobby", emoji:"🎲", photo:null,
+      question:"Nella tombola di Natale, quanti sono i numeri da estrarre?",
+      choices:["50","90","100"], answerIndex:1,
+      trivia:"I numeri vanno da 1 a 90. Si vince con ambo, terno, quaterna, cinquina e infine tombola.",
+      cue:{
+        open:"«Ambo, terno, quaterna… e tombola!»",
+        asks:["Con chi giocavate a tombola?","Chi estraeva i numeri?","Cosa si usava per segnare i numeri sulla cartella?"],
+        expand:"La tombola delle feste riunisce tutta la famiglia. Chiedete chi vinceva più spesso e come si festeggiava.",
+        care:"Le feste possono far pensare a chi non c'è più. Se arriva la malinconia, ascoltate senza fretta."
       }
     }
   ],

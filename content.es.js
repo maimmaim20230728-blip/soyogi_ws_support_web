@@ -90,7 +90,7 @@ window.SOYOGI_WS_CONTENT["es"] = {
     { month:11, day:17, year:1869, emoji:"🚢", text:"Se inaugura el Canal de Suez, que une el Mediterráneo y el mar Rojo." },
     { month:4, day:24, year:1990, emoji:"🔭", text:"El telescopio espacial Hubble es puesto en órbita." },
     { month:5, day:1, year:null, emoji:"🛠️", text:"Hoy es el Día del Trabajo." },
-    { month:11, day:1, year:null, emoji:"🕯️", text:"Hoy es el Día de Todos los Santos." },
+    { month:11, day:1, year:null, emoji:"🕯️", text:"Hoy es el Día de Todos los Santos.", opener:"«Es un día para recordar con cariño a quienes ya no están. Si le apetece, ¿cómo se vivía este día donde usted creció?»" },
     { month:12, day:6, year:null, emoji:"📜", text:"Hoy es el Día de la Constitución española." },
     { month:4, day:23, year:null, emoji:"📚", text:"Hoy es el Día del Libro — en Cataluña, Sant Jordi, con libros y rosas." },
     { month:7, day:20, year:1969, emoji:"🌕", text:"El Apolo 11 llega a la Luna — el ser humano pisa la Luna por primera vez." },
@@ -102,26 +102,26 @@ window.SOYOGI_WS_CONTENT["es"] = {
     { month:7,  day:11, year:2010, text:"España se proclama campeona del mundo de fútbol por primera vez.", emoji:"⚽" },
     { month:1,  day:1,  year:null, text:"Hoy es Año Nuevo — el comienzo de un año nuevo.", emoji:"🎉" },
     { month:1,  day:6,  year:null, text:"Hoy es el Día de Reyes. Los Reyes Magos traen regalos a los niños.", emoji:"👑" },
-    { month:10, day:12, year:null, text:"Hoy es el Día de la Hispanidad en España; en América Latina se celebra como el Día de la Raza o de la Diversidad Cultural.", emoji:"🌎" },
+    { month:10, day:12, year:null, text:"Hoy es el Día de la Hispanidad en España; en América Latina se celebra como el Día de la Raza o de la Diversidad Cultural.", emoji:"🌎", opener:"«Este día se vive de maneras muy distintas según el país y la historia de cada uno. Si le apetece, ¿cómo se vivía donde usted creció?»" },
     { month:12, day:25, year:null, text:"Hoy es Navidad — un día de familia, regalos y buenos deseos.", emoji:"🎄" },
     { month:12, day:31, year:null, text:"Hoy es Nochevieja. Se toman doce uvas con las campanadas para recibir el año.", emoji:"🍇" },
     /* ---- añadido (2026-07-08): efemérides de España, todas verificadas con búsqueda web ---- */
-    { month:1,  day:2,  year:1492, text:"Los Reyes Católicos toman Granada, poniendo fin a la Reconquista.", emoji:"🏰" },
+    { month:1,  day:2,  year:1492, text:"Los Reyes Católicos toman Granada, poniendo fin a la Reconquista.", emoji:"🏰", opener:"«Hoy se recuerda el final de una guerra de hace muchos siglos. Si le apetece, ¿le contaron esta historia en la escuela?»" },
     { month:1,  day:9,  year:1923, text:"Juan de la Cierva realiza el primer vuelo del autogiro, en Getafe.", emoji:"🚁" },
     { month:1,  day:16, year:1605, text:"Se publica la primera parte de « Don Quijote de la Mancha », de Miguel de Cervantes.", emoji:"📖" },
     { month:2,  day:22, year:2009, text:"Penélope Cruz gana el Óscar, primera actriz española en lograrlo.", emoji:"🎬" },
     { month:3,  day:17, year:1987, text:"Se celebra la primera edición de los Premios Goya del cine español.", emoji:"🏆" },
     { month:3,  day:19, year:1812, text:"Se proclama en Cádiz « La Pepa », la primera Constitución española.", emoji:"📜" },
     { month:3,  day:26, year:2000, text:"« Todo sobre mi madre » de Pedro Almodóvar gana el Óscar.", emoji:"🎬" },
-    { month:4,  day:14, year:1931, text:"Se proclama la Segunda República española.", emoji:"🇪🇸" },
-    { month:5,  day:2,  year:1808, text:"El pueblo de Madrid se levanta contra la ocupación napoleónica; hoy se conmemora el Dos de Mayo.", emoji:"🎗️" },
+    { month:4,  day:14, year:1931, text:"Se proclama la Segunda República española.", emoji:"🇪🇸", opener:"«Es una fecha que cada familia recuerda a su manera. Solo si le apetece: ¿había oído hablar de ella?»" },
+    { month:5,  day:2,  year:1808, text:"El pueblo de Madrid se levanta contra la ocupación napoleónica; hoy se conmemora el Dos de Mayo.", emoji:"🎗️", opener:"«Hoy Madrid recuerda a quienes se levantaron aquel día y a quienes perdieron la vida. Si le apetece, ¿había oído hablar del Dos de Mayo?»" },
     { month:6,  day:5,  year:2005, text:"Rafael Nadal gana Roland Garros por primera vez, en su debut.", emoji:"🎾" },
     { month:6,  day:12, year:1985, text:"España firma el Tratado de adhesión a las Comunidades Europeas.", emoji:"🇪🇺" },
     { month:6,  day:15, year:1977, text:"Se celebran las primeras elecciones democráticas tras la dictadura.", emoji:"🗳️" },
     { month:6,  day:19, year:2014, text:"Felipe VI es proclamado rey de España.", emoji:"👑" },
     { month:6,  day:29, year:2008, text:"España se proclama campeona de la Eurocopa, 44 años después del último título.", emoji:"⚽" },
     { month:7,  day:1,  year:2012, text:"España gana la Eurocopa (4-0 a Italia), su tercer gran título consecutivo.", emoji:"⚽" },
-    { month:7,  day:12, year:1937, text:"Se expone al público por primera vez el « Guernica » de Pablo Picasso, en París.", emoji:"🎨" },
+    { month:7,  day:12, year:1937, text:"Se expone al público por primera vez el « Guernica » de Pablo Picasso, en París.", emoji:"🎨", opener:"«Este cuadro de Picasso habla del bombardeo de Guernica y del dolor de la guerra. Si le apetece, ¿lo ha visto alguna vez, aunque sea en foto?»" },
     { month:8,  day:3,  year:1492, text:"Cristóbal Colón zarpa del puerto de Palos con sus tres naves.", emoji:"⛵" },
     { month:9,  day:6,  year:1522, text:"Elcano completa la primera vuelta al mundo al regresar a Sanlúcar.", emoji:"🌍" },
     { month:9,  day:25, year:2005, text:"Fernando Alonso se proclama por primera vez campeón del mundo de Fórmula 1.", emoji:"🏎️" },
@@ -145,7 +145,7 @@ window.SOYOGI_WS_CONTENT["es"] = {
     { month:5,  day:8,  year:1984, text:"Se realiza en Barcelona el primer trasplante de corazón de España.", emoji:"🫀" },
     { month:5,  day:9,  year:1929, text:"Se inaugura en Sevilla la Exposición Iberoamericana.", emoji:"🌍" },
     { month:5,  day:20, year:1888, text:"Se inaugura la Exposición Universal de Barcelona.", emoji:"🎡" },
-    { month:5,  day:25, year:1085, text:"Alfonso VI entra en Toledo, la primera gran ciudad de al-Ándalus que pasa a manos cristianas.", emoji:"🏰" },
+    { month:5,  day:25, year:1085, text:"Alfonso VI entra en Toledo, la primera gran ciudad de al-Ándalus que pasa a manos cristianas.", emoji:"🏰", opener:"«Es un episodio de guerra de hace muchos siglos. Si le apetece, ¿conoce Toledo o le hablaron de su historia?»" },
     { month:6,  day:4,  year:2016, text:"Garbiñe Muguruza gana Roland Garros ante Serena Williams.", emoji:"🎾" },
     { month:6,  day:10, year:1975, text:"Se inaugura en Barcelona la Fundación Joan Miró.", emoji:"🎨" },
     { month:6,  day:13, year:1956, text:"El Real Madrid gana la primera Copa de Europa de fútbol.", emoji:"⚽" },
@@ -154,7 +154,7 @@ window.SOYOGI_WS_CONTENT["es"] = {
     { month:6,  day:23, year:null, text:"Hoy es la Noche de San Juan — hogueras y verbenas para dar la bienvenida al verano.", emoji:"🔥" },
     { month:7,  day:7,  year:null, text:"Hoy empiezan los Sanfermines en Pamplona, con sus famosos encierros.", emoji:"🐂" },
     { month:7,  day:14, year:2024, text:"España gana la Eurocopa por cuarta vez (2-1 a Inglaterra).", emoji:"⚽" },
-    { month:7,  day:16, year:1212, text:"La victoria cristiana en las Navas de Tolosa marca un giro en la Reconquista.", emoji:"🛡️" },
+    { month:7,  day:16, year:1212, text:"La victoria cristiana en las Navas de Tolosa marca un giro en la Reconquista.", emoji:"🛡️", opener:"«Hoy se recuerda una batalla muy antigua. Si le apetece, ¿qué recuerda de la historia que estudió de joven?»" },
     { month:7,  day:23, year:1995, text:"Miguel Induráin gana su quinto Tour de Francia consecutivo.", emoji:"🚴" },
     { month:7,  day:28, year:1991, text:"Miguel Induráin gana su primer Tour de Francia.", emoji:"🚴" },
     { month:8,  day:4,  year:1897, text:"Se descubre en Elche la « Dama de Elche », joya del arte ibérico.", emoji:"🗿" },
@@ -162,37 +162,37 @@ window.SOYOGI_WS_CONTENT["es"] = {
     { month:8,  day:19, year:2016, text:"Carolina Marín gana el oro olímpico de bádminton en Río.", emoji:"🏸" },
     { month:9,  day:3,  year:2006, text:"España se proclama por primera vez campeona del mundo de baloncesto.", emoji:"🏀" },
     { month:9,  day:8,  year:1888, text:"Se bota el submarino de Isaac Peral, pionero de la navegación submarina.", emoji:"🌊" },
-    { month:9,  day:10, year:1981, text:"El « Guernica » de Picasso regresa a España tras el retorno de la democracia.", emoji:"🎨" },
+    { month:9,  day:10, year:1981, text:"El « Guernica » de Picasso regresa a España tras el retorno de la democracia.", emoji:"🎨", opener:"«Este cuadro habla del dolor de la guerra, y su regreso fue muy esperado. Solo si le apetece: ¿recuerda aquella noticia?»" },
     { month:9,  day:13, year:1584, text:"Se coloca la última piedra del Monasterio de El Escorial.", emoji:"🏛️" },
     { month:9,  day:20, year:1519, text:"Zarpa de Sanlúcar la expedición de Magallanes que dará la primera vuelta al mundo.", emoji:"⛵" },
     { month:9,  day:21, year:1953, text:"Se celebra la primera Semana de Cine de San Sebastián.", emoji:"🎬" },
     { month:9,  day:24, year:1810, text:"Se abren en Cádiz las Cortes que redactarán la primera Constitución española.", emoji:"🏛️" },
     { month:9,  day:29, year:1513, text:"Vasco Núñez de Balboa alcanza el océano Pacífico, el « Mar del Sur ».", emoji:"🌊" },
     { month:10, day:6,  year:1977, text:"Vicente Aleixandre recibe el premio Nobel de Literatura.", emoji:"📖" },
-    { month:10, day:7,  year:1571, text:"Se libra la batalla de Lepanto, en la que combatió Miguel de Cervantes.", emoji:"⚓" },
+    { month:10, day:7,  year:1571, text:"Se libra la batalla de Lepanto, en la que combatió Miguel de Cervantes.", emoji:"⚓", opener:"«Hoy se recuerda una batalla naval de hace siglos. Si le apetece, ¿sabía que allí combatió Cervantes?»" },
     { month:10, day:11, year:1997, text:"El Teatro Real de Madrid reabre como teatro de ópera.", emoji:"🎭" },
     { month:10, day:17, year:1919, text:"Se inaugura la primera línea del Metro de Madrid.", emoji:"🚇" },
     { month:10, day:25, year:1956, text:"Juan Ramón Jiménez recibe el premio Nobel de Literatura.", emoji:"📖" },
     { month:11, day:10, year:2013, text:"Marc Márquez gana su primer título mundial de MotoGP.", emoji:"🏍️" },
     { month:11, day:15, year:2019, text:"Rosalía gana el Grammy Latino al álbum del año por « El mal querer ».", emoji:"🎶" },
     { month:11, day:16, year:2010, text:"La UNESCO declara el flamenco Patrimonio Cultural Inmaterial de la Humanidad.", emoji:"💃" },
-    { month:11, day:23, year:1248, text:"Fernando III el Santo reconquista Sevilla.", emoji:"🛡️" },
+    { month:11, day:23, year:1248, text:"Fernando III el Santo reconquista Sevilla.", emoji:"🛡️", opener:"«Es un episodio de guerra de hace siglos. Si le apetece, ¿conoce Sevilla?»" },
     { month:11, day:29, year:1899, text:"Joan Gamper funda el Fútbol Club Barcelona.", emoji:"⚽" },
-    { month:12, day:18, year:1118, text:"Alfonso I el Batallador conquista Zaragoza.", emoji:"🏰" },
+    { month:12, day:18, year:1118, text:"Alfonso I el Batallador conquista Zaragoza.", emoji:"🏰", opener:"«Hoy se recuerda una conquista de hace muchos siglos. Si le apetece, ¿conoce Zaragoza?»" },
     /* ---- América Latina（スペイン語圏ミックス）: 記念日・祝日 ---- */
     { month:9,  day:16, year:null, text:"México celebra hoy su Independencia: en 1810, el cura Hidalgo llamó al pueblo con el «Grito de Dolores».", emoji:"🇲🇽" },
-    { month:11, day:2,  year:null, text:"Hoy es el Día de los Muertos en México: ofrendas, velas y flores de cempasúchil para recordar con cariño a los que se fueron.", emoji:"🌼" },
+    { month:11, day:2,  year:null, text:"Hoy es el Día de los Muertos en México: ofrendas, velas y flores de cempasúchil para recordar con cariño a los que se fueron.", emoji:"🌼", opener:"«Es un día para recordar con cariño a quienes se fueron. Si le apetece, ¿conocía esta tradición de México?»" },
     { month:12, day:12, year:null, text:"Hoy es el Día de la Virgen de Guadalupe, muy querida en México y toda América Latina.", emoji:"⛪" },
     { month:12, day:16, year:null, text:"Hoy comienzan las Posadas en México: nueve noches de cantos, piñatas y ponche.", emoji:"🎄" },
     { month:5,  day:10, year:null, text:"Hoy es el Día de las Madres en México — flores, serenatas y comida en familia.", emoji:"💐" },
     { month:4,  day:30, year:null, text:"Hoy es el Día del Niño en México.", emoji:"🎈" },
     { month:7,  day:9,  year:null, text:"Hoy es el Día de la Independencia argentina, declarada en 1816 en Tucumán.", emoji:"🇦🇷" },
-    { month:8,  day:17, year:null, text:"Argentina recuerda hoy al general San Martín, el Libertador, fallecido en 1850.", emoji:"🎖️" },
+    { month:8,  day:17, year:null, text:"Argentina recuerda hoy al general San Martín, el Libertador, fallecido en 1850.", emoji:"🎖️", opener:"«Hoy Argentina recuerda con respeto al general San Martín. Si le apetece, ¿qué sabe de su historia?»" },
     { month:9,  day:21, year:null, text:"Hoy es el Día de la Primavera y del Estudiante en Argentina.", emoji:"🌸" },
     { month:7,  day:28, year:null, text:"Hoy son las Fiestas Patrias del Perú: San Martín proclamó la independencia en 1821.", emoji:"🇵🇪" },
     { month:9,  day:18, year:null, text:"Hoy son las Fiestas Patrias de Chile — empanadas, cueca y ramadas.", emoji:"🇨🇱" },
     { month:7,  day:20, year:null, text:"Hoy es el Día de la Independencia de Colombia (1810).", emoji:"🇨🇴" },
-    { month:11, day:20, year:null, text:"Hoy México conmemora el aniversario de la Revolución de 1910.", emoji:"📜" },
+    { month:11, day:20, year:null, text:"Hoy México conmemora el aniversario de la Revolución de 1910.", emoji:"📜", opener:"«Este aniversario recuerda años de lucha y de muchas pérdidas. Si le apetece, ¿había oído hablar de la Revolución mexicana?»" },
     { month:12, day:28, year:null, text:"Hoy es el Día de los Santos Inocentes — día de bromas en España y América Latina.", emoji:"🃏" },
     { month:6,  day:24, year:null, text:"Hoy se celebra el Inti Raymi, la fiesta del sol de los incas, en Cusco (Perú).", emoji:"☀️" },
     /* ---- América Latina: hechos históricos（全てWebSearch裏取り済） ---- */
@@ -205,8 +205,8 @@ window.SOYOGI_WS_CONTENT["es"] = {
     { month:10, day:11, year:1990, text:"El mexicano Octavio Paz gana el Premio Nobel de Literatura.", emoji:"📖" },
     { month:7,  day:24, year:1911, text:"Hiram Bingham llega a Machu Picchu y da a conocer al mundo la ciudadela inca.", emoji:"🏔️" },
     { month:7,  day:7,  year:2007, text:"Machu Picchu y Chichén Itzá son elegidas entre las Nuevas Siete Maravillas del Mundo.", emoji:"🌍" },
-    { month:10, day:13, year:2010, text:"Chile rescata con éxito a los 33 mineros tras 69 días bajo tierra: «¡Estamos bien los 33!».", emoji:"⛏️" },
-    { month:5,  day:5,  year:1862, text:"Batalla de Puebla: México recuerda cada «Cinco de Mayo» aquella victoria.", emoji:"🎖️" }
+    { month:10, day:13, year:2010, text:"Chile rescata con éxito a los 33 mineros tras 69 días bajo tierra: «¡Estamos bien los 33!».", emoji:"⛏️", opener:"«Fue un rescate muy emocionante, después de un accidente en la mina. Si le apetece, ¿recuerda haberlo visto en las noticias?»" },
+    { month:5,  day:5,  year:1862, text:"Batalla de Puebla: México recuerda cada «Cinco de Mayo» aquella victoria.", emoji:"🎖️", opener:"«Hoy México recuerda una batalla y a quienes lucharon en ella. Si le apetece, ¿conocía esta fecha?»" }
   ],
 
   /* ---- Pestaña 2: quiz de recuerdos (lo sabías + pista para el personal) ---- */
@@ -433,6 +433,270 @@ window.SOYOGI_WS_CONTENT["es"] = {
         asks:["¿Qué música o qué cantantes le gustaban?","¿Tenían tocadiscos en casa?","¿Con qué música bailaba?"],
         expand:"La música es un ancla poderosa. Basta el título de una canción para que lleguen las historias.",
         care:"Si una canción emociona, es valioso — deje todo el espacio a la emoción."
+      }
+    },
+    {
+      id:"es-warmup-04", genre:"warmup", emoji:"🥣", photo:null,
+      question:"En pleno verano, ¿qué plato se toma bien fresquito?",
+      choices:["El cocido","El gazpacho"], answerIndex:1,
+      trivia:"El gazpacho es una sopa fría de tomate, pepino, pimiento, ajo y aceite de oliva. Se asocia sobre todo a Andalucía.",
+      cue:{
+        open:"«¡El gazpacho, claro! Con el calor, sienta de maravilla.»",
+        asks:["¿Se hacía gazpacho en su casa?","¿Qué comía cuando apretaba el calor?","¿Dónde pasaba los veranos?"],
+        expand:"Cada casa tenía su receta. Preguntar «¿y en su casa cómo se hacía?» abre recuerdos de cocina y de familia.",
+        care:"Si hoy tiene la dieta cuidada, quédese en el recuerdo y en los sabores, no en lo que puede comer ahora."
+      }
+    },
+    {
+      id:"es-warmup-05", genre:"warmup", emoji:"🧉", photo:null,
+      question:"¿Qué bebida se toma con bombilla y se comparte en ronda en Argentina y Uruguay?",
+      choices:["El mate","La horchata"], answerIndex:0,
+      trivia:"El mate se hace con hojas de yerba mate y se bebe con una bombilla. En Uruguay se considera la bebida nacional.",
+      cue:{
+        open:"«El mate, que pasa de mano en mano en la ronda.»",
+        asks:["¿Ha probado el mate alguna vez?","¿Qué se tomaba en su casa por la tarde?","¿Con quién le gustaba sentarse a charlar?"],
+        expand:"Para quien viene de Argentina, Uruguay o Paraguay, el mate trae recuerdos de casa. Para otros, sirve para hablar del café o la merienda de siempre.",
+        care:"Si la persona vive lejos de su tierra, la nostalgia puede llegar. Escuche con calma y deje que cuente solo lo que quiera."
+      }
+    },
+    {
+      id:"es-price-03", genre:"price", emoji:"🪙", photo:null,
+      question:"¿Cuántas pesetas valía un «duro»?",
+      choices:["Una peseta","Cinco pesetas","Cien pesetas"], answerIndex:1,
+      trivia:"Un duro era la moneda de cinco pesetas. Por eso «cinco duros» eran 25 pesetas y «veinte duros», 100.",
+      cue:{
+        open:"«¡Un duro, cinco pesetas! ¿Se acuerda de la moneda?»",
+        asks:["¿Qué se podía comprar con un duro?","¿Le daban la paga en duros?","¿Se acuerda del dicho «estar sin un duro»?"],
+        expand:"Los dichos con «duro» son muchos y despiertan sonrisas. Pregunte cuáles usaba la persona.",
+        care:"Hablar de dinero puede recordar apuros. Mantenga el tono de curiosidad compartida, sin comparar."
+      }
+    },
+    {
+      id:"es-appliance-04", genre:"appliance", emoji:"🍲", photo:null,
+      question:"¿Qué olla silbaba con su válvula y hacía las legumbres en mucho menos tiempo?",
+      choices:["La olla exprés","La cazuela de barro","La sartén"], answerIndex:0,
+      trivia:"Con la tapa bien cerrada, el agua llega a unos 120 grados y la comida se hace antes. En 1919, el zaragozano José Alix Martínez patentó la «olla express».",
+      cue:{
+        open:"«¡Aquel pitido de la olla en la cocina!»",
+        asks:["¿Se usaba la olla exprés en su casa?","¿Qué guisos se hacían los domingos?","¿Quién le enseñó a cocinar?"],
+        expand:"Los sonidos de la cocina devuelven la casa entera. Pregunte por los olores y por el plato preferido.",
+        care:"A algunas personas la olla les daba un poco de miedo. Si sale ese recuerdo, ríanse juntos con cariño."
+      }
+    },
+    {
+      id:"es-appliance-05", genre:"appliance", emoji:"🔥", photo:null,
+      question:"¿Qué se ponía debajo de la mesa camilla para calentar los pies en invierno?",
+      choices:["Una estufa de leña","Un ventilador","El brasero"], answerIndex:2,
+      trivia:"El brasero se llenaba de cisco o picón, un carbón vegetal muy menudo. Las faldas de la mesa guardaban el calor. Más tarde llegó el brasero eléctrico.",
+      cue:{
+        open:"«La mesa camilla con el brasero: ¡qué calorcito en los pies!»",
+        asks:["¿Había mesa camilla en su casa?","¿Qué se hacía alrededor de ella en invierno?","¿Quién se sentaba más cerca del calor?"],
+        expand:"Alrededor de la mesa camilla se cosía, se jugaba a las cartas y se escuchaba la radio. Son recuerdos cálidos de familia.",
+        care:"Para algunos el invierno fue de frío y escasez. Si aparece ese recuerdo, reconózcalo con respeto: «eran tiempos duros»."
+      }
+    },
+    {
+      id:"es-appliance-06", genre:"appliance", emoji:"📻", photo:null,
+      question:"En la radio, ¿qué famoso consultorio leía y contestaba las cartas de las oyentes?",
+      choices:["El NO-DO","El consultorio de Elena Francis","El parte del tiempo"], answerIndex:1,
+      trivia:"Se emitió de 1947 a 1984. Doña Elena no existía: las respuestas las escribía un equipo de asesores.",
+      cue:{
+        open:"«¿Se acuerda de doña Elena Francis en la radio?»",
+        asks:["¿Qué escuchaba en la radio de casa?","¿A qué hora se ponía la radio?","¿Había algún programa que no se perdía?"],
+        expand:"La radio acompañaba las tareas de casa. Pregunte por las voces, las canciones y los programas de cada hora del día.",
+        care:"El consultorio trataba problemas personales. Hable del programa y de la radio, no de los problemas de la persona."
+      }
+    },
+    {
+      id:"es-appliance-07", genre:"appliance", emoji:"📼", photo:null,
+      question:"¿Qué cinta pequeña, con dos ruedecitas, servía para grabar canciones en casa?",
+      choices:["El disco de vinilo","La cinta de vídeo","El casete"], answerIndex:2,
+      trivia:"La empresa Philips creó el casete en los años 60. Durante más de veinte años fue la forma más común de grabar música en casa.",
+      cue:{
+        open:"«El casete: grabar la canción justo cuando la ponían en la radio.»",
+        asks:["¿Grababa canciones de la radio?","¿Qué música llevaba en sus cintas?","¿Alguna vez rebobinó una cinta con un bolígrafo?"],
+        expand:"Una cinta grabada para alguien es un recuerdo muy personal. Pregunte qué canciones no faltaban.",
+        care:"Si una canción trae a la memoria a alguien que ya no está, deje espacio al silencio y no insista."
+      }
+    },
+    {
+      id:"es-snack-03", genre:"snack", emoji:"🍫", photo:null,
+      question:"¿Con qué se mojan tradicionalmente los churros?",
+      choices:["Con chocolate caliente","Con leche fría","Con zumo de naranja"], answerIndex:0,
+      trivia:"En Madrid, la Chocolatería San Ginés sirve chocolate con churros desde 1894.",
+      cue:{
+        open:"«¡Chocolate con churros! Un clásico de las mañanas de fiesta.»",
+        asks:["¿Cuándo tomaba chocolate con churros?","¿Había una churrería cerca de casa?","¿Prefiere churros o porras?"],
+        expand:"Los churros van unidos a días especiales: las fiestas, el Año Nuevo, el domingo. Pregunte con quién los tomaba.",
+        care:"Si hoy no puede tomar dulces, el recuerdo y el olor ya son un placer. No hace falta hablar de la dieta."
+      }
+    },
+    {
+      id:"es-snack-04", genre:"snack", emoji:"🍬", photo:null,
+      question:"En Navidad, ¿qué turrón es el blando, con la almendra molida?",
+      choices:["El turrón de Alicante","El turrón de Jijona","El mazapán"], answerIndex:1,
+      trivia:"El de Jijona es blando, con la almendra molida. El de Alicante es duro, con la almendra entera. Los dos llevan almendra y miel.",
+      cue:{
+        open:"«¿Usted es más de turrón blando o de turrón duro?»",
+        asks:["¿Qué dulces había en su mesa en Navidad?","¿Quién partía el turrón?","¿Qué otros dulces le gustaban en esas fechas?"],
+        expand:"La mesa de Navidad trae a la memoria la casa llena. Pregunte por los olores, los villancicos y los platos de esos días.",
+        care:"Para quien echa de menos a alguien, la Navidad puede doler. Hable de los dulces con suavidad y siga el ritmo de la persona."
+      }
+    },
+    {
+      id:"es-snack-05", genre:"snack", emoji:"🥛", photo:null,
+      question:"¿Qué cacao en polvo, nacido en Barcelona, se tomaba con leche en el desayuno o la merienda?",
+      choices:["El Cola Cao","El café con leche","El té"], answerIndex:0,
+      trivia:"Lo crearon en Barcelona, en los años 40, José María Ventura y José Ignacio Ferrero. Su canción de la radio pasó a los anuncios de la tele en 1962.",
+      cue:{
+        open:"«¡El vaso de leche con Cola Cao!»",
+        asks:["¿Qué desayunaba de niño?","¿Qué merendaba al volver de la escuela?","¿Se acuerda de algún anuncio de la radio o la tele?"],
+        expand:"Los anuncios y sus canciones se quedan en la memoria. Si la persona tararea una, acompáñela con alegría.",
+        care:"No todos tenían leche o cacao de niños. Si sale ese recuerdo, respételo sin hacer preguntas de más."
+      }
+    },
+    {
+      id:"es-snack-06", genre:"snack", emoji:"🍪", photo:null,
+      question:"En Argentina y Uruguay, ¿qué dulce son dos galletas unidas con dulce de leche?",
+      choices:["El polvorón","El alfajor","La magdalena"], answerIndex:1,
+      trivia:"Muchos alfajores van bañados en chocolate. El de maicena lleva coco rallado alrededor. Su nombre y su forma redonda vienen de España.",
+      cue:{
+        open:"«¡Un alfajor con dulce de leche! ¿Le gustan?»",
+        asks:["¿Qué dulces le gustaban de niño?","¿Se hacían dulces en casa?","¿Qué dulce le recuerda a su tierra?"],
+        expand:"Para quien viene de América Latina, el alfajor es un recuerdo de casa. Para otros, abre la charla sobre los dulces de su pueblo.",
+        care:"Si la persona vive lejos de su país, la nostalgia puede llegar. Escuche sin prisa."
+      }
+    },
+    {
+      id:"es-tool-03", genre:"tool", emoji:"🏺", photo:null,
+      question:"¿En qué vasija de barro se mantenía el agua fresca en verano?",
+      choices:["La jarra de cristal","El cubo de zinc","El botijo"], answerIndex:2,
+      trivia:"El barro deja salir un poco de agua. Al evaporarse, enfría la que queda dentro. Se bebía a chorro por el pitorro.",
+      cue:{
+        open:"«¡El botijo! ¿Sabía beber a chorro sin mojarse?»",
+        asks:["¿Había botijo en su casa o en el campo?","¿Dónde se ponía para que estuviera fresco?","¿Cómo se pasaban los veranos sin aire acondicionado?"],
+        expand:"El botijo trae recuerdos del campo, la siega y las tardes de calor. Pregunte por el trabajo y por los descansos a la sombra.",
+        care:"Si la persona recuerda trabajos muy duros, reconozca el esfuerzo: «qué trabajo tan sacrificado»."
+      }
+    },
+    {
+      id:"es-tool-04", genre:"tool", emoji:"🧵", photo:null,
+      question:"Las máquinas de coser Alfa, tan comunes en las casas, ¿en qué ciudad se fabricaban?",
+      choices:["En Eibar","En Sevilla","En Cádiz"], answerIndex:0,
+      trivia:"Alfa nació en Eibar en 1920 como cooperativa, y en 1925 empezó a fabricar máquinas de coser.",
+      cue:{
+        open:"«La máquina de coser: ¡cuánta ropa salió de ahí!»",
+        asks:["¿Había máquina de coser en su casa?","¿Quién cosía o arreglaba la ropa?","¿Se hizo alguna prenda usted mismo?"],
+        expand:"Coser es un saber hacer que da orgullo. Un «¡qué manos tenía usted!» abre la conversación.",
+        care:"Si la persona ya no puede coser, hable de lo que hizo, no de lo que no puede hacer ahora."
+      }
+    },
+    {
+      id:"es-tool-05", genre:"tool", emoji:"👕", photo:null,
+      question:"Antes de la plancha eléctrica, ¿cómo se calentaba la plancha?",
+      choices:["Con una pila","Al sol","Al fuego, o con brasas dentro"], answerIndex:2,
+      trivia:"Algunas planchas de hierro se calentaban en el fuego o en la cocina. Otras llevaban dentro carbón encendido.",
+      cue:{
+        open:"«La plancha de hierro: ¡cómo pesaba!»",
+        asks:["¿Quién planchaba en su casa?","¿Qué ropa se planchaba con más cuidado?","¿Cómo se preparaba la ropa de los domingos?"],
+        expand:"Las tareas de casa muestran mucho esfuerzo y saber hacer. Reconózcalo: «era un trabajo de mucha paciencia».",
+        care:"Si la persona recuerda quemaduras o cansancio, escúchela y valore el esfuerzo sin quitarle importancia."
+      }
+    },
+    {
+      id:"es-fashion-03", genre:"fashion", emoji:"🖤", photo:null,
+      question:"En las procesiones de Semana Santa, ¿qué se colocaba sobre la peineta?",
+      choices:["La boina","La mantilla","El sombrero de paja"], answerIndex:1,
+      trivia:"La mantilla, de blonda o de encaje, se pone sobre la peineta. Es habitual en Semana Santa, y también la llevan las madrinas en las bodas.",
+      cue:{
+        open:"«La mantilla con la peineta: ¡qué elegancia!»",
+        asks:["¿Se ponía usted mantilla, o alguien de su familia?","¿Cómo se vestía para los días de fiesta?","¿Qué fiestas eran las más bonitas en su pueblo?"],
+        expand:"La ropa de fiesta trae a la memoria bodas, bautizos y procesiones. Pregunte por los colores y los lugares.",
+        care:"No todas las personas son religiosas. Si es así, hable de la ropa de fiesta en general."
+      }
+    },
+    {
+      id:"es-fashion-04", genre:"fashion", emoji:"👟", photo:null,
+      question:"¿Qué calzado de tela tenía la suela de esparto o de cáñamo?",
+      choices:["Las alpargatas","Los zapatos de charol","Las botas de agua"], answerIndex:0,
+      trivia:"Las alpargatas eran el calzado de trabajo de mucha gente. También se llevan en Argentina, Uruguay y Colombia.",
+      cue:{
+        open:"«Las alpargatas: frescas y cómodas para el verano.»",
+        asks:["¿Llevaba alpargatas de joven?","¿Qué calzado tenía para los domingos?","¿Dónde se compraban los zapatos en su pueblo?"],
+        expand:"El calzado de diario y el de fiesta cuentan cómo era la vida. Pregunte por el primer par de zapatos nuevos.",
+        care:"Para algunos, los zapatos eran escasos. Si sale ese recuerdo, respételo con cariño: «eran otros tiempos»."
+      }
+    },
+    {
+      id:"es-fashion-05", genre:"fashion", emoji:"🧢", photo:null,
+      question:"En el País Vasco, ¿cómo se llama la boina?",
+      choices:["La montera","El sombrero cordobés","La txapela"], answerIndex:2,
+      trivia:"Al ganador de una competición se le pone una txapela. Por eso al campeón se le llama «txapeldun».",
+      cue:{
+        open:"«¡La boina! ¿La llevaba alguien de su familia?»",
+        asks:["¿Quién llevaba boina en su pueblo?","¿Qué se ponía para protegerse del sol o del frío?","¿Tenía algún sombrero o gorra preferida?"],
+        expand:"La boina trae a la memoria a los abuelos, el campo y la plaza. Pregunte por las personas y los lugares.",
+        care:"Si el recuerdo lleva a alguien que ya no está, acompañe con calma y no insista."
+      }
+    },
+    {
+      id:"es-hobby-03", genre:"hobby", emoji:"🃏", photo:null,
+      question:"¿Cuál de estos NO es un palo de la baraja española?",
+      choices:["Oros","Corazones","Bastos"], answerIndex:1,
+      trivia:"Los cuatro palos son oros, copas, espadas y bastos. Con esta baraja se juega al mus, al tute, a la brisca o al chinchón.",
+      cue:{
+        open:"«Oros, copas, espadas y bastos. ¿A qué jugaba usted?»",
+        asks:["¿Qué juego de cartas le gustaba más?","¿Con quién jugaba a las cartas?","¿Dónde se juntaban para jugar?"],
+        expand:"Las partidas traen recuerdos de amigos, del bar y de las tardes de invierno. Si quiere, invite a echar una partida.",
+        care:"Si le cuesta recordar las reglas, no pasa nada. Lo bonito es la compañía, no ganar."
+      }
+    },
+    {
+      id:"es-hobby-04", genre:"hobby", emoji:"🎲", photo:null,
+      question:"En el parchís, ¿cuántas fichas tiene cada jugador?",
+      choices:["Dos","Seis","Cuatro"], answerIndex:2,
+      trivia:"El parchís viene de un juego de la India, el pachisi. Se juega con un dado, y los colores son amarillo, rojo, verde y azul.",
+      cue:{
+        open:"«El parchís: ¡como me comas una ficha!»",
+        asks:["¿Con quién jugaba al parchís?","¿Qué color elegía siempre?","¿Qué otros juegos de mesa había en casa?"],
+        expand:"Los juegos de mesa unen a varias generaciones. Pregunte si jugaba con sus hijos o con sus nietos.",
+        care:"Si la persona no recuerda bien, cambie la pregunta: «¿qué le gustaba hacer en las tardes de lluvia?»"
+      }
+    },
+    {
+      id:"es-hobby-05", genre:"hobby", emoji:"🎟️", photo:null,
+      question:"¿Quiénes cantan los números del Sorteo de Navidad, cada 22 de diciembre?",
+      choices:["Los niños de San Ildefonso","Los locutores de la radio","Los Reyes Magos"], answerIndex:0,
+      trivia:"El gran premio se llama «el Gordo». El primer sorteo de Navidad se celebró en Cádiz en 1812.",
+      cue:{
+        open:"«¡Aquella cantinela de los niños de San Ildefonso!»",
+        asks:["¿Compraba lotería de Navidad?","¿Lo escuchaba en la radio o lo veía en la tele?","¿Compartía décimos con la familia o el trabajo?"],
+        expand:"El sorteo marca el comienzo de la Navidad. Pregunte por la ilusión de ese día, más que por el premio.",
+        care:"Si hubo apuros de dinero, quédese en la ilusión y en la compañía, no en las cantidades."
+      }
+    },
+    {
+      id:"es-hobby-06", genre:"hobby", emoji:"🎤", photo:null,
+      question:"¿Con qué canción ganó Massiel el Festival de Eurovisión de 1968?",
+      choices:["Vivo cantando","La, la, la","Eres tú"], answerIndex:1,
+      trivia:"Fue la primera victoria de España, en el Royal Albert Hall de Londres. La compusieron Manuel de la Calva y Ramón Arcusa, del Dúo Dinámico.",
+      cue:{
+        open:"«¡La, la, la! ¿Se acuerda de cómo la cantaba Massiel?»",
+        asks:["¿Veía Eurovisión en la tele?","¿Qué cantantes le gustaban de joven?","¿Qué canción le trae buenos recuerdos?"],
+        expand:"Las canciones de juventud despiertan mucha alegría. Si la persona canta, acompáñela.",
+        care:"Si una canción trae a la memoria a alguien querido, deje espacio a la emoción."
+      }
+    },
+    {
+      id:"es-hobby-07", genre:"hobby", emoji:"📚", photo:null,
+      question:"¿Qué pareja de tebeo, un calvo con gafas que se disfraza y su jefe, creó Francisco Ibáñez?",
+      choices:["Zipi y Zape","Tintín y Milú","Mortadelo y Filemón"], answerIndex:2,
+      trivia:"Nacieron en 1958 en la revista «Pulgarcito». Más tarde se hicieron agentes de la T.I.A.",
+      cue:{
+        open:"«¡Mortadelo y sus disfraces!»",
+        asks:["¿Leía tebeos de niño?","¿Cuál era su tebeo preferido?","¿Dónde los compraba o los cambiaba?"],
+        expand:"Los tebeos se cambiaban entre amigos y se leían una y otra vez. Pregunte por el quiosco del barrio.",
+        care:"Si la persona no leía tebeos, pregunte por otras lecturas o por los cuentos que le contaban."
       }
     }
   ],

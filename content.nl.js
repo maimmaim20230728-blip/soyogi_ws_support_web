@@ -89,8 +89,8 @@ window.SOYOGI_WS_CONTENT["nl"] = {
     { month:12, day:14, year:1911, emoji:"🧭", text:"Roald Amundsen bereikt als eerste de Zuidpool." },
     { month:11, day:17, year:1869, emoji:"🚢", text:"Het Suezkanaal wordt geopend en verbindt de Middellandse Zee met de Rode Zee." },
     { month:4, day:24, year:1990, emoji:"🔭", text:"De ruimtetelescoop Hubble wordt in een baan om de aarde gebracht." },
-    { month:5, day:4, year:null, emoji:"🕯️", text:"Vandaag is het Dodenherdenking." },
-    { month:5, day:5, year:null, emoji:"🕊️", text:"Vandaag is het Bevrijdingsdag." },
+    { month:5, day:4, year:null, emoji:"🕯️", text:"Vandaag is het Dodenherdenking.", opener:"“Vanavond om acht uur zijn we twee minuten stil voor wie in de oorlog is omgekomen. Als u erover wilt praten, luister ik graag; anders zijn we gewoon even samen stil.”" },
+    { month:5, day:5, year:null, emoji:"🕊️", text:"Vandaag is het Bevrijdingsdag.", opener:"“Voor veel mensen kwam er op deze dag na zware jaren weer vrijheid. Alleen als u dat wilt: is het een dag die u zich herinnert?”" },
     { month:12, day:26, year:null, emoji:"✨", text:"Vandaag is het Tweede Kerstdag." },
     { month:12, day:17, year:1903, emoji:"✈️", text:"De gebroeders Wright maken de eerste gemotoriseerde vlucht ter wereld." },
     { month:12, day:3, year:1967, emoji:"🏥", text:"De eerste harttransplantatie ter wereld wordt uitgevoerd." },
@@ -107,7 +107,7 @@ window.SOYOGI_WS_CONTENT["nl"] = {
     { month:1,  day:6,  year:null, text:"Vandaag is het Driekoningen.", emoji:"👑" },
     { month:1,  day:8,  year:1842, text:"De Koninklijke Akademie in Delft (later de TU Delft) wordt opgericht.", emoji:"🎓" },
     { month:1,  day:23, year:1579, text:"De Unie van Utrecht wordt gesloten, een basis voor de Republiek der Nederlanden.", emoji:"📜" },
-    { month:1,  day:30, year:1648, text:"Met de Vrede van Münster erkent Spanje de onafhankelijkheid van de Republiek.", emoji:"🕊️" },
+    { month:1,  day:30, year:1648, text:"Met de Vrede van Münster erkent Spanje de onafhankelijkheid van de Republiek.", emoji:"🕊️", opener:"“Met deze vrede kwam er, heel lang geleden, een einde aan een lange oorlog. Hebt u hier ooit iets over gehoord of gelezen?”" },
     { month:2,  day:13, year:2010, text:"Sven Kramer wint olympisch goud op de 5000 meter in Vancouver.", emoji:"⛸️" },
     { month:2,  day:14, year:null, text:"Vandaag is het Valentijnsdag.", emoji:"💝" },
     { month:2,  day:15, year:1864, text:"Gerard Heineken koopt de brouwerij die de basis wordt van Heineken.", emoji:"🍺" },
@@ -130,7 +130,7 @@ window.SOYOGI_WS_CONTENT["nl"] = {
     { month:5,  day:1,  year:null, text:"Vandaag is het Dag van de Arbeid.", emoji:"🛠️" },
     { month:5,  day:3,  year:null, text:"Vandaag is het Werelddag van de Persvrijheid.", emoji:"📰" },
     { month:5,  day:6,  year:1970, text:"Feyenoord wint als eerste Nederlandse club de Europacup I.", emoji:"⚽" },
-    { month:5,  day:8,  year:null, text:"Vandaag is het Werelddag van het Rode Kruis.", emoji:"➕" },
+    { month:5,  day:8,  year:null, text:"Vandaag is het Werelddag van het Rode Kruis.", emoji:"➕", opener:"“Vandaag denken we aan het Rode Kruis, dat gewonden en mensen in nood helpt. Komt er iets bij u op als u daaraan denkt?”" },
     { month:5,  day:12, year:null, text:"Vandaag is het Dag van de Verpleging.", emoji:"🩺" },
     { month:5,  day:15, year:1891, text:"Vader en zoon Philips richten Philips & Co op in Eindhoven.", emoji:"💡" },
     { month:5,  day:18, year:2019, text:"Duncan Laurence wint met «Arcade» het Eurovisiesongfestival.", emoji:"🎤" },
@@ -140,10 +140,10 @@ window.SOYOGI_WS_CONTENT["nl"] = {
     { month:5,  day:31, year:1952, text:"Sprookjespark de Efteling opent zijn deuren.", emoji:"🎠" },
     { month:6,  day:2,  year:1973, text:"Het Van Gogh Museum in Amsterdam wordt geopend.", emoji:"🖼️" },
     { month:6,  day:5,  year:null, text:"Vandaag is het Wereldmilieudag.", emoji:"🌱" },
-    { month:6,  day:12, year:null, text:"Vandaag is het Werelddag tegen Kinderarbeid.", emoji:"🧒" },
-    { month:6,  day:20, year:null, text:"Vandaag is het Wereldvluchtelingendag.", emoji:"🕊️" },
+    { month:6,  day:12, year:null, text:"Vandaag is het Werelddag tegen Kinderarbeid.", emoji:"🧒", opener:"“Vandaag denken we aan kinderen die moeten werken in plaats van spelen en leren. Als u daar iets over wilt vertellen, luister ik graag.”" },
+    { month:6,  day:20, year:null, text:"Vandaag is het Wereldvluchtelingendag.", emoji:"🕊️", opener:"“Vandaag denken we aan mensen die hun huis en land moesten verlaten. Als u daar iets over wilt vertellen, luister ik graag.”" },
     { month:6,  day:21, year:1955, text:"Het eerste nijntje-boekje van Dick Bruna verschijnt.", emoji:"🐰" },
-    { month:7,  day:1,  year:1863, text:"Nederland schaft de slavernij af; dit wordt herdacht met Keti Koti.", emoji:"⛓️" },
+    { month:7,  day:1,  year:1863, text:"Nederland schaft de slavernij af; dit wordt herdacht met Keti Koti.", emoji:"⛓️", opener:"“Vandaag staan veel mensen stil bij het einde van de slavernij. Als u er iets over wilt zeggen, luister ik graag.”" },
     { month:7,  day:7,  year:null, text:"Vandaag is het Wereld-Chocoladedag.", emoji:"🍫" },
     { month:7,  day:11, year:null, text:"Vandaag is het Wereldbevolkingsdag.", emoji:"🌍" },
     { month:7,  day:30, year:null, text:"Vandaag is het Internationale Vriendschapsdag.", emoji:"🤝" },
@@ -153,33 +153,33 @@ window.SOYOGI_WS_CONTENT["nl"] = {
     { month:8,  day:7,  year:2012, text:"Epke Zonderland wint olympisch goud aan de rekstok in Londen.", emoji:"🤸" },
     { month:8,  day:12, year:null, text:"Vandaag is het Internationale Dag van de Jeugd.", emoji:"🧑" },
     { month:8,  day:17, year:1982, text:"In een Philips-fabriek wordt 's werelds eerste cd geperst.", emoji:"💿" },
-    { month:8,  day:19, year:null, text:"Vandaag is het Werelddag van de Humanitaire Hulp.", emoji:"🤲" },
+    { month:8,  day:19, year:null, text:"Vandaag is het Werelddag van de Humanitaire Hulp.", emoji:"🤲", opener:"“Vandaag denken we aan mensen die helpen bij oorlog en rampen. Als u er iets over wilt vertellen, luister ik graag.”" },
     { month:8,  day:28, year:1913, text:"Het Vredespaleis in Den Haag wordt geopend.", emoji:"🕊️" },
     { month:9,  day:20, year:1839, text:"De eerste Nederlandse spoorlijn, tussen Amsterdam en Haarlem, wordt geopend.", emoji:"🚂" },
-    { month:9,  day:21, year:null, text:"Vandaag is het Wereld-Alzheimerdag.", emoji:"💜" },
+    { month:9,  day:21, year:null, text:"Vandaag is het Wereld-Alzheimerdag.", emoji:"💜", opener:"“Vandaag is er aandacht voor mensen met dementie en voor wie voor hen zorgt. Als u er iets over wilt zeggen, luister ik graag, maar het hoeft niet.”" },
     { month:9,  day:23, year:null, text:"Vandaag is het Internationale Dag van de Doven.", emoji:"🤟" },
     { month:10, day:1,  year:null, text:"Vandaag is het Internationale Dag van de Ouderen.", emoji:"👵" },
     { month:10, day:2,  year:1951, text:"De eerste officiële Nederlandse televisie-uitzending vindt plaats.", emoji:"📺" },
-    { month:10, day:4,  year:1986, text:"Koningin Beatrix opent de Oosterscheldekering: de Deltawerken zijn voltooid.", emoji:"🌊" },
+    { month:10, day:4,  year:1986, text:"Koningin Beatrix opent de Oosterscheldekering: de Deltawerken zijn voltooid.", emoji:"🌊", opener:"“De Deltawerken kwamen er na de zware watersnood van 1953. Als u daar herinneringen aan hebt en erover wilt praten, luister ik graag.”" },
     { month:10, day:7,  year:1919, text:"De KLM wordt opgericht, de oudste luchtvaartmaatschappij onder haar oorspronkelijke naam.", emoji:"✈️" },
     { month:10, day:9,  year:1676, text:"Antoni van Leeuwenhoek beschrijft in zijn brief aan de Royal Society als eerste micro-organismen.", emoji:"🔬" },
     { month:10, day:9,  year:null, text:"Vandaag is het Wereldpostdag.", emoji:"✉️" },
     { month:10, day:12, year:null, text:"Vandaag is het Wereldreumadag.", emoji:"🦴" },
-    { month:10, day:16, year:null, text:"Vandaag is het Wereldvoedseldag.", emoji:"🍲" },
+    { month:10, day:16, year:null, text:"Vandaag is het Wereldvoedseldag.", emoji:"🍲", opener:"“Vandaag gaat het erom dat iedereen genoeg te eten heeft. Als u tijden van schaarste hebt meegemaakt en erover wilt praten, luister ik graag.”" },
     { month:10, day:23, year:1964, text:"Anton Geesink wint olympisch goud in het judo in Tokio.", emoji:"🥋" },
     { month:10, day:30, year:1985, text:"Wubbo Ockels wordt de eerste Nederlander in de ruimte.", emoji:"🚀" },
     { month:10, day:31, year:null, text:"Vandaag is het Halloween.", emoji:"🎃" },
     { month:11, day:3,  year:1848, text:"De Grondwet van Thorbecke legt de basis voor de parlementaire democratie.", emoji:"📜" },
     { month:11, day:11, year:null, text:"Vandaag is het Sint-Maarten — kinderen lopen met lampionnen langs de deuren.", emoji:"🏮" },
     { month:11, day:14, year:null, text:"Vandaag is het Wereld-Diabetesdag.", emoji:"🩸" },
-    { month:11, day:16, year:null, text:"Vandaag is het Internationale Dag van de Tolerantie.", emoji:"🤝" },
+    { month:11, day:16, year:null, text:"Vandaag is het Internationale Dag van de Tolerantie.", emoji:"🤝", opener:"“Vandaag gaat het om respect voor mensen die anders zijn of anders denken. Als u daar iets over wilt zeggen, hoor ik het graag.”" },
     { month:11, day:20, year:null, text:"Vandaag is het Wereldkinderdag.", emoji:"🧸" },
     { month:12, day:10, year:1924, text:"Willem Einthoven krijgt de Nobelprijs voor zijn uitvinding van het ecg.", emoji:"🫀" },
     { month:12, day:12, year:2021, text:"Max Verstappen wordt als eerste Nederlander wereldkampioen Formule 1.", emoji:"🏎️" },
     { month:12, day:13, year:1642, text:"Abel Tasman ontdekt Nieuw-Zeeland, vernoemd naar Zeeland.", emoji:"⛵" },
-    { month:12, day:27, year:1949, text:"Nederland draagt de soevereiniteit over aan Indonesië.", emoji:"🇮🇩" },
+    { month:12, day:27, year:1949, text:"Nederland draagt de soevereiniteit over aan Indonesië.", emoji:"🇮🇩", opener:"“Aan deze dag gingen moeilijke jaren vooraf, en voor veel families is het nog altijd een gevoelig onderwerp. Alleen als u dat wilt: wat weet u er nog van?”" },
     /* ---- Mix Nederlands taalgebied: Vlaanderen & Suriname（全てWebSearch裏取り済） ---- */
-    { month:7,  day:11, year:null, text:"Vandaag is het de Feestdag van Vlaanderen (Guldensporenslag, 1302).", emoji:"🦁" },
+    { month:7,  day:11, year:null, text:"Vandaag is het de Feestdag van Vlaanderen (Guldensporenslag, 1302).", emoji:"🦁", opener:"“In Vlaanderen denkt men vandaag terug aan een veldslag van heel lang geleden. Hebt u hier ooit iets over gehoord of gelezen?”" },
     { month:7,  day:21, year:null, text:"Vandaag is het de Belgische nationale feestdag.", emoji:"🇧🇪" },
     { month:12, day:6,  year:null, text:"Vandaag komt de Sint in België — pakjesochtend voor de kinderen.", emoji:"🎁" },
     { month:11, day:25, year:1975, text:"Suriname wordt onafhankelijk — Srefidensi Dey.", emoji:"🇸🇷" },
@@ -410,6 +410,271 @@ window.SOYOGI_WS_CONTENT["nl"] = {
         asks:["Welke muziek of welke zangers vond u mooi?","Had u een platenspeler thuis?","Op welke muziek danste u?"],
         expand:"Muziek is een sterk ankerpunt. Eén liedtitel is vaak genoeg en de verhalen komen los.",
         care:"Als een lied ontroert, is dat mooi — geef het gevoel alle ruimte."
+      }
+    },
+    /* ---- toevoeging (2026-11-11): 22 vragen, feiten via webbronnen gecontroleerd ---- */
+    {
+      id:"nl-warmup-04", genre:"warmup", emoji:"🌷", photo:null,
+      question:"Welke bloem is in Nederland wereldberoemd: de cactus of de tulp?",
+      choices:["De cactus","De tulp"], answerIndex:1,
+      trivia:"In het voorjaar kleuren de bollenvelden. Bij Lisse ligt de Keukenhof, sinds 1949 een groot bloemenpark met miljoenen bollen.",
+      cue:{
+        open:"«Die wist u vast, hè?» Met een glimlach, en dan naar het voorjaar.",
+        asks:["Had u bloemen in de tuin of op de vensterbank?","Bent u weleens naar de bollenvelden of de Keukenhof geweest?","Welke bloem vindt u het mooist?"],
+        expand:"Kleuren en geuren brengen het voorjaar terug. Vraag gerust door naar een uitstapje of een tuin van vroeger.",
+        care:"Kan iemand niet meer naar buiten, blijf dan bij de herinnering en de kleuren. Een bos bloemen op tafel is ook een mooi begin."
+      }
+    },
+    {
+      id:"nl-warmup-05", genre:"warmup", emoji:"🚲", photo:null,
+      question:"Waarmee gaan veel Nederlanders naar school en werk: met de fiets of met de slee?",
+      choices:["Met de fiets","Met de slee"], answerIndex:0,
+      trivia:"Nederland heeft meer fietsen dan mensen: met elkaar zo'n 23 miljoen fietsen.",
+      cue:{
+        open:"«Fietsen zit ons in het bloed, hè?»",
+        asks:["Op wat voor fiets reed u vroeger?","Fietste u naar school of naar het werk?","Waar fietste u het liefst naartoe?"],
+        expand:"Een vaste route, wind tegen, een fiets van een broer of zus: kleine details maken het verhaal levendig.",
+        care:"Kan iemand niet meer fietsen, praat dan over de tochtjes van toen en niet over wat nu niet meer lukt."
+      }
+    },
+    {
+      id:"nl-price-03", genre:"price", emoji:"🪙", photo:null,
+      question:"Hoeveel cent was een kwartje waard?",
+      choices:["10 cent","25 cent","50 cent"], answerIndex:1,
+      trivia:"Een kwartje was een kwart gulden: 25 cent. In de volksmond heette het ook wel een heitje.",
+      cue:{
+        open:"«Een stuiver, een dubbeltje, een kwartje... weet u ze nog?»",
+        asks:["Wat kon u vroeger kopen voor een kwartje?","Kreeg u zakgeld, en waar gaf u het aan uit?","Had u een spaarpot?"],
+        expand:"Snoep, een ijsje, een stripboek: één ding dat je ervoor kocht, roept vaak een hele straat of winkel terug.",
+        care:"Als er thuis weinig geld was, hoeft dat niet uitgediept te worden. Blijf bij de kleine dingen die toch blij maakten."
+      }
+    },
+    {
+      id:"nl-appliance-04", genre:"appliance", emoji:"📼", photo:null,
+      question:"Welk klein bandje voor muziek liet Philips in 1963 voor het eerst zien?",
+      choices:["De grammofoonplaat","De cd","Het cassettebandje"], answerIndex:2,
+      trivia:"De Nederlander Lou Ottens bedacht bij Philips de cassette. In 1963 werd hij voor het eerst getoond, op een beurs in Berlijn.",
+      cue:{
+        open:"«Een liedje van de radio opnemen op een bandje, weet u nog?»",
+        asks:["Nam u weleens muziek op van de radio?","Had u een cassetterecorder?","Welk bandje draaide u grijs?"],
+        expand:"Zelf opnemen en een bandje maken voor iemand anders: daar zitten vaak mooie verhalen achter.",
+        care:"Weet iemand het niet meer precies, dan is dat goed. Samen een liedje neuriën is ook genoeg."
+      }
+    },
+    {
+      id:"nl-appliance-05", genre:"appliance", emoji:"🔥", photo:null,
+      question:"Hoe werd de woonkamer vaak verwarmd, vóór er aardgas in huis kwam?",
+      choices:["Met een kolenkachel","Met zonnepanelen","Met een warmtepomp"], answerIndex:0,
+      trivia:"In 1959 werd bij Slochteren een groot gasveld gevonden. Daarvoor stookte men vaak kolen in de kachel; alleen de kamer met de kachel werd echt warm.",
+      cue:{
+        open:"«Warm bij de kachel, en koud in de slaapkamer, hè?»",
+        asks:["Wie deed bij u thuis de kachel aan?","Hoe was het 's winters in de slaapkamer?","Kwam er een kolenboer langs?"],
+        expand:"IJsbloemen op het raam, een kruik in bed, samen rond de kachel: winterse details brengen veel boven.",
+        care:"Als het thuis vaak koud of krap was, ga daar niet dieper op in. De warmte van samen bij de kachel is een mooiere draad."
+      }
+    },
+    {
+      id:"nl-appliance-06", genre:"appliance", emoji:"📺", photo:null,
+      question:"Hoe zag het beeld van de meeste televisies er in de jaren 60 uit?",
+      choices:["In kleur","In zwart-wit"], answerIndex:1,
+      trivia:"De kleurentelevisie kwam in Nederland in 1967. Kleurentoestellen waren duur; pas rond 1976 stonden er meer kleuren-tv's dan zwart-wit-tv's in de huiskamers.",
+      cue:{
+        open:"«Weet u nog hoe het was toen de tv in kleur kwam?»",
+        asks:["Wanneer kwam er bij u thuis een televisie?","Keek u ook weleens bij de buren tv?","Welk programma vond u het mooist?"],
+        expand:"Samen kijken bij de buren of met het hele gezin: de tv was vaak een gezellig middelpunt.",
+        care:"Zijn de details vergeten, dan geeft dat niet. Eén programma of één gezicht is al genoeg om over te praten."
+      }
+    },
+    {
+      id:"nl-appliance-07", genre:"appliance", emoji:"📷", photo:null,
+      question:"Wat deed je vroeger in een fototoestel om foto's te maken?",
+      choices:["Een geheugenkaart","Een cassettebandje","Een fotorolletje"], answerIndex:2,
+      trivia:"Een rolletje had vaak 12, 24 of 36 opnamen. Daarna liet je het ontwikkelen en wachtte je benieuwd op de afdrukken.",
+      cue:{
+        open:"«Benieuwd wachten op je foto's, weet u nog?»",
+        asks:["Wie maakte bij u thuis de foto's?","Hebt u een fotoalbum waar u graag in kijkt?","Van welk moment zou u graag een foto hebben?"],
+        expand:"Een fotoalbum erbij pakken werkt vaak beter dan vragen. Laat de ander bladeren en vertellen.",
+        care:"Foto's kunnen ook verdriet oproepen, bijvoorbeeld om wie er niet meer is. Geef dat rustig de ruimte en dring niet aan."
+      }
+    },
+    {
+      id:"nl-snack-03", genre:"snack", emoji:"🧇", photo:null,
+      question:"Uit welke stad komt de stroopwafel?",
+      choices:["Gouda","Edam","Delft"], answerIndex:0,
+      trivia:"De stroopwafel komt uit Gouda en wordt daar al sinds de 19e eeuw gebakken: twee dunne wafels met stroop ertussen.",
+      cue:{
+        open:"«Een stroopwafel even op het kopje thee laten warm worden, kent u dat?»",
+        asks:["Kocht u stroopwafels op de markt?","Wat at u graag bij de koffie of thee?","Op welke dag ging u naar de markt?"],
+        expand:"De geur van verse stroopwafels op de markt roept vaak een hele marktdag terug.",
+        care:"Mag iemand niet alles eten, praat dan over de geur en de markt, niet over het snoepen zelf."
+      }
+    },
+    {
+      id:"nl-snack-04", genre:"snack", emoji:"👶", photo:null,
+      question:"Wat eet men in Nederland bij de geboorte van een baby?",
+      choices:["Oliebollen","Poffertjes","Beschuit met muisjes"], answerIndex:2,
+      trivia:"Muisjes zijn gesuikerde anijszaadjes. Blauw-wit voor een jongen kwam pas in de jaren 90; daarvoor was het roze-wit voor elk kindje. Bij een koninklijke geboorte zijn er oranje muisjes.",
+      cue:{
+        open:"«Beschuit met muisjes, dat hoort bij een nieuw kindje, hè?»",
+        asks:["Hebt u weleens beschuit met muisjes gegeten op kraambezoek?","Wie kwamen er vroeger op kraambezoek?","Welke gebruiken waren er bij een geboorte?"],
+        expand:"Vraag eerst naar de gebruiken in het algemeen. Wil iemand zelf over kinderen of kleinkinderen vertellen, dan komt dat vanzelf.",
+        care:"Niet iedereen heeft kinderen, en soms is er verdriet om een kindje. Vraag niet door naar eigen kinderen als de ander er niet zelf over begint."
+      }
+    },
+    {
+      id:"nl-snack-05", genre:"snack", emoji:"🍟", photo:null,
+      question:"Waar haalde je in de stad een warme kroket «uit de muur»?",
+      choices:["Bij de melkboer","Bij de automatiek","Bij de groenteboer"], answerIndex:1,
+      trivia:"FEBO begon in 1941 in Amsterdam als bakkerij. In 1960 kwam de eerste automatiek: een muur met luikjes, waar je de snack zelf uit haalde.",
+      cue:{
+        open:"«Een muntje erin, het luikje open... weet u nog?»",
+        asks:["Haalde u weleens een kroket uit de muur?","Wat was uw favoriete snack?","Waar ging u heen als u een dagje de stad in ging?"],
+        expand:"Snacks horen vaak bij uitjes: een dagje stad, het station, een avondje uit. Vraag naar het uitje erbij.",
+        care:"Is eten een gevoelig onderwerp, blijf dan bij de herinnering aan het uitje."
+      }
+    },
+    {
+      id:"nl-snack-06", genre:"snack", emoji:"🍲", photo:null,
+      question:"Welke dikke soep eet men in de winter, vaak met rookworst?",
+      choices:["Tomatensoep","Erwtensoep","Groentesoep"], answerIndex:1,
+      trivia:"Erwtensoep, of snert, is zo dik dat het meer op pap lijkt. Volgens kenners is het pas echte snert als de soep een nacht heeft gestaan.",
+      cue:{
+        open:"«Een grote pan snert op het fornuis, weet u nog?»",
+        asks:["Wie maakte bij u thuis de erwtensoep?","At u het op een koude dag, of na het schaatsen?","Wat stond er nog meer in de winter op tafel?"],
+        expand:"Elk gezin had zijn eigen recept. Vraag gerust naar het geheim van moeder of oma.",
+        care:"Is eten een gevoelig onderwerp, praat dan over de keuken en de geur, niet over het eten zelf."
+      }
+    },
+    {
+      id:"nl-tool-03", genre:"tool", emoji:"✒️", photo:null,
+      question:"Met welke pen schreven kinderen vroeger op school, steeds dopend in de inktpot?",
+      choices:["De balpen","De viltstift","De kroontjespen"], answerIndex:2,
+      trivia:"In de schoolbank zat een inktpotje met een schuifje. Pas vanaf het eind van de jaren 60 kwamen de balpen en de vulpen in de klas.",
+      cue:{
+        open:"«Inktvlekken op je vingers, kent u dat nog?»",
+        asks:["Hoe zag uw klaslokaal eruit?","Had u een mooi handschrift?","Welke meester of juf bent u nooit vergeten?"],
+        expand:"Schoonschrijven, de inktlap, een strenge meester: kleine schooldetails openen vaak veel verhalen.",
+        care:"Niet iedereen kon lang naar school. Maak er geen punt van en volg wat de ander wél wil vertellen."
+      }
+    },
+    {
+      id:"nl-tool-04", genre:"tool", emoji:"👔", photo:null,
+      question:"Hoe werd een oud strijkijzer zonder snoer heet gemaakt?",
+      choices:["Op de kachel","In de zon","In de koelkast"], answerIndex:0,
+      trivia:"Oude strijkijzers waren blokken ijzer die je op de kachel verhitte, of bakjes met gloeiende kolen. Elektrische strijkijzers kwamen begin 20e eeuw.",
+      cue:{
+        open:"«Strijken was vroeger echt werk, hè?»",
+        asks:["Wie deed bij u thuis de was en de strijk?","Op welke dag werd er gestreken?","Welk kledingstuk moest altijd netjes gestreken zijn?"],
+        expand:"Vaste dagen voor wassen en strijken geven houvast: zo komt de hele week thuis vanzelf ter sprake.",
+        care:"Huishoudelijk werk was vaak zwaar. Waardeer de inzet, zonder te oordelen over wie het moest doen."
+      }
+    },
+    {
+      id:"nl-tool-05", genre:"tool", emoji:"🫖", photo:null,
+      question:"Wat liet vroeger in de keuken horen dat het water kookte?",
+      choices:["De gehaktmolen","De fluitketel","De weegschaal"], answerIndex:1,
+      trivia:"De stoom ontsnapt door het fluitje op de tuit, en dan klinkt het fluitsignaal: het water kookt.",
+      cue:{
+        open:"«Dat gefluit uit de keuken, hoort u het nog?»",
+        asks:["Dronk u liever koffie of thee?","Wie zette bij u thuis de koffie of thee?","Hoe laat was het bij u koffietijd?"],
+        expand:"Koffietijd en theetijd zijn vaste momenten van samenzijn. Vraag wie er dan aan tafel zaten.",
+        care:"Mist iemand de mensen van toen, sta daar dan rustig bij stil."
+      }
+    },
+    {
+      id:"nl-fashion-03", genre:"fashion", emoji:"🪵", photo:null,
+      question:"Welke houten schoenen droeg men vroeger veel op het platteland?",
+      choices:["Klompen","Sandalen","Pantoffels"], answerIndex:0,
+      trivia:"Klompen zijn meestal van wilgen- of populierenhout. Ze kunnen goed tegen regen, modder en vorst. Boeren dragen ze nog steeds bij het werk.",
+      cue:{
+        open:"«Op klompen over het erf, hoorde u ze klossen?»",
+        asks:["Hebt u zelf klompen gedragen?","Waar droeg u ze: op het land, in de tuin?","Welke schoenen droeg u op zondag?"],
+        expand:"Werk, boerderij, buiten spelen: klompen leiden vaak naar het leven op het platteland.",
+        care:"Wie in de stad opgroeide, kent klompen misschien alleen als souvenir. Vraag dan naar de schoenen die zij wel droegen."
+      }
+    },
+    {
+      id:"nl-fashion-04", genre:"fashion", emoji:"👒", photo:null,
+      question:"Hoe heet de witte kanten muts van de Volendamse klederdracht?",
+      choices:["De pet","De hul","De baret"], answerIndex:1,
+      trivia:"De hul is van tule en wit kant. Vroeger droegen vrouwen hem elke dag; nu vooral op zon- en feestdagen en bij bruiloften.",
+      cue:{
+        open:"«Die mooie witte muts uit Volendam, kent u die?»",
+        asks:["Droeg men in uw streek ook klederdracht?","Bent u weleens in Volendam of Marken geweest?","Wat droeg u zelf op feestdagen?"],
+        expand:"Elke streek had eigen kleding en gewoontes. Vraag naar de streek waar de ander vandaan komt.",
+        care:"Niet iedereen voelt zich verbonden met klederdracht. Laat de ander zelf kiezen waar het gesprek heen gaat."
+      }
+    },
+    {
+      id:"nl-fashion-05", genre:"fashion", emoji:"👗", photo:null,
+      question:"Welke korte rok werd in de jaren 60 populair?",
+      choices:["De plooirok","De lange rok","De minirok"], answerIndex:2,
+      trivia:"Mary Quant uit Londen geldt als de bedenker. Volgens het verhaal noemde zij de rok naar haar autootje, de Mini.",
+      cue:{
+        open:"«De minirok, dat was toen heel wat, hè?»",
+        asks:["Wat droeg u graag in de jaren 60?","Wat vonden de ouderen toen van de nieuwe mode?","Kocht u uw kleren, of maakte u ze zelf?"],
+        expand:"Mode gaat over jong zijn en nieuwe tijden. Laat de ander vertellen wat die jaren voor hen betekenden.",
+        care:"Sommigen vonden de nieuwe mode niets. Elke mening is goed; het gaat om de herinnering, niet om gelijk."
+      }
+    },
+    {
+      id:"nl-hobby-03", genre:"hobby", emoji:"⛸️", photo:null,
+      question:"Hoe heet de beroemde schaatstocht langs elf Friese steden?",
+      choices:["De Vierdaagse","De Elfstedentocht","De Tour de France"], answerIndex:1,
+      trivia:"De tocht is bijna 200 kilometer, met start en finish in Leeuwarden. De eerste officiële tocht was in 1909; hij is vijftien keer gereden, het laatst in 1997.",
+      cue:{
+        open:"«Elfstedenkoorts, weet u nog hoe dat voelde?»",
+        asks:["Hebt u zelf op natuurijs geschaatst?","Keek of luisterde u naar de Elfstedentocht?","Waar schaatste u als kind?"],
+        expand:"Koek-en-zopie, warme chocolademelk, de hele buurt op het ijs: winterse details maken het verhaal levendig.",
+        care:"Kan iemand niet meer schaatsen, blijf dan bij de herinneringen en niet bij wat nu niet meer gaat."
+      }
+    },
+    {
+      id:"nl-hobby-04", genre:"hobby", emoji:"👞", photo:null,
+      question:"Wat zetten kinderen bij de haard als Sinterklaas in het land was?",
+      choices:["Hun schoen","Een kaars","Een kerstboom"], answerIndex:0,
+      trivia:"Vaak met een wortel, hooi of suikerklontjes voor het paard van Sinterklaas. 's Ochtends zat er dan soms iets lekkers of een klein cadeautje in.",
+      cue:{
+        open:"«Spannend hè, 's ochtends in je schoen kijken?»",
+        asks:["Welk sinterklaasliedje zong u bij de schoen?","Wat vond u weleens in uw schoen?","Hoe vierde u pakjesavond?"],
+        expand:"Samen een sinterklaasliedje zingen werkt vaak beter dan veel vragen.",
+        care:"Niet in elk gezin was er geld of ruimte voor feest. Laat de ander bepalen hoeveel er verteld wordt."
+      }
+    },
+    {
+      id:"nl-hobby-05", genre:"hobby", emoji:"🤡", photo:null,
+      question:"Hoe heette de clown op tv met zijn vrouw Mammaloe?",
+      choices:["Bassie","Pipo","Swiebertje"], answerIndex:1,
+      trivia:"Pipo de Clown, bedacht door Wim Meuldijk, was vanaf 1958 op tv. Met Mammaloe, dochter Petra en vriend Klukkluk beleefde hij veel avonturen.",
+      cue:{
+        open:"«Pipo, Mammaloe en Klukkluk, kent u ze nog?»",
+        asks:["Welk kinderprogramma vond u leuk?","Keek u Pipo zelf, of samen met anderen?","Waar stond de tv bij u in huis?"],
+        expand:"Een bekend stemmetje of zinnetje nadoen brengt vaak een glimlach.",
+        care:"Niet iedereen heeft kinderen of kleinkinderen. Vraag dus eerst naar het programma zelf."
+      }
+    },
+    {
+      id:"nl-hobby-06", genre:"hobby", emoji:"🎤", photo:null,
+      question:"Wie won in 1957 als eerste voor Nederland het Eurovisiesongfestival?",
+      choices:["Corry Brokken","Teddy Scholten","Lenny Kuhr"], answerIndex:0,
+      trivia:"Corry Brokken won met het lied «Net als toen». Zij was de eerste Nederlandse die het songfestival won.",
+      cue:{
+        open:"«Keek of luisterde u naar het songfestival?»",
+        asks:["Keek u elk jaar naar het songfestival?","Welke Nederlandse zanger of zangeres vond u mooi?","Welk lied kunt u nog meezingen?"],
+        expand:"Samen een liedje neuriën kan meer losmaken dan een vraag.",
+        care:"Ontroert een lied, geef dat gevoel dan alle ruimte."
+      }
+    },
+    {
+      id:"nl-hobby-07", genre:"hobby", emoji:"🎲", photo:null,
+      question:"Bij welk bordspel kom je in de put, het doolhof en de gevangenis?",
+      choices:["Mens-erger-je-niet","Dammen","Ganzenbord"], answerIndex:2,
+      trivia:"Ganzenbord heeft 63 vakken. Op de brug mag je door naar vak 12, en in de herberg sla je een beurt over.",
+      cue:{
+        open:"«Weer in de put! Kent u dat gevoel nog?»",
+        asks:["Welke spelletjes speelde u thuis aan tafel?","Met wie speelde u het meest?","Kon u goed tegen uw verlies?"],
+        expand:"Spelletjesavonden gaan over gezelligheid. Vraag wie er altijd won, en wie er weleens smokkelde.",
+        care:"Wie moeite heeft met tellen of dobbelen, hoeft niets te bewijzen. Gewoon praten over het spel is genoeg."
       }
     }
   ],

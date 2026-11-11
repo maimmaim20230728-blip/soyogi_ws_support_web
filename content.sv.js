@@ -135,7 +135,7 @@ window.SOYOGI_WS_CONTENT["sv"] = {
     { month:7,  day:28, year:1943, text:"Ingvar Kamprad grundar IKEA.", emoji:"🛋️" },
     { month:8,  day:6,  year:1992, text:"Jan-Ove Waldner tar OS-guld i bordtennis i Barcelona.", emoji:"🏓" },
     { month:8,  day:7,  year:2016, text:"Sarah Sjöström tar OS-guld och världsrekord på 100 m fjäril.", emoji:"🏊" },
-    { month:8,  day:10, year:1628, text:"Regalskeppet Vasa sjunker på sin jungfrufärd i Stockholm.", emoji:"⚓" },
+    { month:8,  day:10, year:1628, text:"Regalskeppet Vasa sjunker på sin jungfrufärd i Stockholm.", emoji:"⚓", opener:"”Den här dagen år 1628 sjönk Vasa, och flera människor ombord miste livet. Har du kanske sett skeppet på museet i Stockholm någon gång?”" },
     { month:8,  day:16, year:1976, text:"ABBA släpper «Dancing Queen».", emoji:"🎵" },
     { month:9,  day:3,  year:1967, text:"Dagen H — Sverige går över till högertrafik.", emoji:"🚗" },
     { month:10, day:1,  year:null, text:"Idag är det internationella kaffedagen.", emoji:"☕" },
@@ -144,7 +144,7 @@ window.SOYOGI_WS_CONTENT["sv"] = {
     { month:10, day:8,  year:1958, text:"Världens första inopererade pacemaker sätts in i Stockholm.", emoji:"🫀" },
     { month:10, day:24, year:null, text:"Idag är det FN-dagen.", emoji:"🕊️" },
     { month:10, day:31, year:null, text:"Idag är det Halloween.", emoji:"🎃" },
-    { month:11, day:6,  year:null, text:"Idag är det Gustav Adolfsdagen — dagen för Gustav Adolfsbakelsen.", emoji:"🎂" },
+    { month:11, day:6,  year:null, text:"Idag är det Gustav Adolfsdagen — dagen för Gustav Adolfsbakelsen.", emoji:"🎂", opener:"”Idag minns man kung Gustav II Adolf, som stupade i slaget vid Lützen. Brukade man uppmärksamma den här dagen hemma hos er?”" },
     { month:11, day:7,  year:null, text:"Idag är det kladdkakans dag.", emoji:"🍫" },
     { month:11, day:10, year:null, text:"Idag är det mårtensafton — gås och svartsoppa på borden.", emoji:"🦢" },
     { month:11, day:14, year:2012, text:"Zlatan Ibrahimović gör sitt berömda cykelsparksmål mot England.", emoji:"⚽" },
@@ -172,7 +172,7 @@ window.SOYOGI_WS_CONTENT["sv"] = {
     { month:8,  day:8,  year:null, text:"Idag är det drottning Silvias namnsdag (flaggdag).", emoji:"👑" },
     { month:8,  day:23, year:null, text:"Idag är det köttbullens dag.", emoji:"🍽️" },
     { month:8,  day:26, year:null, text:"Idag är det internationella hundens dag.", emoji:"🐶" },
-    { month:9,  day:21, year:null, text:"Idag är det internationella fredsdagen.", emoji:"🕊️" },
+    { month:9,  day:21, year:null, text:"Idag är det internationella fredsdagen.", emoji:"🕊️", opener:"”Idag är det fredsdagen, en dag då man tänker på fred i hela världen. Finns det något som får dig att känna lugn och frid?”" },
     { month:9,  day:23, year:null, text:"Idag är det internationella teckenspråksdagen.", emoji:"🤟" },
     { month:10, day:14, year:null, text:"Idag är det räkmackans dag.", emoji:"🍤" },
     { month:11, day:13, year:null, text:"Idag är det världsvänlighetens dag.", emoji:"💛" },
@@ -180,7 +180,7 @@ window.SOYOGI_WS_CONTENT["sv"] = {
     { month:12, day:9,  year:null, text:"Idag är det pepparkakans dag.", emoji:"🍪" },
     { month:12, day:23, year:null, text:"Idag är det drottning Silvias födelsedag (flaggdag).", emoji:"🎂" },
     /* ---- Mix: Svenskfinland（全てWebSearch裏取り済） ---- */
-    { month:12, day:6,  year:null, text:"Idag är det Finlands självständighetsdag (1917) — även Svenskfinland firar.", emoji:"🇫🇮" },
+    { month:12, day:6,  year:null, text:"Idag är det Finlands självständighetsdag (1917) — även Svenskfinland firar.", emoji:"🇫🇮", opener:"”I Finland är det här en högtidlig dag. Betyder den något särskilt för dig, eller vill du hellre prata om något annat?”" },
     { month:2,  day:5,  year:null, text:"Idag är det Runebergsdagen i Finland — dagen för runebergstårtor.", emoji:"🧁" },
     { month:11, day:6,  year:null, text:"I Finland är det idag Svenska dagen.", emoji:"🇫🇮" }
   ],
@@ -409,6 +409,271 @@ window.SOYOGI_WS_CONTENT["sv"] = {
         asks:["Vilken musik eller vilka sångare tyckte du om?","Hade ni en skivspelare hemma?","Till vilken musik dansade du?"],
         expand:"Musik är ett starkt minnesankare. En låttitel räcker ofta för att berättelserna ska komma.",
         care:"Om en sång rör till tårar är det fint — ge känslan gott om plats."
+      }
+    },
+    /* ---- tillägg (2026-11-11): 22 nya frågor, fakta kontrollerade via webbsökning ---- */
+    {
+      id:"sv-warmup-04", genre:"warmup", emoji:"🌲", photo:null,
+      question:"Vilket djur är större: en älg eller en räv?",
+      choices:["En räv","En älg"], answerIndex:1,
+      trivia:"Älgen är Sveriges största hjortdjur och kallas ofta «skogens konung».",
+      cue:{
+        open:"«Älgen förstås, den är ju jättestor!» Med ett leende, vidare till skogen och naturen.",
+        asks:["Har du sett en älg i skogen någon gång?","Var du ofta ute i skogen, kanske för att plocka bär eller svamp?","Vem brukade du gå ut i naturen med?"],
+        expand:"Naturen är ett tryggt ämne. Fråga om dofter och ljud i skogen, så blir minnet levande.",
+        care:"Den som inte var så mycket i skogen kan få berätta om en park eller en trädgård i stället."
+      }
+    },
+    {
+      id:"sv-warmup-05", genre:"warmup", emoji:"☕", photo:null,
+      question:"Vad är varmare: en kopp nybryggt kaffe eller en snöboll?",
+      choices:["En snöboll","En kopp nybryggt kaffe"], answerIndex:1,
+      trivia:"Fika är en svensk vana: en paus med kaffe och något gott, gärna tillsammans med andra.",
+      cue:{
+        open:"«Kaffet så klart! Snöbollen får vi låta vara ute.»",
+        asks:["Hur vill du helst ha ditt kaffe?","Vem brukade du fika med?","Vad var godast till kaffet?"],
+        expand:"Fika är ett vardagsminne som nästan alla har. Fråga om kopparna, kakorna och vem som satt vid bordet.",
+        care:"Alla dricker inte kaffe. Säg gärna «te eller saft går lika bra», så känner sig ingen utanför."
+      }
+    },
+    {
+      id:"sv-price-03", genre:"price", emoji:"🏦", photo:null,
+      question:"Vilket mynt slutade gälla som betalning i Sverige år 2010?",
+      choices:["Femkronan","Tiokronan","50-öringen"], answerIndex:2,
+      trivia:"Efter den 30 september 2010 gick det inte längre att betala med 50-öringen. Sedan dess avrundas kontanta belopp till hela kronor.",
+      cue:{
+        open:"«50-öringen, den minns nog många.»",
+        asks:["Vad kunde man köpa för en 50-öring när du var liten?","Hade du en sparbössa eller en spargris?","Vad sparade du dina pengar till?"],
+        expand:"Små mynt och veckopeng väcker minnen av de första egna inköpen. Låt personen berätta i sin egen takt.",
+        care:"Pengar kan vara ett känsligt ämne. Håll dig till minnena, inte till hur mycket eller lite man hade."
+      }
+    },
+    {
+      id:"sv-appliance-04", genre:"appliance", emoji:"📷", photo:null,
+      question:"Vilket svenskt kameramärke var med och fotograferade den första månlandningen 1969?",
+      choices:["Hasselblad","Leica","Kodak"], answerIndex:0,
+      trivia:"När Neil Armstrong fotograferade månens yta 1969 bar han en svensk Hasselbladkamera på bröstet.",
+      cue:{
+        open:"«En svensk kamera på månen. Tänk!»",
+        asks:["Minns du när människan landade på månen?","Hade ni en kamera hemma?","Finns det ett foto som du tycker extra mycket om?"],
+        expand:"Fotografier är starka minnesankare. Fråga vem som brukade fotografera och vad man helst tog bilder av.",
+        care:"Gamla foton kan väcka saknad efter dem som inte längre finns. Lyssna lugnt och låt personen styra."
+      }
+    },
+    {
+      id:"sv-appliance-05", genre:"appliance", emoji:"🧹", photo:null,
+      question:"Vilket svenskt företag blev känt i många länder för sina dammsugare?",
+      choices:["Electrolux","Volvo","Saab"], answerIndex:0,
+      trivia:"Namnet Electrolux (först stavat Elektrolux) kom till 1919. Då leddes företaget av Axel Wenner-Gren.",
+      cue:{
+        open:"«Electrolux, ett namn som många hade hemma.»",
+        asks:["Hur städade ni hemma när du var ung?","Vem i familjen skötte städningen?","Minns du er första dammsugare?"],
+        expand:"Hemmets sysslor rymmer mycket kunnande. Ett «det var mycket arbete!» hedrar mödan.",
+        care:"Alla hade inte dammsugare tidigt. Frågan «hur gjorde ni rent?» passar alla."
+      }
+    },
+    {
+      id:"sv-appliance-06", genre:"appliance", emoji:"🧊", photo:null,
+      question:"Vad uppfann två svenska teknikstudenter på KTH år 1922?",
+      choices:["En diskmaskin","En elektrisk gitarr","Ett nytt slags kylskåp"], answerIndex:2,
+      trivia:"Baltzar von Platen och Carl Munters uppfann absorptionskylskåpet 1922. Electrolux köpte senare företaget som tillverkade det.",
+      cue:{
+        open:"«Kylskåpet, och det var svenska studenter som låg bakom!»",
+        asks:["Hur höll ni maten kall innan ni fick kylskåp?","Hade ni en jordkällare eller ett skafferi?","Vad fanns alltid i ert kylskåp?"],
+        expand:"Förvaring av mat förr, i källare, skafferi och med is, väcker många vardagsminnen. Fråga om dofter och vad som stod på hyllorna.",
+        care:"Alla fick inte kylskåp tidigt. Fråga «hur gjorde ni?» i stället för att ta det för givet."
+      }
+    },
+    {
+      id:"sv-appliance-07", genre:"appliance", emoji:"📻", photo:null,
+      question:"Vilket radioprogram, som startade 1968, låter lyssnarna ringa in och önska låtar?",
+      choices:["Ring så spelar vi","Sommar i P1","Melodikrysset"], answerIndex:0,
+      trivia:"Programmet sändes första gången den 20 april 1968, och Lars Hamberg var den förste programledaren.",
+      cue:{
+        open:"«Ring så spelar vi, ett program som många har lyssnat på.»",
+        asks:["Vilken låt skulle du vilja önska?","Lyssnade ni mycket på radio hemma?","Vilka radioprogram minns du bäst?"],
+        expand:"Önskelåtar bär ofta på en berättelse: vem man tänkte på eller vad som hände då. Fråga varför just den låten.",
+        care:"Musik kan väcka starka känslor. Om tårarna kommer, ge dem plats och skynda inte vidare."
+      }
+    },
+    {
+      id:"sv-snack-03", genre:"snack", emoji:"🍫", photo:null,
+      question:"Vad heter Cloettas chokladrån med det rutiga mönstret på förpackningen?",
+      choices:["Plopp","Kexchoklad","Japp"], answerIndex:1,
+      trivia:"Namnet Kexchoklad registrerades 1938. Samma år syntes det rutiga mönstret för första gången, i bokstäverna KEX.",
+      cue:{
+        open:"«Kexchoklad, den rutiga!»",
+        asks:["Vad hade du med dig i matsäcken på utflykter?","Vilken choklad tyckte du mest om?","Var köpte ni godis och choklad?"],
+        expand:"Utflykter och matsäck väcker minnen av natur och sällskap. Fråga vart man gick och vem som var med.",
+        care:"Om personen inte får äta sött nu, håll samtalet vid minnet och inte vid maten."
+      }
+    },
+    {
+      id:"sv-snack-04", genre:"snack", emoji:"🚗", photo:null,
+      question:"Vilket godis, format som små bilar, började tillverkas i Gävle 1953?",
+      choices:["Gott & Blandat","Ahlgrens bilar","Sportlunch"], answerIndex:1,
+      trivia:"Skumbilarna i rosa, grönt och vitt kom 1953, men namnet Ahlgrens bilar fick de först 1970.",
+      cue:{
+        open:"«Ahlgrens bilar, vilken färg tog du först?»",
+        asks:["Vilken färg på bilarna tyckte du bäst om?","Vilket godis köpte du helst?","Fanns det en kiosk eller affär där du handlade godis?"],
+        expand:"Små godisminnen är lätta och glada. Fråga om kiosken, godispåsen och kompisarna.",
+        care:"Undvik att jämföra med dagens priser eller utbud. Låt minnet stå i centrum."
+      }
+    },
+    {
+      id:"sv-snack-05", genre:"snack", emoji:"🧁", photo:null,
+      question:"Vilken bulle med mandelmassa och grädde äter man på fettisdagen?",
+      choices:["Kanelbulle","Lussekatt","Semla"], answerIndex:2,
+      trivia:"Förr åt man hetvägg, ett bakverk som serverades i en skål med varm mjölk. Semlan med grädde och mandelmassa blev vanlig vid mitten av 1900-talet.",
+      cue:{
+        open:"«Semlan! Åt du den med eller utan varm mjölk?»",
+        asks:["Hur många semlor brukade det bli på fettisdagen?","Bakade ni semlor själva eller köpte ni dem på konditoriet?","Vem åt du semlor tillsammans med?"],
+        expand:"Bakverk hör ihop med årets högtider. Fråga om andra traditioner under vintern.",
+        care:"Om personen inte tål grädde eller socker, prata om minnet och inte om att äta nu."
+      }
+    },
+    {
+      id:"sv-snack-06", genre:"snack", emoji:"🥤", photo:null,
+      question:"Vilken mörk, kolsyrad dryck utan alkohol dricker många svenskar till jul?",
+      choices:["Glögg","Julmust","Saft"], answerIndex:1,
+      trivia:"Julmusten skapades 1910 av Harry Roberts och hans far Robert. Till påsk kallas den påskmust.",
+      cue:{
+        open:"«Julmust, den hör till julen för många.»",
+        asks:["Vad stod på julbordet hemma hos er?","Vad drack ni till julmaten?","Vilka samlades runt julbordet?"],
+        expand:"Julbordet är fullt av dofter och smaker. Fråga om en rätt i taget, så kommer berättelserna.",
+        care:"Julen kan väcka saknad efter dem som inte finns kvar. Lyssna och låt personen välja vad hen vill berätta."
+      }
+    },
+    {
+      id:"sv-tool-03", genre:"tool", emoji:"🔧", photo:null,
+      question:"Vilket verktyg tog svensken Johan Petter Johansson patent på 1891 och 1892?",
+      choices:["Hammaren","Skruvmejseln","Skiftnyckeln"], answerIndex:2,
+      trivia:"Han hade sin verkstad i Enköping. Verktygen såldes ut i världen under namnet Bahco.",
+      cue:{
+        open:"«Skiftnyckeln, ett svenskt verktyg!»",
+        asks:["Vilka verktyg hade ni hemma?","Vem i familjen var händig och fixade saker?","Har du byggt eller lagat något som du är stolt över?"],
+        expand:"Att prata om händighet stärker stoltheten. Ett «du måste ha haft goda händer!» gör gott.",
+        care:"Den som inte använde verktyg kan få berätta om något annat hen var skicklig på."
+      }
+    },
+    {
+      id:"sv-tool-04", genre:"tool", emoji:"🔥", photo:null,
+      question:"Vad hette fotogenköket som uppfanns i Stockholm 1892 och följde med på många expeditioner?",
+      choices:["Primus","Trangia","Aga"], answerIndex:0,
+      trivia:"Det uppfanns av Frans Wilhelm Lindqvist. Primusköket följde bland annat med Roald Amundsen till Sydpolen.",
+      cue:{
+        open:"«Primusköket, det tog man med sig ut!»",
+        asks:["Lagade du mat ute i naturen någon gång?","Var ni ute och campade eller på landet om somrarna?","Vad smakade bäst när man lagade mat ute?"],
+        expand:"Friluftsminnen hör ihop med sommar och frihet. Fråga om platsen, vädret och vem som var med.",
+        care:"Den som sällan var ute i naturen kan få berätta om köket hemma i stället."
+      }
+    },
+    {
+      id:"sv-tool-05", genre:"tool", emoji:"🧵", photo:null,
+      question:"Vilken svensk vapenfabrik började tillverka symaskiner 1872?",
+      choices:["Ericsson","Volvo","Husqvarna"], answerIndex:2,
+      trivia:"När vapentillverkningen minskade började fabriken i Huskvarna också göra symaskiner.",
+      cue:{
+        open:"«Husqvarna, ett namn som många känner igen.»",
+        asks:["Sydde du själv kläder eller lagade du dem?","Vem hade en symaskin hemma hos er?","Vad är det finaste du har sytt eller fått sytt åt dig?"],
+        expand:"Handarbete är kunnande att vara stolt över. Fråga om tyger, mönster och vem som lärde ut.",
+        care:"Den som inte sydde kan få berätta om vem som lagade kläderna hemma."
+      }
+    },
+    {
+      id:"sv-fashion-03", genre:"fashion", emoji:"🎓", photo:null,
+      question:"Vad bär man på huvudet när man tar studenten i Sverige?",
+      choices:["En stickad mössa","En studentmössa","En halmhatt"], answerIndex:1,
+      trivia:"När studenterna springer ut från skolan väntar familjen, ofta med en skylt med ett barndomsfoto.",
+      cue:{
+        open:"«Studentmössan, en stor dag för många!»",
+        asks:["Tog du eller någon i familjen studenten?","Hur firade man stora dagar i skolan på din tid?","Vilken skoldag minns du bäst?"],
+        expand:"Skolavslutningar och studenten är ljusa minnen. Fråga om sånger, blommor och kläder.",
+        care:"Många började arbeta tidigt och tog aldrig studenten. Fråga öppet om skoltiden eller det första jobbet, utan att jämföra."
+      }
+    },
+    {
+      id:"sv-fashion-04", genre:"fashion", emoji:"👢", photo:null,
+      question:"Vilket skomärke började 1891 som Helsingborgs gummifabrik?",
+      choices:["Ecco","Bata","Tretorn"], answerIndex:2,
+      trivia:"Företaget grundades 1891 och fick namnet Tretorn 1934.",
+      cue:{
+        open:"«Tretorn, ett namn från Helsingborg!»",
+        asks:["Hade du gummistövlar när du var liten?","Vilka skor hade du på dig i skolan?","Vilka var dina finaste skor?"],
+        expand:"Skor väcker minnen av väder, lekar och fester. Fråga om regniga dagar och vattenpölar.",
+        care:"Alla hade inte många par skor. Håll tonen varm och utan jämförelser."
+      }
+    },
+    {
+      id:"sv-fashion-05", genre:"fashion", emoji:"👔", photo:null,
+      question:"Vad kallade man de finaste kläderna som sparades till söndagar och fester?",
+      choices:["Söndagskläder","Arbetskläder","Nattkläder"], answerIndex:0,
+      trivia:"Många hade ett finare plagg som bara togs fram till kyrkan, kalas och högtider.",
+      cue:{
+        open:"«Söndagskläderna, då skulle man vara extra fin!»",
+        asks:["Vad hade du på dig när ni skulle vara fina?","Vart gick ni när ni klädde upp er?","Fanns det något plagg du var särskilt rädd om?"],
+        expand:"Fina kläder hör ihop med fester och viktiga dagar. Fråga vad man firade och vilka som var där.",
+        care:"Om personen hade det knapert, hedra omsorgen om de få fina plaggen."
+      }
+    },
+    {
+      id:"sv-hobby-03", genre:"hobby", emoji:"🦆", photo:null,
+      question:"Vilket tecknat program har visats på julafton i svensk TV sedan 1960?",
+      choices:["Pippi Långstrump","Mumintrollen","Kalle Anka och hans vänner"], answerIndex:2,
+      trivia:"«Kalle Anka och hans vänner önskar god jul» har visats på julafton sedan 1960. För många hör det till julen att se det tillsammans.",
+      cue:{
+        open:"«Kalle Anka på julafton, en riktig tradition!»",
+        asks:["Brukade ni titta på Kalle Anka på julafton?","Vad gjorde ni annars på julaftons eftermiddag?","Vilken figur tyckte du bäst om?"],
+        expand:"Fråga om rummet, vilka som satt där och vad som hände efteråt. Detaljerna gör minnet levande.",
+        care:"Julen kan väcka saknad. Om personen blir tyst, ge tid och byt varsamt ämne vid behov."
+      }
+    },
+    {
+      id:"sv-hobby-04", genre:"hobby", emoji:"🎶", photo:null,
+      question:"Var samlas man på sommaren för att sjunga allsång tillsammans, en tradition sedan 1935?",
+      choices:["På Skansen","På Liseberg","I Gamla stan"], answerIndex:0,
+      trivia:"Sven Lilja började leda allsången på Skansen 1935. I TV visades den första gången 1979.",
+      cue:{
+        open:"«Allsång på Skansen, sjöng du med framför TV:n?»",
+        asks:["Vilken allsångslåt kan du utantill?","Sjöng ni tillsammans hemma eller i skolan?","Var du med i en kör någon gång?"],
+        expand:"Att sjunga tillsammans väcker glädje. Prova att nynna en känd melodi, ofta kommer orden av sig själva.",
+        care:"Alla tycker inte om att sjunga. Det går lika bra att bara lyssna och prata om musiken."
+      }
+    },
+    {
+      id:"sv-hobby-05", genre:"hobby", emoji:"⛷️", photo:null,
+      question:"Mellan vilka orter åker man skidor i Vasaloppet?",
+      choices:["Kiruna och Luleå","Åre och Östersund","Sälen och Mora"], answerIndex:2,
+      trivia:"Det första Vasaloppet åktes den 19 mars 1922 och vanns av Ernst Alm. Loppet påminner om Gustav Vasas färd 1521.",
+      cue:{
+        open:"«Från Sälen till Mora, det är långt att åka skidor!»",
+        asks:["Åkte du skidor när du var ung?","Följde ni Vasaloppet på radio eller TV?","Vad tyckte du bäst om att göra på vintern?"],
+        expand:"Vinterminnen är fulla av kyla, värme och matsäck. Fråga om snö, kälkar och varm dryck efteråt.",
+        care:"Den som inte åkte skidor kan få berätta om andra vinternöjen."
+      }
+    },
+    {
+      id:"sv-hobby-06", genre:"hobby", emoji:"🎤", photo:null,
+      question:"Vad heter tävlingen där Sverige väljer sin låt till Eurovision?",
+      choices:["Svensktoppen","Melodifestivalen","Allsång på Skansen"], answerIndex:1,
+      trivia:"Den första svenska uttagningen hölls den 29 januari 1959 och kallas i efterhand Melodifestivalen 1959. Vinnarlåten var «Augustin».",
+      cue:{
+        open:"«Melodifestivalen, hade du en favorit?»",
+        asks:["Vilken schlager minns du bäst?","Brukade ni titta tillsammans och tycka till?","Vilken artist tyckte du extra mycket om?"],
+        expand:"Schlagerminnen hör ihop med olika årtionden. Fråga vilket år det var och vad som hände i livet då.",
+        care:"Smaker är olika. Det är lika fint om personen inte tyckte om schlager alls."
+      }
+    },
+    {
+      id:"sv-hobby-07", genre:"hobby", emoji:"🏏", photo:null,
+      question:"I vilken lek slår man bollen med ett slagträ och springer runt baserna, så att man inte blir bränd?",
+      choices:["Brännboll","Kurragömma","Hoppa rep"], answerIndex:0,
+      trivia:"Leken har varit känd sedan 1700-talet. Den som står mellan två baser när bollen är tillbaka blir «bränd».",
+      cue:{
+        open:"«Brännboll, sprang du fort?»",
+        asks:["Spelade ni brännboll i skolan eller på sommarlovet?","Var du bäst på att slå eller att springa?","Vilka spelade du med?"],
+        expand:"Lagspel väcker minnen av kompisar och sommarkvällar. Fråga om platsen och vem som delade upp lagen.",
+        care:"En del valdes sist till lagen och har tråkiga minnen av det. Byt varsamt till andra lekar om det märks."
       }
     }
   ],

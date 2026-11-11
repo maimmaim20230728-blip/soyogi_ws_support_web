@@ -606,7 +606,9 @@
       var box=document.createElement("div");
       if(o.year!=null){ var y=document.createElement("div"); y.className="otd-year"; y.textContent=(lang==="ja"?o.year+"年":(""+o.year)); box.appendChild(y); }
       var tx=document.createElement("div"); tx.className="otd-text"; tx.textContent=o.text; box.appendChild(tx);
-      if(openers && openers.length){ var op=document.createElement("div"); op.className="otd-opener"; op.textContent="💬 "+t("topicOpenerLabel")+opSep+openers[(oi+d)%(o.year!=null?Math.min(2,openers.length):openers.length)]; box.appendChild(op); }
+      /* 重い出来事の日は項目ごとの opener を出す。無ければ汎用の topicOpeners */
+      var opText=(typeof o.opener==="string" && o.opener)?o.opener:((openers && openers.length)?openers[(oi+d)%(o.year!=null?Math.min(2,openers.length):openers.length)]:"");
+      if(opText){ var op=document.createElement("div"); op.className="otd-opener"; op.textContent="💬 "+t("topicOpenerLabel")+opSep+opText; box.appendChild(op); }
       row.appendChild(box); list.appendChild(row);
     });
 
